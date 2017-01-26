@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Patrick Funom Tunga-Lergo Portfolio Site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ptlergo/portfolio.git"
+  },
+  "author": "Patrick Funom Tunga-Lergo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ptlergo/portfolio/issues"
+  },
+  "homepage": "https://github.com/ptlergo/portfolio#readme"
+}
