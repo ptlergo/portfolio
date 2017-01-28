@@ -6,26 +6,25 @@ const sass = require('gulp-sass');
 const sassSource = 'client/stylesheets/sass/**/*.scss';
 const sassDest = './client/stylesheets/css';
 
-// Static Server + watch sass changes
-gulp.task('run', ['sass'], () => {
+// Static Server run using browsersync
+gulp.task('run', () => {
   browserSync.init({
     server: {
       baseDir: './client',
     },
   });
-
-  gulp.watch(sassSource, ['sass']);
-  gulp.watch('./*.html').on('change', browserSync.reload({ stream: true }));
 });
 
-// Sass compile once
+// Sass compile once then reload browser
 gulp.task('sass', () => {
   return gulp.src(sassSource)
     .pipe(sass().on('error', sass.logError))
-    .pipe(gulp.dest(sassDest));
+    .pipe(gulp.dest(sassDest))
+    .pipe(browserSync.reload({ stream: true }));
 });
 
-// Watch Sass for changes
-gulp.task('watch', () => {
+// Watch Sass and browsersync for changes
+gulp.task('watch', ['run'], () => {
   gulp.watch(sassSource, ['sass']);
+  gulp.watch('*.html').on('change', browserSync.reload);
 });
