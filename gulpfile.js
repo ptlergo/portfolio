@@ -6,12 +6,12 @@ const sass = require('gulp-sass');
 gulp.task('run', ['sass'], () => {
   browserSync.init({
     server: {
-      baseDir: './client',
+      baseDir: 'client',
     },
   });
 
-  gulp.watch('./client/stylesheets/sass/*.scss');
-  gulp.watch('./client/*.html').on('change', browserSync.reload);
+  gulp.watch('stylesheets/sass/**/*.scss');
+  gulp.watch('*.html').on('change', browserSync.reload);
 });
 
 // Sass Compile Once
@@ -19,4 +19,9 @@ gulp.task('sass', () => {
   return gulp.src('client/stylesheets/sass/**/*.scss')
     .pipe(sass().on('error', sass.logError))
     .pipe(gulp.dest('./client/stylesheets/css'));
+});
+
+// Sass watch
+gulp.task('watch', () => {
+  gulp.watch('client/stylesheets/sass/**/*.scss', ['sass']);
 });
