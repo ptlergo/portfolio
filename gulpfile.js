@@ -26,5 +26,5 @@ gulp.task('sass', () => {
 // Watch Sass and browsersync for changes
 gulp.task('watch', ['run'], () => {
   gulp.watch(sassSource, ['sass']);
-  gulp.watch('*.html').on('change', browserSync.reload);
+  gulp.watch('./client/*.html').on('change', browserSync.reload);
 });
