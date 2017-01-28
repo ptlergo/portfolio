@@ -23,8 +23,8 @@ gulp.task('sass', () => {
     .pipe(browserSync.reload({ stream: true }));
 });
 
-// Watch Sass and browsersync for changes
-gulp.task('watch', ['run'], () => {
+// Default task that watches Sass, html, and reloads browsersync for changes
+gulp.task('default', ['run'], () => {
   gulp.watch(sassSource, ['sass']);
   gulp.watch('./client/*.html').on('change', browserSync.reload);
 });
