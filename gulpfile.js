@@ -15,7 +15,7 @@ gulp.task('run', ['sass'], () => {
   });
 
   gulp.watch(sassSource, ['sass']);
-  gulp.watch('./*.html').on('change', browserSync.reload);
+  gulp.watch('./*.html').on('change', browserSync.reload({ stream: true }));
 });
 
 // Sass compile once
