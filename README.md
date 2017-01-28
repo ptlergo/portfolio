@@ -7,20 +7,27 @@ Install project dependencies
 npm install
 ```
 
-##Global Install
-Install gulp globally to run gulp tasks
+##GLOBAL INSTALLS
+Install these packages globally
+
+###BrowserSync
+Small server, and live page reload of code changes across multiple browsers and devices.
 ```
-npm install gulp -g
+npm install -g browser-sync
 ```
 
-##GULP
+###Gulp
 Task manager. Using it for browser-sync static server, and watching sass file changes.
 ```
-gulp
+npm install gulp -g
 ```
 
 #RUN
 Must have gulp installed globally to run successfully
 ```
 npm start
+```
+or
+```
+gulp
 ```
