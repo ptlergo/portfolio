@@ -10,7 +10,7 @@ const sassDest = './client/stylesheets/css';
 gulp.task('run', ['sass'], () => {
   browserSync.init({
     server: {
-      baseDir: 'client',
+      baseDir: './client',
     },
   });
 

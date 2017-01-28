@@ -25,9 +25,5 @@ npm install gulp -g
 #RUN
 Must have gulp installed globally to run successfully
 ```
-npm start
-```
-or
-```
 gulp
 ```
