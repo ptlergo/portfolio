@@ -19,7 +19,7 @@ module.exports = (config) => {
       './node_modules/angular-ui-router/release/angular-ui-router.js', // ui-router
       './node_modules/angular-mocks/angular-mocks.js',                 // loads our modules for tests
       './client/js/app.js',                                            // our angular app
-      'test/*.js',                                                     // our test file for our Users factory
+      'test/*.js',                                                     // our test files
     ],
 
 
