@@ -27,3 +27,6 @@ Must have gulp installed globally to run successfully
 ```
 gulp
 ```
+
+#UNIT TESTING
+Testing angularjs with jasmine and karma.
