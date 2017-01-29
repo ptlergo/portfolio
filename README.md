@@ -25,7 +25,7 @@ npm install gulp -g
 ###Karma
 Karma spawns a server and uses Jasmine to test app's behavior
 ```
-npm install -g karma-cli
+npm install -g karma-cli jasmine-core karma-jasmine
 ```
 
 #RUN

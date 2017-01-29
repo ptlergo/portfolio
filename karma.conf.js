@@ -1,7 +1,7 @@
 // Karma configuration
-// Generated on Sun Jan 29 2017 05:05:52 GMT-0500 (EST)
+// Generated on Sun Jan 29 2017 17:30:14 GMT-0500 (EST)
 
-module.exports = (config) => {
+module.exports = function(config) {
   config.set({
 
     // base path that will be used to resolve all patterns (eg. files, exclude)
@@ -15,13 +15,7 @@ module.exports = (config) => {
 
     // list of files / patterns to load in the browser
     files: [
-
-      './node_modules/angular/angular.js',                             // angular
-      './node_modules/angular-ui-router/release/angular-ui-router.js', // ui-router
-      './node_modules/angular-mocks/angular-mocks.js',                 // loads our modules for tests
-      './client/js/app.js',                                            // our angular app
-      './test/**/*.js',                                                  // our test files
-
+      'test/*.js'
     ],
 
 
@@ -39,7 +33,7 @@ module.exports = (config) => {
     // test results reporter to use
     // possible values: 'dots', 'progress'
     // available reporters: https://npmjs.org/browse/keyword/karma-reporter
-    reporters: ['spec'],
+    reporters: ['progress'],
 
 
     // web server port
@@ -51,8 +45,7 @@ module.exports = (config) => {
 
 
     // level of logging
-    // possible values: config.LOG_DISABLE || config.LOG_ERROR ...
-    // ... || config.LOG_WARN || config.LOG_INFO || config.LOG_DEBUG
+    // possible values: config.LOG_DISABLE || config.LOG_ERROR || config.LOG_WARN || config.LOG_INFO || config.LOG_DEBUG
     logLevel: config.LOG_INFO,
 
 
@@ -71,6 +64,6 @@ module.exports = (config) => {
 
     // Concurrency level
     // how many browser should be started simultaneous
-    concurrency: Infinity,
-  });
-};
+    concurrency: Infinity
+  })
+}
