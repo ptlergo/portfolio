@@ -22,6 +22,12 @@ Task manager. Using it for browser-sync static server, and watching sass file ch
 npm install gulp -g
 ```
 
+###Karma
+Karma spawns a server and uses Jasmine to test app's behavior
+```
+npm install -g karma-cli
+```
+
 #RUN
 Must have gulp installed globally to run successfully
 ```
@@ -30,3 +36,6 @@ gulp
 
 #UNIT TESTING
 Testing angularjs with jasmine and karma.
+```
+karma
+```
