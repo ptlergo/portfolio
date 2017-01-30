@@ -23,10 +23,5 @@ app.use(morgan('dev'));
 // Front end directory path
 app.use(express.static(path.join(__dirname, '/client')));
 
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, '/index.html'));
-});
-
-
 app.listen(port);
 console.log('LISTENING TO PORT: ', port);
