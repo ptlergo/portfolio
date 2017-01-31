@@ -3,7 +3,7 @@ angular.module('myApp', ['ui.router'])
     const homeState = {
       controller: 'MainController',
       name: 'home',
-      templateUrl: '../views/home.html',
+      templateUrl: '/views/home.html',
       url: '/home',
     };
 
