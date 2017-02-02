@@ -3,8 +3,7 @@ angular.module('myApp', ['ui.router'])
     const homeState = {
       url: '/home',
       name: 'home',
-      template: '/views/home.html',
-      controller: 'MainController',
+      template: 'home.html',
 
     };
     $stateProvider.state(homeState);
