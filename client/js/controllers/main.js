@@ -12,4 +12,4 @@ function MainController() {
   vm.print = 'message';
 }
 
-angular.module('myApp', []).controller('MainController', MainController);
+angular.module('myApp').controller('MainController', MainController);
