@@ -11,9 +11,19 @@ describe('MODULE TEST', () => {
   });
 });
 
+// Test All Dependencies
+describe('DEPENDENCIES TEST', () => {
+  it('should test all dependencies', (done) => {
+    done();
+  });
+});
+
 // Test All Controllers. Currently 1: MainController
 describe('CONTROLLERS TEST', () => {
-  it('MainController', (done) => {
-    done();
+  beforeEach(module('myApp'));
+
+
+  it('MainController', () => {
+
   });
 });
