@@ -1,7 +1,9 @@
 angular.module('myApp', ['ngRoute'])
   .config(($routeProvider) => {
-    $routeProvider.when('/', {
+    const homeRoute = {
       controller: 'MainController',
       templateUrl: 'views/home.html',
-    });
+    };
+
+    $routeProvider.when('/', homeRoute);
   });
