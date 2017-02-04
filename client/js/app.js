@@ -20,7 +20,7 @@ angular.module('myApp', ['ngRoute'])
       templateUrl: 'views/works.html',
     };
 
-    $routeProvider.when('/', homeRoute);
+    $routeProvider.when('/home', homeRoute);
     $routeProvider.when('/about', aboutRoute);
     $routeProvider.when('/writings', writingsRoute);
     $routeProvider.when('/works', worksRoute);
