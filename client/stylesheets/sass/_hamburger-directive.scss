@@ -1,0 +1,15 @@
+.hamburger-container {
+  position: fixed;
+  top: 5%;
+  right: 2%;
+  height: 27px;
+  width: 35px;
+  cursor: pointer;
+  z-index: 100;
+  transition: opacity .25s ease;
+  background: red;
+
+}
+.hamburger-container:hover {
+    opacity: .7;
+  }

@@ -9,7 +9,7 @@
 */
 function hamburgerIcon() {
   return {
-    restrict: 'E',
+    restrict: 'AEC',
     templateUrl: 'views/templates/hamburger-directive.html',
   };
 }
