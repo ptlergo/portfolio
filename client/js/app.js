@@ -1,6 +1,6 @@
 angular.module('myApp', ['ngRoute'])
-  .config(($routerProvider) => {
-    $routerProvider.when('/', {
+  .config(($routeProvider) => {
+    $routeProvider.when('/', {
       controller: 'MainController',
       template: 'template connect',
     });
