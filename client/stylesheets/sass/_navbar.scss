@@ -1,0 +1,19 @@
+nav{
+  border: none;
+  border-radius: none !important;
+}
+
+.glyphicon-menu-hamburger{
+  z-index: 2;
+}
+
+.overlay {
+	position:fixed;
+	top:0;
+  left: 0;
+  right: 0;
+	height:100%;
+	width:100%;
+	background:rgba(0, 0, 255, 0.81);
+  z-index: 1;
+}

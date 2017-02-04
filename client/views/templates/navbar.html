@@ -1,6 +1,10 @@
 <div ng-controller = "NavController as navCtrl">
-  <button ng-click = "navCtrl.click()">
-    <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
-  </button>
-<h1>{{navCtrl.print}}</h1>
+  <nav class = "navbar">
+    <button ng-click = "navItems = !navItems">
+      <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+    </button>
+    <div class="container-fluid overlay" ng-show="navItems">
+      <h1>{{navCtrl.print}} inside the menu, hellooo!</h1>
+    </div>
+  </nav>
 </div>

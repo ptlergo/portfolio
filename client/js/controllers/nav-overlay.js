@@ -10,9 +10,9 @@
 function NavController() {
   const vm = this;
 
-  vm.click = function(){
-    vm.print = 'clicked';
-    console.log('press');
+  vm.navToggle = () => {
+    console.log('nav clicked');
+
   };
 }
 
