@@ -9,7 +9,25 @@
 */
 function NavController() {
   const vm = this;
-  vm.items = ['Home', 'About', 'Works', 'Writings'];
+
+  vm.routes = [
+    {
+      name: 'Home',
+      url: '#home',
+    },
+    {
+      name: 'About',
+      url: '#about',
+    },
+    {
+      name: 'Writings',
+      url: '#writings',
+    },
+    {
+      name: 'Works',
+      url: '#works',
+    },
+  ];
 
   vm.navToggle = () => {
     console.log('nav clicked');

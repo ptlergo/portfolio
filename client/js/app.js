@@ -1,5 +1,5 @@
 angular.module('myApp', ['ngRoute'])
-  .config(($routeProvider) => {
+  .config(($routeProvider, $locationProvider) => {
     const homeRoute = {
       controller: 'HomeController',
       templateUrl: 'views/home.html',
@@ -25,4 +25,5 @@ angular.module('myApp', ['ngRoute'])
     $routeProvider.when('/writings', writingsRoute);
     $routeProvider.when('/works', worksRoute);
     $routeProvider.otherwise({ redirectTo: '/' });
+    $locationProvider.hashPrefix('');
   });
