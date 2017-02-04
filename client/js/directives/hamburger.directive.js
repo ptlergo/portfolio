@@ -9,6 +9,7 @@
 */
 function hamburgerIcon() {
   return {
+    restrict: 'E',
     templateUrl: 'views/templates/hamburger-directive.html',
   };
 }
