@@ -1,22 +1,22 @@
 angular.module('myApp', ['ngRoute'])
   .config(($routeProvider) => {
     const homeRoute = {
-      controller: 'MainController',
+      controller: 'HomeController',
       templateUrl: 'views/home.html',
     };
 
     const aboutRoute = {
-      controller: 'MainController',
+      controller: 'AboutController',
       templateUrl: 'views/about.html',
     };
 
     const writingsRoute = {
-      controller: 'MainController',
+      controller: 'WritingsController',
       templateUrl: 'views/writings.html',
     };
 
     const worksRoute = {
-      controller: 'MainController',
+      controller: 'WorksController',
       templateUrl: 'views/works.html',
     };
 
