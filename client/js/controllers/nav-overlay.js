@@ -9,8 +9,11 @@
 */
 function NavController() {
   const vm = this;
-  vm.printHome = 'navbar View message';
 
+  vm.butt = function(){
+    vm.print = 'clicked';
+    console.log('press');
+  };
 }
 
 angular.module('myApp').controller('NavController', NavController);
