@@ -9,7 +9,7 @@
 */
 function hamburgerIcon() {
   return {
-    template: 'test menu template',
+    templateUrl: 'views/templates/hamburger-directive.html',
   };
 }
 
