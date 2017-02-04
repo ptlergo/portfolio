@@ -1,12 +1,7 @@
-angular.module('myApp', ['ui.router', 'ngRoute'])
-  .config(($stateProvider, $urlRouterProvider) => {
-    const homeState = {
+angular.module('myApp', ['ngRoute'])
+  .config(($routerProvider) => {
+    $routerProvider.when('/', {
       controller: 'MainController',
-      name: 'home',
-      template: 'views/home.html',
-      url: '/home',
-    };
-
-    $stateProvider.state(homeState);
-    $urlRouterProvider.otherwise('/home');
+      template: 'template connect',
+    });
   });
