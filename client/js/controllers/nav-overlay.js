@@ -9,6 +9,7 @@
 */
 function NavController() {
   const vm = this;
+  vm.items = ['Home', 'About', 'Works', 'Writings'];
 
   vm.navToggle = () => {
     console.log('nav clicked');

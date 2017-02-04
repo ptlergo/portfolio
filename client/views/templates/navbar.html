@@ -4,7 +4,11 @@
       <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
     </button>
     <div class="container-fluid overlay" ng-show="navItems">
-      <h1>{{navCtrl.print}} inside the menu, hellooo!</h1>
+      <div ng-repeat = "item in navCtrl.items">
+        <ul>
+          <li><h1>{{item}}</h1></li>
+        </ul>
+      </div>
     </div>
   </nav>
 </div>

@@ -14,6 +14,10 @@ nav{
   right: 0;
 	height:100%;
 	width:100%;
-	background:rgba(0, 0, 255, 0.81);
+	background:rgba(0, 0, 255, 1);
   z-index: 1;
+  color: white;
+  text-align: center;
 }
+
+.overlay ul{list-style: none;}
