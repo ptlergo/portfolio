@@ -11,7 +11,7 @@ function MainController() {
   const vm = this;
   vm.printHome = 'Home View message';
   vm.printAbout = 'About View message';
-  vm.printWrite = 'Writings View message';
+  vm.printWritings = 'Writings View message';
   vm.printWorks = 'Works View message';
 }
 
