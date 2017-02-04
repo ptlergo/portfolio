@@ -1,8 +1,6 @@
 <div ng-controller = "NavController as navCtrl">
   <nav class = "navbar">
-    <button ng-click = "navItems = !navItems">
-      <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
-    </button>
+    <div hamburger-icon ng-click = "navItems = !navItems"></div>
     <div class="container-fluid overlay" ng-show="navItems">
       <div ng-repeat = "route in navCtrl.routes">
         <ul>

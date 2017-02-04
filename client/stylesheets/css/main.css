@@ -43,12 +43,8 @@ body {
 .hamburger-container span:nth-of-type(3) {
   top: 22px; }
 
-nav {
-  border: none;
-  border-radius: none !important; }
-
-.glyphicon-menu-hamburger {
-  z-index: 2; }
+nav a {
+  color: white; }
 
 .overlay {
   position: fixed;
