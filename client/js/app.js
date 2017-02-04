@@ -6,4 +6,5 @@ angular.module('myApp', ['ngRoute'])
     };
 
     $routeProvider.when('/', homeRoute);
+    $routeProvider.otherwise({ redirectTo: '/' });
   });
