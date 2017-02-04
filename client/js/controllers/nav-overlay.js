@@ -10,7 +10,7 @@
 function NavController() {
   const vm = this;
 
-  vm.butt = function(){
+  vm.click = function(){
     vm.print = 'clicked';
     console.log('press');
   };
