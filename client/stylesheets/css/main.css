@@ -12,7 +12,8 @@ header {
   order: 1; }
 
 .container {
-  order: 2; }
+  order: 2;
+  flex: 2; }
 
 footer {
   order: 3; }
