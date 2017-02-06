@@ -1,4 +1,23 @@
 body{
   font-family: 'Roboto', sans-serif;
+  display: -webkit-flex;
   display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+
+header, footer, .container{
+  flex: 1 100%;
+}
+
+header{
+  order: 1;
+}
+
+.container{
+  order: 2;
+}
+
+footer{
+  order: 3;
 }
