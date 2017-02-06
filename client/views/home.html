@@ -1,3 +1,21 @@
-<div ng-controller = 'HomeController as homeCtrl'>
-  {{homeCtrl.printHome}}
-</div>
+<section class="col-xs-offset-6">
+  <div ng-controller = 'HomeController as homeCtrl'>
+    {{homeCtrl.printHome}}
+    <div>
+      <p>Patrick Funom Tunga-Lergo</p>
+      <p>Front-End Developer</p>
+    </div>
+  </div>
+
+  <div ng-controller = 'AboutController as aboutCtrl'>
+    {{aboutCtrl.printAbout}}
+  </div>
+
+  <div ng-controller = 'WorksController as worksCtrl'>
+    {{worksCtrl.printWorks}}
+  </div>
+
+  <div ng-controller = 'WritingsController as writingsCtrl'>
+    {{writingsCtrl.printWritings}}
+  </div>
+</section>
