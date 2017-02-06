@@ -1,4 +1,4 @@
-<section class="col-xs-offset-6">
+<section class="col-xs-offset-4">
   <div ng-controller = 'HomeController as homeCtrl'>
     {{homeCtrl.printHome}}
     <div>
@@ -8,14 +8,22 @@
   </div>
 
   <div ng-controller = 'AboutController as aboutCtrl'>
-    {{aboutCtrl.printAbout}}
+    <h1>{{aboutCtrl.printAbout}}</h1>
+    <h4>some details on this current section</h4>
+    <span class ="glyphicon glyphicon-picture"></span>
   </div>
 
   <div ng-controller = 'WorksController as worksCtrl'>
-    {{worksCtrl.printWorks}}
+    <h1>{{worksCtrl.printWorks}}</h1>
+    <h4>some details on this current section</h4>
+    <span class ="glyphicon glyphicon-picture"></span>
+
   </div>
 
   <div ng-controller = 'WritingsController as writingsCtrl'>
-    {{writingsCtrl.printWritings}}
+    <h1>{{writingsCtrl.printWritings}}</h1>
+    <h4>some details on this current section</h4>
+    <span class ="glyphicon glyphicon-picture"></span>
+
   </div>
 </section>
