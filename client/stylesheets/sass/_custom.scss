@@ -1,8 +1,3 @@
-@mixin phone{
-  @media only screen and (max-width: 480px) {
-    @content;
-  }
-}
 
 body{
   font-family: 'Roboto', sans-serif;
@@ -12,7 +7,6 @@ body{
   flex-direction: column;
 
     @include phone {
-      background: red;
       text-align: center;
     }
 }

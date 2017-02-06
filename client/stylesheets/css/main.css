@@ -6,7 +6,6 @@ body {
   flex-direction: column; }
   @media only screen and (max-width: 480px) {
     body {
-      background: red;
       text-align: center; } }
 
 header, footer, .container {
