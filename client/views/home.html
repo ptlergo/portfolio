@@ -1,15 +1,16 @@
-<section class="col-xs-offset-4">
+<section>
   <div ng-controller = 'HomeController as homeCtrl'>
-    {{homeCtrl.printHome}}
     <div>
+      <span class ="glyphicon glyphicon-user"></span>
       <p>Patrick Funom Tunga-Lergo</p>
       <p>Front-End Developer</p>
+      <span class ="glyphicon glyphicon-menu-down"></span>
     </div>
   </div>
 
   <div ng-controller = 'AboutController as aboutCtrl'>
-    <h1>{{aboutCtrl.printAbout}}</h1>
-    <h4>some details on this current section</h4>
+    <h1>{{ aboutCtrl.printAbout }}</h1>
+    <h4 class="">{{ aboutCtrl.summary }}</h4>
     <span class ="glyphicon glyphicon-picture"></span>
     <button class="btn btn-default" ng-click ="">Read More</button>
   </div>
