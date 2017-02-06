@@ -4,6 +4,10 @@ body {
   display: flex;
   -webkit-flex-direction: column;
   flex-direction: column; }
+  @media only screen and (max-width: 480px) {
+    body {
+      background: red;
+      text-align: center; } }
 
 header, footer, .container {
   flex: 1 100%; }
