@@ -4,8 +4,11 @@ footer{
 
 
   .slant{
-    border-top: 67px solid white;
     border-right: 100vw solid #252525;
+    border-top: 300px solid white;
+    @include phone{
+      border-top: 67px solid white;
+    }
 
   }
   .f-top{

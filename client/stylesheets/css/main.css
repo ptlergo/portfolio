@@ -18,7 +18,7 @@ header {
   order: 2; }
 
 .main-container {
-  padding: 5%; }
+  padding: 0%; }
 
 footer {
   order: 3; }
@@ -26,7 +26,7 @@ footer {
 .slant-container {
   height: 100px;
   transform: skewY(-12deg);
-  background: red; }
+  background: #00BCD4; }
 
 .hamburger-container {
   position: fixed;
@@ -90,8 +90,11 @@ footer {
   height: 300px;
   text-align: center; }
   footer .slant {
-    border-top: 67px solid white;
-    border-right: 100vw solid #252525; }
+    border-right: 100vw solid #252525;
+    border-top: 300px solid white; }
+    @media only screen and (max-width: 480px) {
+      footer .slant {
+        border-top: 67px solid white; } }
   footer .f-top {
     background: #252525;
     height: 45%; }
