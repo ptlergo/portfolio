@@ -26,7 +26,6 @@ footer {
   order: 3; }
 
 .slant-container {
-  height: 400px;
   transform: skewY(-12deg);
   background: #00BCD4; }
 
