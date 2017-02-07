@@ -83,11 +83,14 @@ nav a {
 
 footer {
   height: 300px; }
+  footer .slant {
+    border-top: 130px solid white;
+    border-right: 100vw solid #252525; }
   footer .f-top {
     background: #252525;
-    height: 50%; }
+    height: 45%; }
   footer .f-bottom {
     background: #252525;
-    height: 50%; }
+    height: 45%; }
   footer .social-box .fa {
     color: white; }

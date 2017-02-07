@@ -1,24 +1,18 @@
 footer{
   height: 300px;
 
+  .slant{
+    border-top: 130px solid white;
+    border-right: 100vw solid #252525;
 
-  // .f-top{
-  //   background: #252525;
-  //   -webkit-transform: skewY(-5deg);
-  //   -moz-transform: skewY(-5deg);
-  //   -ms-transform: skewY(-5deg);
-  //   -o-transform: skewY(-5deg);
-  //   transform: skewY(-5deg);
-  //   height: 400px;
-  // }
+  }
   .f-top{
     background: #252525;
-    height: 50%;
-
+    height: 45%;
   }
   .f-bottom{
     background: #252525;
-    height: 50%;
+    height: 45%;
   }
 
   .social-box .fa{
