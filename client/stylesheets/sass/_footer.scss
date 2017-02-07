@@ -15,7 +15,19 @@ footer{
     height: 45%;
   }
 
-  .social-box .fa{
+  .social-box{
     color: white;
+    font-size: 25pt;
+    margin: 0 auto;
+    width: 240px;
+    text-align: center;
+  }
+  span{
+    width: 40px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  @include phone{
+    font-size: 10pt;
   }
 }

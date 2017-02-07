@@ -92,5 +92,16 @@ footer {
   footer .f-bottom {
     background: #252525;
     height: 45%; }
-  footer .social-box .fa {
-    color: white; }
+  footer .social-box {
+    color: white;
+    font-size: 25pt;
+    margin: 0 auto;
+    width: 240px;
+    text-align: center; }
+  footer span {
+    width: 40px;
+    margin: 0 auto;
+    padding: 10px; }
+  @media only screen and (max-width: 480px) {
+    footer {
+      font-size: 10pt; } }
