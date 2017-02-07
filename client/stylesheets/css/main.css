@@ -82,16 +82,12 @@ nav a {
   list-style: none; }
 
 footer {
-  height: 400px; }
+  height: 300px; }
   footer .f-top {
     background: #252525;
-    -webkit-transform: skewY(-5deg);
-    -moz-transform: skewY(-5deg);
-    -ms-transform: skewY(-5deg);
-    -o-transform: skewY(-5deg);
-    transform: skewY(-5deg);
-    height: 400px; }
+    height: 50%; }
   footer .f-bottom {
     background: #252525;
-    height: 300px;
-    margin-top: -75px; }
+    height: 50%; }
+  footer .social-box .fa {
+    color: white; }
