@@ -95,6 +95,12 @@ footer {
     @media only screen and (max-width: 480px) {
       footer .slant {
         border-top: 67px solid white; } }
+    @media only screen and (min-width: 481px) and (max-width: 768px) {
+      footer .slant {
+        border-top: 163px solid white; } }
+    @media only screen and (min-width: 481px) and (max-width: 768px) {
+      footer .slant {
+        border-top: 300px solid white; } }
   footer .f-top {
     background: #252525;
     height: 45%; }

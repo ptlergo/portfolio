@@ -9,6 +9,12 @@ footer{
     @include phone{
       border-top: 67px solid white;
     }
+    @include tablet{
+      border-top: 163px solid white;
+    }
+    @include tablet{
+      border-top: 300px solid white;
+    }
 
   }
   .f-top{
