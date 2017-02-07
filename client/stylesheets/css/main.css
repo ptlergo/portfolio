@@ -23,6 +23,11 @@ header {
 footer {
   order: 3; }
 
+.slant-container {
+  height: 100px;
+  transform: skewY(-12deg);
+  background: red; }
+
 .hamburger-container {
   position: fixed;
   top: 5%;
@@ -84,7 +89,7 @@ nav a {
 footer {
   height: 300px; }
   footer .slant {
-    border-top: 130px solid white;
+    border-top: 67px solid white;
     border-right: 100vw solid #252525; }
   footer .f-top {
     background: #252525;
