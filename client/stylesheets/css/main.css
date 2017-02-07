@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "kepler-std", Georgia, serif;
   display: -webkit-flex;
   display: flex;
   -webkit-flex-direction: column;
@@ -7,6 +7,8 @@ body {
   @media only screen and (max-width: 480px) {
     body {
       text-align: center; } }
+  body p {
+    font-family: "proxima-nova", Corbel, Arial, sans-serif; }
 
 header, footer, .container {
   flex: 1 100%; }
@@ -24,7 +26,7 @@ footer {
   order: 3; }
 
 .slant-container {
-  height: 100px;
+  height: 400px;
   transform: skewY(-12deg);
   background: #00BCD4; }
 
@@ -52,7 +54,7 @@ footer {
   transform: translateY(-11px) translateX(0) rotate(-45deg); }
 
 .hamburger-container span {
-  background: #00BCD4;
+  background: #EFC638;
   border: none;
   height: 5px;
   width: 100%;
@@ -78,7 +80,7 @@ nav a {
   right: 0;
   height: 100%;
   width: 100%;
-  background: blue;
+  background: #3263C9;
   z-index: 1;
   color: white;
   text-align: center; }

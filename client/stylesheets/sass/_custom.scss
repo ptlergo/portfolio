@@ -1,6 +1,6 @@
 
 body{
-  font-family: 'Roboto', sans-serif;
+  font-family: "kepler-std", Georgia, serif;
   display: -webkit-flex;
   display: flex;
   -webkit-flex-direction: column;
@@ -8,6 +8,9 @@ body{
 
     @include phone {
       text-align: center;
+    }
+    p{
+      font-family: "proxima-nova", Corbel, Arial, sans-serif;
     }
 }
 
@@ -32,7 +35,7 @@ footer{
 }
 
 .slant-container{
-  height: 100px;
+  height: 400px;
   transform: skewY(-12deg);
   background: #00BCD4;
 

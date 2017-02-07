@@ -9,7 +9,6 @@
 */
 function HomeController() {
   const vm = this;
-  vm.printHome = 'Home View message';
 }
 
 angular.module('myApp').controller('HomeController', HomeController);
