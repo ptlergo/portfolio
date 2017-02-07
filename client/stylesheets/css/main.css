@@ -87,7 +87,8 @@ nav a {
   list-style: none; }
 
 footer {
-  height: 300px; }
+  height: 300px;
+  text-align: center; }
   footer .slant {
     border-top: 67px solid white;
     border-right: 100vw solid #252525; }
@@ -101,8 +102,7 @@ footer {
     color: white;
     font-size: 25pt;
     margin: 0 auto;
-    width: 240px;
-    text-align: center; }
+    width: 240px; }
   footer span {
     width: 40px;
     margin: 0 auto;
