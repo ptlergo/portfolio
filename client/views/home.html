@@ -1,35 +1,39 @@
 <section>
-  <div ng-controller = 'HomeController as homeCtrl'>
+  <div class="home-s" ng-controller = 'HomeController as homeCtrl'>
     <div align="center">
       <span class ="glyphicon glyphicon-user"></span>
       <p>Patrick Funom Tunga-Lergo</p>
       <p>Front-End Developer</p>
       <span class ="glyphicon glyphicon-menu-down"></span>
     </div>
+    <div class="slant-container-bottom"></div>
   </div>
 
 
-  <div ng-controller = 'AboutController as aboutCtrl'>
-    <div class="slant-container"></div>
-    
+  <div class="about-s" ng-controller = 'AboutController as aboutCtrl'>
+    <div class="slant-container-top"></div>
+
    <h1>{{ aboutCtrl.printAbout }}</h1>
     <p class="summary">{{ aboutCtrl.summary }}</p>
     <span class ="glyphicon glyphicon-picture"></span>
     <button class="btn btn-default" ng-click ="">Read More</button>
+
+    <div class="slant-container-bottom"></div>
   </div>
 
-  <div ng-controller = 'WorksController as worksCtrl'>
-    <div class="slant-container"></div>
+  <div class="works-s" ng-controller = 'WorksController as worksCtrl'>
+    <div class="slant-container-top"></div>
 
     <h1>{{worksCtrl.printWorks}}</h1>
     <p class="summary">{{ worksCtrl.summary }}</p>
     <span class ="glyphicon glyphicon-picture"></span>
     <button class="btn btn-default" ng-click ="">Read More</button>
 
+    <div class="slant-container-bottom"></div>
   </div>
 
-  <div ng-controller = 'WritingsController as writingsCtrl'>
-    <div class="slant-container"></div>
+  <div class="writings-s" ng-controller = 'WritingsController as writingsCtrl'>
+    <div class="slant-container-top"></div>
 
     <h1>{{writingsCtrl.printWritings}}</h1>
     <p class="summary">{{ writingsCtrl.summary }}</p>

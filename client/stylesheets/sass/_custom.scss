@@ -34,8 +34,23 @@ footer{
   order: 3;
 }
 
-.slant-container{
-  transform: skewY(-12deg);
-  background: #00BCD4;
+.slant-container-top{
+  // background: #00BCD4;
+  border-right: 90vw solid white;
+  border-top: 67px solid red;
 
+
+
+}
+
+.slant-container-bottom{
+  border-left: 90vw solid white;
+  border-bottom: 67px solid red;
+}
+
+
+section div[class*="-s"]{
+  padding: 0 10px 0 10px;
+  width: 90%;
+  margin: 0 auto;
 }
