@@ -5,15 +5,15 @@ footer{
 
   .slant{
     border-right: 100vw solid #252525;
-    border-top: 300px solid white;
+    border-top: 300px solid #3263c9;
     @include phone{
-      border-top: 67px solid white;
+      border-top: 67px solid #3263c9;
     }
     @include tablet{
-      border-top: 163px solid white;
+      border-top: 163px solid #3263c9;
     }
     @include tablet{
-      border-top: 300px solid white;
+      border-top: 300px solid #3263c9;
     }
 
   }
