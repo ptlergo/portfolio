@@ -30,12 +30,12 @@ footer {
   border-left: #ffffff solid 100vw; }
 
 .slant-container-top:nth-child(4) {
-  border-bottom: #ffffff solid 67px;
+  border-bottom: #efc638 solid 67px;
   border-left: #00bcd4 solid 100vw; }
 
 .slant-container-top:nth-child(6) {
   border-bottom: #3263C9 solid 67px;
-  border-left: #ffffff solid 100vw; }
+  border-left: #efc638 solid 100vw; }
 
 section div[class*="-s"] {
   padding: 0 10px 0 10px;
@@ -47,7 +47,8 @@ section div[class*="-s"] {
   border-top: #00bcd4 solid 10px; }
 
 .works-s {
-  background: White; }
+  background: #efc638;
+  border-top: #efc638 solid 10px; }
 
 .writings-s {
   background: #3263C9;
