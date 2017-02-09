@@ -50,7 +50,8 @@ section div[class*="-s"] {
   background: White; }
 
 .writings-s {
-  background: #3263C9; }
+  background: #3263C9;
+  border-top: #3263C9 solid 10px; }
 
 .hamburger-container {
   position: fixed;

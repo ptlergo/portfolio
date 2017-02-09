@@ -67,22 +67,5 @@ section div[class*="-s"]{
 
 .writings-s{
   background: #3263C9;
-  // border-bottom: #252525 solid 67px;
-  // border-left: #3263c9 solid 100vw;
+  border-top: #3263C9 solid 10px; 
 }
-
-// .slant-bottom{
-//   border-left: 100vw solid #252525;
-//   border-top: 300px solid red;
-//   transform: rotate(180deg);
-//   @include phone{
-//     border-top: 67px solid #3263c9;
-//   }
-//   @include tablet{
-//     border-top: 163px solid #3263c9;
-//   }
-//   @include tablet{
-//     border-top: 300px solid #3263c9;
-//   }
-//
-// }
