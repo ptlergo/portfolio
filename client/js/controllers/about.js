@@ -9,6 +9,7 @@
 */
 function AboutController() {
   const vm = this;
+  vm.img = 'https://mir-s3-cdn-cf.behance.net/project_modules/1400/7c629e40839311.57984a3b454bb.gif';
   vm.printAbout = 'About Me';
   vm.summary = `Wikipedia is a live collaboration differing from paper-based
                 reference sources in important ways. Unlike printed encyclopedias,
