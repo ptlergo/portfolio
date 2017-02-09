@@ -11,29 +11,29 @@
   <div class="slant-container-top"></div>
 
   <div class="about-s" ng-controller = 'AboutController as aboutCtrl'>
+    <img ng-src ='{{aboutCtrl.img_src}}'>
+
    <h1>{{ aboutCtrl.printAbout }}</h1>
     <p class="summary">{{ aboutCtrl.summary }}</p>
-    <span class ="glyphicon glyphicon-picture"></span>
-    <img ng-src ='{{aboutCtrl.img}}'>
     <button class="btn btn-default" ng-click ="">Read More</button>
   </div>
 
   <div class="slant-container-top"></div>
 
   <div class="works-s" ng-controller = 'WorksController as worksCtrl'>
+    <img ng-src ='{{worksCtrl.img_src}}'>
 
     <h1>{{worksCtrl.printWorks}}</h1>
     <p class="summary">{{ worksCtrl.summary }}</p>
-    <span class ="glyphicon glyphicon-picture"></span>
     <button class="btn btn-default" ng-click ="">Read More</button>
   </div>
 
   <div class="slant-container-top"></div>
 
   <div class="writings-s" ng-controller = 'WritingsController as writingsCtrl'>
+    <img ng-src ='{{writingsCtrl.img_src}}'>
     <h1>{{writingsCtrl.printWritings}}</h1>
     <p class="summary">{{ writingsCtrl.summary }}</p>
-    <span class ="glyphicon glyphicon-picture"></span>
     <button class="btn btn-default" ng-click ="">Read More</button>
   </div>
 </section>
