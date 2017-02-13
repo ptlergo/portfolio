@@ -45,6 +45,9 @@ section div[class*="-s"] {
   width: 100%;
   margin: 0 auto; }
 
+.home-s {
+  height: 60vh; }
+
 .about-s {
   background: #00BCD4;
   border-top: #00bcd4 solid 10px; }
