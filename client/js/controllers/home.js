@@ -9,7 +9,7 @@
 */
 function HomeController() {
   const vm = this;
-  vm.img_src = '../../img/pat-logo.svg';
+  vm.img_src = '../../img/pat-logo-2.svg';
 }
 
 angular.module('myApp').controller('HomeController', HomeController);

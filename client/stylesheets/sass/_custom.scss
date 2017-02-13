@@ -39,13 +39,13 @@ footer{
 }
 
 .slant-container-top:nth-child(2){
-  border-bottom: #00bcd4 solid 67px;
+  border-bottom: #3263C9 solid 67px;
   border-left: #ffffff solid 100vw;
 }
 
 .slant-container-top:nth-child(4){
   border-bottom: #efc638 solid 67px;
-  border-left: #00bcd4 solid 100vw;
+  border-left: #3263C9 solid 100vw;
 }
 
 .slant-container-top:nth-child(6){
@@ -69,12 +69,15 @@ section div[class*="-s"]{
     h2{
       font-size: 20px;
     }
+    img{
+      width: 50%;
+    }
 
   }
 }
 .about-s{
-  background: #00BCD4;
-  border-top: #00bcd4 solid 10px;
+  background: #3263C9;
+  border-top: #3263C9 solid 10px;
 }
 
 .works-s{
