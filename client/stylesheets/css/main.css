@@ -9,8 +9,6 @@ body {
       text-align: center; } }
   body p {
     font-family: "proxima-nova", Corbel, Arial, sans-serif; }
-  body h2 {
-    font-size: 20px; }
 
 img {
   width: 90%; }
@@ -49,6 +47,13 @@ section div[class*="-s"] {
 
 .home-s {
   height: 70vh; }
+  .home-s img {
+    width: 25%; }
+  @media only screen and (max-width: 480px) {
+    .home-s {
+      padding-top: 30% !important; }
+      .home-s h2 {
+        font-size: 20px; } }
 
 .about-s {
   background: #00BCD4;

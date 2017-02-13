@@ -12,9 +12,7 @@ body{
     p{
       font-family: "proxima-nova", Corbel, Arial, sans-serif;
     }
-    h2{
-      font-size: 20px;
-    }
+
 }
 
 img{
@@ -63,6 +61,16 @@ section div[class*="-s"]{
 
 .home-s{
   height: 70vh;
+  img{
+    width: 25%;
+  }
+  @include phone {
+    padding-top: 30% !important;
+    h2{
+      font-size: 20px;
+    }
+
+  }
 }
 .about-s{
   background: #00BCD4;
