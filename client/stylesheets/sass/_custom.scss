@@ -1,6 +1,6 @@
 
 body{
-  font-family: "kepler-std", Georgia, serif;
+  font-family: "corbel", san-serif;
   display: -webkit-flex;
   display: flex;
   -webkit-flex-direction: column;
@@ -11,6 +11,9 @@ body{
     }
     p{
       font-family: "proxima-nova", Corbel, Arial, sans-serif;
+    }
+    h2{
+      font-size: 20px;
     }
 }
 
@@ -59,7 +62,7 @@ section div[class*="-s"]{
 }
 
 .home-s{
-  height: 60vh;
+  height: 70vh;
 }
 .about-s{
   background: #00BCD4;
