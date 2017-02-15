@@ -46,7 +46,7 @@ section div[class*="-s"] {
   margin: 0 auto; }
 
 .home-s {
-  height: 70vh; }
+  height: 60vh; }
   .home-s img {
     width: 25%; }
   @media only screen and (max-width: 480px) {
@@ -85,7 +85,7 @@ section div[class*="-s"] {
     border-left: #3263C9 solid 100vw; }
   .writings-s .slant-summary-bottom {
     border-top: #fff solid 67px;
-    border-right: #3263C9 solid 100vw; }
+    border-right: #252525 solid 100vw; }
 
 .summary {
   background: white;
