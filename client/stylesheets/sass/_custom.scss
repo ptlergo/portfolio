@@ -81,12 +81,12 @@ section div[class*="-s"]{
 
   .slant-summary-top{
     border-bottom: #fff solid 67px;
-    border-left: #3263C9 solid 100vw;
+    border-left: #3263C9 solid 450px;
 
   }
   .slant-summary-bottom{
     border-top: #fff solid 67px;
-    border-right: #3263C9 solid 100vw;
+    border-right: #3263C9 solid 450px;
 
   }
 }
@@ -127,4 +127,9 @@ section div[class*="-s"]{
   background: white;
   margin: 0;
   padding: 20px;
+}
+
+.summary-box{
+  width: 450px;
+  margin: auto;
 }
