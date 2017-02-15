@@ -15,9 +15,9 @@
 
    <h1>{{ aboutCtrl.printAbout }}</h1>
    <div class="summary-box">
-     <div class="slant-container-tops"></div>
+     <div class="slant-summary-top"></div>
      <p class ="summary">{{ aboutCtrl.summary }}</p>
-     <div class="slant-container-bottoms"></div>
+     <div class="slant-summary-bottom"></div>
     </div>
     <button class="btn btn-default" ng-click ="">Read More</button>
   </div>
@@ -28,7 +28,10 @@
     <img ng-src ='{{worksCtrl.img_src}}'>
 
     <h1>{{worksCtrl.printWorks}}</h1>
+    <div class="slant-summary-top"></div>
     <p class="summary">{{ worksCtrl.summary }}</p>
+    <div class="slant-summary-bottom"></div>
+
     <button class="btn btn-default" ng-click ="">Read More</button>
   </div>
 
@@ -37,7 +40,10 @@
   <div class="writings-s" ng-controller = 'WritingsController as writingsCtrl'>
     <img ng-src ='{{writingsCtrl.img_src}}'>
     <h1>{{writingsCtrl.printWritings}}</h1>
+    <div class="slant-summary-top"></div>
     <p class="summary">{{ writingsCtrl.summary }}</p>
+    <div class="slant-summary-bottom"></div>
+
     <button class="btn btn-default" ng-click ="">Read More</button>
   </div>
 </section>

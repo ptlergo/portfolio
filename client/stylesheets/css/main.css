@@ -42,7 +42,6 @@ footer {
   border-left: #efc638 solid 100vw; }
 
 section div[class*="-s"] {
-  padding: 0 10px 0 10px;
   width: 100%;
   margin: 0 auto; }
 
@@ -61,33 +60,37 @@ section div[class*="-s"] {
 .about-s {
   background: #3263C9;
   border-top: #3263C9 solid 10px; }
+  .about-s .slant-summary-top {
+    border-bottom: #fff solid 67px;
+    border-left: #3263C9 solid 100vw; }
+  .about-s .slant-summary-bottom {
+    border-top: #fff solid 67px;
+    border-right: #3263C9 solid 100vw; }
 
 .works-s {
   background: #efc638;
   border-top: #efc638 solid 10px; }
+  .works-s .slant-summary-top {
+    border-bottom: #fff solid 67px;
+    border-left: #efc638 solid 100vw; }
+  .works-s .slant-summary-bottom {
+    border-top: #fff solid 67px;
+    border-right: #efc638 solid 100vw; }
 
 .writings-s {
   background: #3263C9;
   border-top: #3263C9 solid 10px; }
+  .writings-s .slant-summary-top {
+    border-bottom: #fff solid 67px;
+    border-left: #3263C9 solid 100vw; }
+  .writings-s .slant-summary-bottom {
+    border-top: #fff solid 67px;
+    border-right: #3263C9 solid 100vw; }
 
 .summary {
   background: white;
-  padding: 0;
-  margin: 0; }
-
-.slant-container-tops {
-  border-bottom: #fff solid 67px;
-  border-left: #3263C9 solid 98vw; }
-  @media only screen and (max-width: 480px) {
-    .slant-container-tops {
-      border-left: #3263C9 solid 94vw; } }
-
-.slant-container-bottoms {
-  border-top: #fff solid 67px;
-  border-right: #3263C9 solid 98vw; }
-  @media only screen and (max-width: 480px) {
-    .slant-container-bottoms {
-      border-right: #3263C9 solid 94vw; } }
+  margin: 0;
+  padding: 20px; }
 
 .hamburger-container {
   position: fixed;
