@@ -43,17 +43,17 @@ footer{
 
 .slant-container-top:nth-child(2){
   border-bottom: #3263C9 solid $slant-height-phone;
-  border-left: #ffffff solid 100vw;
+  border-left: #ffffff solid $slant-width-phone;
 }
 
 .slant-container-top:nth-child(4){
   border-bottom: #efc638 solid $slant-height-phone;
-  border-left: #3263C9 solid 100vw;
+  border-left: #3263C9 solid $slant-width-phone;
 }
 
 .slant-container-top:nth-child(6){
   border-bottom: #3263C9 solid $slant-height-phone;
-  border-left: #efc638 solid 100vw;
+  border-left: #efc638 solid $slant-width-phone;
 }
 
 section div[class*="-s"]{
@@ -99,12 +99,12 @@ section div[class*="-s"]{
 
   .slant-summary-top{
     border-bottom: #fff solid $slant-height-phone;
-    border-left: #efc638 solid 100vw;
+    border-left: #efc638 solid $slant-width-phone;
 
   }
   .slant-summary-bottom{
     border-top: #fff solid $slant-height-phone;
-    border-right: #efc638 solid 100vw;
+    border-right: #efc638 solid $slant-width-phone;
 
   }
 }
@@ -115,12 +115,12 @@ section div[class*="-s"]{
 
   .slant-summary-top{
     border-bottom: #fff solid $slant-height-phone;
-    border-left: #3263C9 solid 100vw;
+    border-left: #3263C9 solid $slant-width-phone;
 
   }
   .slant-summary-bottom{
     border-top: #fff solid $slant-height-phone;
-    border-right: #252525 solid 100vw;
+    border-right: #252525 solid $slant-width-phone;
 
   }
 }
