@@ -14,7 +14,11 @@
     <img ng-src ='{{aboutCtrl.img_src}}'>
 
    <h1>{{ aboutCtrl.printAbout }}</h1>
-    <p class="summary">{{ aboutCtrl.summary }}</p>
+   <div class="summary-box">
+     <div class="slant-container-tops"></div>
+     <p class ="summary">{{ aboutCtrl.summary }}</p>
+     <div class="slant-container-bottoms"></div>
+    </div>
     <button class="btn btn-default" ng-click ="">Read More</button>
   </div>
 
