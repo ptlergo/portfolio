@@ -83,12 +83,12 @@ section div[class*="-s"]{
 
   .slant-summary-top{
     border-bottom: #fff solid $slant-height-phone;
-    border-left: #3263C9 solid 450px;
+    border-left: #3263C9 solid $slant-width-phone;
 
   }
   .slant-summary-bottom{
     border-top: #fff solid $slant-height-phone;
-    border-right: #3263C9 solid 450px;
+    border-right: #3263C9 solid $slant-width-phone;
 
   }
 }
@@ -132,6 +132,6 @@ section div[class*="-s"]{
 }
 
 .summary-box{
-  width: 450px;
+  width: $slant-width-phone;
   margin: auto;
 }
