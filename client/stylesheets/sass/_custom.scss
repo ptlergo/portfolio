@@ -14,7 +14,6 @@ body {
     flex-direction: column;
     -webkit-font-smoothing: antialiased;
     font-smoothing: antialiased;
-
     @include phone {
         text-align: center;
     }
@@ -103,9 +102,6 @@ section div[class*="-s"] {
 }
 
 .about-s {
-
-
-
     background: #3263C9;
     border-top: #3263C9 solid 10px;
     @include phone {
@@ -118,10 +114,7 @@ section div[class*="-s"] {
             border-top: #fff solid $slant-height-phone;
             border-right: #3263C9 solid $slant-width-phone;
         }
-
     }
-
-
 }
 
 .works-s {
@@ -170,91 +163,96 @@ section div[class*="-s"] {
     }
 }
 
-.title-link{
-  display: inline-block;
-  width: auto;
-  min-width: 25%;
-  color: white;
-  text-decoration: none;
-  box-sizing: border-box;
-
-}
-.title-ribbon{
-  position: relative;
-  display: block;
-  box-sizing: border-box;
-  transition: .3s;
-  z-index: 1;
-  color: white;
-  text-decoration: none;
-
-
-
-
+.title-link {
+    display: inline-block;
+    width: auto;
+    min-width: 45%;
+    color: white;
+    text-decoration: none;
+    box-sizing: border-box;
 }
 
-.title-ribbon:before{
-  bottom: 5%;
-  content: '';
-  position: absolute;
-  top: 5%;
-  transition: .3s;
-  width: 47%;
-  background: #71e2a6;
-left: 5%;
--webkit-transform: translateY(4px);
-transform: translateY(4px);
-z-index: -1;
 
+.title-ribbon {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    transition: 0.3s;
+    z-index: 1;
+    color: white;
+    text-decoration: none;
+}
 
+.title-ribbon:hover {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    transition: 0.3s;
+    z-index: 1;
+    color: white;
+    text-decoration: none;
 
-  }
+}
 
-  .title-ribbon:hover:before{
+.title-ribbon:before {
     bottom: 5%;
     content: '';
     position: absolute;
     top: 5%;
-    transition: .3s;
-    width: 47%;
-    background: #3263C9;
-  left: 5%;
-  -webkit-transform: translateY(0px);
-  transform: translateY(0px);
-  z-index: -1;
+    transition: 0.3s;
+    width: 55%;
+    background: #71e2a6;
+    left: 5%;
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px)  skewY(-10deg);
+    z-index: -1;
+    -webkit-transform: skewY(-10deg);
 
+}
 
-
-
-    }
-  .title-ribbon:after{
+.title-ribbon:hover:before {
     bottom: 5%;
     content: '';
     position: absolute;
     top: 5%;
-    transition: .3s;
-    width: 47%;
+    transition: 0.3s;
+    width: 55%;
+    background: inherit;
+    left: 5%;
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    z-index: -1;
+
+}
+
+.title-ribbon:after {
+    bottom: 5%;
+    content: '';
+    position: absolute;
+    top: 5%;
+    transition: 0.3s;
+    width: 55%;
     background: #e9b921;
-    left: 49%;
+    left: 50%;
     -webkit-transform: translateY(-4px);
     transform: translateY(-4px);
     z-index: -1;
+    -webkit-transform: skewY(-10deg);
+
+}
 
 
-    }
+.title-ribbon:hover:after {
+    bottom: 5%;
+    content: '';
+    position: absolute;
+    top: 5%;
+    transition: 0.3s;
+    width: 55%;
+    background: inherit;
+    left: 50%;
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    z-index: -1;
 
-    .title-ribbon:hover:after{
-      bottom: 5%;
-      content: '';
-      position: absolute;
-      top: 5%;
-      transition: .3s;
-      width: 47%;
-      background: #3263C9;
-      left: 49%;
-      -webkit-transform: translateY(0px);
-      transform: translateY(0px);
-      z-index: -1;
-
-
-      }
+}
