@@ -162,3 +162,36 @@ section div[class*="-s"] {
         width: $slant-width-phone;
     }
 }
+
+.title-link {
+    display: inline-block;
+    width: auto;
+    min-width: 45%;
+    color: white;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.title-ribbon {
+    @include ribbon;
+}
+
+.title-ribbon:hover {
+    @include ribbon-hover
+}
+
+.title-ribbon:before {
+    @include ribbon-before;
+}
+
+.title-ribbon:hover:before {
+    @include ribbon-hover-before;
+}
+
+.title-ribbon:after {
+    @include ribbon-after;
+}
+
+.title-ribbon:hover:after {
+    @include ribbon-hover-after;
+}
