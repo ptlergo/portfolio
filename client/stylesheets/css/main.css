@@ -392,6 +392,11 @@ section div[class*="-s"] {
   text-decoration: none;
   box-sizing: border-box; }
 
+a {
+  text-decoration: none !important;
+  background: inherit !important;
+  color: #ccc !important; }
+
 .hamburger-container {
   position: fixed;
   top: 5%;

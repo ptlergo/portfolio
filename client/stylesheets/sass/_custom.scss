@@ -42,6 +42,7 @@ body {
     flex-direction: column;
     -webkit-font-smoothing: antialiased;
     font-smoothing: antialiased;
+
     @include phone {
         text-align: center;
     }
@@ -205,4 +206,9 @@ section div[class*="-s"] {
     color: white;
     text-decoration: none;
     box-sizing: border-box;
+}
+a {
+  text-decoration: none !important;
+  background: inherit !important;
+  color: #ccc !important;
 }
