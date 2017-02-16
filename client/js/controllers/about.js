@@ -1,32 +1,22 @@
 /**
-  * @ngdoc method
-  * @name AboutController
-  * @methodOf module.AboutController
-  * @description
-  * About page controller
-  *
-  * @returns {}
-*/
+ * @ngdoc method
+ * @name AboutController
+ * @methodOf module.AboutController
+ * @description
+ * About page controller
+ *
+ * @returns {}
+ */
 function AboutController() {
   const vm = this;
   vm.img_src = 'https://marypomerantzadvertising.com/wp-content/uploads/responsiveweb.gif';
   vm.printAbout = 'About Me';
-  vm.summary = `Wikipedia is a live collaboration differing from paper-based
-                reference sources in important ways. Unlike printed encyclopedias,
-                Wikipedia is continually created and updated, with articles on
-                historic events appearing within minutes, rather than months
-                or years. Because everybody can help improve it, Wikipedia
-                has become more comprehensive than any other encyclopedia.
-                In addition to quantity, its contributors work on improving
-                quality as well. Wikipedia is a work-in-progress, with articles
-                in various stages of completion. As articles develop, they tend
-                to become more comprehensive and balanced. Quality also improves
-                over time as misinformation and other errors are removed or repaired.
-                However, because anyone can click "edit" at any time and add stuff in,
-                any article may contain undetected misinformation, errors, or vandalism.
-                Awareness of this helps the reader to obtain valid information, avoid
-                recently added misinformation (see Wikipedia:Researching with Wikipedia),
-                and fix the article.`;
+  vm.summary = `
+Hello, I am Patrick, A creative front-end developer with 3+ years of experience based in Florida.
+I tell unique stories using the digital language. My coded narratives create fully interactive and responsive websites and apps
+that drive sales, boost profitability, and engage users. I love to write and am blessed to have my articles about music or tech
+published on various platforms. I love working intimately with startups, agencies, and individuals crafting compelling brand identities
+that live online as a 'digital you'.`;
 }
 
 angular.module('myApp').controller('AboutController', AboutController);
