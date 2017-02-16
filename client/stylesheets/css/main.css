@@ -14,7 +14,9 @@ body {
 img {
   width: 40%; }
 
-header, footer, .container {
+.container,
+footer,
+header {
   flex: 1 100%; }
 
 header {
@@ -24,28 +26,31 @@ header {
   order: 2; }
 
 .main-container {
-  padding: 0%;
+  padding: 0;
   text-align: center; }
 
 footer {
   order: 3; }
 
 .slant-container-top:nth-child(2) {
-  border-left: #ffffff solid 100vw; }
+  border-left: #ffffff solid 100vw;
+  border-left: #3263C9 solid 100vw; }
   @media only screen and (max-width: 480px) {
     .slant-container-top:nth-child(2) {
       border-bottom: #3263C9 solid 67px;
       border-left: #ffffff solid 450px; } }
 
 .slant-container-top:nth-child(4) {
-  border-left: #ffffff solid 100vw; }
+  border-left: #ffffff solid 100vw;
+  border-left: #3263C9 solid 100vw; }
   @media only screen and (max-width: 480px) {
     .slant-container-top:nth-child(4) {
       border-bottom: #efc638 solid 67px;
       border-left: #3263C9 solid 450px; } }
 
 .slant-container-top:nth-child(6) {
-  border-left: #ffffff solid 100vw; }
+  border-left: #ffffff solid 100vw;
+  border-bottom: #3263C9 solid 67px; }
   @media only screen and (max-width: 480px) {
     .slant-container-top:nth-child(6) {
       border-bottom: #3263C9 solid 67px;
@@ -77,6 +82,8 @@ section div[class*="-s"] {
     .about-s .slant-summary-bottom {
       border-top: #fff solid 67px;
       border-right: #3263C9 solid 450px; } }
+  .about-s .title-ribbon {
+    background: red; }
 
 .works-s {
   background: #efc638;

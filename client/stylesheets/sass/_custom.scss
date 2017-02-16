@@ -50,7 +50,7 @@ footer {
 
 .slant-container-top:nth-child(2) {
     border-left: #ffffff solid $slant-width-desktop;
-    border-left: #3263C9 solid $slant-width-desjtop;
+    border-left: #3263C9 solid $slant-width-desktop;
     @include phone {
         border-bottom: #3263C9 solid $slant-height-phone;
         border-left: #ffffff solid $slant-width-phone;
@@ -100,6 +100,9 @@ section div[class*="-s"] {
 }
 
 .about-s {
+
+
+
     background: #3263C9;
     border-top: #3263C9 solid 10px;
     @include phone {
@@ -112,7 +115,12 @@ section div[class*="-s"] {
             border-top: #fff solid $slant-height-phone;
             border-right: #3263C9 solid $slant-width-phone;
         }
+
     }
+    .title-ribbon{
+      background: red;
+    }
+
 }
 
 .works-s {
@@ -159,17 +167,4 @@ section div[class*="-s"] {
     @include phone {
         width: $slant-width-phone;
     }
-}
-
-.title-bg{
-  width: 50px;
-
-  :before{
-    content: '';
-    background: blue;
-  }
-  :after{
-    content: '';
-    background: red;
-  }
 }
