@@ -9,7 +9,7 @@
 */
 function WorksController() {
   const vm = this;
-  vm.img_src = 'http://www.plauditdesign.com/assets/images/design/web-design.gif';
+  vm.img_src = 'https://marypomerantzadvertising.com/wp-content/uploads/responsiveweb.gif';
   vm.printWorks = 'My Works';
   vm.summary = `Wikipedia is a live collaboration differing from paper-based
                 reference sources in important ways. Unlike printed encyclopedias,

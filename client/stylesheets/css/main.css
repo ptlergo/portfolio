@@ -47,7 +47,7 @@ footer {
   border-left: #3263C9 solid 100vw; }
   @media only screen and (max-width: 480px) {
     .slant-container-top:nth-child(4) {
-      border-bottom: #efc638 solid 67px;
+      border-bottom: #252525 solid 67px;
       border-left: #3263C9 solid 450px; } }
 
 .slant-container-top:nth-child(6) {
@@ -56,7 +56,7 @@ footer {
   @media only screen and (max-width: 480px) {
     .slant-container-top:nth-child(6) {
       border-bottom: #3263C9 solid 67px;
-      border-left: #efc638 solid 450px; } }
+      border-left: #252525 solid 450px; } }
 
 section div[class*="-s"] {
   width: 100%;
@@ -86,15 +86,15 @@ section div[class*="-s"] {
       border-right: #3263C9 solid 450px; } }
 
 .works-s {
-  background: #efc638;
-  border-top: #efc638 solid 10px; }
+  background: #252525;
+  border-top: #252525 solid 10px; }
   @media only screen and (max-width: 480px) {
     .works-s .slant-summary-top {
       border-bottom: #fff solid 67px;
-      border-left: #efc638 solid 450px; }
+      border-left: #252525 solid 450px; }
     .works-s .slant-summary-bottom {
       border-top: #fff solid 67px;
-      border-right: #efc638 solid 450px; } }
+      border-right: #252525 solid 450px; } }
 
 .writings-s {
   background: #3263C9;

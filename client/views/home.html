@@ -10,11 +10,13 @@
     </div>
 
     <div class="about-s" ng-controller='AboutController as aboutCtrl'>
-        <a href="#" class = "title-link">
+
+        <a href="#" class="title-link">
           <span class="title-ribbon">
             <h1>{{ aboutCtrl.printAbout }}</h1>
           </span>
         </a>
+
         <div class="summary-box">
             <div class="slant-summary-top"></div>
             <p class="summary">{{ aboutCtrl.summary }}</p>
@@ -25,28 +27,39 @@
     <div class="slant-container-top"></div>
 
     <div class="works-s" ng-controller='WorksController as worksCtrl'>
-        <img ng-src='{{worksCtrl.img_src}}'>
 
-        <h1>{{worksCtrl.printWorks}}</h1>
-        <button class="btn btn-default" ng-click="">Read More</button>
+        <a href="#" class="title-link">
+          <span class="title-ribbon">
+            <h1>{{ worksCtrl.printAbout }}</h1>
+          </span>
+        </a>
+
         <div class="summary-box">
             <div class="slant-summary-top"></div>
             <p class="summary">{{ worksCtrl.summary }}</p>
             <div class="slant-summary-bottom"></div>
         </div>
+
+        <img ng-src='{{worksCtrl.img_src}}'>
+
     </div>
 
     <div class="slant-container-top"></div>
 
     <div class="writings-s" ng-controller='WritingsController as writingsCtrl'>
-        <img ng-src='{{writingsCtrl.img_src}}'>
-        <h1>{{writingsCtrl.printWritings}}</h1>
 
-        <button class="btn btn-default" ng-click="">Read More</button>
+        <a href="#" class="title-link">
+          <span class="title-ribbon">
+            <h1>{{ writingsCtrl.printAbout }}</h1>
+          </span>
+        </a>
+
         <div class="summary-box">
             <div class="slant-summary-top"></div>
             <p class="summary">{{ writingsCtrl.summary }}</p>
             <div class="slant-summary-bottom"></div>
         </div>
+
+
     </div>
 </section>
