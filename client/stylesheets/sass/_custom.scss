@@ -174,7 +174,7 @@ section div[class*="-s"] {
   display: inline-block;
   width: auto;
   min-width: 25%;
-  color: yellow;
+  color: white;
   text-decoration: none;
   box-sizing: border-box;
 
@@ -184,6 +184,11 @@ section div[class*="-s"] {
   display: block;
   box-sizing: border-box;
   transition: .3s;
+  z-index: 1;
+  color: white;
+  text-decoration: none;
+
+
 
 
 }
@@ -199,6 +204,8 @@ section div[class*="-s"] {
 left: 5%;
 -webkit-transform: translateY(4px);
 transform: translateY(4px);
+z-index: -1;
+
 
 
   }
@@ -210,10 +217,13 @@ transform: translateY(4px);
     top: 5%;
     transition: .3s;
     width: 47%;
-    background: red;
+    background: #3263C9;
   left: 5%;
   -webkit-transform: translateY(0px);
   transform: translateY(0px);
+  z-index: -1;
+
+
 
 
     }
@@ -228,6 +238,8 @@ transform: translateY(4px);
     left: 49%;
     -webkit-transform: translateY(-4px);
     transform: translateY(-4px);
+    z-index: -1;
+
 
     }
 
@@ -238,9 +250,11 @@ transform: translateY(4px);
       top: 5%;
       transition: .3s;
       width: 47%;
-      background: red;
+      background: #3263C9;
       left: 49%;
       -webkit-transform: translateY(0px);
       transform: translateY(0px);
+      z-index: -1;
+
 
       }
