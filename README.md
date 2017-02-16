@@ -1,5 +1,5 @@
 # portfolio
-Portfolio Site Built With Angular
+[https://github.com/ptlergo/portfolio](https://github.com/ptlergo/portfolio) Repo For Portfolio Site Built With Angular & Node. 
 
 #INSTALL
 Install project dependencies
