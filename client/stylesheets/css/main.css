@@ -1,4 +1,5 @@
 /*VARIABLES*/
+/*Title Animation*/
 body {
   font-family: "corbel", san-serif;
   display: -webkit-flex;
@@ -64,6 +65,72 @@ section div[class*="-s"] {
 
 .home-s {
   height: 60vh; }
+  .home-s .title-ribbon {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    transition: 0.3s;
+    z-index: 1;
+    color: white;
+    text-decoration: none; }
+  .home-s .title-ribbon:hover {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    transition: 0.3s;
+    z-index: 1;
+    color: white;
+    text-decoration: none; }
+  .home-s .title-ribbon:before {
+    bottom: 5%;
+    content: '';
+    position: absolute;
+    top: 5%;
+    transition: 0.3s;
+    width: 55%;
+    background: #71e2a6;
+    left: 5%;
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px) skewY(-10deg);
+    z-index: -1;
+    -webkit-transform: skewY(-10deg); }
+  .home-s .title-ribbon:hover:before {
+    bottom: 5%;
+    content: '';
+    position: absolute;
+    top: 5%;
+    transition: 0.3s;
+    width: 55%;
+    background: inherit;
+    left: 5%;
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    z-index: -1; }
+  .home-s .title-ribbon:after {
+    bottom: 5%;
+    content: '';
+    position: absolute;
+    top: 5%;
+    transition: 0.3s;
+    width: 55%;
+    background: #e9b921;
+    left: 50%;
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+    z-index: -1;
+    -webkit-transform: skewY(-10deg); }
+  .home-s .title-ribbon:hover:after {
+    bottom: 5%;
+    content: '';
+    position: absolute;
+    top: 5%;
+    transition: 0.3s;
+    width: 55%;
+    background: inherit;
+    left: 50%;
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    z-index: -1; }
   .home-s img {
     width: 25%; }
   @media only screen and (max-width: 480px) {
@@ -77,6 +144,72 @@ section div[class*="-s"] {
 .about-s {
   background: #3263C9;
   border-top: #3263C9 solid 10px; }
+  .about-s .title-ribbon {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    transition: 0.3s;
+    z-index: 1;
+    color: white;
+    text-decoration: none; }
+  .about-s .title-ribbon:hover {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    transition: 0.3s;
+    z-index: 1;
+    color: white;
+    text-decoration: none; }
+  .about-s .title-ribbon:before {
+    bottom: 5%;
+    content: '';
+    position: absolute;
+    top: 5%;
+    transition: 0.3s;
+    width: 55%;
+    background: #71e2a6;
+    left: 5%;
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px) skewY(-10deg);
+    z-index: -1;
+    -webkit-transform: skewY(-10deg); }
+  .about-s .title-ribbon:hover:before {
+    bottom: 5%;
+    content: '';
+    position: absolute;
+    top: 5%;
+    transition: 0.3s;
+    width: 55%;
+    background: inherit;
+    left: 5%;
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    z-index: -1; }
+  .about-s .title-ribbon:after {
+    bottom: 5%;
+    content: '';
+    position: absolute;
+    top: 5%;
+    transition: 0.3s;
+    width: 55%;
+    background: #e9b921;
+    left: 50%;
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+    z-index: -1;
+    -webkit-transform: skewY(-10deg); }
+  .about-s .title-ribbon:hover:after {
+    bottom: 5%;
+    content: '';
+    position: absolute;
+    top: 5%;
+    transition: 0.3s;
+    width: 55%;
+    background: inherit;
+    left: 50%;
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    z-index: -1; }
   @media only screen and (max-width: 480px) {
     .about-s .slant-summary-top {
       border-bottom: #fff solid 67px;
@@ -88,6 +221,72 @@ section div[class*="-s"] {
 .works-s {
   background: #252525;
   border-top: #252525 solid 10px; }
+  .works-s .title-ribbon {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    transition: 0.3s;
+    z-index: 1;
+    color: white;
+    text-decoration: none; }
+  .works-s .title-ribbon:hover {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    transition: 0.3s;
+    z-index: 1;
+    color: white;
+    text-decoration: none; }
+  .works-s .title-ribbon:before {
+    bottom: 5%;
+    content: '';
+    position: absolute;
+    top: 5%;
+    transition: 0.3s;
+    width: 55%;
+    background: #71e2a6;
+    left: 5%;
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px) skewY(-10deg);
+    z-index: -1;
+    -webkit-transform: skewY(-10deg); }
+  .works-s .title-ribbon:hover:before {
+    bottom: 5%;
+    content: '';
+    position: absolute;
+    top: 5%;
+    transition: 0.3s;
+    width: 55%;
+    background: inherit;
+    left: 5%;
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    z-index: -1; }
+  .works-s .title-ribbon:after {
+    bottom: 5%;
+    content: '';
+    position: absolute;
+    top: 5%;
+    transition: 0.3s;
+    width: 55%;
+    background: #e9b921;
+    left: 50%;
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+    z-index: -1;
+    -webkit-transform: skewY(-10deg); }
+  .works-s .title-ribbon:hover:after {
+    bottom: 5%;
+    content: '';
+    position: absolute;
+    top: 5%;
+    transition: 0.3s;
+    width: 55%;
+    background: inherit;
+    left: 50%;
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    z-index: -1; }
   @media only screen and (max-width: 480px) {
     .works-s .slant-summary-top {
       border-bottom: #fff solid 67px;
@@ -99,6 +298,72 @@ section div[class*="-s"] {
 .writings-s {
   background: #3263C9;
   border-top: #3263C9 solid 10px; }
+  .writings-s .title-ribbon {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    transition: 0.3s;
+    z-index: 1;
+    color: white;
+    text-decoration: none; }
+  .writings-s .title-ribbon:hover {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    transition: 0.3s;
+    z-index: 1;
+    color: white;
+    text-decoration: none; }
+  .writings-s .title-ribbon:before {
+    bottom: 5%;
+    content: '';
+    position: absolute;
+    top: 5%;
+    transition: 0.3s;
+    width: 55%;
+    background: #71e2a6;
+    left: 5%;
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px) skewY(-10deg);
+    z-index: -1;
+    -webkit-transform: skewY(-10deg); }
+  .writings-s .title-ribbon:hover:before {
+    bottom: 5%;
+    content: '';
+    position: absolute;
+    top: 5%;
+    transition: 0.3s;
+    width: 55%;
+    background: inherit;
+    left: 5%;
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    z-index: -1; }
+  .writings-s .title-ribbon:after {
+    bottom: 5%;
+    content: '';
+    position: absolute;
+    top: 5%;
+    transition: 0.3s;
+    width: 55%;
+    background: #e9b921;
+    left: 50%;
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+    z-index: -1;
+    -webkit-transform: skewY(-10deg); }
+  .writings-s .title-ribbon:hover:after {
+    bottom: 5%;
+    content: '';
+    position: absolute;
+    top: 5%;
+    transition: 0.3s;
+    width: 55%;
+    background: inherit;
+    left: 50%;
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    z-index: -1; }
   @media only screen and (max-width: 480px) {
     .writings-s .slant-summary-top {
       border-bottom: #fff solid 67px;
@@ -126,78 +391,6 @@ section div[class*="-s"] {
   color: white;
   text-decoration: none;
   box-sizing: border-box; }
-
-.title-ribbon {
-  position: relative;
-  display: block;
-  box-sizing: border-box;
-  transition: 0.3s;
-  z-index: 1;
-  color: white;
-  text-decoration: none; }
-
-.title-ribbon:hover {
-  position: relative;
-  display: block;
-  box-sizing: border-box;
-  transition: 0.3s;
-  z-index: 1;
-  color: white;
-  text-decoration: none; }
-
-.title-ribbon:before {
-  bottom: 5%;
-  content: '';
-  position: absolute;
-  top: 5%;
-  transition: 0.3s;
-  width: 55%;
-  background: #71e2a6;
-  left: 5%;
-  -webkit-transform: translateY(4px);
-  transform: translateY(4px) skewY(-10deg);
-  z-index: -1;
-  -webkit-transform: skewY(-10deg); }
-
-.title-ribbon:hover:before {
-  bottom: 5%;
-  content: '';
-  position: absolute;
-  top: 5%;
-  transition: 0.3s;
-  width: 55%;
-  background: inherit;
-  left: 5%;
-  -webkit-transform: translateY(0px);
-  transform: translateY(0px);
-  z-index: -1; }
-
-.title-ribbon:after {
-  bottom: 5%;
-  content: '';
-  position: absolute;
-  top: 5%;
-  transition: 0.3s;
-  width: 55%;
-  background: #e9b921;
-  left: 50%;
-  -webkit-transform: translateY(-4px);
-  transform: translateY(-4px);
-  z-index: -1;
-  -webkit-transform: skewY(-10deg); }
-
-.title-ribbon:hover:after {
-  bottom: 5%;
-  content: '';
-  position: absolute;
-  top: 5%;
-  transition: 0.3s;
-  width: 55%;
-  background: inherit;
-  left: 50%;
-  -webkit-transform: translateY(0px);
-  transform: translateY(0px);
-  z-index: -1; }
 
 .hamburger-container {
   position: fixed;

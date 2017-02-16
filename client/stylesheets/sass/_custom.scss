@@ -6,6 +6,34 @@ $slant-height-desktop: 67px;
 $font-p: "proxima-nova", Corbel, Arial, sans-serif;
 $font: "corbel", san-serif;
 
+/*Title Animation*/
+@mixin title-ribbon-super{
+  .title-ribbon {
+      @include ribbon;
+  }
+
+  .title-ribbon:hover {
+      @include ribbon-hover
+  }
+
+  .title-ribbon:before {
+      @include ribbon-before;
+  }
+
+  .title-ribbon:hover:before {
+      @include ribbon-hover-before;
+  }
+
+  .title-ribbon:after {
+      @include ribbon-after;
+  }
+
+  .title-ribbon:hover:after {
+      @include ribbon-hover-after;
+  }
+
+}
+
 body {
     font-family: $font;
     display: -webkit-flex;
@@ -83,6 +111,7 @@ section div[class*="-s"] {
 }
 
 .home-s {
+  @include title-ribbon-super;
     height: 60vh;
 
     img {
@@ -102,6 +131,8 @@ section div[class*="-s"] {
 }
 
 .about-s {
+  @include title-ribbon-super;
+
     background: #3263C9;
     border-top: #3263C9 solid 10px;
     @include phone {
@@ -118,6 +149,8 @@ section div[class*="-s"] {
 }
 
 .works-s {
+  @include title-ribbon-super;
+
     background: #252525;
     border-top: #252525 solid 10px;
     @include phone {
@@ -134,6 +167,8 @@ section div[class*="-s"] {
 }
 
 .writings-s {
+  @include title-ribbon-super;
+
     background: #3263C9;
     border-top: #3263C9 solid 10px;
     @include phone {
@@ -170,28 +205,4 @@ section div[class*="-s"] {
     color: white;
     text-decoration: none;
     box-sizing: border-box;
-}
-
-.title-ribbon {
-    @include ribbon;
-}
-
-.title-ribbon:hover {
-    @include ribbon-hover
-}
-
-.title-ribbon:before {
-    @include ribbon-before;
-}
-
-.title-ribbon:hover:before {
-    @include ribbon-hover-before;
-}
-
-.title-ribbon:after {
-    @include ribbon-after;
-}
-
-.title-ribbon:hover:after {
-    @include ribbon-hover-after;
 }
