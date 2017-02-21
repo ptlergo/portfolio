@@ -1,5 +1,9 @@
 <div ng-controller="CarouselController as carouselCtrl">
-  <div ng-repeat = "slide in carouselCtrl.slides">
-    <img ng-src ="{{slide.src}}">
+  <div style="height: 400px">
+    <div uib-carousel active="active" >
+      <div uib-slide ng-repeat="slide in carouselCtrl.slides track by slide.id" index="slide.id">
+        <img ng-src="{{slide.src}}" style="margin:auto;">
+      </div>
+    </div>
   </div>
 </div>
