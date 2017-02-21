@@ -24,7 +24,8 @@ function Carousel() {
     },
   ];
   return {
-    msg: 'Carousel',
+    restrict: 'AEC',
+    templateUrl: 'views/templates/carousel-directive.html',
   };
 }
 
