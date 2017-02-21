@@ -1,5 +1,5 @@
 # portfolio
-[https://github.com/ptlergo/portfolio](https://github.com/ptlergo/portfolio) Repo For Portfolio Site Built With Angular & Node. 
+[https://github.com/ptlergo/portfolio](https://github.com/ptlergo/portfolio) Repo For Portfolio Site Built With Angular & Node.
 
 #INSTALL
 Install project dependencies
@@ -28,6 +28,20 @@ Karma spawns a server and uses Jasmine to test app's behavior
 npm install -g karma-cli jasmine-core karma-jasmine
 ```
 
+#Directives
+Custom directives to enhance portfolio site
+
+###hamburger-icon
+Menu icon created with css and animated with css
+```
+<div hamburger-icon></div>
+```
+
+###carousel
+[ui.bootstrap](https://angular-ui.github.io/bootstrap/) carousel integrated.
+```
+<div carousel title=""></div>
+```
 #RUN
 Must have gulp installed globally to run successfully
 ```
