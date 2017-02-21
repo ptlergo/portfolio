@@ -1,7 +1,7 @@
 function CarouselController() {
   const vm = this;
   vm.msg = 'carousel';
-  vm.imgArray = [
+  vm.slides = [
     {
       src: 'https://unsplash.com/collections/curated/133?photo=uZxT3njDQYc',
     },

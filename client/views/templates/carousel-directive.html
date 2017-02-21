@@ -1,4 +1,5 @@
 <div ng-controller="CarouselController as carouselCtrl">
-  {{carouselCtrl.msg}}
-
+  <div ng-repeat = "slide in carouselCtrl.slides">
+    <img ng-src ="{{slide}}">
+  </div>
 </div>
