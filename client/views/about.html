@@ -1,4 +1,9 @@
 <div ng-controller = 'AboutController as aboutCtrl'>
   {{aboutCtrl.printAbout}}
 
+  <div uib-carousel>
+    <div uib-slide>
+      <img ng-src = "{{slide.image}}">
+    </div>
+  </div>
 </div>
