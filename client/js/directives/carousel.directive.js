@@ -1,13 +1,13 @@
 /**
   * @ngdoc directive
-  * @name Carousel
-  * @methodOf directive.Carousel
+  * @name carousel
+  * @methodOf directive.carousel
   * @description
-  * Image Carousel
+  * Image carousel
   *
   * @returns {}
 */
-function Carousel() {
+function carousel() {
   const vm = this;
   vm.imgArray = [
     {
@@ -29,4 +29,4 @@ function Carousel() {
   };
 }
 
-angular.module('myApp').directive('Carousel', Carousel);
+angular.module('myApp').directive('carousel', carousel);
