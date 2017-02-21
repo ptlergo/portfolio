@@ -3,16 +3,16 @@ function CarouselController() {
   vm.msg = 'carousel';
   vm.slides = [
     {
-      src: 'https://unsplash.com/collections/curated/133?photo=uZxT3njDQYc',
+      src: 'http://i.imgur.com/H981AN7.jpg',
     },
     {
-      src: 'https://unsplash.com/collections/curated/133?photo=6xh7H5tWj9c',
+      src: 'http://i.imgur.com/ArRiBMs.png',
     },
     {
-      src: 'https://unsplash.com/collections/curated/133?photo=OWbH9a8Yi2I',
+      src: '',
     },
     {
-      src: 'https://unsplash.com/collections/curated/133?photo=duiETcZN7O4',
+      src: '',
     },
   ];
 }
