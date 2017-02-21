@@ -1,5 +1,6 @@
-function carouselController() {
+function CarouselController() {
   const vm = this;
+  vm.msg = 'carousel';
   vm.imgArray = [
     {
       src: 'https://unsplash.com/collections/curated/133?photo=uZxT3njDQYc',
@@ -15,4 +16,4 @@ function carouselController() {
     },
   ];
 }
-angular.module('myApp').controller('carouselController', carouselController);
+angular.module('myApp').controller('CarouselController', CarouselController);
