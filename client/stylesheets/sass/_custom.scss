@@ -31,8 +31,10 @@ svg {
       fill: white;
   }
   .summary-border-b{
-    #Triangle {
-        fill: green;
+
+    svg{
+      transform: rotate(180deg);
+      margin-bottom: -5px;
     }
   }
 }
@@ -164,7 +166,7 @@ footer {
     background: white;
     margin: 0;
     padding: 20px;
-    margin: auto;
+    margin: -1px auto;
 }
 
 .summary-box {

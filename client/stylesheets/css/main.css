@@ -18,8 +18,9 @@ svg {
 .summary-box #Triangle {
   fill: white; }
 
-.summary-box .summary-border-b #Triangle {
-  fill: green; }
+.summary-box .summary-border-b svg {
+  transform: rotate(180deg);
+  margin-bottom: -5px; }
 
 .writings-border svg {
   background: #252525; }
@@ -363,7 +364,7 @@ footer {
   background: white;
   margin: 0;
   padding: 20px;
-  margin: auto; }
+  margin: -1px auto; }
 
 .summary-box {
   margin: auto;
