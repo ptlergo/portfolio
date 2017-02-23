@@ -5,66 +5,65 @@ $slant-height-phone: 67px;
 $slant-height-desktop: 67px;
 $font-p: "proxima-nova", Corbel, Arial, sans-serif;
 $font: "corbel", san-serif;
-
-
 /*Border triangle svg*/
-svg{
-  margin-bottom: -7px;
-
+svg {
+    margin-bottom: -7px;
 }
+
 .about-border {
-  svg{
-  background: none ;
+    svg {
+        background: none;
+    }
 
+    #Triangle {
+        fill: #3263C9;
+    }
 }
-#Triangle {
-  fill: #3263C9;
 
-}
-}
-.works-border{
-  svg{
-  background: #3263C9 ;
-}
- #Triangle {
-  fill: #252525;
+.works-border {
+    svg {
+        background: #3263C9;
+    }
 
+    #Triangle {
+        fill: #252525;
+    }
 }
-}
+
 .writings-border {
-  svg{
-  background: #252525 ;
-}
-#Triangle {
-  fill: #3263C9;
-}
+    svg {
+        background: #252525;
+    }
+
+    #Triangle {
+        fill: #3263C9;
+    }
 }
 /*Title Animation*/
-@mixin title-ribbon-super{
-  .title-ribbon {
-      @include ribbon;
-  }
+@mixin title-ribbon-super {
+    .title-ribbon {
+        @include ribbon;
+    }
 
-  .title-ribbon:hover {
-      @include ribbon-hover
-  }
+    .title-ribbon:hover {
+        @include ribbon-hover
+    }
 
-  .title-ribbon:before {
-      @include ribbon-before;
-  }
+    .title-ribbon:before {
+        @include ribbon-before;
+    }
 
-  .title-ribbon:hover:before {
-      @include ribbon-hover-before;
-  }
+    .title-ribbon:hover:before {
+        @include ribbon-hover-before;
+    }
 
-  .title-ribbon:after {
-      @include ribbon-after;
-  }
+    .title-ribbon:after {
+        @include ribbon-after;
+    }
 
-  .title-ribbon:hover:after {
-      @include ribbon-hover-after;
-  }
-
+    .title-ribbon:hover:after {
+        @include ribbon-hover-after;
+    }
 }
 
 body {
@@ -75,7 +74,6 @@ body {
     flex-direction: column;
     -webkit-font-smoothing: antialiased;
     font-smoothing: antialiased;
-
     @include phone {
         text-align: center;
     }
@@ -84,8 +82,6 @@ body {
         font-family: $font-p;
     }
 }
-
-
 
 .container,
 footer,
@@ -109,62 +105,22 @@ header {
 footer {
     order: 3;
 }
-
-.slant-container-top:nth-child(2) {
-    border-left: #ffffff solid $slant-width-desktop;
-    border-left: #3263C9 solid $slant-width-desktop;
-    @include phone {
-        border-bottom: #3263C9 solid $slant-height-phone;
-        border-left: #ffffff solid $slant-width-phone;
-    }
-
-    @include desktop {
-        border-bottom: #3263C9 solid $slant-height-phone;
-        border-left: #ffffff solid $slant-width-phone;
-    }
-}
-
-.slant-container-top:nth-child(4) {
-    border-left: #ffffff solid $slant-width-desktop;
-    border-left: #3263C9 solid $slant-width-desktop;
-    @include phone {
-        border-bottom: #252525 solid $slant-height-phone;
-        border-left: #3263C9 solid $slant-width-phone;
-    }
-    @include desktop {
-        border-bottom: #3263C9 solid $slant-height-phone;
-        border-left: #ffffff solid $slant-width-phone;
-    }
-}
-
-.slant-container-top:nth-child(6) {
-    border-left: #ffffff solid $slant-width-desktop;
-    border-bottom: #3263C9 solid $slant-height-desktop;
-    @include phone {
-        border-bottom: #3263C9 solid $slant-height-phone;
-        border-left: #252525 solid $slant-width-phone;
-    }
-    @include desktop {
-        border-bottom: #3263C9 solid $slant-height-phone;
-        border-left: #ffffff solid $slant-width-phone;
-    }
-}
-
-section div[class*="-s"] {
-    width: 100%;
-    margin: 0 auto;
-
-}
+//
+//
+// section div[class*="-s"] {
+//     width: 100%;
+//     margin: 0 auto;
+// }
 
 .home-s {
-  @include title-ribbon-super;
+    @include title-ribbon-super;
     height: 60vh;
 
     img {
         width: 25%;
     }
-    @include desktop{
-      padding-bottom: 35%;
+    @include desktop {
+        padding-bottom: 35%;
     }
     @include phone {
         padding-top: 10% !important;
@@ -180,57 +136,54 @@ section div[class*="-s"] {
 }
 
 .about-s {
-  @include title-ribbon-super;
-
+    @include title-ribbon-super;
     background: #3263C9;
     border-top: #3263C9 solid 10px;
-    @include phone {
-        .slant-summary-top {
-            border-bottom: #fff solid $slant-height-phone;
-            border-left: #3263C9 solid $slant-width-phone;
-        }
-
-        .slant-summary-bottom {
-            border-top: #fff solid $slant-height-phone;
-            border-right: #3263C9 solid $slant-width-phone;
-        }
-    }
+    // @include phone {
+    //     .slant-summary-top {
+    //         border-bottom: #fff solid $slant-height-phone;
+    //         border-left: #3263C9 solid $slant-width-phone;
+    //     }
+    //
+    //     .slant-summary-bottom {
+    //         border-top: #fff solid $slant-height-phone;
+    //         border-right: #3263C9 solid $slant-width-phone;
+    //     }
+    // }
 }
 
 .works-s {
-  @include title-ribbon-super;
-
+    @include title-ribbon-super;
     background: #252525;
     border-top: #252525 solid 10px;
-    @include phone {
-        .slant-summary-top {
-            border-bottom: #fff solid $slant-height-phone;
-            border-left: #252525 solid $slant-width-phone;
-        }
-
-        .slant-summary-bottom {
-            border-top: #fff solid $slant-height-phone;
-            border-right: #252525 solid $slant-width-phone;
-        }
-    }
+    // @include phone {
+    //     .slant-summary-top {
+    //         border-bottom: #fff solid $slant-height-phone;
+    //         border-left: #252525 solid $slant-width-phone;
+    //     }
+    //
+    //     .slant-summary-bottom {
+    //         border-top: #fff solid $slant-height-phone;
+    //         border-right: #252525 solid $slant-width-phone;
+    //     }
+    // }
 }
 
 .writings-s {
-  @include title-ribbon-super;
-
+    @include title-ribbon-super;
     background: #3263C9;
     border-top: #3263C9 solid 10px;
-    @include phone {
-        .slant-summary-top {
-            border-bottom: #fff solid $slant-height-phone;
-            border-left: #3263C9 solid $slant-width-phone;
-        }
-
-        .slant-summary-bottom {
-            border-top: #fff solid $slant-height-phone;
-            border-right: #252525 solid 100vw;
-        }
-    }
+    // @include phone {
+    //     .slant-summary-top {
+    //         border-bottom: #fff solid $slant-height-phone;
+    //         border-left: #3263C9 solid $slant-width-phone;
+    //     }
+    //
+    //     .slant-summary-bottom {
+    //         border-top: #fff solid $slant-height-phone;
+    //         border-right: #252525 solid 100vw;
+    //     }
+    // }
 }
 
 .summary {
@@ -239,13 +192,13 @@ section div[class*="-s"] {
     padding: 20px;
 }
 
-.summary-box {
-    margin: auto;
-    width: 50%;
-    @include phone {
-        width: $slant-width-phone;
-    }
-}
+// .summary-box {
+//     margin: auto;
+//     width: 50%;
+//     @include phone {
+//         width: $slant-width-phone;
+//     }
+// }
 
 .title-link {
     display: inline-block;
@@ -255,8 +208,9 @@ section div[class*="-s"] {
     text-decoration: none;
     box-sizing: border-box;
 }
+
 a {
-  text-decoration: none !important;
-  background: inherit !important;
-  color: #ccc !important;
+    text-decoration: none !important;
+    background: inherit !important;
+    color: #ccc !important;
 }
