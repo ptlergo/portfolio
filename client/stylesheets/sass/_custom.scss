@@ -1,79 +1,7 @@
 /*VARIABLES*/
 $font-p: "proxima-nova", Corbel, Arial, sans-serif;
 $font: "corbel", san-serif;
-/*Border triangle svg*/
-svg {
-    margin-bottom: -7px;
-}
 
-.about-border {
-    svg {
-        background: none;
-    }
-
-    #Triangle {
-        fill: #3263C9;
-    }
-}
-
-.works-border {
-    svg {
-        background: #3263C9;
-    }
-
-    #Triangle {
-        fill: #252525;
-    }
-}
-
-.summary-box{
-  #Triangle {
-      fill: white;
-  }
-  .summary-border-b{
-
-    svg{
-      transform: rotate(180deg);
-      margin-bottom: -5px;
-    }
-  }
-}
-
-.writings-border {
-    svg {
-        background: #252525;
-    }
-
-    #Triangle {
-        fill: #3263C9;
-    }
-}
-/*Title Animation*/
-@mixin title-ribbon-super {
-    .title-ribbon {
-        @include ribbon;
-    }
-
-    .title-ribbon:hover {
-        @include ribbon-hover
-    }
-
-    .title-ribbon:before {
-        @include ribbon-before;
-    }
-
-    .title-ribbon:hover:before {
-        @include ribbon-hover-before;
-    }
-
-    .title-ribbon:after {
-        @include ribbon-after;
-    }
-
-    .title-ribbon:hover:after {
-        @include ribbon-hover-after;
-    }
-}
 
 body {
     font-family: $font;
@@ -114,12 +42,84 @@ header {
 footer {
     order: 3;
 }
-//
-//
-// section div[class*="-s"] {
-//     width: 100%;
-//     margin: 0 auto;
-// }
+
+
+/*Border triangle svg*/
+svg {
+    margin-bottom: -7px;
+}
+
+.about-border {
+    svg {
+        background: none;
+    }
+
+    #Triangle {
+        fill: #3263C9;
+    }
+}
+
+.works-border {
+    svg {
+        background: #3263C9;
+    }
+
+    #Triangle {
+        fill: #252525;
+    }
+}
+
+.summary-box {
+    #Triangle {
+        fill: white;
+    }
+
+    .summary-border-b {
+        svg {
+            transform: rotate(180deg);
+            margin-bottom: -5px;
+        }
+    }
+}
+
+.writings-border {
+    svg {
+        background: #252525;
+    }
+
+    #Triangle {
+        fill: #3263C9;
+    }
+}
+
+
+/*Title Animation*/
+@mixin title-ribbon-super {
+    .title-ribbon {
+        @include ribbon;
+    }
+
+    .title-ribbon:hover {
+        @include ribbon-hover
+    }
+
+    .title-ribbon:before {
+        @include ribbon-before;
+    }
+
+    .title-ribbon:hover:before {
+        @include ribbon-hover-before;
+    }
+
+    .title-ribbon:after {
+        @include ribbon-after;
+    }
+
+    .title-ribbon:hover:after {
+        @include ribbon-hover-after;
+    }
+}
+
 
 .home-s {
     @include title-ribbon-super;
@@ -144,7 +144,7 @@ footer {
     }
 }
 
-.about-s {
+.about-s, .writings-s {
     @include title-ribbon-super;
     background: #3263C9;
     border-top: #3263C9 solid 10px;
@@ -156,31 +156,26 @@ footer {
     border-top: #252525 solid 10px;
 }
 
-.writings-s {
-    @include title-ribbon-super;
-    background: #3263C9;
-    border-top: #3263C9 solid 10px;
-}
-
 .summary {
     background: white;
     margin: 0;
     padding: 20px;
-    margin: -1px auto;
+    margin: 0px auto;
 }
 
 .summary-box {
     margin: auto;
     width: 75%;
-    @include desktop{
-      width: 85%;
+    @include desktop {
+        width: 85%;
     }
 }
 
-.title-container{
-  width: 200px;
-  margin: auto;
+.title-container {
+    width: 200px;
+    margin: auto;
 }
+
 .title-link {
     display: inline-block;
     color: white;
