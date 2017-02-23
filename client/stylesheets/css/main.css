@@ -15,6 +15,12 @@ svg {
 .works-border #Triangle {
   fill: #252525; }
 
+.summary-box #Triangle {
+  fill: white; }
+
+.summary-box .summary-border-b #Triangle {
+  fill: green; }
+
 .writings-border svg {
   background: #252525; }
 
@@ -362,6 +368,10 @@ footer {
   @media only screen and (min-width: 769px) and (max-width: 1624px) {
     .summary {
       width: 85%; } }
+
+.summary-box {
+  margin: auto;
+  width: 100%; }
 
 .title-container {
   width: 200px;

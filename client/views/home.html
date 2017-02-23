@@ -10,32 +10,34 @@
     <ng-include class="about-border" src = "'img/border-slant.svg'"></ng-include>
     <div class="about-s" ng-controller='AboutController as aboutCtrl'>
 
-        <div class="title-container"><a href="#" class="title-link">
-          <span class="title-ribbon">
-            <h1>{{ aboutCtrl.printAbout }}</h1>
-          </span>
-        </a></div>
+        <div class="title-container">
+          <a href="#" class="title-link">
+            <span class="title-ribbon">
+              <h1>{{ aboutCtrl.printAbout }}</h1>
+            </span>
+        </a>
+      </div>
 
         <div class="summary-box">
-            <div class="slant-summary-top"></div>
             <p class="summary">{{ aboutCtrl.summary }}</p>
-            <div class="slant-summary-bottom"></div>
         </div>
 
     </div>
 
     <ng-include class="works-border" src = "'img/border-slant.svg'"></ng-include>
     <div class="works-s" ng-controller='WorksController as worksCtrl'>
-        <div class="title-container"><a href="#" class="title-link">
+        <div class="title-container">
+          <a href="#" class="title-link">
           <span class="title-ribbon">
             <h1>{{ worksCtrl.printWorks }}</h1>
           </span>
-        </a></div>
+        </a>
+      </div>
 
         <div class="summary-box">
-            <div class="slant-summary-top"></div>
+          <ng-include class="summary-border-t" src = "'img/border-slant.svg'"></ng-include>
             <p class="summary">{{ worksCtrl.summary }}</p>
-            <div class="slant-summary-bottom"></div>
+            <ng-include class="summary-border-b" src = "'img/border-slant.svg'"></ng-include>
         </div>
 
         <div carousel title="works"></div>
@@ -45,16 +47,16 @@
     <ng-include class="writings-border" src = "'img/border-slant.svg'"></ng-include>
     <div class="writings-s" ng-controller='WritingsController as writingsCtrl'>
 
-        <div class="title-container"><a href="#" class="title-link">
+        <div class="title-container">
+          <a href="#" class="title-link">
           <span class="title-ribbon">
             <h1>{{ writingsCtrl.printWritings }}</h1>
           </span>
-        </a></div>
+        </a>
+      </div>
 
         <div class="summary-box">
-            <div class="slant-summary-top"></div>
             <p class="summary">{{ writingsCtrl.summary }}</p>
-            <div class="slant-summary-bottom"></div>
         </div>
 
 

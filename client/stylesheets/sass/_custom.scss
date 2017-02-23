@@ -30,6 +30,17 @@ svg {
     }
 }
 
+.summary-box{
+  #Triangle {
+      fill: white;
+  }
+  .summary-border-b{
+    #Triangle {
+        fill: green;
+    }
+  }
+}
+
 .writings-border {
     svg {
         background: #252525;
@@ -198,13 +209,10 @@ footer {
 
 }
 
-// .summary-box {
-//     margin: auto;
-//     width: 50%;
-//     @include phone {
-//         width: $slant-width-phone;
-//     }
-// }
+.summary-box {
+    margin: auto;
+    width: 100%;
+}
 
 .title-container{
   width: 200px;
