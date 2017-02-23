@@ -363,15 +363,14 @@ footer {
   background: white;
   margin: 0;
   padding: 20px;
-  width: 75%;
   margin: auto; }
-  @media only screen and (min-width: 769px) and (max-width: 1624px) {
-    .summary {
-      width: 85%; } }
 
 .summary-box {
   margin: auto;
-  width: 100%; }
+  width: 75%; }
+  @media only screen and (min-width: 769px) and (max-width: 1624px) {
+    .summary-box {
+      width: 85%; } }
 
 .title-container {
   width: 200px;
