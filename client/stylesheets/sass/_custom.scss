@@ -6,9 +6,6 @@ $slant-height-desktop: 67px;
 $font-p: "proxima-nova", Corbel, Arial, sans-serif;
 $font: "corbel", san-serif;
 
-.border-slant{
-  width: 100vw;
-}
 /*Title Animation*/
 @mixin title-ribbon-super{
   .title-ribbon {
@@ -55,9 +52,7 @@ body {
     }
 }
 
-img {
-    width: 40%;
-}
+
 
 .container,
 footer,
