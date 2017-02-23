@@ -65,9 +65,6 @@ footer {
     z-index: 1;
     color: white;
     text-decoration: none; }
-    @media only screen and (min-width: 769px) and (max-width: 1624px) {
-      .home-s .title-ribbon {
-        width: 50%; } }
   .home-s .title-ribbon:hover {
     position: relative;
     display: block;
@@ -151,9 +148,6 @@ footer {
     z-index: 1;
     color: white;
     text-decoration: none; }
-    @media only screen and (min-width: 769px) and (max-width: 1624px) {
-      .about-s .title-ribbon {
-        width: 50%; } }
   .about-s .title-ribbon:hover {
     position: relative;
     display: block;
@@ -225,9 +219,6 @@ footer {
     z-index: 1;
     color: white;
     text-decoration: none; }
-    @media only screen and (min-width: 769px) and (max-width: 1624px) {
-      .works-s .title-ribbon {
-        width: 50%; } }
   .works-s .title-ribbon:hover {
     position: relative;
     display: block;
@@ -299,9 +290,6 @@ footer {
     z-index: 1;
     color: white;
     text-decoration: none; }
-    @media only screen and (min-width: 769px) and (max-width: 1624px) {
-      .writings-s .title-ribbon {
-        width: 50%; } }
   .writings-s .title-ribbon:hover {
     position: relative;
     display: block;
@@ -373,8 +361,6 @@ footer {
 
 .title-link {
   display: inline-block;
-  width: auto;
-  min-width: 45%;
   color: white;
   text-decoration: none;
   box-sizing: border-box; }
