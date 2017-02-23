@@ -87,7 +87,7 @@ footer {
         border-left: #ffffff solid $slant-width-phone;
     }
 
-    @include computer {
+    @include desktop {
         border-bottom: #3263C9 solid $slant-height-phone;
         border-left: #ffffff solid $slant-width-phone;
     }
@@ -100,7 +100,7 @@ footer {
         border-bottom: #252525 solid $slant-height-phone;
         border-left: #3263C9 solid $slant-width-phone;
     }
-    @include computer {
+    @include desktop {
         border-bottom: #3263C9 solid $slant-height-phone;
         border-left: #ffffff solid $slant-width-phone;
     }
@@ -113,7 +113,7 @@ footer {
         border-bottom: #3263C9 solid $slant-height-phone;
         border-left: #252525 solid $slant-width-phone;
     }
-    @include computer {
+    @include desktop {
         border-bottom: #3263C9 solid $slant-height-phone;
         border-left: #ffffff solid $slant-width-phone;
     }
@@ -132,7 +132,7 @@ section div[class*="-s"] {
     img {
         width: 25%;
     }
-    @include computer{
+    @include desktop{
       padding-bottom: 35%;
     }
     @include phone {
