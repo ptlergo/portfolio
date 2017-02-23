@@ -1,5 +1,4 @@
 <div ng-controller="CarouselController as carouselCtrl">
-  <div style="height: 400px">
     <div uib-carousel active="active" >
       <div uib-slide ng-repeat="slide in carouselCtrl.works track by slide.id" index="slide.id">
         <img ng-src="{{slide.src}}" style="margin:auto;">
@@ -8,5 +7,4 @@
         <img ng-src="{{slide.src}}" style="margin:auto;">
       </div>
     </div>
-  </div>
 </div>
