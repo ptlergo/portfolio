@@ -1,5 +1,8 @@
 /*VARIABLES*/
 /*Border triangle svg*/
+svg {
+  margin-bottom: -7px; }
+
 .about-border #Triangle {
   fill: #3263C9; }
 
