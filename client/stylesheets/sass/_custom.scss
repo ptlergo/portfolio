@@ -190,6 +190,12 @@ footer {
     background: white;
     margin: 0;
     padding: 20px;
+    width: 75%;
+    margin: auto;
+    @include desktop{
+      width: 85%;
+    }
+
 }
 
 // .summary-box {
