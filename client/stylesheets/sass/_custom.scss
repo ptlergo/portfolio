@@ -12,16 +12,32 @@ svg{
   margin-bottom: -7px;
 
 }
-.about-border #Triangle {
+.about-border {
+  svg{
+  background: none ;
+
+}
+#Triangle {
   fill: #3263C9;
 
 }
-.works-border #Triangle {
+}
+.works-border{
+  svg{
+  background: #3263C9 ;
+}
+ #Triangle {
   fill: #252525;
 
 }
-.writings-border #Triangle {
+}
+.writings-border {
+  svg{
+  background: #252525 ;
+}
+#Triangle {
   fill: #3263C9;
+}
 }
 /*Title Animation*/
 @mixin title-ribbon-super{
