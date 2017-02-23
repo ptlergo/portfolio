@@ -1,12 +1,13 @@
-<section>
-    <div class="home-s" ng-controller='HomeController as homeCtrl'>
+<section ng-controller='HomeController as homeCtrl'>
+    <div class="home-s">
         <div style="text-align: center">
             <img ng-src='{{homeCtrl.img_src}}'>
             <h2>Patrick Funom Tunga-Lergo</h2>
             <h2>Digital Designer & Front-End Developer</h2>
         </div>
     </div>
-    <div class="slant-container-top"></div>
+    <!-- <div class="slant-container-top"></div> -->
+    <img class="border-slant" ng-src = '{{homeCtrl.border_slant}}'>
 
     <div class="about-s" ng-controller='AboutController as aboutCtrl'>
 
@@ -24,7 +25,9 @@
 
     </div>
 
-    <div class="slant-container-top"></div>
+    <!-- <div class="slant-container-top"></div> -->
+    <img class="border-slant" ng-src = '{{homeCtrl.border_slant}}'>
+
 
     <div class="works-s" ng-controller='WorksController as worksCtrl'>
 
@@ -43,7 +46,9 @@
         <div carousel title="works"></div>
     </div>
 
-    <div class="slant-container-top"></div>
+    <!-- <div class="slant-container-top"></div> -->
+    <img class="border-slant" ng-src = '{{homeCtrl.border_slant}}'>
+
 
     <div class="writings-s" ng-controller='WritingsController as writingsCtrl'>
 
