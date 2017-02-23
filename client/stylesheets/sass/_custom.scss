@@ -6,9 +6,16 @@ $slant-height-desktop: 67px;
 $font-p: "proxima-nova", Corbel, Arial, sans-serif;
 $font: "corbel", san-serif;
 
- #Triangle{
-  fill: #3263C9;
 
+/*Border triangle svg*/
+.about-border #Triangle {
+  fill: #3263C9;
+}
+.works-border #Triangle {
+  fill: #252525;
+}
+.writings-border #Triangle {
+  fill: #3263C9;
 }
 /*Title Animation*/
 @mixin title-ribbon-super{

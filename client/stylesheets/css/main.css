@@ -1,5 +1,12 @@
 /*VARIABLES*/
-#Triangle {
+/*Border triangle svg*/
+.about-border #Triangle {
+  fill: #3263C9; }
+
+.works-border #Triangle {
+  fill: #252525; }
+
+.writings-border #Triangle {
   fill: #3263C9; }
 
 /*Title Animation*/

@@ -6,11 +6,8 @@
             <h2>Digital Designer & Front-End Developer</h2>
         </div>
     </div>
-    <!-- <div class="slant-container-top"></div> -->
-    <div class="contain-b">
-      <ng-include src = "'img/border-slant.svg'"></ng-include>
-    </div>
 
+    <ng-include class="about-border" src = "'img/border-slant.svg'"></ng-include>
     <div class="about-s" ng-controller='AboutController as aboutCtrl'>
 
         <a href="#" class="title-link">
@@ -27,12 +24,8 @@
 
     </div>
 
-    <!-- <div class="slant-container-top"></div> -->
-    <img class="border-slant" ng-src = '{{homeCtrl.border_slant}}'>
-
-
+    <ng-include class="works-border" src = "'img/border-slant.svg'"></ng-include>
     <div class="works-s" ng-controller='WorksController as worksCtrl'>
-
         <a href="#" class="title-link">
           <span class="title-ribbon">
             <h1>{{ worksCtrl.printWorks }}</h1>
@@ -48,10 +41,8 @@
         <div carousel title="works"></div>
     </div>
 
-    <!-- <div class="slant-container-top"></div> -->
-    <img class="border-slant" ng-src = '{{homeCtrl.border_slant}}'>
 
-
+    <ng-include class="writings-border" src = "'img/border-slant.svg'"></ng-include>
     <div class="writings-s" ng-controller='WritingsController as writingsCtrl'>
 
         <a href="#" class="title-link">
