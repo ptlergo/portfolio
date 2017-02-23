@@ -1,11 +1,15 @@
 @mixin ribbon {
     position: relative;
+    margin: 0 auto;
     display: block;
     box-sizing: border-box;
     transition: 0.3s;
     z-index: 1;
     color: white;
     text-decoration: none;
+    @include computer{
+      width: 50%;
+    }
 }
 @mixin ribbon-hover {
     position: relative;

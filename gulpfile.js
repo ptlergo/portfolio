@@ -12,6 +12,7 @@ gulp.task('run', () => {
     server: {
       baseDir: './client',
     },
+    files: './client',
   });
 });
 
