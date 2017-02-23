@@ -206,6 +206,10 @@ footer {
 //     }
 // }
 
+.title-container{
+  width: 200px;
+  margin: auto;
+}
 .title-link {
     display: inline-block;
     color: white;
@@ -214,6 +218,7 @@ footer {
 }
 
 a {
+    width: 100%;
     text-decoration: none !important;
     background: inherit !important;
     color: #ccc !important;

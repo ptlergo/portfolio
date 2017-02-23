@@ -1,6 +1,7 @@
 @mixin ribbon {
     position: relative;
     margin: 0 auto;
+    height: 100%;
     display: block;
     box-sizing: border-box;
     transition: 0.3s;
@@ -29,7 +30,7 @@
     -webkit-transform: translateY(4px);
     transform: translateY(4px) skewY(-10deg);
     z-index: -1;
-    -webkit-transform: skewY(-10deg);
+    -webkit-transform: skewY(-13.02deg);
 }
 @mixin ribbon-after {
     bottom: 5%;
@@ -43,7 +44,7 @@
     -webkit-transform: translateY(-4px);
     transform: translateY(-4px);
     z-index: -1;
-    -webkit-transform: skewY(-10deg);
+    -webkit-transform: skewY(-13.02deg);
 }
 @mixin ribbon-hover-after {
     bottom: 5%;
