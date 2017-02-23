@@ -86,6 +86,11 @@ footer {
         border-bottom: #3263C9 solid $slant-height-phone;
         border-left: #ffffff solid $slant-width-phone;
     }
+
+    @include computer {
+        border-bottom: #3263C9 solid $slant-height-phone;
+        border-left: #ffffff solid $slant-width-phone;
+    }
 }
 
 .slant-container-top:nth-child(4) {
@@ -94,6 +99,10 @@ footer {
     @include phone {
         border-bottom: #252525 solid $slant-height-phone;
         border-left: #3263C9 solid $slant-width-phone;
+    }
+    @include computer {
+        border-bottom: #3263C9 solid $slant-height-phone;
+        border-left: #ffffff solid $slant-width-phone;
     }
 }
 
@@ -104,11 +113,16 @@ footer {
         border-bottom: #3263C9 solid $slant-height-phone;
         border-left: #252525 solid $slant-width-phone;
     }
+    @include computer {
+        border-bottom: #3263C9 solid $slant-height-phone;
+        border-left: #ffffff solid $slant-width-phone;
+    }
 }
 
 section div[class*="-s"] {
     width: 100%;
     margin: 0 auto;
+
 }
 
 .home-s {
@@ -117,6 +131,9 @@ section div[class*="-s"] {
 
     img {
         width: 25%;
+    }
+    @include computer{
+      padding-bottom: 35%;
     }
     @include phone {
         padding-top: 10% !important;
@@ -193,7 +210,7 @@ section div[class*="-s"] {
 
 .summary-box {
     margin: auto;
-    width: 100%;
+    width: 50%;
     @include phone {
         width: $slant-width-phone;
     }

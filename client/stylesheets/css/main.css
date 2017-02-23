@@ -42,6 +42,10 @@ footer {
     .slant-container-top:nth-child(2) {
       border-bottom: #3263C9 solid 67px;
       border-left: #ffffff solid 450px; } }
+  @media only screen and (min-width: 769px) and (max-width: 1624px) {
+    .slant-container-top:nth-child(2) {
+      border-bottom: #3263C9 solid 67px;
+      border-left: #ffffff solid 450px; } }
 
 .slant-container-top:nth-child(4) {
   border-left: #ffffff solid 100vw;
@@ -50,6 +54,10 @@ footer {
     .slant-container-top:nth-child(4) {
       border-bottom: #252525 solid 67px;
       border-left: #3263C9 solid 450px; } }
+  @media only screen and (min-width: 769px) and (max-width: 1624px) {
+    .slant-container-top:nth-child(4) {
+      border-bottom: #3263C9 solid 67px;
+      border-left: #ffffff solid 450px; } }
 
 .slant-container-top:nth-child(6) {
   border-left: #ffffff solid 100vw;
@@ -58,6 +66,10 @@ footer {
     .slant-container-top:nth-child(6) {
       border-bottom: #3263C9 solid 67px;
       border-left: #252525 solid 450px; } }
+  @media only screen and (min-width: 769px) and (max-width: 1624px) {
+    .slant-container-top:nth-child(6) {
+      border-bottom: #3263C9 solid 67px;
+      border-left: #ffffff solid 450px; } }
 
 section div[class*="-s"] {
   width: 100%;
@@ -137,6 +149,9 @@ section div[class*="-s"] {
     z-index: -1; }
   .home-s img {
     width: 25%; }
+  @media only screen and (min-width: 769px) and (max-width: 1624px) {
+    .home-s {
+      padding-bottom: 35%; } }
   @media only screen and (max-width: 480px) {
     .home-s {
       padding-top: 10% !important; }
@@ -395,7 +410,7 @@ section div[class*="-s"] {
 
 .summary-box {
   margin: auto;
-  width: 100%; }
+  width: 50%; }
   @media only screen and (max-width: 480px) {
     .summary-box {
       width: 450px; } }
