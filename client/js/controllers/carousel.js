@@ -1,25 +1,18 @@
 function CarouselController() {
   const vm = this;
   vm.msg = 'carousel';
-  vm.writings = [
-    {
-      id: 0,
-      src: 'http://i.imgur.com/H981AN7.jpg',
-    },
-    {
-      id: 1,
-      src: 'http://i.imgur.com/ArRiBMs.png',
-    },
-  ];
-
   vm.works = [
     {
       id: 0,
-      src: 'http://i.imgur.com/Ls0YKZF.jpg',
+      src: '../../img/winter-soulstice-prototype.gif',
     },
     {
       id: 1,
-      src: 'http://i.imgur.com/ArRiBMs.png',
+      src: '../../img/winter.gif',
+    },
+    {
+      id: 2,
+      src: 'http://i.imgur.com/Ls0YKZF.jpg',
     },
   ];
 }

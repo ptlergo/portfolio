@@ -1,10 +1,10 @@
 <div ng-controller="CarouselController as carouselCtrl">
     <div uib-carousel active="active" >
       <div uib-slide ng-repeat="slide in carouselCtrl.works track by slide.id" index="slide.id">
-        <img ng-src="{{slide.src}}" style="margin:auto;">
+        <img ng-src="{{slide.src}}" style="margin:auto; width: 20%;">
       </div>
       <div uib-slide ng-repeat="slide in carouselCtrl.writings track by slide.id" index="slide.id">
-        <img ng-src="{{slide.src}}" style="margin:auto;">
+        <img ng-src="{{slide.src}}" style="margin:auto; width: 20%;">
       </div>
     </div>
 </div>
