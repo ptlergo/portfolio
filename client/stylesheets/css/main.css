@@ -317,6 +317,9 @@ a {
   background: inherit !important;
   color: #ccc !important; }
 
+.carousel-indicators li {
+  visibility: hidden; }
+
 .hamburger-container {
   position: fixed;
   top: 5%;
