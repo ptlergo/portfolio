@@ -10,7 +10,7 @@
 function NavController() {
   const vm = this;
 
-  vm.aClass = true;
+  vm.hamClass = true;
 
   vm.routes = [
     {
