@@ -10,6 +10,8 @@
 function NavController() {
   const vm = this;
 
+  vm.aClass = true;
+
   vm.routes = [
     {
       name: 'Home',
