@@ -330,19 +330,6 @@ a {
   z-index: 100;
   transition: opacity 0.25s ease; }
 
-.hamburger-container:hover {
-  opacity: 0.5; }
-
-.hamburger-container span .top {
-  transform: translateY(11px) translateX(0) rotate(45deg); }
-
-.hamburger-container span .middle {
-  opacity: 0;
-  background: #green; }
-
-.hamburger-container span .bottom {
-  transform: translateY(-11px) translateX(0) rotate(-45deg); }
-
 .hamburger-container span {
   background: #EFC638;
   border: none;
@@ -353,6 +340,9 @@ a {
   left: 0;
   transition: all 0.35s ease;
   cursor: pointer; }
+
+.hamburger-container:hover {
+  opacity: 0.5; }
 
 .hamburger-container span:nth-of-type(2) {
   top: 11px; }
