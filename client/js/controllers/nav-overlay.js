@@ -30,11 +30,6 @@ function NavController() {
       url: '#works',
     },
   ];
-
-  vm.navToggle = () => {
-    console.log('nav clicked');
-
-  };
 }
 
 angular.module('myApp').controller('NavController', NavController);
