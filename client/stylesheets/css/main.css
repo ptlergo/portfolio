@@ -350,6 +350,17 @@ a {
 .hamburger-container span:nth-of-type(3) {
   top: 22px; }
 
+.menuActive {
+  -webkit-transition: all linear 0.5s;
+  transition: all linear 0.5s; }
+  .menuActive .top {
+    transform: translateY(11px) translateX(0) rotate(45deg); }
+  .menuActive .middle {
+    opacity: 0;
+    width: 0%; }
+  .menuActive .bottom {
+    transform: translateY(-11px) translateX(0) rotate(-45deg); }
+
 nav a {
   color: white; }
 

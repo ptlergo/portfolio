@@ -34,16 +34,17 @@
 }
 
 // animate icon to 'x'
-// .hamburger-container span .top {
-//     transform: translateY(11px) translateX(0) rotate(45deg);
-//
-// }
-//
-// .hamburger-container span .middle {
-//     transform: translateY(11px) translateX(0) rotate(45deg);
-//
-// }
-//
-// .hamburger-container span .bottom {
-//     transform: translateY(-11px) translateX(0) rotate(-45deg);
-// }
+.menuActive{
+  -webkit-transition:all linear 0.5s;
+  transition:all linear 0.5s;
+   .top {
+    transform: translateY(11px) translateX(0) rotate(45deg);
+  }
+  .middle {
+    opacity: 0;
+    width: 0%;
+  }
+  .bottom {
+      transform: translateY(-11px) translateX(0) rotate(-45deg);
+  }
+}
