@@ -11,6 +11,7 @@ function NavController() {
   const vm = this;
 
   vm.hamClass = true;
+  vm.mToggle = false;
 
   vm.routes = [
     {

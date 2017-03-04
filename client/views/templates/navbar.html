@@ -1,12 +1,12 @@
 <div ng-controller = "NavController as navCtrl">
   <nav class = "navbar">
-    <div hamburger-icon ng-click = "navItems = !navItems"></div>
-    <div class="overlay" ng-show="navItems">
+    <div hamburger-icon ng-click = "navCtrl.mToggle = !navCtrl.mToggle"></div>
+    <div class="overlay" ng-show="navCtrl.mToggle">
       <div ng-repeat = "route in navCtrl.routes">
         <ul>
           <li>
             <h1>
-              <a ng-href = '{{route.url}}'>
+              <a ng-href = '{{route.url}}' ng-click = "navCtrl.mToggle = !navCtrl.mToggle">
                 {{route.name}}
               </a>
             </h1>
