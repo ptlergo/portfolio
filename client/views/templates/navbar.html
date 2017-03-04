@@ -1,7 +1,7 @@
 <div ng-controller = "NavController as navCtrl">
   <nav class = "navbar">
     <div hamburger-icon ng-click = "navCtrl.mToggle = !navCtrl.mToggle"></div>
-    <div class="overlay" ng-show="navCtrl.mToggle">
+    <div class="overlay" ng-show="navCtrl.mToggle" ng-class = "{ 'overlayActive': navCtrl.mToggle }">
       <div ng-repeat = "route in navCtrl.routes">
         <ul>
           <li>

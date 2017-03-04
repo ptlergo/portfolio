@@ -330,6 +330,9 @@ a {
   z-index: 100;
   transition: opacity 0.25s ease; }
 
+.hamburger-container:hover {
+  opacity: 0.5; }
+
 .hamburger-container span {
   background: #EFC638;
   border: none;
@@ -340,9 +343,6 @@ a {
   left: 0;
   transition: all 0.35s ease;
   cursor: pointer; }
-
-.hamburger-container:hover {
-  opacity: 0.5; }
 
 .hamburger-container span:nth-of-type(2) {
   top: 11px; }
@@ -363,7 +363,13 @@ nav a {
   background: #3263C9;
   z-index: 2;
   color: white;
-  text-align: center; }
+  text-align: center;
+  opacity: 0; }
+
+.overlayActive {
+  -webkit-transition: all linear 0.5s;
+  transition: all linear 0.5s;
+  opacity: 1; }
 
 .overlay ul {
   list-style: none; }

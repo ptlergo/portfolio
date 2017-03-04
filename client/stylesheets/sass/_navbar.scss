@@ -15,6 +15,13 @@ nav a{
   z-index: 2;
   color: white;
   text-align: center;
+  opacity: 0;
+}
+
+.overlayActive{
+  -webkit-transition:all linear 0.5s;
+  transition:all linear 0.5s;
+  opacity: 1;
 }
 
 .overlay ul{list-style: none;}
