@@ -1,11 +1,15 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
+  "engines": {
+  "node": "6.2.0",
+  "npm": "3.8.9"
+},
   "description": "Patrick Funom Tunga-Lergo Portfolio Site",
-  "main": "server.js",
+  "main": "src/server.js",
   "scripts": {
     "test": "karma start",
-    "start": "gulp run"
+    "start": "node src/server.js"
   },
   "repository": {
     "type": "git",
