@@ -6,10 +6,10 @@
   "npm": "3.8.9"
 },
   "description": "Patrick Funom Tunga-Lergo Portfolio Site",
-  "main": "src/server.js",
+  "main": "server.js",
   "scripts": {
     "test": "karma start",
-    "start": "node src/server.js",
+    "start": "node server.js",
     "run": "gulp run"
   },
   "repository": {
