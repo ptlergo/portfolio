@@ -3,7 +3,7 @@ const express = require('express'),
   path = require('path'),
   morgan = require('morgan'),
   app = express(),
-  port = 3000;
+  port = process.env.PORT || 3000;
 
 // Request stream formating
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -23,5 +23,8 @@ app.use(morgan('dev'));
 // Front end directory path
 app.use(express.static(path.join(__dirname, '/client')));
 
-app.listen(port);
-console.log('LISTENING TO PORT: ', port);
+const server = app.listen(port, () => {
+  console.log('LISTENING TO PORT: ', port);
+});
+
+module.exports = server;
