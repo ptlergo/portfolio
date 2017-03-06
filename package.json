@@ -9,7 +9,8 @@
   "main": "src/server.js",
   "scripts": {
     "test": "karma start",
-    "start": "node src/server.js"
+    "start": "node src/server.js",
+    "run": "gulp run"
   },
   "repository": {
     "type": "git",
