@@ -4,15 +4,15 @@ function CarouselController() {
   vm.works = [
     {
       id: 0,
-      src: '../../img/musicem-scroll.mp4',
+      src: '../../img/musicem-scroll.gif',
     },
     {
       id: 1,
-      src: '../../img/winter.gif',
+      src: '../../img/winter-soulstice-prototype.gif',
     },
     {
       id: 2,
-      src: '../../img/winter-soulstice-prototype.gif',
+      src: '../../img/winter.gif',
     },
   ];
 }
