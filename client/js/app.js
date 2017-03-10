@@ -1,7 +1,7 @@
 angular.module('myApp', ['ngRoute', 'ngSanitize', 'ngAnimate', 'ui.bootstrap'])
   .config(($routeProvider, $locationProvider) => {
     const homeRoute = {
-      controller: 'HomeController',
+      controller: 'MainController',
       templateUrl: 'views/home.html',
     };
 

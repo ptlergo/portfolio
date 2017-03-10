@@ -1,4 +1,4 @@
-<footer>
+<footer ng-controller='MainController as mainCtrl'>
   <div class="f-top">
     <div class="f-email"><p>patrickfunom@live.com</p> <p>my resume pdf</p></div>
   </div>
@@ -17,7 +17,7 @@
         <span><i class="fa fa-github" aria-hidden="true"></i></span>
       </a>
     </div>
-    <div class="f-copywirght"><i>&copy;Patrick Funom Tunga-Lergo</i></div>
-    <div class="f-logo"><i>powered by .HELLO{}</i></div>
+    <div class="f-copywirght"><i>&copy; 2017 Patrick Funom Tunga-Lergo</i></div>
+    <div class="f-logo">{{mainCtrl.img_src}}</div>
   </div>
 </footer>
