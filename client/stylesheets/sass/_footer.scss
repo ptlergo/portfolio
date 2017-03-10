@@ -31,18 +31,27 @@ footer{
     color: white;
     font-size: 25pt;
     margin: 0 auto;
-    padding: 10% 0;
+    padding: 0 0 10% 0;
     width: 240px;
+    @include phone{
+      padding: 0 0 20% 0;
+    }
   }
   span{
     width: 40px;
     margin: 0 auto;
     padding: 10px;
   }
+  .f-copywright{
+    padding-bottom: 1%;
+  }
   .f-logo img{
     width: 3%;
   }
   @include phone{
     font-size: 10pt;
+    .f-logo img{
+      width: 10%;
+    }
   }
 }

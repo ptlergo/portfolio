@@ -410,14 +410,21 @@ footer {
     color: white;
     font-size: 25pt;
     margin: 0 auto;
-    padding: 10% 0;
+    padding: 0 0 10% 0;
     width: 240px; }
+    @media only screen and (max-width: 480px) {
+      footer .social-box {
+        padding: 0 0 20% 0; } }
   footer span {
     width: 40px;
     margin: 0 auto;
     padding: 10px; }
+  footer .f-copywright {
+    padding-bottom: 1%; }
   footer .f-logo img {
     width: 3%; }
   @media only screen and (max-width: 480px) {
     footer {
-      font-size: 10pt; } }
+      font-size: 10pt; }
+      footer .f-logo img {
+        width: 10%; } }
