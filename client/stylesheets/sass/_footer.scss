@@ -1,58 +1,79 @@
-footer{
-  height: 100%;
-  text-align: center;
-
-
-  .slant{
-    border-right: 100vw solid #252525;
-    border-top: 300px solid #3263c9;
-    @include phone{
-      border-top: 67px solid #3263c9;
-    }
-    @include tablet{
-      border-top: 163px solid #3263c9;
-    }
-    @include tablet{
-      border-top: 300px solid #3263c9;
+footer {
+    height: 100%;
+    text-align: center;
+    h3{
+      margin: 0;
+      padding: 3%;
+      text-decoration: underline;
     }
 
-  }
-  .f-top{
-    background: #252525;
-    height: 45%;
-  }
-  .f-bottom{
-    background: #252525;
-    height: 45%;
-
-  }
-
-  .social-box{
-    color: white;
-    font-size: 25pt;
-    margin: 0 auto;
-    padding: 0 0 10% 0;
-    width: 240px;
-    @include phone{
-      padding: 0 0 20% 0;
+    .slant {
+        border-right: 100vw solid #252525;
+        border-top: 300px solid #3263c9;
+        @include phone {
+            border-top: 67px solid #3263c9;
+        }
+        @include tablet {
+            border-top: 163px solid #3263c9;
+        }
+        @include tablet {
+            border-top: 300px solid #3263c9;
+        }
     }
-  }
-  span{
-    width: 40px;
-    margin: 0 auto;
-    padding: 10px;
-  }
-  .f-copywright{
-    padding-bottom: 1%;
-    opacity: 0.6;
-  }
-  .f-logo img{
-    width: 3%;
-  }
-  @include phone{
-    font-size: 10pt;
-    .f-logo img{
-      width: 10%;
+
+    .f-top {
+        background: #252525;
+        height: 45%;
+        padding: 5% 0;
+        color: white;
+
+
+      .contact-box{
+        width: 100%;
+        margin: 10% auto;
+      }
     }
-  }
+
+    .f-bottom {
+        background: #252525;
+        height: 45%;
+
+
+        .social-box {
+            color: white;
+            font-size: 20pt;
+            margin: 0 auto;
+            padding: 0 0 10%;
+            @include phone {
+                padding: 0 0 20%;
+            }
+        }
+
+        span {
+            width: 40px;
+            margin: 0 auto;
+            padding: 10px;
+        }
+
+        .f-copywright {
+            padding-bottom: 1%;
+            opacity: 0.6;
+            clear: both;
+
+            :hover {
+                cursor: pointer;
+            }
+        }
+
+        .f-logo img {
+            width: 3%;
+        }
+        @include phone {
+            font-size: 10pt;
+
+            .f-logo img {
+                width: 10%;
+            }
+        }
+    }
 }

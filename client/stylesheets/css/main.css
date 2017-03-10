@@ -388,6 +388,10 @@ nav a {
 footer {
   height: 100%;
   text-align: center; }
+  footer h3 {
+    margin: 0;
+    padding: 3%;
+    text-decoration: underline; }
   footer .slant {
     border-right: 100vw solid #252525;
     border-top: 300px solid #3263c9; }
@@ -402,30 +406,37 @@ footer {
         border-top: 300px solid #3263c9; } }
   footer .f-top {
     background: #252525;
-    height: 45%; }
+    height: 45%;
+    padding: 5% 0;
+    color: white; }
+    footer .f-top .contact-box {
+      width: 100%;
+      margin: 10% auto; }
   footer .f-bottom {
     background: #252525;
     height: 45%; }
-  footer .social-box {
-    color: white;
-    font-size: 25pt;
-    margin: 0 auto;
-    padding: 0 0 10% 0;
-    width: 240px; }
+    footer .f-bottom .social-box {
+      color: white;
+      font-size: 20pt;
+      margin: 0 auto;
+      padding: 0 0 10%; }
+      @media only screen and (max-width: 480px) {
+        footer .f-bottom .social-box {
+          padding: 0 0 20%; } }
+    footer .f-bottom span {
+      width: 40px;
+      margin: 0 auto;
+      padding: 10px; }
+    footer .f-bottom .f-copywright {
+      padding-bottom: 1%;
+      opacity: 0.6;
+      clear: both; }
+      footer .f-bottom .f-copywright :hover {
+        cursor: pointer; }
+    footer .f-bottom .f-logo img {
+      width: 3%; }
     @media only screen and (max-width: 480px) {
-      footer .social-box {
-        padding: 0 0 20% 0; } }
-  footer span {
-    width: 40px;
-    margin: 0 auto;
-    padding: 10px; }
-  footer .f-copywright {
-    padding-bottom: 1%;
-    opacity: 0.6; }
-  footer .f-logo img {
-    width: 3%; }
-  @media only screen and (max-width: 480px) {
-    footer {
-      font-size: 10pt; }
-      footer .f-logo img {
-        width: 10%; } }
+      footer .f-bottom {
+        font-size: 10pt; }
+        footer .f-bottom .f-logo img {
+          width: 10%; } }
