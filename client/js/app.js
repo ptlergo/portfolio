@@ -11,7 +11,7 @@ angular.module('myApp', ['ngRoute', 'ngSanitize', 'ngAnimate', 'ui.bootstrap'])
     };
 
     const publicationsRoute = {
-      controller: 'WritingsController',
+      controller: 'PublicationsController',
       templateUrl: 'views/publications.html',
     };
 
