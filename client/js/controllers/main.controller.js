@@ -9,8 +9,7 @@
 */
 function MainController() {
   const vm = this;
-  vm.h_logo = '../../img/pat-logo.svg';
-  vm.f_logo = '../../../img/pat-logo.svg';
+  vm.main_logo = '../../img/pat-logo.svg';
 }
 
 angular.module('myApp').controller('MainController', MainController);
