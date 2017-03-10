@@ -60,6 +60,12 @@ svg {
 .publications-border #Triangle {
   fill: #3263C9; }
 
+.footer-border svg {
+  background: #3263C9; }
+
+.footer-border #Triangle {
+  fill: #252525; }
+
 /*Title Animation*/
 .home-s {
   height: 60vh; }
