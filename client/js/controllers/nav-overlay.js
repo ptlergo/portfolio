@@ -23,8 +23,8 @@ function NavController() {
       url: '#about',
     },
     {
-      name: 'Writings',
-      url: '#writings',
+      name: 'Publications',
+      url: '#publications',
     },
     {
       name: 'Works',
