@@ -420,7 +420,8 @@ footer {
     margin: 0 auto;
     padding: 10px; }
   footer .f-copywright {
-    padding-bottom: 1%; }
+    padding-bottom: 1%;
+    opacity: 0.6; }
   footer .f-logo img {
     width: 3%; }
   @media only screen and (max-width: 480px) {
