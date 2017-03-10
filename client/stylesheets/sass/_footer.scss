@@ -31,12 +31,16 @@ footer{
     color: white;
     font-size: 25pt;
     margin: 0 auto;
+    padding: 10% 0;
     width: 240px;
   }
   span{
     width: 40px;
     margin: 0 auto;
     padding: 10px;
+  }
+  .f-logo img{
+    width: 3%;
   }
   @include phone{
     font-size: 10pt;
