@@ -20,7 +20,11 @@
 
         <div class="summary-box">
           <ng-include class="summary-border-t" src = "'img/border-slant.svg'"></ng-include>
-            <p class="summary">{{ aboutCtrl.summary }}</p>
+            <p class="summary">
+              {{ aboutCtrl.summary }}
+              <br>
+              <i class="fa fa-cloud-download" aria-hidden="true">download resume.pdf</i>
+            </p>
             <ng-include class="summary-border-b" src = "'img/border-slant.svg'"></ng-include>
         </div>
 
