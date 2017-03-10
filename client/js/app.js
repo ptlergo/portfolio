@@ -10,9 +10,9 @@ angular.module('myApp', ['ngRoute', 'ngSanitize', 'ngAnimate', 'ui.bootstrap'])
       templateUrl: 'views/about.html',
     };
 
-    const writingsRoute = {
+    const publicationsRoute = {
       controller: 'WritingsController',
-      templateUrl: 'views/writings.html',
+      templateUrl: 'views/publications.html',
     };
 
     const worksRoute = {
@@ -22,7 +22,7 @@ angular.module('myApp', ['ngRoute', 'ngSanitize', 'ngAnimate', 'ui.bootstrap'])
 
     $routeProvider.when('/', homeRoute);
     $routeProvider.when('/about', aboutRoute);
-    $routeProvider.when('/writings', writingsRoute);
+    $routeProvider.when('/publications', publicationsRoute);
     $routeProvider.when('/works', worksRoute);
     $routeProvider.otherwise({ redirectTo: '/' });
     $locationProvider.hashPrefix('');
