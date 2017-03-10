@@ -82,7 +82,7 @@ svg {
     }
 }
 
-.writings-border {
+.publications-border {
     svg {
         background: #252525;
     }
@@ -144,7 +144,7 @@ svg {
     }
 }
 
-.about-s, .writings-s {
+.about-s, .publications-s {
     @include title-ribbon-super;
     background: #3263C9;
     border-top: #3263C9 solid 10px;
