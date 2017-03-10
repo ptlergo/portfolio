@@ -7,7 +7,7 @@
   *
   * @returns {}
 */
-function WritingsController() {
+function PublicationsController() {
   const vm = this;
   vm.img_src = 'https://marypomerantzadvertising.com/wp-content/uploads/responsiveweb.gif';
   vm.printWritings = 'My Writings';
@@ -16,4 +16,4 @@ function WritingsController() {
   articles on music and tech. Some of my articles are published online.`;
 }
 
-angular.module('myApp').controller('WritingsController', WritingsController);
+angular.module('myApp').controller('PublicationsController', PublicationsController);

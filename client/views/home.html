@@ -47,19 +47,19 @@
 
 
     <ng-include class="writings-border" src = "'img/border-slant.svg'"></ng-include>
-    <div class="writings-s" ng-controller='WritingsController as writingsCtrl'>
+    <div class="writings-s" ng-controller='publicationsController as publicationsCtrl'>
 
         <div class="title-container">
           <a href="#" class="title-link">
           <span class="title-ribbon">
-            <h1>{{ writingsCtrl.printWritings }}</h1>
+            <h1>{{ publicationsCtrl.printWritings }}</h1>
           </span>
         </a>
       </div>
 
         <div class="summary-box">
           <ng-include class="summary-border-t" src = "'img/border-slant.svg'"></ng-include>
-            <p class="summary">{{ writingsCtrl.summary }}</p>
+            <p class="summary">{{ publicationsCtrl.summary }}</p>
             <ng-include class="summary-border-b" src = "'img/border-slant.svg'"></ng-include>
         </div>
 
