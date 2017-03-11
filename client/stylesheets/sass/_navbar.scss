@@ -4,6 +4,16 @@ nav a{
   color: white;
 }
 
+.brand{
+  width: 10%;
+  @include phone{
+    width: 25%;
+  }
+  img{
+    width:100%;
+  }
+}
+
 .overlay {
 	position:fixed;
 	top:0;

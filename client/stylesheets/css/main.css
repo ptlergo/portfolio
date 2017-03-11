@@ -370,6 +370,14 @@ a {
 nav a {
   color: white; }
 
+.brand {
+  width: 10%; }
+  @media only screen and (max-width: 480px) {
+    .brand {
+      width: 25%; } }
+  .brand img {
+    width: 100%; }
+
 .overlay {
   position: fixed;
   top: 0;
