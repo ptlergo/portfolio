@@ -1,5 +1,6 @@
 .circle-container {
-  width: 100%; }
+  width: 100%;
+  overflow: hidden; }
 
 .circle {
   -webkit-animation: grow 10s;
@@ -10,7 +11,7 @@
   z-index: -1;
   border-radius: 100%;
   overflow: hidden;
-  position: absolute; }
+  position: relative; }
 
 @-webkit-keyframes grow {
   0% {
