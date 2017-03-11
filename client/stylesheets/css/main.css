@@ -1,6 +1,6 @@
 /*VARIABLES*/
 body {
-  font-family: "corbel", san-serif;
+  font-family: "nunito", corbel, san-serif;
   display: -webkit-flex;
   display: flex;
   -webkit-flex-direction: column;
