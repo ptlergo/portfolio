@@ -8,7 +8,7 @@ function CarouselController() {
     },
     {
       id: 1,
-      src: '../../img/winter-soulstice-prototype.gif',
+      src: 'https://media.giphy.com/media/l4FGny0c4R2xHmrQs/giphy.gif',
     },
     {
       id: 2,
