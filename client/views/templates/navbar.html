@@ -2,17 +2,13 @@
   <nav class = "navbar">
     <div hamburger-icon ng-click = "navCtrl.mToggle = !navCtrl.mToggle"></div>
     <div class="overlay" ng-show="navCtrl.mToggle" ng-class = "{ 'overlayActive': navCtrl.mToggle }">
-      <div ng-repeat = "route in navCtrl.routes">
-        <ul>
-          <li>
+      <div class = "nav-links" ng-repeat = "route in navCtrl.routes">
             <h1>
               <a ng-href = '{{route.url}}' ng-click = "navCtrl.mToggle = !navCtrl.mToggle">
                 {{route.name}}
               </a>
             </h1>
-          </li>
-        </ul>
-      </div>
+       </div>
     </div>
   </nav>
 </div>

@@ -381,7 +381,13 @@ nav a {
   z-index: 2;
   color: white;
   text-align: center;
-  opacity: 0; }
+  opacity: 0;
+  font-variant: small-caps; }
+  .overlay .nav-links:first-child {
+    margin-top: 15%; }
+    @media only screen and (max-width: 480px) {
+      .overlay .nav-links:first-child {
+        margin-top: 50%; } }
 
 .overlayActive {
   -webkit-transition: all linear 0.5s;

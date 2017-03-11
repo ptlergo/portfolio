@@ -16,6 +16,13 @@ nav a{
   color: white;
   text-align: center;
   opacity: 0;
+  font-variant: small-caps;
+  .nav-links:first-child{
+    margin-top: 15%;
+    @include phone{
+      margin-top: 50%;
+    }
+  }
 }
 
 .overlayActive{
