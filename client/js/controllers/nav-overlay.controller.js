@@ -12,6 +12,8 @@ function NavController() {
 
   vm.hamClass = true;
   vm.mToggle = false;
+  vm.brand = '../../img/pat-logo.svg';
+
 
   vm.routes = [
     {
