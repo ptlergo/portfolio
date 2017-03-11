@@ -371,9 +371,7 @@ nav a {
   color: white; }
 
 .brand {
-  width: 10%;
-  position: relative;
-  left: -10%; }
+  width: 10%; }
   @media only screen and (max-width: 480px) {
     .brand {
       width: 25%; } }
