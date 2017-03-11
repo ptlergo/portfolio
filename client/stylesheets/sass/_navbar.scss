@@ -6,6 +6,8 @@ nav a{
 
 .brand{
   width: 10%;
+  position: relative;
+  left: -10%;
   @include phone{
     width: 25%;
   }
