@@ -137,6 +137,14 @@ svg {
     -webkit-transform: translateY(0px);
     transform: translateY(0px);
     z-index: -1; }
+  .home-s .home-text {
+    max-width: 40%;
+    margin: 10% 0 0 2%;
+    text-align: left; }
+  .home-s h2 {
+    font-size: 20px; }
+  .home-s h2:first-child {
+    font-size: 30px; }
   .home-s img {
     width: 25%; }
   @media only screen and (min-width: 769px) and (max-width: 1624px) {
@@ -145,8 +153,12 @@ svg {
   @media only screen and (max-width: 480px) {
     .home-s {
       padding-top: 10% !important; }
+      .home-s .home-text {
+        margin: 10% 0 0 5%; }
       .home-s h2 {
-        font-size: 20px; }
+        font-size: 15px; }
+      .home-s h2:first-child {
+        font-size: 25px; }
       .home-s img {
         width: 50%; } }
 

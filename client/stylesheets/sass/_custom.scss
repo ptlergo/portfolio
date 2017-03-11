@@ -28,6 +28,7 @@ header {
 
 header {
     order: 1;
+
 }
 
 .container {
@@ -134,6 +135,21 @@ svg {
     @include title-ribbon-super;
     height: 60vh;
 
+    .home-text{
+      max-width: 40%;
+      margin:10% 0 0 2%;
+      text-align: left;
+    }
+
+            h2 {
+                font-size: 20px;
+
+            }
+
+            h2:first-child{
+              font-size: 30px;
+            }
+
     img {
         width: 25%;
     }
@@ -141,11 +157,19 @@ svg {
         padding-bottom: 35%;
     }
     @include phone {
-        padding-top: 10% !important;
 
-        h2 {
-            font-size: 20px;
-        }
+      .home-text{
+        margin:10% 0 0 5%;
+
+      }
+              h2 {
+                  font-size: 15px;
+              }
+
+              h2:first-child{
+                font-size: 25px;
+              }
+        padding-top: 10% !important;
 
         img {
             width: 50%;
