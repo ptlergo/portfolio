@@ -1,6 +1,7 @@
 .circle-container {
   width: 100%;
-  overflow: hidden; }
+  overflow: hidden;
+  position: absolute; }
 
 .circle {
   -webkit-animation: grow 10s;
