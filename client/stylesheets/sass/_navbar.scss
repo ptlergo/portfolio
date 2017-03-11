@@ -28,6 +28,8 @@ nav a{
   color: white;
   text-align: center;
   opacity: 0;
+  -webkit-transition:all linear 0.5s;
+  transition:all linear 0.5s;
   font-variant: small-caps;
   .nav-links:first-child{
     margin-top: 15%;
