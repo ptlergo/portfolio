@@ -2,7 +2,6 @@
 $font-p: "proxima-nova", Corbel, Arial, sans-serif;
 $font: "nunito", corbel, san-serif;
 
-
 body {
     font-family: $font;
     display: -webkit-flex;
@@ -20,8 +19,8 @@ body {
     }
 }
 
-button{
-  border: solid #71e2a6 0.21em;
+button {
+    border: solid #71e2a6 0.21em;
     line-height: 25px;
     font-weight: lighter;
     background: #71e2a6;
@@ -36,7 +35,6 @@ header {
 
 header {
     order: 1;
-
 }
 
 .container {
@@ -51,8 +49,6 @@ header {
 footer {
     order: 3;
 }
-
-
 /*Border triangle svg*/
 svg {
     margin-bottom: -7px;
@@ -110,7 +106,6 @@ svg {
         fill: #252525;
     }
 }
-
 /*Title Animation*/
 @mixin title-ribbon-super {
     .title-ribbon {
@@ -138,25 +133,26 @@ svg {
     }
 }
 
-
 .home-s {
     @include title-ribbon-super;
     height: 60vh;
-
-    .home-text{
-      max-width: 40%;
-      margin:10% 0 0 2%;
-      text-align: left;
+    button:hover{
+      zoom: 1.1;
     }
 
-            h2 {
-                font-size: 20px;
+    .home-text {
+        max-width: 40%;
+        margin: 10% 0 0 2%;
+        text-align: left;
+    }
 
-            }
+    h2 {
+        font-size: 20px;
+    }
 
-            h2:first-child{
-              font-size: 30px;
-            }
+    h2:first-child {
+        font-size: 30px;
+    }
 
     img {
         width: 25%;
@@ -165,18 +161,18 @@ svg {
         padding-bottom: 35%;
     }
     @include phone {
+        .home-text {
+            margin: 10% 0 0 5%;
+            max-width: 70%;
+        }
 
-      .home-text{
-        margin:10% 0 0 5%;
+        h2 {
+            font-size: 15px;
+        }
 
-      }
-              h2 {
-                  font-size: 15px;
-              }
-
-              h2:first-child{
-                font-size: 25px;
-              }
+        h2:first-child {
+            font-size: 20px;
+        }
         padding-top: 10% !important;
 
         img {
@@ -185,7 +181,8 @@ svg {
     }
 }
 
-.about-s, .publications-s {
+.about-s,
+.publications-s {
     @include title-ribbon-super;
     background: #3263C9;
     border-top: #3263C9 solid 10px;
@@ -201,7 +198,7 @@ svg {
     background: white;
     margin: 0;
     padding: 20px;
-    margin: 0px auto;
+    margin: 0 auto;
 }
 
 .summary-box {
@@ -231,4 +228,6 @@ a {
     color: #ccc !important;
 }
 
-.carousel-indicators li { visibility: hidden; }
+.carousel-indicators li {
+    visibility: hidden;
+}

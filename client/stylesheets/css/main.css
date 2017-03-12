@@ -144,6 +144,8 @@ svg {
     -webkit-transform: translateY(0px);
     transform: translateY(0px);
     z-index: -1; }
+  .home-s button:hover {
+    zoom: 1.1; }
   .home-s .home-text {
     max-width: 40%;
     margin: 10% 0 0 2%;
@@ -161,18 +163,21 @@ svg {
     .home-s {
       padding-top: 10% !important; }
       .home-s .home-text {
-        margin: 10% 0 0 5%; }
+        margin: 10% 0 0 5%;
+        max-width: 70%; }
       .home-s h2 {
         font-size: 15px; }
       .home-s h2:first-child {
-        font-size: 25px; }
+        font-size: 20px; }
       .home-s img {
         width: 50%; } }
 
-.about-s, .publications-s {
+.about-s,
+.publications-s {
   background: #3263C9;
   border-top: #3263C9 solid 10px; }
-  .about-s .title-ribbon, .publications-s .title-ribbon {
+  .about-s .title-ribbon,
+  .publications-s .title-ribbon {
     position: relative;
     margin: 0 auto;
     height: 100%;
@@ -182,7 +187,8 @@ svg {
     z-index: 1;
     color: white;
     text-decoration: none; }
-  .about-s .title-ribbon:hover, .publications-s .title-ribbon:hover {
+  .about-s .title-ribbon:hover,
+  .publications-s .title-ribbon:hover {
     position: relative;
     display: block;
     box-sizing: border-box;
@@ -190,7 +196,8 @@ svg {
     z-index: 1;
     color: white;
     text-decoration: none; }
-  .about-s .title-ribbon:before, .publications-s .title-ribbon:before {
+  .about-s .title-ribbon:before,
+  .publications-s .title-ribbon:before {
     bottom: 5%;
     content: '';
     position: absolute;
@@ -203,7 +210,8 @@ svg {
     transform: translateY(4px) skewY(-10deg);
     z-index: -1;
     -webkit-transform: skewY(-13.02deg); }
-  .about-s .title-ribbon:hover:before, .publications-s .title-ribbon:hover:before {
+  .about-s .title-ribbon:hover:before,
+  .publications-s .title-ribbon:hover:before {
     bottom: 5%;
     content: '';
     position: absolute;
@@ -215,7 +223,8 @@ svg {
     -webkit-transform: translateY(0px);
     transform: translateY(0px);
     z-index: -1; }
-  .about-s .title-ribbon:after, .publications-s .title-ribbon:after {
+  .about-s .title-ribbon:after,
+  .publications-s .title-ribbon:after {
     bottom: 5%;
     content: '';
     position: absolute;
@@ -228,7 +237,8 @@ svg {
     transform: translateY(-4px);
     z-index: -1;
     -webkit-transform: skewY(-13.02deg); }
-  .about-s .title-ribbon:hover:after, .publications-s .title-ribbon:hover:after {
+  .about-s .title-ribbon:hover:after,
+  .publications-s .title-ribbon:hover:after {
     bottom: 5%;
     content: '';
     position: absolute;
@@ -317,7 +327,7 @@ svg {
   background: white;
   margin: 0;
   padding: 20px;
-  margin: 0px auto; }
+  margin: 0 auto; }
 
 .summary-box {
   margin: auto;
@@ -388,6 +398,9 @@ a {
 
 nav a {
   color: white; }
+
+.brand:hover {
+  width: 12%; }
 
 .brand {
   width: 10%; }

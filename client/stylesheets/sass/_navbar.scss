@@ -4,8 +4,12 @@ nav a{
   color: white;
 }
 
+.brand:hover{
+  width: 12%;
+}
 .brand{
   width: 10%;
+
   @include phone{
     width: 25%;
   }
