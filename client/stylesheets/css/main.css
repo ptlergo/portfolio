@@ -12,6 +12,8 @@ body {
       text-align: center; } }
   body p {
     font-family: "proxima-nova", Corbel, Arial, sans-serif; }
+  body h1 {
+    font-size: 25px; }
 
 button {
   border: solid #71e2a6 0.21em;
