@@ -15,8 +15,9 @@ function WorksController() {
   apps, web tools, logos, and graphics. My works always begin with the question of 'how do I best
   embody my client's brand?`;
 
-  vm.cases = {
-    1: {
+  vm.cases = [
+    {
+      id: 1,
       name: 'musicem',
       details: 'Web app that aggregates content from curated music brands.',
       challenges: '',
@@ -24,7 +25,8 @@ function WorksController() {
       type: 'app',
       tags: '',
     },
-    2: {
+    {
+      id: 2,
       name: 'winter-soulstice',
       details: 'web app for concert that reserves tickets and as details of performers. ',
       challenges: '',
@@ -32,7 +34,8 @@ function WorksController() {
       type: 'app',
       tags: '',
     },
-    3: {
+    {
+      id: 3,
       name: 'debug-squasher',
       details: 'programming tool published to npm to enhance development.',
       challenges: '',
@@ -40,7 +43,8 @@ function WorksController() {
       type: 'tool',
       tags: '',
     },
-    4: {
+    {
+      id: 4,
       name: 'hamburger icon',
       details: 'angular menu icon with animation.',
       challenges: '',
@@ -48,7 +52,8 @@ function WorksController() {
       type: 'tool',
       tags: '',
     },
-    5: {
+    {
+      id: 5,
       name: '8Pounds Music',
       details: 'WordPress website template with custom css and animations applied.',
       challenges: '',
@@ -56,7 +61,7 @@ function WorksController() {
       type: 'website',
       tags: '',
     },
-  }
+  ];
 }
 
 angular.module('myApp').controller('WorksController', WorksController);
