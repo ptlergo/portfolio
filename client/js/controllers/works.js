@@ -10,20 +10,20 @@
 function WorksController() {
   const vm = this;
   vm.img_src = 'https://marypomerantzadvertising.com/wp-content/uploads/responsiveweb.gif';
-  vm.tagline = 'My Works';
+  vm.tagline = 'Details of some projects i\'ve worked on';
   vm.summary = `My years have been spent creating a range of digital content such as websites
-  apps, web tools, logos, and graphics. My works always begin with the question of 'how do I best
-  embody my client's brand?`;
+  apps, web tools, logos, and graphics. I use a minimalist approach and my philosophy is 'complexity from simplicity'.
+  My works always begin with the question of 'how do I efficiently embody a creative expression of my client's brand?`;
 
   vm.cases = [
     {
       id: 1,
-      name: 'musicem',
+      name: 'music\'em',
       details: 'Web app that aggregates content from curated music brands.',
       challenges: '',
-      image: '',
+      image: '../img/musicem-scroll.gif',
       type: 'app',
-      tech: 'AngularJS, NodeJS, express, firebase, css3, material design, google cloud',
+      tech: 'AngularJS, API, NodeJS, express, firebase, css3, material design, google cloud',
       tags: '',
     },
     {
@@ -31,7 +31,7 @@ function WorksController() {
       name: 'winter-soulstice',
       details: 'web app for concert that reserves tickets and as details of performers. ',
       challenges: '',
-      image: '',
+      image: '../img/winter.gif',
       type: 'app',
       tech: 'codeIgniter, PHP, MongoDB, BootStrap3, JQuery, Heroku',
       tags: '',
@@ -64,6 +64,16 @@ function WorksController() {
       image: '',
       type: 'website',
       tech: 'PHP, css3, JQuery, WordPress',
+      tags: '',
+    },
+    {
+      id: 6,
+      name: 'MY Portfolio Page',
+      details: 'Using angular and css technigues to manipulate svgs and create animations to showcase works and expereince as a developer.',
+      challenges: '',
+      image: '',
+      type: 'web app',
+      tech: 'AngularJS, css3, JQuery, JavaScript',
       tags: '',
     },
   ];
