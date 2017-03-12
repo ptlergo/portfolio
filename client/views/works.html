@@ -1,18 +1,12 @@
 <div ng-controller = 'WorksController as worksCtrl'>
   <div class = "tagline">
-    {{worksCtrl.printWorks}}
+    {{worksCtrl.tagline}}
+    <img ng-src = "{{worksCtrl.img_src}}">
   </div>
-  <div class = "case-1">
-    {{worksCtrl.printWorks}}
+  <div ng-repeat = "case in worksCtrl.cases track by case.id">
+  <div class = "case-container">
+    {{worksCtrl.case}}
   </div>
-  <div class = "case-2">
-    {{worksCtrl.printWorks}}
-  </div>
-  <div class = "case-3">
-    {{worksCtrl.printWorks}}
-  </div>
-  <div class = "case-4">
-    {{worksCtrl.printWorks}}
-  </div>
+</div>
   <button>more projects</button>
 </div>
