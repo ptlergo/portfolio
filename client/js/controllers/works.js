@@ -23,6 +23,7 @@ function WorksController() {
       challenges: '',
       image: '',
       type: 'app',
+      tech: 'AngularJS, NodeJS, express, firebase, css3, material design, google cloud',
       tags: '',
     },
     {
@@ -32,6 +33,7 @@ function WorksController() {
       challenges: '',
       image: '',
       type: 'app',
+      tech: 'codeIgniter, PHP, MongoDB, BootStrap3, JQuery, Heroku',
       tags: '',
     },
     {
@@ -41,6 +43,7 @@ function WorksController() {
       challenges: '',
       image: '',
       type: 'tool',
+      tech: 'NodeJS, javascript, NPM',
       tags: '',
     },
     {
@@ -49,6 +52,7 @@ function WorksController() {
       details: 'angular menu icon with animation.',
       challenges: '',
       image: '',
+      tech: 'AngularJS, angular-animate, css3',
       type: 'tool',
       tags: '',
     },
@@ -59,6 +63,7 @@ function WorksController() {
       challenges: '',
       image: '',
       type: 'website',
+      tech: 'PHP, css3, JQuery, WordPress',
       tags: '',
     },
   ];
