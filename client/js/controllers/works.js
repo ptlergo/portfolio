@@ -15,14 +15,13 @@ function WorksController() {
   vm.summary = `My years have been spent creating a range of digital content such as websites
   apps, web tools, logos, and graphics. I use a minimalist approach and my philosophy is 'complexity from simplicity'.
   My works always begin with the question of 'how do I efficiently embody a creative expression of my client's brand?`;
-
   vm.cases = [
     {
       id: 1,
       name: 'music\'em',
       details: 'Web app that aggregates content from curated music brands.',
       challenges: '',
-      image: '../img/musicem-scroll.gif',
+      image: 'http://marvelapp.com/1f3ia7a?emb=1',
       type: 'app',
       tech: 'AngularJS, API, NodeJS, express, firebase, css3, material design, google cloud',
       tags: '',
