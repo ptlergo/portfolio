@@ -6,6 +6,9 @@
   position: relative;
   height: 600px;
   content: '*';
+  @include phone{
+    height: 300px;
+  }
 
 }
 
@@ -18,4 +21,8 @@
   height: 450px;
 top: 70px;
 position: relative;
+@include phone{
+  height: 224px;
+    top: 39px;
+}
 }
