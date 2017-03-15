@@ -3,10 +3,7 @@
     {{worksCtrl.tagline}}
   </div>
     <div ng-repeat = "case in worksCtrl.cases track by case.id">
-    <div class = "prototype-container">
-      <div class ="prototype-device"></div>
-      <div class = "prototype-screen"></div>
-    </div>
+    <div prototype></div>
   <div class = "case-container">
     {{case.name}}
   </div>
