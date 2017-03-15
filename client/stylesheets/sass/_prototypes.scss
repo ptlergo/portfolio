@@ -1,5 +1,5 @@
 .prototype-device{
-  background-image: url('../../img/iphone.png');
+  @mixin prototype-iphone-img;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -13,7 +13,7 @@
 }
 
 .prototype-screen{
-  background-image: url('https://media.giphy.com/media/3ohzdLBDAwCtfWy6sM/giphy.gif');
+  @mixin prototype-musicem-img;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
