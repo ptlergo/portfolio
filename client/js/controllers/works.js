@@ -9,7 +9,7 @@
 */
 function WorksController(worksService) {
   const vm = this;
-  vm.img_src = 'https://marypomerantzadvertising.com/wp-content/uploads/responsiveweb.gif';
+  vm.img_src = '../../img/iphone.png';
   vm.tagline = 'Details of some projects i\'ve worked on';
   vm.printWorks = 'My Works';
   vm.summary = `My years have been spent creating a range of digital content such as websites
