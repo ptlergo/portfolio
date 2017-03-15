@@ -387,6 +387,9 @@ a {
 .carousel-indicators li {
   visibility: hidden; }
 
+.embedly-responsive {
+  padding-bottom: 70% !important; }
+
 .hamburger-container {
   position: fixed;
   top: 5%;
