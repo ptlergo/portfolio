@@ -100,7 +100,7 @@ svg {
   fill: #3263C9; }
 
 .footer-border svg {
-  background: #3263C9; }
+  background: transparent; }
 
 .footer-border #Triangle {
   fill: #252525; }
@@ -508,7 +508,9 @@ nav a {
   text-align: left; }
   @media only screen and (max-width: 480px) {
     .case-header {
-      width: 50%; } }
+      width: 50%; }
+      .case-header h2 {
+        font-size: 25px; } }
 
 .super-case-container:nth-of-type(odd) .case-container .case-header {
   float: right;

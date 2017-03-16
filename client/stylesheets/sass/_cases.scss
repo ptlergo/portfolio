@@ -10,6 +10,9 @@
   text-align: left;
   @include phone{
     width: 50%;
+    h2{
+      font-size: 25px;
+    }
   }
 }
 .super-case-container:nth-of-type(odd){

@@ -1,6 +1,7 @@
 /*VARIABLES*/
 $font-p: "proxima-nova", Corbel, Arial, sans-serif;
 $font: "nunito", corbel, san-serif;
+$boolean: false;
 
 body {
     font-family: $font;
@@ -101,7 +102,10 @@ svg {
 
 .footer-border {
     svg {
-        background: #3263C9;
+        background: transparent;
+        @if $boolean == true {
+          background: #3263C9;
+        }
     }
 
     #Triangle {
