@@ -471,6 +471,10 @@ nav a {
 .overlay ul {
   list-style: none; }
 
+.prototype {
+  float: left;
+  width: 50%; }
+
 .prototype-device {
   background-image: url("../../img/iphone.png");
   background-size: contain;
@@ -502,12 +506,21 @@ nav a {
   position: relative;
   z-index: 1;
   text-align: left; }
+  @media only screen and (max-width: 480px) {
+    .case-header {
+      width: 50%; } }
 
 .case-details {
   float: right;
   position: relative;
   z-index: 1;
   text-align: right; }
+  @media only screen and (max-width: 480px) {
+    .case-details {
+      width: 50%; } }
+
+.case-container {
+  padding-bottom: 100px; }
 
 footer {
   height: 100%;

@@ -3,16 +3,19 @@
     {{worksCtrl.tagline}}
   </div>
     <div ng-repeat = "case in worksCtrl.cases track by case.id">
+      <div class = "case-container">
       <div class = "case-header">
+        <div class = "case-info">
+        <!-- <i>Tech used: {{case.tech}}</i>
+        <i>Type: {{case.type}}</i> -->
+      </div>
         <h2>{{case.name}}</h2>
         <button>view case study</button>
       </div>
-    <div prototype></div>
+    <div class = "prototype"></div>
     <div class = "case-details">
-      <h2>{{case.details}}</h2>
+      <p>{{case.details}}</p>
     </div>
-  <div class = "case-container">
-    {{case.name}}
   </div>
 </div>
   <button>more projects</button>
