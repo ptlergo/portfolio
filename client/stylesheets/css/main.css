@@ -20,10 +20,7 @@ button {
   line-height: 25px;
   font-weight: lighter;
   background: #71e2a6;
-  color: white;
-  width: 5.54em;
-  height: 5.54em;
-  border-radius: 100%; }
+  color: white; }
 
 .container,
 footer,
