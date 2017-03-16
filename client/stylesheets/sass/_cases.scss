@@ -1,3 +1,8 @@
+.prototype{
+  float: left;
+  width: 50%;
+}
+
 .case-header{
   float: left;
   position: relative;
@@ -9,9 +14,19 @@
 }
 .super-case-container:nth-of-type(odd){
   .case-container .case-header{
-    background: blue;
+    float: right;
+    text-align: right;
+
 
   }
+  .case-container .prototype{
+    float: right;
+  }
+
+  .case-container .case-details{
+    float: left;
+    text-align: left;  }
+
 }
 
 

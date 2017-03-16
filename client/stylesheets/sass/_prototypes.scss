@@ -1,7 +1,4 @@
-.prototype{
-  float: left;
-  width: 50%;
-}
+
 .prototype-device{
   @include prototype-iphone-img;
   background-size: contain;
