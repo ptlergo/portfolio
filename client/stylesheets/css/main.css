@@ -510,7 +510,7 @@ nav a {
     .case-header {
       width: 50%; } }
 
-.super-case-container:nth-of-type(odd) {
+.super-case-container:nth-of-type(odd) .case-container .case-header {
   background: blue; }
 
 .case-details {

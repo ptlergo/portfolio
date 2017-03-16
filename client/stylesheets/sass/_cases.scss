@@ -8,7 +8,10 @@
   }
 }
 .super-case-container:nth-of-type(odd){
-  background: blue;
+  .case-container .case-header{
+    background: blue;
+
+  }
 }
 
 
