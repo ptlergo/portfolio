@@ -510,6 +510,9 @@ nav a {
     .case-header {
       width: 50%; } }
 
+.super-case-container:nth-of-type(odd) {
+  background: blue; }
+
 .case-details {
   float: right;
   position: relative;
@@ -520,7 +523,9 @@ nav a {
       width: 50%; } }
 
 .case-container {
-  padding-bottom: 100px; }
+  margin: 100px auto;
+  overflow: hidden;
+  padding: 0 55px; }
 
 footer {
   height: 100%;
