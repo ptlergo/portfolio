@@ -497,9 +497,10 @@ nav a {
       height: 224px;
       top: 39px; } }
 
-.prototype {
-  float: left;
-  width: 50%; }
+@media only screen and (max-width: 480px) {
+  .prototype {
+    float: left;
+    width: 50%; } }
 
 .case-header {
   float: left;
@@ -516,8 +517,9 @@ nav a {
   float: right;
   text-align: right; }
 
-.super-case-container:nth-of-type(odd) .case-container .prototype {
-  float: right; }
+@media only screen and (max-width: 480px) {
+  .super-case-container:nth-of-type(odd) .case-container .prototype {
+    float: right; } }
 
 .super-case-container:nth-of-type(odd) .case-container .case-details {
   float: left;
