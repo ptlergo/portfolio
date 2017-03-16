@@ -201,6 +201,11 @@ svg {
     margin: 0;
     padding: 20px;
     margin: 0 auto;
+    @include desktop{
+        font-size: 25px;
+        padding: 40px 200px;
+
+    }
 }
 
 .summary-box {
