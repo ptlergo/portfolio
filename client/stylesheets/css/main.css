@@ -506,10 +506,12 @@ nav a {
   float: left;
   position: relative;
   z-index: 1;
-  text-align: left; }
+  text-align: left;
+  margin: 0 10%; }
   @media only screen and (max-width: 480px) {
     .case-header {
-      width: 50%; }
+      width: 50%;
+      margin: 0 auto; }
       .case-header h2 {
         font-size: 25px; } }
 
@@ -529,10 +531,13 @@ nav a {
   float: right;
   position: relative;
   z-index: 1;
-  text-align: right; }
+  text-align: right;
+  bottom: 15em;
+  width: 30%; }
   @media only screen and (max-width: 480px) {
     .case-details {
-      width: 50%; } }
+      width: 50%;
+      top: 0; } }
 
 .case-container {
   margin: 100px auto;
