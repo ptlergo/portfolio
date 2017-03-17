@@ -1,3 +1,5 @@
+<div ng-include ="'views/templates/header.html'"></div>
+
 <section ng-controller='MainController as mainCtrl'>
     <div class="home-s">
 
@@ -26,7 +28,16 @@
         <div class="summary-box">
           <ng-include class="summary-border-t" src = "'img/border-slant.svg'"></ng-include>
             <p class="summary">
-              {{ aboutCtrl.summary }}
+              Hello, I am Patrick, A Digital Designer & Front-End Web Developer with 3+ years of experience based in Florida.
+              I tell unique stories using the digital language.
+              <br>
+              <br>
+              My coded narratives create fully responsive websites and interactive apps
+              that drive sales, boost profitability, and engage users.
+              <br>
+              <br>
+              It brings me joy to collaborate intimately with startups, agencies, and individuals to craft compelling brand identities
+              that live online as a 'digital you'.
             </p>
             <ng-include class="summary-border-b" src = "'img/border-slant.svg'"></ng-include>
         </div>
@@ -73,3 +84,4 @@
 
     </div>
 </section>
+<div ng-include ="'views/templates/footer.html'"></div>

@@ -14,8 +14,8 @@ function AboutController() {
   vm.summary = `
 Hello, I am Patrick, A Digital Designer & Front-End Web Developer with 3+ years of experience based in Florida.
 I tell unique stories using the digital language. My coded narratives create fully interactive and responsive websites and apps
-that drive sales, boost profitability, and engage users. I love to write and am blessed to have my articles about music or tech
-published on various platforms. I love working intimately with startups, agencies, and individuals crafting compelling brand identities
+that drive sales, boost profitability, and engage users. My passion is to write, i'm blessed to have my articles about music or tech
+published on various platforms. It brings me joy to collaborate intimately with startups, agencies, and individuals to craft compelling brand identities
 that live online as a 'digital you'.`;
 }
 
