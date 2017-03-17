@@ -102,13 +102,35 @@ svg {
 .footer-border {
     svg {
         background: #3263c9;
-        display: none;
+        display: transparent;
     }
 
     #Triangle {
         fill: #252525;
     }
 }
+
+#footer-hs .footer-border {
+    svg {
+        background: #3263c9;
+        display: transparent;
+    }
+
+    #Triangle {
+        fill: #252525;
+    }
+}
+
+#footer-ws, #footer-as, #footer-ps .footer-border {
+    svg {
+        background: transparent;
+    }
+
+    #Triangle {
+        fill: #252525;
+    }
+}
+
 /*Title Animation*/
 @mixin title-ribbon-super {
     .title-ribbon {

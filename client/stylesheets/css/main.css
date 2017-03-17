@@ -71,9 +71,22 @@ svg {
 
 .footer-border svg {
   background: #3263c9;
-  display: none; }
+  display: transparent; }
 
 .footer-border #Triangle {
+  fill: #252525; }
+
+#footer-hs .footer-border svg {
+  background: #3263c9;
+  display: transparent; }
+
+#footer-hs .footer-border #Triangle {
+  fill: #252525; }
+
+#footer-ws svg, #footer-as svg, #footer-ps .footer-border svg {
+  background: transparent; }
+
+#footer-ws #Triangle, #footer-as #Triangle, #footer-ps .footer-border #Triangle {
   fill: #252525; }
 
 /*Title Animation*/
