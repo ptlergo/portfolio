@@ -62,6 +62,12 @@ svg {
 .header-border #Triangle {
   fill: #ffffff; }
 
+#header-hs .header-border svg {
+  background: transparent; }
+
+#header-hs .header-border #Triangle {
+  fill: none; }
+
 .summary-box #Triangle {
   fill: white; }
 

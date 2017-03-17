@@ -86,6 +86,16 @@ svg {
     }
 }
 
+#header-hs .header-border{
+  svg {
+      background: transparent;
+  }
+
+  #Triangle {
+      fill: none;
+  }
+}
+
 .summary-box {
     #Triangle {
         fill: white;
