@@ -70,7 +70,8 @@ svg {
   fill: #3263C9; }
 
 .footer-border svg {
-  background: #252525; }
+  background: #252525;
+  display: none; }
 
 .footer-border #Triangle {
   fill: #252525; }
