@@ -56,10 +56,14 @@ svg {
 .works-border #Triangle {
   fill: #252525; }
 
-.header-border svg {
+#header-as .header-border svg,
+#header-ps .header-border svg,
+#header-ws .header-border svg {
   background: #3263C9; }
 
-.header-border #Triangle {
+#header-as .header-border #Triangle,
+#header-ps .header-border #Triangle,
+#header-ws .header-border #Triangle {
   fill: #ffffff; }
 
 #header-hs .header-border svg {
@@ -95,12 +99,18 @@ svg {
 #footer-hs .footer-border #Triangle {
   fill: #252525; }
 
-#footer-ws svg, #footer-as svg, #footer-ps .footer-border svg {
+#footer-as svg,
+#footer-ps .footer-border svg,
+#footer-ws svg {
   background: transparent; }
 
-#footer-ws #Triangle, #footer-as #Triangle, #footer-ps .footer-border #Triangle {
+#footer-as #Triangle,
+#footer-ps .footer-border #Triangle,
+#footer-ws #Triangle {
   fill: #252525; }
 
+#header-as,
+#header-ps,
 #header-ws {
   background: #3263c9; }
 

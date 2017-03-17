@@ -17,8 +17,10 @@ body {
     p {
         font-family: $font-p;
     }
-    h1{
-    font-size: 25px;}
+
+    h1 {
+        font-size: 25px;
+    }
 }
 
 button {
@@ -76,24 +78,28 @@ svg {
     }
 }
 
-.header-border {
-    svg {
-        background: #3263C9;
-    }
+#header-as,
+#header-ps,
+#header-ws {
+    .header-border {
+        svg {
+            background: #3263C9;
+        }
 
-    #Triangle {
-        fill: #ffffff;
+        #Triangle {
+            fill: #ffffff;
+        }
     }
 }
 
-#header-hs .header-border{
-  svg {
-      background: transparent;
-  }
+#header-hs .header-border {
+    svg {
+        background: transparent;
+    }
 
-  #Triangle {
-      fill: none;
-  }
+    #Triangle {
+        fill: none;
+    }
 }
 
 .summary-box {
@@ -141,7 +147,9 @@ svg {
     }
 }
 
-#footer-ws, #footer-as, #footer-ps .footer-border {
+#footer-as,
+#footer-ps .footer-border,
+#footer-ws {
     svg {
         background: transparent;
     }
@@ -151,10 +159,11 @@ svg {
     }
 }
 
-#header-ws{
-  background: #3263c9;
+#header-as,
+#header-ps,
+#header-ws {
+    background: #3263c9;
 }
-
 /*Title Animation*/
 @mixin title-ribbon-super {
     .title-ribbon {
@@ -185,8 +194,9 @@ svg {
 .home-s {
     @include title-ribbon-super;
     height: 60vh;
-    button:hover{
-      zoom: 1.1;
+
+    button:hover {
+        zoom: 1.1;
     }
 
     .home-text {
@@ -248,10 +258,9 @@ svg {
     margin: 0;
     padding: 20px;
     margin: 0 auto;
-    @include desktop{
+    @include desktop {
         font-size: 25px;
         padding: 40px 200px;
-
     }
 }
 
