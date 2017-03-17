@@ -76,6 +76,16 @@ svg {
     }
 }
 
+.header-border {
+    svg {
+        background: #3263C9;
+    }
+
+    #Triangle {
+        fill: #ffffff;
+    }
+}
+
 .summary-box {
     #Triangle {
         fill: white;
@@ -129,6 +139,10 @@ svg {
     #Triangle {
         fill: #252525;
     }
+}
+
+#header-ws{
+  background: #3263c9;
 }
 
 /*Title Animation*/

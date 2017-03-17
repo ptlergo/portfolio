@@ -56,6 +56,12 @@ svg {
 .works-border #Triangle {
   fill: #252525; }
 
+.header-border svg {
+  background: #3263C9; }
+
+.header-border #Triangle {
+  fill: #ffffff; }
+
 .summary-box #Triangle {
   fill: white; }
 
@@ -88,6 +94,9 @@ svg {
 
 #footer-ws #Triangle, #footer-as #Triangle, #footer-ps .footer-border #Triangle {
   fill: #252525; }
+
+#header-ws {
+  background: #3263c9; }
 
 /*Title Animation*/
 .home-s {
