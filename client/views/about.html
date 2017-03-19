@@ -14,25 +14,25 @@
     <div class="prof-container">
         <h1>Proficiencies</h1>
         <div class="proficiencies" ng-repeat="prof in aboutCtrl.profs">
-          <div class = "prof-dev">
-            <h1>{{prof.development.name}}</h1>
-            <div class="dev-skills" ng-repeat="skills in aboutCtrl.skills">
-                <p>{{skills}}</p>
+            <div class="prof-dev">
+                <h1>{{prof.development.name}}</h1>
+                <div class="dev-skills" ng-repeat="skills in aboutCtrl.skills">
+                    <p>{{skills}}</p>
+                </div>
+                <div class="dev-tech" ng-repeat="tech in aboutCtrl.techniquesDev">
+                    <p>{{tech}}</p>
+                </div>
             </div>
-            <div class="dev-tech" ng-repeat="tech in aboutCtrl.techniquesDev">
-                <p>{{tech}}</p>
-            </div>
-          </div>
-          <div class = "prof-des">
-            <h1>{{prof.design.name}}</h1>
-            <div class="des-tools" ng-repeat="skills in aboutCtrl.tools">
-                <p>{{skills}}</p>
-            </div>
-            <div class="des-tech" ng-repeat="tech in aboutCtrl.techniquesDes">
-                <p>{{tech}}</p>
+            <div class="prof-des">
+                <h1>{{prof.design.name}}</h1>
+                <div class="des-tools" ng-repeat="skills in aboutCtrl.tools">
+                    <p>{{skills}}</p>
+                </div>
+                <div class="des-tech" ng-repeat="tech in aboutCtrl.techniquesDes">
+                    <p>{{tech}}</p>
+                </div>
             </div>
         </div>
-      </div>
     </div>
 
     <div class="about-site">
