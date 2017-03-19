@@ -315,9 +315,21 @@ a {
 }
 
 .about-p {
+
   p{
     padding: 10px 20px;
     text-align: left;
+  }
+
+  div[class*='des'], div[class*='dev']{
+    padding: 40px 0;
+
+  }
+
+
+  ul{
+    text-align: left;
+    
   }
   img {
     width: 30%;

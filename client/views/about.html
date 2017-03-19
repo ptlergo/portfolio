@@ -25,15 +25,19 @@
                     <h1>{{prof.development.name}}</h1>
                     <div class="dev-skills-container">
                          {{prof.development.skills.name}}
-                        <div class="dev-skills" ng-repeat="skills in aboutCtrl.skills">
-                            <p>{{skills}}</p>
-                        </div>
+                         <ul>
+                        <li class="dev-skills" ng-repeat="skills in aboutCtrl.skills">
+                            {{skills}}
+                        </li>
+                      </ul>
                     </div>
                     <div class="dev-tech-container">
                          {{prof.development.techniques.name}}
-                        <div class="dev-tech" ng-repeat="tech in aboutCtrl.techniquesDev">
-                            <p>{{tech}}</p>
-                        </div>
+                         <ul>
+                        <li class="dev-tech" ng-repeat="tech in aboutCtrl.techniquesDev">
+                            {{tech}}
+                        </li>
+                      </ul>
                     </div>
                 </div>
                 <ng-include class="summary-border-b" src="'img/border-slant.svg'"></ng-include>
@@ -47,15 +51,29 @@
                     <h1>{{prof.design.name}}</h1>
                     <div class="des-tools-container">
                        {{prof.design.tools.name}}
-                        <div class="des-tools" ng-repeat="tools in aboutCtrl.tools">
-                            <p>{{tools}}</p>
-                        </div>
+                       <ul>
+                        <li class="des-tools" ng-repeat="tools in aboutCtrl.tools">
+                            {{tools}}
+                        </li>
+                      </ul>
+                      <i>
+                        My knowledge as a developer allows me to make consistent layouts
+                        that are user friendly and easy for developers to integrate and
+                        scale reliably.
+                      </i>
                     </div>
                     <div class="des-tech-container">
                          {{prof.design.techniques.name}}
-                        <div class="des-tech" ng-repeat="tech in aboutCtrl.techniquesDes">
-                            <p>{{tech}}</p>
-                        </div>
+                         <ul>
+                        <li class="des-tech" ng-repeat="tech in aboutCtrl.techniquesDes">
+                            {{tech}}
+                        </li>
+                      </ul>
+                      <i>
+                        I am able to work in an agile working enviroment alongside
+                        back-end engineers, designers, and other front-end developers.
+                        I have experience as a Scrum Master.
+                      </i>
                     </div>
                 </div>
                 <ng-include class="summary-border-b" src="'img/border-slant.svg'"></ng-include>
@@ -67,7 +85,16 @@
 
     <div class="summary about-site">
         <h1>About This Site</h1>
-        <p> Built using AngularJS and Node.js for optimal speed and easy SEO integration Css and custom animations written in Sass with. mobile first design philosophy Gulp as my Task manager Jasmine and Karma for unit testing more at github.com/ptlergo/portfolio</p>
+        <p>
+          This website has been built from the ground up. I started with
+          conception using wireframes to execution using prototyping tools
+          and to deployment.
+          Built using AngularJS and Node.js for optimal speed
+          and easy SEO integration Css and custom animations written
+          in Sass with a mobile first design philosophy. Gulp as my Task manager
+          Jasmine and Karma for unit testing more details visit my repo.
+          at github.com/ptlergo/portfolio.
+       </p>
     </div>
 
 </div>

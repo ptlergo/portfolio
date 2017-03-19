@@ -487,6 +487,12 @@ a {
   padding: 10px 20px;
   text-align: left; }
 
+.about-p div[class*='des'], .about-p div[class*='dev'] {
+  padding: 40px 0; }
+
+.about-p ul {
+  text-align: left; }
+
 .about-p img {
   width: 30%; }
 
