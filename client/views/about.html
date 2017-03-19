@@ -21,15 +21,16 @@
                 <ng-include class="summary-border-t" src="'img/border-slant.svg'"></ng-include>
 
                 <div class="summary prof-dev">
+                  <img ng-src="{{prof.development.icon}}">
                     <h1>{{prof.development.name}}</h1>
                     <div class="dev-skills-container">
-                        <img ng-src="{{prof.development.skills.icon}}"> {{prof.development.skills.name}}
+                         {{prof.development.skills.name}}
                         <div class="dev-skills" ng-repeat="skills in aboutCtrl.skills">
                             <p>{{skills}}</p>
                         </div>
                     </div>
                     <div class="dev-tech-container">
-                        <img ng-src="{{prof.development.techniques.icon}}"> {{prof.development.techniques.name}}
+                         {{prof.development.techniques.name}}
                         <div class="dev-tech" ng-repeat="tech in aboutCtrl.techniquesDev">
                             <p>{{tech}}</p>
                         </div>
@@ -42,15 +43,16 @@
                 <ng-include class="summary-border-t" src="'img/border-slant.svg'"></ng-include>
 
                 <div class=" summary prof-des">
+                    <img ng-src="{{prof.design.icon}}">
                     <h1>{{prof.design.name}}</h1>
                     <div class="des-tools-container">
-                        <img ng-src="{{prof.design.tools.icon}}"> {{prof.design.tools.name}}
+                       {{prof.design.tools.name}}
                         <div class="des-tools" ng-repeat="tools in aboutCtrl.tools">
                             <p>{{tools}}</p>
                         </div>
                     </div>
                     <div class="des-tech-container">
-                        <img ng-src="{{prof.design.techniques.icon}}"> {{prof.design.techniques.name}}
+                         {{prof.design.techniques.name}}
                         <div class="des-tech" ng-repeat="tech in aboutCtrl.techniquesDes">
                             <p>{{tech}}</p>
                         </div>
