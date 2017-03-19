@@ -36,7 +36,7 @@ function aboutService() {
                 },
                 'tools': {
                   'name': 'Tools',
-                  'icon': 'Adobe PhotoShop',
+                  'icon': '',
                   'list': ['Adobe Illustrator', 'Adobe PhotoShop', 'Sketch App',
                    'FaceBook Origami', 'MarvelApp', 'InvisionApp'],
                 }

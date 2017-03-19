@@ -22,13 +22,21 @@
 
                 <div class="summary prof-dev">
                     <h1>{{prof.development.name}}</h1>
+                    <div class = "dev-skills-container">
+                      <img ng-src = "{{prof.development.skills.icon}}">
+                    {{prof.development.skills.name}}
                     <div class="dev-skills" ng-repeat="skills in aboutCtrl.skills">
                         <p>{{skills}}</p>
                     </div>
+                  </div>
+                    <div class = "dev-tech-container">
+                      <img ng-src = "{{prof.development.techniques.icon}}">
+                    {{prof.development.techniques.name}}
                     <div class="dev-tech" ng-repeat="tech in aboutCtrl.techniquesDev">
                         <p>{{tech}}</p>
                     </div>
                 </div>
+              </div>
               <ng-include class="summary-border-b" src = "'img/border-slant.svg'"></ng-include>
           </div>
 
