@@ -13,9 +13,11 @@
 </div>
 <div class = "prof-container">
   <h1>Proficiencies</h1>
-  <div class = "proficiencies" ng-repeat = "prof in aboutCtrl.profs track by $index">
-      <h2>{{prof.development.techniques.list[$index]}}</h2>
-      <h1>{{prof.design}}</h1>
+  <div class = "proficiencies" ng-repeat = "prof in aboutCtrl.profs">
+    {{prof.development.name}}
+      <div ng-repeat = "skills in aboutCtrl.skills">
+        {{skills}}
+      </div>
   </div>
 </div>
 
