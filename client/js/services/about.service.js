@@ -20,7 +20,9 @@ function aboutService() {
       skills: {
         name: 'Skills',
         icon: '',
-        list: [],
+        list: ['html5', 'css3', 'angularJS', 'JavaScript/ES6',
+         'JQuery', 'Git Hooks', 'Gulp/Grunt', 'NodeJS',
+         'Sass/Less', 'React', 'ReactNative', 'ionic', ],
       },
     },
     design: {
