@@ -11,22 +11,24 @@
 <div class = "summary">
   <p>{{aboutCtrl.summary}}</p>
 </div>
-<div class = "proficiencies">
+<div class = "proficiencies" ng-repeat = "prof in aboutCtrl.proficiencies">
   <h1>Proficiencies</h1>
 
-</div>
 <div class = "design">
   <h2>Design</h2>
 </div>
 <div class = "development">
   <h2>Development</h2>
 </div>
-<div class = "skills">
-  <h2>Skills</h2>
+  <div class = "skills">
+    <h2>Skills</h2>
+
 </div>
 <div class = "tools">
   <h2>Tools</h2>
 </div>
+</div>
+
 <div class = "about-site">
   <h1>About This Site</h1>
   <p> Built using AngularJS and Node.js for optimal speed and easy SEO integration
