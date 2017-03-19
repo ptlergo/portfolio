@@ -1,6 +1,5 @@
 function CarouselController() {
   const vm = this;
-  vm.msg = 'carousel';
   vm.works = [
     {
       id: 0,

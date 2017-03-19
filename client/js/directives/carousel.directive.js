@@ -11,9 +11,6 @@ function carousel() {
   return {
     restrict: 'AEC',
     templateUrl: 'views/templates/carousel-directive.html',
-    scope: {
-      title: '=',
-    },
   };
 }
 

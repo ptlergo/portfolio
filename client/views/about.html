@@ -1,12 +1,45 @@
-<div id = "header-as" ng-include ="'views/templates/header.html'"></div>
+<div id="header-as" ng-include="'views/templates/header.html'"></div>
 
-<div class = "about-p" ng-controller = 'AboutController as aboutCtrl'>
-  <div class="title-container">
-    <a href="#about" class="title-link">
-      <span class="title-ribbon">
+<div class="about-p" ng-controller='AboutController as aboutCtrl'>
+    <div class="title-container">
+        <a href="#about" class="title-link">
+            <span class="title-ribbon">
         <h1>   {{aboutCtrl.printAbout}}</h1>
       </span>
-  </a>
+        </a>
+    </div>
+    <div class="summary">
+        <p>{{aboutCtrl.summary}}</p>
+    </div>
+    <div class="prof-container">
+        <h1>Proficiencies</h1>
+        <div class="proficiencies" ng-repeat="prof in aboutCtrl.profs">
+            <div class="prof-dev">
+                <h1>{{prof.development.name}}</h1>
+                <div class="dev-skills" ng-repeat="skills in aboutCtrl.skills">
+                    <p>{{skills}}</p>
+                </div>
+                <div class="dev-tech" ng-repeat="tech in aboutCtrl.techniquesDev">
+                    <p>{{tech}}</p>
+                </div>
+            </div>
+            <div class="prof-des">
+                <h1>{{prof.design.name}}</h1>
+                <div class="des-tools" ng-repeat="skills in aboutCtrl.tools">
+                    <p>{{skills}}</p>
+                </div>
+                <div class="des-tech" ng-repeat="tech in aboutCtrl.techniquesDes">
+                    <p>{{tech}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="about-site">
+        <h1>About This Site</h1>
+        <p> Built using AngularJS and Node.js for optimal speed and easy SEO integration Css and custom animations written in Sass with. mobile first design philosophy Gulp as my Task manager Jasmine and Karma for unit testing more at github.com/ptlergo/portfolio</p>
+    </div>
+
 </div>
-</div>
-<div id = "footer-as" ng-include ="'views/templates/footer.html'"></div>
+<button>Resume <i class="fa fa-arrow-down" aria-hidden="true"></i></button>
+<div id="footer-as" ng-include="'views/templates/footer.html'"></div>

@@ -1,7 +1,8 @@
 <div ng-controller="CarouselController as carouselCtrl">
-    <div data-ride="carousel" uib-carousel interval = "3000" >
+    <div uib-carousel data-ride="carousel" interval = "3000"  active="active">
       <div uib-slide ng-repeat="slide in carouselCtrl.works track by slide.id" index="slide.id">
         <img ng-src="{{slide.src}}" style="margin:auto; width: 20%;">
       </div>
+
     </div>
 </div>
