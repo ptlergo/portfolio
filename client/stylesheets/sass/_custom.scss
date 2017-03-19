@@ -253,6 +253,10 @@ svg {
     border-top: #252525 solid 10px;
 }
 
+.works-p, .about-p, .publications-p {
+  @include title-ribbon-super;
+}
+
 .summary {
     background: white;
     margin: 0;

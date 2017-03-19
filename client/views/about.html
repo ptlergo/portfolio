@@ -1,6 +1,12 @@
 <div id = "header-as" ng-include ="'views/templates/header.html'"></div>
 
-<div ng-controller = 'AboutController as aboutCtrl'>
-  {{aboutCtrl.printAbout}}
+<div class = "about-p" ng-controller = 'AboutController as aboutCtrl'>
+  <div class="title-container">
+    <a href="#about" class="title-link">
+      <span class="title-ribbon">
+        <h1>   {{aboutCtrl.printAbout}}</h1>
+      </span>
+  </a>
+</div>
 </div>
 <div id = "footer-as" ng-include ="'views/templates/footer.html'"></div>

@@ -1,6 +1,13 @@
 <div id = "header-ws" ng-include ="'views/templates/header.html'"></div>
 
-<div ng-controller = 'WorksController as worksCtrl'>
+<div class ="works-p" ng-controller = 'WorksController as worksCtrl'>
+  <div class="title-container">
+    <a href="#works" class="title-link">
+      <span class="title-ribbon">
+        <h1>{{ worksCtrl.printWorks }}</h1>
+      </span>
+  </a>
+</div>
   <div class = "tagline">
     {{worksCtrl.tagline}}
   </div>

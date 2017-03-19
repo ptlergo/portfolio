@@ -364,6 +364,80 @@ svg {
     transform: translateY(0px);
     z-index: -1; }
 
+.works-p .title-ribbon, .about-p .title-ribbon, .publications-p .title-ribbon {
+  position: relative;
+  margin: 0 auto;
+  height: 100%;
+  display: block;
+  box-sizing: border-box;
+  transition: 0.3s;
+  z-index: 1;
+  color: white;
+  text-decoration: none; }
+
+.works-p .title-ribbon:hover, .about-p .title-ribbon:hover, .publications-p .title-ribbon:hover {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  transition: 0.3s;
+  z-index: 1;
+  color: white;
+  text-decoration: none; }
+
+.works-p .title-ribbon:before, .about-p .title-ribbon:before, .publications-p .title-ribbon:before {
+  bottom: 5%;
+  content: '';
+  position: absolute;
+  top: 5%;
+  transition: 0.3s;
+  width: 55%;
+  background: #71e2a6;
+  left: 5%;
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px) skewY(-10deg);
+  z-index: -1;
+  -webkit-transform: skewY(-13.02deg); }
+
+.works-p .title-ribbon:hover:before, .about-p .title-ribbon:hover:before, .publications-p .title-ribbon:hover:before {
+  bottom: 5%;
+  content: '';
+  position: absolute;
+  top: 5%;
+  transition: 0.3s;
+  width: 55%;
+  background: inherit;
+  left: 5%;
+  -webkit-transform: translateY(0px);
+  transform: translateY(0px);
+  z-index: -1; }
+
+.works-p .title-ribbon:after, .about-p .title-ribbon:after, .publications-p .title-ribbon:after {
+  bottom: 5%;
+  content: '';
+  position: absolute;
+  top: 5%;
+  transition: 0.3s;
+  width: 55%;
+  background: #e9b921;
+  left: 50%;
+  -webkit-transform: translateY(-4px);
+  transform: translateY(-4px);
+  z-index: -1;
+  -webkit-transform: skewY(-13.02deg); }
+
+.works-p .title-ribbon:hover:after, .about-p .title-ribbon:hover:after, .publications-p .title-ribbon:hover:after {
+  bottom: 5%;
+  content: '';
+  position: absolute;
+  top: 5%;
+  transition: 0.3s;
+  width: 55%;
+  background: inherit;
+  left: 50%;
+  -webkit-transform: translateY(0px);
+  transform: translateY(0px);
+  z-index: -1; }
+
 .summary {
   background: white;
   margin: 0;
