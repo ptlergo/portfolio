@@ -19,10 +19,10 @@
     text-decoration: none;
 }
 @mixin ribbon-before {
-    bottom: 5%;
+    bottom: 0%;
     content: '';
     position: absolute;
-    top: 5%;
+    top: -20%;
     transition: 0.3s;
     width: 55%;
     background: #71e2a6;
@@ -33,37 +33,37 @@
     -webkit-transform: skewY(-13.02deg);
 }
 @mixin ribbon-after {
-    bottom: 5%;
+    bottom: -20%;
     content: '';
     position: absolute;
-    top: 5%;
+    top: 0%;
     transition: 0.3s;
     width: 55%;
     background: #e9b921;
-    left: 50%;
+    right: 5%;
     -webkit-transform: translateY(-4px);
     transform: translateY(-4px);
     z-index: -1;
     -webkit-transform: skewY(-13.02deg);
 }
 @mixin ribbon-hover-after {
-    bottom: 5%;
+    bottom: -20%;
     content: '';
     position: absolute;
-    top: 5%;
+    top: 0%;
     transition: 0.3s;
     width: 55%;
     background: inherit;
-    left: 50%;
+    right: 5%;
     -webkit-transform: translateY(0px);
     transform: translateY(0px);
     z-index: -1;
 }
 @mixin ribbon-hover-before {
-    bottom: 5%;
+    bottom: 0%;
     content: '';
     position: absolute;
-    top: 5%;
+    top: -20%;
     transition: 0.3s;
     width: 55%;
     background: inherit;
