@@ -11,7 +11,8 @@ function AboutController(aboutService) {
   const vm = this;
   vm.img_src = 'https://marypomerantzadvertising.com/wp-content/uploads/responsiveweb.gif';
   vm.printAbout = 'About Me';
-  vm.profs = aboutService;
+  vm.des = aboutService.design;
+  vm.dev = aboutService.development;
   vm.summary = `
 Hello, I am Patrick, A Digital Designer & Front-End Web Developer with 3+ years of experience based in Florida.
 I tell unique stories using the digital language. My coded narratives create fully interactive and responsive websites and apps
