@@ -8,8 +8,29 @@
   * @returns {}
 */
 function aboutService() {
-  return { }
+  return {
+    skills: {
+      name: 'Skills',
+      icon: '',
+      list: [],
+    },
+    design: {
+      name: 'Design',
+      icon: '',
+      list: [],
+    },
+    development: {
+      name: 'Development',
+      icon: '',
+      list: [],
+    },
+    tools: {
+      name: 'Tools',
+      icon: '',
+      list: [],
+    },
 
+   }
 }
 
 angular.module('myApp').factory('aboutService', aboutService);
