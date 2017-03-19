@@ -13,16 +13,16 @@
 </div>
 <div class = "prof-container">
   <h1>Proficiencies</h1>
-  <div class = "proficiencies" ng-repeat = "prof in aboutCtrl.dev track by $index">
-      <h2>{{prof.list[$index]}}</h2>
-      <h2>{{prof.techniques}}</h2>
+  <div class = "proficiencies" ng-repeat = "prof in aboutCtrl.profs track by $index">
+      <h2>{{prof.development.techniques.list[$index]}}</h2>
+      <h1>{{prof.design}}</h1>
   </div>
 </div>
 
 <div class = "about-site">
   <h1>About This Site</h1>
   <p> Built using AngularJS and Node.js for optimal speed and easy SEO integration
-  	  Css and custom animations written in Sass with a mobile first design philosophy
+  	  Css and custom animations written in Sass with. mobile first design philosophy
   	  Gulp as my Task manager
   	  Jasmine and Karma for unit testing
     more at github.com/ptlergo/portfolio</p>
