@@ -45,13 +45,21 @@
 
             <div class=" summary prof-des">
                 <h1>{{prof.design.name}}</h1>
-                <div class="des-tools" ng-repeat="skills in aboutCtrl.tools">
-                    <p>{{skills}}</p>
+                <div class = "des-tools-container">
+                  <img ng-src = "{{prof.design.tools.icon}}">
+                {{prof.design.tools.name}}
+                <div class="des-tools" ng-repeat="tools in aboutCtrl.tools">
+                    <p>{{tools}}</p>
                 </div>
+              </div>
+              <div class = "des-tech-container">
+                <img ng-src = "{{prof.design.techniques.icon}}">
+              {{prof.design.techniques.name}}
                 <div class="des-tech" ng-repeat="tech in aboutCtrl.techniquesDes">
                     <p>{{tech}}</p>
                 </div>
             </div>
+          </div>
             <ng-include class="summary-border-b" src = "'img/border-slant.svg'"></ng-include>
           </div>
         </div>
