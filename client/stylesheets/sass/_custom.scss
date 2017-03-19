@@ -68,6 +68,16 @@ svg {
     }
 }
 
+.about-border-bottom {
+    svg {
+        background: none;
+    }
+
+    #Triangle {
+        fill: #ffffff;
+    }
+}
+
 .works-border {
     svg {
         background: #3263C9;
@@ -302,4 +312,14 @@ a {
 .tagline{
 
   padding-top: 15%;
+}
+
+.about-p {
+  p{
+    padding: 10px 20px;
+    text-align: left;
+  }
+  .about-summary, .about-site{
+    padding: 20px 20px;
+  }
 }

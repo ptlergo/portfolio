@@ -8,31 +8,63 @@
       </span>
         </a>
     </div>
-    <div class="summary">
+    <div class="about-summary">
         <p>{{aboutCtrl.summary}}</p>
     </div>
-    <div class="prof-container">
+    <ng-include class="about-border" src = "'img/border-slant.svg'"></ng-include>
+
+
+    <div class="prof-container about-s">
         <h1>Proficiencies</h1>
         <div class="proficiencies" ng-repeat="prof in aboutCtrl.profs">
-            <div class="prof-dev">
-                <h1>{{prof.development.name}}</h1>
-                <div class="dev-skills" ng-repeat="skills in aboutCtrl.skills">
-                    <p>{{skills}}</p>
+          <div class="summary-box">
+            <ng-include class="summary-border-t" src = "'img/border-slant.svg'"></ng-include>
+
+                <div class="summary prof-dev">
+                    <h1>{{prof.development.name}}</h1>
+                    <div class = "dev-skills-container">
+                      <img ng-src = "{{prof.development.skills.icon}}">
+                    {{prof.development.skills.name}}
+                    <div class="dev-skills" ng-repeat="skills in aboutCtrl.skills">
+                        <p>{{skills}}</p>
+                    </div>
+                  </div>
+                    <div class = "dev-tech-container">
+                      <img ng-src = "{{prof.development.techniques.icon}}">
+                    {{prof.development.techniques.name}}
+                    <div class="dev-tech" ng-repeat="tech in aboutCtrl.techniquesDev">
+                        <p>{{tech}}</p>
+                    </div>
                 </div>
-                <div class="dev-tech" ng-repeat="tech in aboutCtrl.techniquesDev">
-                    <p>{{tech}}</p>
-                </div>
-            </div>
-            <div class="prof-des">
+              </div>
+              <ng-include class="summary-border-b" src = "'img/border-slant.svg'"></ng-include>
+          </div>
+
+          <div class="summary-box">
+            <ng-include class="summary-border-t" src = "'img/border-slant.svg'"></ng-include>
+
+            <div class=" summary prof-des">
                 <h1>{{prof.design.name}}</h1>
-                <div class="des-tools" ng-repeat="skills in aboutCtrl.tools">
-                    <p>{{skills}}</p>
+                <div class = "des-tools-container">
+                  <img ng-src = "{{prof.design.tools.icon}}">
+                {{prof.design.tools.name}}
+                <div class="des-tools" ng-repeat="tools in aboutCtrl.tools">
+                    <p>{{tools}}</p>
                 </div>
+              </div>
+              <div class = "des-tech-container">
+                <img ng-src = "{{prof.design.techniques.icon}}">
+              {{prof.design.techniques.name}}
                 <div class="des-tech" ng-repeat="tech in aboutCtrl.techniquesDes">
                     <p>{{tech}}</p>
                 </div>
             </div>
+          </div>
+            <ng-include class="summary-border-b" src = "'img/border-slant.svg'"></ng-include>
+          </div>
         </div>
+        <ng-include class="about-border-bottom" src = "'img/border-slant.svg'"></ng-include>
+
     </div>
 
     <div class="about-site">
@@ -42,4 +74,5 @@
 
 </div>
 <button>Resume <i class="fa fa-arrow-down" aria-hidden="true"></i></button>
+
 <div id="footer-as" ng-include="'views/templates/footer.html'"></div>

@@ -50,6 +50,12 @@ svg {
 .about-border #Triangle {
   fill: #3263C9; }
 
+.about-border-bottom svg {
+  background: none; }
+
+.about-border-bottom #Triangle {
+  fill: #ffffff; }
+
 .works-border svg {
   background: #3263C9; }
 
@@ -477,12 +483,19 @@ a {
 .tagline {
   padding-top: 15%; }
 
+.about-p p {
+  padding: 10px 20px;
+  text-align: left; }
+
+.about-p .about-summary, .about-p .about-site {
+  padding: 20px 20px; }
+
 .hamburger-container {
   position: fixed;
   top: 5%;
   right: 2%;
   height: 35px;
-  width: 45px;
+  width: 35px;
   cursor: pointer;
   z-index: 100;
   transition: opacity 0.25s ease; }
