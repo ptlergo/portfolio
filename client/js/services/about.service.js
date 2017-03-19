@@ -12,31 +12,33 @@ function aboutService() {
         'Proficiencies': {
             'development': {
                 'name': 'Development',
-                'icon': 'd',
+                'icon': '',
                 'techniques': {
                   'name': 'Techniques',
-                  'list': ['tech', 'd'],
+                  'list': ['Object Oriented Programming', 'MVC', 'MVVM', 'SEO', 'Flux'],
                 },
                 'skills': {
                   'name': 'Skills',
-                  'icon': 'c',
+                  'icon': '',
                   'list': ['html5', 'css3', 'angularJS', 'JavaScript/ES6',
                    'JQuery', 'Git Hooks', 'Gulp/Grunt', 'NodeJS',
-                   'Sass/Less', 'React', 'ReactNative', 'ionic', ],
+                   'Sass/Less','BootStrap','MongoDB', 'MySQL', 'React', 'ReactNative', 'ionic', ],
                 }
             },
             'design': {
                 'name': 'Design',
-                'icon': 'a',
+                'icon': '',
                 'techniques': {
                   'name': 'Techniques',
-                  'icon': 'ic',
-                  'list': ['fd'],
+                  'icon': '',
+                  'list': ['Pixel Perfect Layouts', 'Golden Ratio', 'Rule Of Thirds',
+                  'Material Design', 'Flat Design' ],
                 },
                 'tools': {
                   'name': 'Tools',
-                  'icon': '',
-                  'list': ['ds'],
+                  'icon': 'Adobe PhotoShop',
+                  'list': ['Adobe Illustrator', 'Adobe PhotoShop', 'Sketch App',
+                   'FaceBook Origami', 'MarvelApp', 'InvisionApp'],
                 }
             }
         },
