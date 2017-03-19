@@ -11,21 +11,12 @@
 <div class = "summary">
   <p>{{aboutCtrl.summary}}</p>
 </div>
+<div class = "prof-container">
+<h1>Proficiencies</h1>
 <div class = "proficiencies" ng-repeat = "prof in aboutCtrl.profs">
-  <h1>Proficiencies</h1>
-{{prof.name}}
-<div class = "design">
-  <h2>Design</h2>
+<div class = "{{prof.name}}">
+  <h2>{{prof.name}}</h2>
 </div>
-<div class = "development">
-  <h2>Development</h2>
-</div>
-  <div class = "skills">
-    <h2>Skills</h2>
-
-</div>
-<div class = "tools">
-  <h2>Tools</h2>
 </div>
 </div>
 
