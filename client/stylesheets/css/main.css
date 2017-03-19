@@ -474,6 +474,9 @@ a {
 .carousel-indicators li {
   visibility: hidden; }
 
+.tagline {
+  padding-top: 15%; }
+
 .hamburger-container {
   position: fixed;
   top: 5%;
