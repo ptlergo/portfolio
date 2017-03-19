@@ -9,27 +9,34 @@
 */
 function aboutService() {
   return {
-    skills: {
-      name: 'Skills',
+    development: {
+      name: 'Development',
       icon: '',
-      list: [],
+      techniques: {
+        name: 'Techniques',
+        icon: '',
+        list: [],
+      },
+      skills: {
+        name: 'Skills',
+        icon: '',
+        list: [],
+      },
     },
     design: {
       name: 'Design',
       icon: '',
-      list: [],
+      techniques: {
+        name: 'Techniques',
+        icon: '',
+        list: [],
+      },
+      tools: {
+        name: 'Tools',
+        icon: '',
+        list: [],
+      },
     },
-    development: {
-      name: 'Development',
-      icon: '',
-      list: [],
-    },
-    tools: {
-      name: 'Tools',
-      icon: '',
-      list: [],
-    },
-
    }
 }
 
