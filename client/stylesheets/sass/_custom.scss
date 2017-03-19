@@ -319,6 +319,9 @@ a {
     padding: 10px 20px;
     text-align: left;
   }
+  img {
+    width: 30%;
+  }
   .about-summary, .about-site{
     padding: 20px 100px;
     @include phone{

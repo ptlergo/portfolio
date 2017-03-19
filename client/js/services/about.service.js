@@ -12,7 +12,7 @@ function aboutService() {
         'Proficiencies': {
             'development': {
                 'name': 'Development',
-                'icon': '',
+                'icon': '../../img/computer.svg',
                 'techniques': {
                   'name': 'Techniques',
                   'list': ['Object Oriented Programming', 'MVC', 'MVVM', 'SEO', 'Flux'],
@@ -27,7 +27,7 @@ function aboutService() {
             },
             'design': {
                 'name': 'Design',
-                'icon': '',
+                'icon': '../../img/paint-palette.svg',
                 'techniques': {
                   'name': 'Techniques',
                   'icon': '',
