@@ -9,34 +9,34 @@
 */
 function aboutService() {
   return {
-    development: {
-      name: 'Development',
-      icon: '',
-      techniques: {
-        name: 'Techniques',
-        icon: '',
-        list: [],
+    'development': {
+      'name': 'Development',
+      'icon': 'k',
+      'techniques': {
+        'name': 'Techniques',
+        'icon': '',
+        'list': [],
       },
-      skills: {
-        name: 'Skills',
-        icon: '',
-        list: ['html5', 'css3', 'angularJS', 'JavaScript/ES6',
+      'skills': {
+        'name': 'Skills',
+        'icon': '',
+        'list': ['html5', 'css3', 'angularJS', 'JavaScript/ES6',
          'JQuery', 'Git Hooks', 'Gulp/Grunt', 'NodeJS',
          'Sass/Less', 'React', 'ReactNative', 'ionic', ],
       },
     },
-    design: {
-      name: 'Design',
-      icon: '',
-      techniques: {
-        name: 'Techniques',
-        icon: '',
-        list: [],
+    'design': {
+      'name': 'Design',
+      'icon': '',
+      'techniques': {
+        'name': 'Techniques',
+        'icon': '',
+        'list': [],
       },
-      tools: {
-        name: 'Tools',
-        icon: '',
-        list: [],
+      'tools': {
+        'name': 'Tools',
+        'icon': '',
+        'list': [],
       },
     },
    }
