@@ -474,6 +474,9 @@ a {
 .carousel-indicators li {
   visibility: hidden; }
 
+.tagline {
+  padding-top: 10%; }
+
 .hamburger-container {
   position: fixed;
   top: 5%;
@@ -602,15 +605,15 @@ nav a {
       .case-header h2 {
         font-size: 25px; } }
 
-.super-case-container:nth-of-type(odd) .case-container .case-header {
+.super-case-container:nth-of-type(even) .case-container .case-header {
   float: right;
   text-align: right; }
 
 @media only screen and (max-width: 480px) {
-  .super-case-container:nth-of-type(odd) .case-container .prototype {
+  .super-case-container:nth-of-type(even) .case-container .prototype {
     float: right; } }
 
-.super-case-container:nth-of-type(odd) .case-container .case-details {
+.super-case-container:nth-of-type(even) .case-container .case-details {
   float: left;
   text-align: left; }
 
