@@ -7,7 +7,7 @@
  *
  * @returns {}
  */
-function AboutController() {
+function AboutController(aboutService) {
   const vm = this;
   vm.img_src = 'https://marypomerantzadvertising.com/wp-content/uploads/responsiveweb.gif';
   vm.printAbout = 'About Me';
@@ -19,4 +19,5 @@ published on various platforms. It brings me joy to collaborate intimately with 
 that live online as a 'digital you'.`;
 }
 
+AboutController.$inject = ['aboutService'];
 angular.module('myApp').controller('AboutController', AboutController);
