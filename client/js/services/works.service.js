@@ -27,7 +27,7 @@ function worksService() {
         details: 'web app for concert that reserves tickets and as details of performers. ',
         challenges: '',
         image: '../img/winter.gif',
-        gif_src: 'https://media.giphy.com/media/l0Iy6H2eek61zOIuc/giphy.gif',
+        gif_src: 'https://media.giphy.com/media/l4FGt6kZck8uaVV04/giphy.gif',
         type: 'app',
         tech: 'codeIgniter, PHP, MongoDB, BootStrap3, JQuery, Heroku',
         tags: '',
