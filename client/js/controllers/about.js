@@ -16,12 +16,7 @@ function AboutController(aboutService) {
   vm.techniquesDev = aboutService.Proficiencies.development.techniques.list;
   vm.techniquesDes = aboutService.Proficiencies.design.techniques.list;
   vm.tools = aboutService.Proficiencies.design.tools.list;
-  vm.summary = `
-Hello, I am Patrick, A Digital Designer & Front-End Web Developer with 3+ years of experience based in Florida.
-I tell unique stories using the digital language. My coded narratives create fully interactive and responsive websites and apps
-that drive sales, boost profitability, and engage users. My passion is to write, i'm blessed to have my articles about music or tech
-published on various platforms. It brings me joy to collaborate intimately with startups, agencies, and individuals to craft compelling brand identities
-that live online as a 'digital you'.`;
+  vm.summary = aboutService.summary;
 }
 
 AboutController.$inject = ['aboutService'];
