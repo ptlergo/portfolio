@@ -15,7 +15,7 @@ function aboutService() {
         icon: '../../img/computer.svg',
         techniques: {
           name: 'Techniques',
-          list: ['Object Oriented Programming', 'MVC', 'MVVM', 'SEO', 'Flux'],
+          list: ['Object Oriented Programming', 'MVC', 'MVVM', 'Whitehat SEO', 'Flux'],
         },
         skills: {
           name: 'Skills',
