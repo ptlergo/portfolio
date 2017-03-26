@@ -8,41 +8,41 @@
  * @returns {}
  */
 function aboutService() {
-    return {
-        'Proficiencies': {
-            'development': {
-                'name': 'Development',
-                'icon': '../../img/computer.svg',
-                'techniques': {
-                  'name': 'Techniques',
-                  'list': ['Object Oriented Programming', 'MVC', 'MVVM', 'SEO', 'Flux'],
-                },
-                'skills': {
-                  'name': 'Skills',
-                  'icon': '',
-                  'list': ['html5', 'css3', 'angularJS', 'JavaScript/ES6',
-                   'JQuery', 'Git Hooks', 'Gulp/Grunt', 'NodeJS',
-                   'Sass/Less','BootStrap','MongoDB', 'MySQL', 'React', 'ReactNative', 'ionic', ],
-                }
-            },
-            'design': {
-                'name': 'Design',
-                'icon': '../../img/paint-palette.svg',
-                'techniques': {
-                  'name': 'Techniques',
-                  'icon': '',
-                  'list': ['Pixel Perfect Layouts', 'Golden Ratio', 'Rule Of Thirds',
-                  'Material Design', 'Flat Design' ],
-                },
-                'tools': {
-                  'name': 'Tools',
-                  'icon': '',
-                  'list': ['Adobe Illustrator', 'Adobe PhotoShop', 'Sketch App',
-                   'FaceBook Origami', 'MarvelApp', 'InvisionApp'],
-                }
-            }
+  return {
+    Proficiencies: {
+      development: {
+        name: 'Development',
+        icon: '../../img/computer.svg',
+        techniques: {
+          name: 'Techniques',
+          list: ['Object Oriented Programming', 'MVC', 'MVVM', 'SEO', 'Flux'],
         },
-    }
+        skills: {
+          name: 'Skills',
+          icon: '',
+          list: ['html5', 'css3', 'angularJS', 'JavaScript/ES6',
+            'JQuery', 'Git Hooks', 'Gulp/Grunt', 'NodeJS',
+            'Sass/Less', 'BootStrap', 'MongoDB', 'MySQL', 'React', 'ReactNative', 'ionic'],
+        },
+      },
+      design: {
+        name: 'Design',
+        icon: '../../img/paint-palette.svg',
+        techniques: {
+          name: 'Techniques',
+          icon: '',
+          list: ['Pixel Perfect Layouts', 'Golden Ratio', 'Rule Of Thirds',
+            'Material Design', 'Flat Design'],
+        },
+        tools: {
+          name: 'Tools',
+          icon: '',
+          list: ['Adobe Illustrator', 'Adobe PhotoShop', 'Sketch App',
+            'FaceBook Origami', 'MarvelApp', 'InvisionApp'],
+        },
+      },
+    },
+  };
 }
 
 angular.module('myApp').factory('aboutService', aboutService);
