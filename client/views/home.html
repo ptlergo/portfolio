@@ -1,9 +1,11 @@
 <div id = "header-hs" ng-include ="'views/templates/header.html'"></div>
 
 <section ng-controller='MainController as mainCtrl'>
+
     <div class="home-s">
 
       <div class="circle-container"><div class="circle"></div></div>
+
         <div class="home-text">
             <h2>Patrick Funom Tunga-Lergo</h2>
             <h2>Front-End Web Developer<br>& Digital Designer</h2>
@@ -11,8 +13,13 @@
               resume
               <i class="fa fa-arrow-down" aria-hidden="true"></i>
             </button>
+            <div class = "home-video">
+              <h5>My App. Presentation At Full Sail University</h5>
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/34QRdNYzhbY" frameborder="0" allowfullscreen></iframe>
+            </div>
         </div>
     </div>
+
 
     <ng-include class="about-border" src = "'img/border-slant.svg'"></ng-include>
     <div class="about-s" ng-controller='AboutController as aboutCtrl'>
