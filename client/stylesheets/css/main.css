@@ -73,7 +73,7 @@ svg {
   fill: #ffffff; }
 
 #header-hs .header-border svg {
-  background: transparent; }
+  display: none; }
 
 #header-hs .header-border #Triangle {
   fill: none; }
@@ -122,7 +122,7 @@ svg {
 
 /*Title Animation*/
 .home-s {
-  height: 60vh; }
+  height: 40vh !important; }
   .home-s .title-ribbon {
     position: relative;
     margin: 0 auto;
@@ -569,8 +569,8 @@ nav a {
   color: white;
   text-align: center;
   opacity: 0;
-  -webkit-transition: all linear 0.5s;
-  transition: all linear 0.5s;
+  -webkit-transition: all linear 0.25s;
+  transition: all linear 0.25s;
   font-variant: small-caps; }
   .overlay .nav-links:first-child {
     margin-top: 15%; }
@@ -579,8 +579,8 @@ nav a {
         margin-top: 50%; } }
 
 .overlayActive {
-  -webkit-transition: all linear 0.5s;
-  transition: all linear 0.5s;
+  -webkit-transition: all linear 0.25s;
+  transition: all linear 0.25s;
   opacity: 1; }
 
 .overlay ul {

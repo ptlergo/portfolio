@@ -104,7 +104,7 @@ svg {
 
 #header-hs .header-border {
     svg {
-        background: transparent;
+        display: none;
     }
 
     #Triangle {
@@ -203,7 +203,7 @@ svg {
 
 .home-s {
     @include title-ribbon-super;
-    height: 45vh;
+    height: 40vh !important;
 
     button:hover {
         zoom: 1.1;
