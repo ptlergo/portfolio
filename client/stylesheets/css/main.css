@@ -7,6 +7,8 @@ body {
   flex-direction: column;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased; }
+  body a {
+    color: #ffffff !important; }
   @media only screen and (max-width: 480px) {
     body {
       text-align: center; } }

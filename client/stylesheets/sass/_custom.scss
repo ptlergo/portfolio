@@ -10,6 +10,9 @@ body {
     flex-direction: column;
     -webkit-font-smoothing: antialiased;
     font-smoothing: antialiased;
+    a{
+      color: #ffffff !important;
+    }
     @include phone {
         text-align: center;
     }
@@ -21,6 +24,7 @@ body {
     h1 {
         font-size: 25px;
     }
+
 }
 
 button {
