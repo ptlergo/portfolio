@@ -48,13 +48,12 @@
   float: right;
   position: relative;
   z-index: 1;
-  text-align: right;
+  text-align: left;
   bottom: 15em;
   width: 30%;
   @include phone{
     width: 50%;
     top: 0;
-    margin-right: 17px;
   }
 }
 
