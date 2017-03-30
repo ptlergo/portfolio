@@ -649,6 +649,8 @@ nav a {
   float: right; }
 
 @media only screen and (max-width: 480px) {
+  .super-case-container:nth-of-type(even) .prototype-device {
+    margin-left: -31px; }
   .super-case-container:nth-of-type(even) .case-container .prototype {
     float: right; } }
 
@@ -666,12 +668,13 @@ nav a {
   @media only screen and (max-width: 480px) {
     .case-details {
       width: 50%;
-      top: 0; } }
+      top: 0;
+      margin-right: 17px; } }
 
 .case-container {
   margin: 100px auto;
   overflow: hidden;
-  padding: 0 55px; }
+  padding: 0 38px; }
 
 footer {
   height: 100%;

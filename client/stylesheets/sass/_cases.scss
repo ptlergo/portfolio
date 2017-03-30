@@ -27,6 +27,9 @@
 
   }
   @include phone{
+    .prototype-device{
+      margin-left: -31px;
+    }
 
   .case-container .prototype{
     float: right;
@@ -51,11 +54,12 @@
   @include phone{
     width: 50%;
     top: 0;
+    margin-right: 17px;
   }
 }
 
 .case-container{
   margin: 100px auto;
   overflow: hidden;
-  padding: 0 55px;
+  padding: 0 38px;
 }
