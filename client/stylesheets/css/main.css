@@ -610,10 +610,11 @@ nav a {
   content: '*'; }
   @media only screen and (max-width: 480px) {
     .prototype-device {
-      height: 300px; } }
+      height: 300px;
+      width: 110%; } }
 
 .prototype-screen {
-  background-image: url("https://media.giphy.com/media/3ohzdLBDAwCtfWy6sM/giphy.gif");
+  background-image: url("");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -639,14 +640,13 @@ nav a {
   margin: 0 10%; }
   @media only screen and (max-width: 480px) {
     .case-header {
-      width: 50%;
+      width: 45%;
       margin: 0 auto; }
       .case-header h2 {
         font-size: 25px; } }
 
 .super-case-container:nth-of-type(even) .case-container .case-header {
-  float: right;
-  text-align: right; }
+  float: right; }
 
 @media only screen and (max-width: 480px) {
   .super-case-container:nth-of-type(even) .case-container .prototype {

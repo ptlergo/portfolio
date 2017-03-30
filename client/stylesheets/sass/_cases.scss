@@ -14,7 +14,7 @@
   text-align: left;
   margin: 0 10%;
   @include phone{
-    width: 50%;
+    width: 45%;
     margin: 0 auto;
     h2{
       font-size: 25px;
@@ -24,8 +24,6 @@
 .super-case-container:nth-of-type(even){
   .case-container .case-header{
     float: right;
-    text-align: right;
-
 
   }
   @include phone{
