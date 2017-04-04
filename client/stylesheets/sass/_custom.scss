@@ -290,21 +290,12 @@ svg {
     border-top: #252525 solid 10px;
 }
 
-.about-p,
-.publications-p,
-.works-p {
-    @include title-ribbon-super;
-    .summary-box{
-      width: 90%;
-    }
-}
-
 .summary {
     background: white;
     padding: 30px;
     margin: 0 auto;
     @include desktop {
-        padding: 40px 200px;
+      padding: 40px 300px;
     }
 }
 
@@ -341,27 +332,4 @@ a {
 
 .tagline {
     padding-top: 15%;
-}
-
-.about-p {
-    p {
-        padding: 10px 20px;
-    }
-
-    div[class*='des'],
-    div[class*='dev'] {
-        padding: 40px 0;
-    }
-
-    img {
-        width: 30%;
-    }
-
-    .about-site,
-    .about-summary {
-        padding: 20px 100px;
-        @include phone {
-            padding: 20px;
-        }
-    }
 }
