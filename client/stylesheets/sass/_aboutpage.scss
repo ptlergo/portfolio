@@ -1,0 +1,29 @@
+.about-p,
+.publications-p,
+.works-p {
+    @include title-ribbon-super;
+
+    .summary-box {
+        width: 90%;
+    }
+}
+
+.about-p {
+  h2{
+    color: #ffffff;
+  }
+  p{
+    padding: 50px 300px;
+  }
+  img{
+    width: 20%;
+  }
+  @include phone{
+    p{
+      padding: 35px;
+    }
+    img{
+      width: 30%;
+    }
+  }
+}
