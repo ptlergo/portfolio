@@ -662,14 +662,13 @@ nav a {
   float: right;
   position: relative;
   z-index: 1;
-  text-align: right;
+  text-align: left;
   bottom: 15em;
   width: 30%; }
   @media only screen and (max-width: 480px) {
     .case-details {
       width: 50%;
-      top: 0;
-      margin-right: 17px; } }
+      top: 0; } }
 
 .case-container {
   margin: 100px auto;
