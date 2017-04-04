@@ -16,15 +16,15 @@
 
     <div class="prof-container about-s">
         <h1>Proficiencies</h1>
-        <div class="proficiencies" ng-repeat="prof in aboutCtrl.profs">
+        <div class="proficiencies" ng-repeat="prof in aboutCtrl.profs track by $index">
             <div class="summary-box">
                 <ng-include class="summary-border-t" src="'img/border-slant.svg'"></ng-include>
 
                 <div class="summary prof-dev">
                   <img ng-src="{{prof.development.icon}}">
-                    {{prof.development.name}}
+                    <h1>{{prof.development.name}}</h1>
                     <div class="dev-skills-container">
-                         <h3>{{prof.development.skills.name}}</h3>
+                         {{prof.development.skills.name}}
                          <ul>
                         <li class="dev-skills" ng-repeat="skills in aboutCtrl.skills">
                             {{skills}}
@@ -32,7 +32,7 @@
                       </ul>
                     </div>
                     <div class="dev-tech-container">
-                         <h3>{{prof.development.techniques.name}}</h3>
+                         {{prof.development.techniques.name}}
                          <ul>
                         <li class="dev-tech" ng-repeat="tech in aboutCtrl.techniquesDev">
                             {{tech}}
@@ -48,9 +48,9 @@
 
                 <div class=" summary prof-des">
                     <img ng-src="{{prof.design.icon}}">
-                    {{prof.design.name}}
+                    <h1>{{prof.design.name}}</h1>
                     <div class="des-tools-container">
-                       <h3>{{prof.design.tools.name}}</h3>
+                       {{prof.design.tools.name}}
                        <ul>
                         <li class="des-tools" ng-repeat="tools in aboutCtrl.tools">
                             {{tools}}
@@ -63,7 +63,7 @@
                       </i>
                     </div>
                     <div class="des-tech-container">
-                         <h3>{{prof.design.techniques.name}}</h3>
+                         {{prof.design.techniques.name}}
                          <ul>
                         <li class="des-tech" ng-repeat="tech in aboutCtrl.techniquesDes">
                             {{tech}}
@@ -84,7 +84,7 @@
     </div>
 
     <div class="summary about-site">
-        <h2>About This Site</h2>
+        <h1>About This Site</h1>
         <p>
           This website has been built from the ground up. I started with
           conception using wireframes to execution using prototyping tools
