@@ -17,9 +17,14 @@
             </button>
         </div>
     </div>
-
-    <ng-include class = "h-section"  src = "'views/home/about-section.html'"></ng-include>
-    <ng-include class = "h-section"  src = "'views/home/works-section.html'"></ng-include>
-    <ng-include class = "h-section"  src = "'views/home/publications-section.html'"></ng-include>
+    <div class = "h-section-animate-container">
+      <ng-include class = "h-section-animate"  src = "'views/home/about-section.html'"></ng-include>
+    </div>
+    <div class = "h-section-animate-container">
+      <ng-include class = "h-section-animate"  src = "'views/home/works-section.html'"></ng-include>
+    </div>
+    <div class = "h-section-animate-container">
+      <ng-include class = "h-section-animate"  src = "'views/home/publications-section.html'"></ng-include>
+    </div>
 </section>
 <div id = "footer-hs" ng-include ="'views/templates/footer.html'"></div>
