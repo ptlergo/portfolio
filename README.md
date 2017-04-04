@@ -1,3 +1,4 @@
+![logo](https://github.com/ptlergo/portfolio/blob/master/client/img/pat-logo-lg.png?raw=true)
 # portfolio
 [https://github.com/ptlergo/portfolio](https://github.com/ptlergo/portfolio) Repo For Portfolio Site Built With Angular & Node.
 
