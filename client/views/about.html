@@ -22,9 +22,9 @@
 
                 <div class="summary prof-dev">
                   <img ng-src="{{prof.development.icon}}">
-                    <h1>{{prof.development.name}}</h1>
+                    {{prof.development.name}}
                     <div class="dev-skills-container">
-                         {{prof.development.skills.name}}
+                         <h3>{{prof.development.skills.name}}</h3>
                          <ul>
                         <li class="dev-skills" ng-repeat="skills in aboutCtrl.skills">
                             {{skills}}
@@ -32,7 +32,7 @@
                       </ul>
                     </div>
                     <div class="dev-tech-container">
-                         {{prof.development.techniques.name}}
+                         <h3>{{prof.development.techniques.name}}</h3>
                          <ul>
                         <li class="dev-tech" ng-repeat="tech in aboutCtrl.techniquesDev">
                             {{tech}}
@@ -48,9 +48,9 @@
 
                 <div class=" summary prof-des">
                     <img ng-src="{{prof.design.icon}}">
-                    <h1>{{prof.design.name}}</h1>
+                    {{prof.design.name}}
                     <div class="des-tools-container">
-                       {{prof.design.tools.name}}
+                       <h3>{{prof.design.tools.name}}</h3>
                        <ul>
                         <li class="des-tools" ng-repeat="tools in aboutCtrl.tools">
                             {{tools}}
@@ -63,7 +63,7 @@
                       </i>
                     </div>
                     <div class="des-tech-container">
-                         {{prof.design.techniques.name}}
+                         <h3>{{prof.design.techniques.name}}</h3>
                          <ul>
                         <li class="des-tech" ng-repeat="tech in aboutCtrl.techniquesDes">
                             {{tech}}
@@ -84,7 +84,7 @@
     </div>
 
     <div class="summary about-site">
-        <h1>About This Site</h1>
+        <h2>About This Site</h2>
         <p>
           This website has been built from the ground up. I started with
           conception using wireframes to execution using prototyping tools
