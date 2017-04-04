@@ -15,7 +15,7 @@ function aboutService() {
         icon: '../../img/computer.svg',
         techniques: {
           name: 'Techniques',
-          list: ['Object Oriented Programming', 'MVC', 'MVVM', 'Whitehat SEO', 'Flux'],
+          list: ['Object Oriented Programming', 'MVC', 'MVVM', 'Whitehat SEO', 'Digital Marketing', 'Flux Application Architecture'],
         },
         skills: {
           name: 'Skills',
@@ -43,14 +43,13 @@ function aboutService() {
       },
     },
     summary: `
-              Hello, I am Patrick Funom Tunga-Lergo, A Digital Designer & Front-End Web Developer
+              Hello, I'm Patrick Funom Tunga-Lergo, A Digital Designer & Front-End Web Developer
               with 3+ years of experience based in Orlando, Florida. I tell unique stories using
-              the digital language. My coded narratives develop fully interactive and responsive
-              websites as well as apps that drive sales, boost profitability, and engage users.
-              Another passion of mine besides soccer is writing. I'm blessed to have my articles
-              about music, also tech, published on various platforms. It brings me joy to
-              collaborate intimately with startups, agencies, and individuals to craft compelling
-              brand identities that live online as a 'digital you'.`,
+              digital languages. My coded narratives develop fully interactive and responsive
+              websites as well as apps that drive sales, boost profitability, and engage consumers.
+              Another passion of mine, besides soccer, is writing. My articles about music, and tech,
+              are published on various platforms. It brings me joy to collaborate intimately with startups,
+              agencies, and individuals to craft compelling brand identities that live online as a 'digital you'.`,
   };
 }
 
