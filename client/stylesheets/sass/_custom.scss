@@ -1,6 +1,8 @@
 /*VARIABLES*/
 $font-p: "proxima-nova", Corbel, Arial, sans-serif;
 $font: "nunito", corbel, san-serif;
+$font-desktop-p: 2rem;
+$font-mobile-p: 1.6rem;
 
 body {
     font-family: $font;
@@ -13,16 +15,23 @@ body {
     a{
       color: #ffffff !important;
     }
-    @include phone {
-        text-align: center;
-    }
 
     p {
         font-family: $font-p;
+        font-size: $font-desktop-p;
+        line-height: 1.875;
+        @include phone{
+          font-size: $font-mobile-p;
+          line-height: 1.65;
+        }
     }
 
     h1 {
         font-size: 25px;
+    }
+
+    ul{
+      list-style: none;
     }
 
 }
@@ -216,7 +225,6 @@ svg {
     .home-text {
         max-width: 40%;
         margin: 10% 0 0 2%;
-        text-align: left;
     }
 
     h2 {
@@ -288,21 +296,16 @@ svg {
 
 .summary {
     background: white;
-    margin: 0;
-    padding: 20px;
+    padding: 30px;
     margin: 0 auto;
     @include desktop {
-        font-size: 25px;
         padding: 40px 200px;
     }
 }
 
 .summary-box {
     margin: auto;
-    width: 75%;
-    @include desktop {
-        width: 85%;
-    }
+    width: 90%;
 }
 
 .title-container {
@@ -337,7 +340,6 @@ a {
 
   p{
     padding: 10px 20px;
-    text-align: left;
   }
 
   div[class*='des'], div[class*='dev']{
@@ -345,11 +347,6 @@ a {
 
   }
 
-
-  ul{
-    text-align: left;
-
-  }
   img {
     width: 30%;
   }
