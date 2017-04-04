@@ -32,10 +32,6 @@ function NavController() {
       name: 'Works',
       url: '#works',
     },
-    {
-      name: 'Contact',
-      url: '#footer',
-    },
   ];
 }
 angular.module('myApp').controller('NavController', NavController);
