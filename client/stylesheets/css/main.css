@@ -202,7 +202,8 @@ svg {
     zoom: 1.1; }
   .home-s .home-text {
     max-width: 40%;
-    margin: 10% 0 0 2%; }
+    margin: 10% 0 0 2%;
+    text-align: left; }
   .home-s h2 {
     font-size: 20px; }
   .home-s h2:first-child {
