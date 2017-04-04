@@ -15,8 +15,8 @@
 
 
     <div class="prof-container about-s">
-        <h1>Proficiencies</h1>
-        <div class="proficiencies" ng-repeat="prof in aboutCtrl.profs">
+        <h2>Proficiencies</h2>
+        <div class="proficiencies" ng-repeat="prof in aboutCtrl.profs track by $index">
             <div class="summary-box">
                 <ng-include class="summary-border-t" src="'img/border-slant.svg'"></ng-include>
 
