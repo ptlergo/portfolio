@@ -292,11 +292,12 @@ svg {
 
 .summary {
     background: white;
-    padding: 30px;
     margin: 0 auto;
-    @include desktop {
-      padding: 40px 300px;
+    padding: 30px 250px;
+    @include phone{
+      padding: 50px;
     }
+
 }
 
 .summary-box {

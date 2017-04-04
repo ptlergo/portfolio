@@ -391,11 +391,11 @@ svg {
 
 .summary {
   background: white;
-  padding: 30px;
-  margin: 0 auto; }
-  @media only screen and (min-width: 769px) and (max-width: 1624px) {
+  margin: 0 auto;
+  padding: 30px 250px; }
+  @media only screen and (max-width: 480px) {
     .summary {
-      padding: 40px 300px; } }
+      padding: 50px; } }
 
 .summary-box {
   margin: auto;
@@ -519,9 +519,6 @@ a {
 
 .about-p h2 {
   color: #ffffff; }
-
-.about-p p {
-  padding: 50px 300px; }
 
 .about-p img {
   width: 20%; }
