@@ -395,7 +395,7 @@ svg {
   padding: 30px 250px; }
   @media only screen and (max-width: 480px) {
     .summary {
-      padding: 50px; } }
+      padding: 45px; } }
 
 .summary-box {
   margin: auto;
@@ -517,15 +517,19 @@ a {
 .works-p .summary-box {
   width: 90%; }
 
+.about-p ul {
+  list-style: circle; }
+
+.about-p .proficiencies {
+  text-align: left; }
+
 .about-p h2 {
   color: #ffffff; }
 
 .about-p img {
-  width: 20%; }
+  width: 10%; }
 
 @media only screen and (max-width: 480px) {
-  .about-p p {
-    padding: 35px; }
   .about-p img {
     width: 30%; } }
 
