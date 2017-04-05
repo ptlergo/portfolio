@@ -17,14 +17,10 @@
             </button>
         </div>
     </div>
-    <div class = "h-section-animate-container">
-      <ng-include class = "h-section-animate"  src = "'views/home/about-section.html'"></ng-include>
+
+    <div class = "h-section-animate-container" ng-repeat = "temps in mainCtrl.templates">
+      <div class = "h-section-animate"  ng-include = "temps.url"></div>
     </div>
-    <div class = "h-section-animate-container">
-      <ng-include class = "h-section-animate"  src = "'views/home/works-section.html'"></ng-include>
-    </div>
-    <div class = "h-section-animate-container">
-      <ng-include class = "h-section-animate"  src = "'views/home/publications-section.html'"></ng-include>
-    </div>
+
 </section>
 <div id = "footer-hs" ng-include ="'views/templates/footer.html'"></div>

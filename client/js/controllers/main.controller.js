@@ -10,6 +10,7 @@
 function MainController() {
   const vm = this;
   vm.main_logo = '../../img/pat-logo.svg';
+  vm.test = 'dd';
 
   vm.templates = [
     { name: 'about', url: 'views/home/about-section.html' },
