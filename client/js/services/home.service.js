@@ -25,6 +25,7 @@ function homeService() {
         title: 'My Works',
         tagline: 'Details of some projects i\'ve worked on',
         templateUrl: 'views/home/works-section.html',
+        imgUrl: '../../img/iphone.png',
         summary: `My years have been spent creating a variety of digital content as a Full Sail University
                   Web Design & Development student, and for clients such as: musicians, agencies, and companies.
                   I've made websites, apps, web tools, logos, and graphics. I believe that simplicity can

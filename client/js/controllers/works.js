@@ -9,10 +9,11 @@
 */
 function WorksController(worksService, homeService) {
   const vm = this;
-  vm.img_src = '../../img/iphone.png';
-  vm.tagline = homeService.Content.works.tagline;
-  vm.title = homeService.Content.works.title;
-  vm.summary = homeService.Content.works.summary;
+  const works = homeService.Content.works;
+  vm.img_src = works.imgUrl;
+  vm.tagline = works.tagline;
+  vm.title = works.title;
+  vm.summary = works.summary;
   vm.cases = worksService.caseStudies;
 }
 WorksController.$inject = ['worksService', 'homeService'];
