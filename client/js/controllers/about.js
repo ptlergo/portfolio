@@ -10,7 +10,7 @@
 function AboutController(aboutService) {
   const vm = this;
   vm.img_src = 'https://marypomerantzadvertising.com/wp-content/uploads/responsiveweb.gif';
-  vm.printAbout = 'About Me';
+  vm.title = 'About Me';
   vm.profs = aboutService;
   vm.skills = aboutService.Proficiencies.development.skills.list;
   vm.techniquesDev = aboutService.Proficiencies.development.techniques.list;

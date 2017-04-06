@@ -10,7 +10,7 @@
 function PublicationsController(homeService) {
   const vm = this;
   vm.img_src = 'https://marypomerantzadvertising.com/wp-content/uploads/responsiveweb.gif';
-  vm.printWritings = homeService.Content.publications.title;
+  vm.title = homeService.Content.publications.title;
   vm.summary = homeService.Content.publications.summary;
 }
 PublicationsController.$inject = ['homeService'];
