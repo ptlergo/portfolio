@@ -7,10 +7,10 @@
   *
   * @returns {}
 */
-function HomeController() {
+function HomeController(homeService) {
   const vm = this;
   vm.main_logo = '../../img/pat-logo.svg';
-
+  vm.homeService = homeService;
   vm.templates = [
     { name: 'about', url: 'views/home/about-section.html' },
     { name: 'works', url: 'views/home/works-section.html' },
@@ -18,5 +18,5 @@ function HomeController() {
   ];
 }
 
-
+HomeController.$inject = ['homeService'];
 angular.module('myApp').controller('HomeController', HomeController);

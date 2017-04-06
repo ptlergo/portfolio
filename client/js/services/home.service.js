@@ -8,6 +8,24 @@
   * @returns {}
 */
 function homeService() {
-  return {}
+  return {
+    Content: {
+      about: {
+        title: 'About Me',
+        template: '',
+        summary: '',
+      },
+      works: {
+        title: 'About Me',
+        template: '',
+        summary: '',
+      },
+      publication: {
+        title: 'About Me',
+        template: '',
+        summary: '',
+      },
+    },
+  };
 }
 angular.module('myApp').factory('homeService', homeService);
