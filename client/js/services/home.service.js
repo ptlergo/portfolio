@@ -28,7 +28,10 @@ function homeService() {
       publications: {
         title: 'My Publications',
         templateUrl: 'views/home/publications-section.html',
-        summary: '',
+        summary: `From writing code to writing literature, my passions are intertwined. Some
+                  of my writings are for brand identies such as taglines, artists bios,
+                  and advertisement copy. I also write articles on my own publication, 8Pounds Music,
+                  and blog about tech on Medium during my free time.`,
       },
     },
   };
