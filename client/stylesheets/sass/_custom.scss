@@ -23,7 +23,7 @@ body {
     a:hover{
       color: #ffffff;
       opacity: .6;
-      font-size: 90%;
+      // font-size: 90%;
     }
 
     p {
@@ -37,7 +37,7 @@ body {
     }
 
     h1 {
-        font-size: 25px;
+        // font-size: 25px;
     }
 
     ul {
@@ -47,7 +47,7 @@ body {
 
 button {
     border: solid #71e2a6 0.21em;
-    line-height: 25px;
+    // line-height: 25px;
     font-weight: lighter;
     background: #71e2a6;
     color: white;
@@ -75,121 +75,7 @@ header {
 footer {
     order: 3;
 }
-/*Border triangle svg*/
-svg {
-    margin-bottom: -7px;
-}
 
-.about-border {
-    svg {
-        background: none;
-    }
-
-    #Triangle {
-        fill: #3263C9;
-    }
-}
-
-.about-border-bottom {
-    svg {
-        background: none;
-    }
-
-    #Triangle {
-        fill: #ffffff;
-    }
-}
-
-.works-border {
-    svg {
-        background: #3263C9;
-    }
-
-    #Triangle {
-        fill: #252525;
-    }
-}
-
-#header-as,
-#header-ps,
-#header-ws {
-    .header-border {
-        svg {
-            background: #3263C9;
-        }
-
-        #Triangle {
-            fill: #ffffff;
-        }
-    }
-}
-
-#header-hs .header-border {
-    svg {
-        display: none;
-    }
-
-    #Triangle {
-        fill: none;
-    }
-}
-
-.summary-box {
-    #Triangle {
-        fill: white;
-    }
-
-    .summary-border-b {
-        svg {
-            transform: rotate(180deg);
-            margin-bottom: -5px;
-        }
-    }
-}
-
-.publications-border {
-    svg {
-        background: #252525;
-    }
-
-    #Triangle {
-        fill: #3263C9;
-    }
-}
-
-.footer-border {
-    svg {
-        background: #3263c9;
-        display: transparent;
-    }
-
-    #Triangle {
-        fill: #252525;
-    }
-}
-
-#footer-hs .footer-border {
-    svg {
-        background: #3263c9;
-        display: transparent;
-    }
-
-    #Triangle {
-        fill: #252525;
-    }
-}
-
-#footer-as,
-#footer-ps .footer-border,
-#footer-ws {
-    svg {
-        background: transparent;
-    }
-
-    #Triangle {
-        fill: #252525;
-    }
-}
 
 #header-as,
 #header-ps,
@@ -238,30 +124,18 @@ svg {
     }
 
     h2 {
-        font-size: 20px;
+        // font-size: 20px;
     }
 
     h2:first-child {
-        font-size: 30px;
+        // font-size: 30px;
     }
 
     img {
         width: 25%;
     }
 
-    .home-video {
-        margin: 10% auto;
-        height: 315px;
-        width: 580px;
-        float: left;
-        clear: both;
-        text-decoration: underline;
-        color: #3263c9;
-        @include phone {
-            width: 100%;
-            height: 100%;
-        }
-    }
+
     @include desktop {
         padding-bottom: 35%;
     }
@@ -272,11 +146,11 @@ svg {
         }
 
         h2 {
-            font-size: 15px;
+            // font-size: 15px;
         }
 
         h2:first-child {
-            font-size: 20px;
+            // font-size: 20px;
         }
         padding-top: 10% !important;
 
@@ -290,13 +164,11 @@ svg {
 .publications-s {
     @include title-ribbon-super;
     background: #3263C9;
-    border-top: #3263C9 solid 10px;
 }
 
 .works-s {
     @include title-ribbon-super;
     background: #252525;
-    border-top: #252525 solid 10px;
 }
 
 .summary {

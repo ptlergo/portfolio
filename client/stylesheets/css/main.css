@@ -15,8 +15,7 @@ body {
     background: inherit !important; }
   body a:hover {
     color: #ffffff;
-    opacity: .6;
-    font-size: 90%; }
+    opacity: .6; }
   body p {
     font-family: "proxima-nova", Corbel, Arial, sans-serif;
     font-size: 2rem;
@@ -25,14 +24,11 @@ body {
       body p {
         font-size: 1.6rem;
         line-height: 1.65; } }
-  body h1 {
-    font-size: 25px; }
   body ul {
     list-style: none; }
 
 button {
   border: solid #71e2a6 0.21em;
-  line-height: 25px;
   font-weight: lighter;
   background: #71e2a6;
   color: white; }
@@ -54,81 +50,6 @@ header {
 
 footer {
   order: 3; }
-
-/*Border triangle svg*/
-svg {
-  margin-bottom: -7px; }
-
-.about-border svg {
-  background: none; }
-
-.about-border #Triangle {
-  fill: #3263C9; }
-
-.about-border-bottom svg {
-  background: none; }
-
-.about-border-bottom #Triangle {
-  fill: #ffffff; }
-
-.works-border svg {
-  background: #3263C9; }
-
-.works-border #Triangle {
-  fill: #252525; }
-
-#header-as .header-border svg,
-#header-ps .header-border svg,
-#header-ws .header-border svg {
-  background: #3263C9; }
-
-#header-as .header-border #Triangle,
-#header-ps .header-border #Triangle,
-#header-ws .header-border #Triangle {
-  fill: #ffffff; }
-
-#header-hs .header-border svg {
-  display: none; }
-
-#header-hs .header-border #Triangle {
-  fill: none; }
-
-.summary-box #Triangle {
-  fill: white; }
-
-.summary-box .summary-border-b svg {
-  transform: rotate(180deg);
-  margin-bottom: -5px; }
-
-.publications-border svg {
-  background: #252525; }
-
-.publications-border #Triangle {
-  fill: #3263C9; }
-
-.footer-border svg {
-  background: #3263c9;
-  display: transparent; }
-
-.footer-border #Triangle {
-  fill: #252525; }
-
-#footer-hs .footer-border svg {
-  background: #3263c9;
-  display: transparent; }
-
-#footer-hs .footer-border #Triangle {
-  fill: #252525; }
-
-#footer-as svg,
-#footer-ps .footer-border svg,
-#footer-ws svg {
-  background: transparent; }
-
-#footer-as #Triangle,
-#footer-ps .footer-border #Triangle,
-#footer-ws #Triangle {
-  fill: #252525; }
 
 #header-as,
 #header-ps,
@@ -212,24 +133,8 @@ svg {
     max-width: 40%;
     margin: 10% 0 0 2%;
     text-align: left; }
-  .home-s h2 {
-    font-size: 20px; }
-  .home-s h2:first-child {
-    font-size: 30px; }
   .home-s img {
     width: 25%; }
-  .home-s .home-video {
-    margin: 10% auto;
-    height: 315px;
-    width: 580px;
-    float: left;
-    clear: both;
-    text-decoration: underline;
-    color: #3263c9; }
-    @media only screen and (max-width: 480px) {
-      .home-s .home-video {
-        width: 100%;
-        height: 100%; } }
   @media only screen and (min-width: 769px) and (max-width: 1624px) {
     .home-s {
       padding-bottom: 35%; } }
@@ -239,17 +144,12 @@ svg {
       .home-s .home-text {
         margin: 10% 0 0 5%;
         max-width: 70%; }
-      .home-s h2 {
-        font-size: 15px; }
-      .home-s h2:first-child {
-        font-size: 20px; }
       .home-s img {
         width: 50%; } }
 
 .about-s,
 .publications-s {
-  background: #3263C9;
-  border-top: #3263C9 solid 10px; }
+  background: #3263C9; }
   .about-s .title-ribbon,
   .publications-s .title-ribbon {
     position: relative;
@@ -326,8 +226,7 @@ svg {
     z-index: -1; }
 
 .works-s {
-  background: #252525;
-  border-top: #252525 solid 10px; }
+  background: #252525; }
   .works-s .title-ribbon {
     position: relative;
     margin: 0 auto;
