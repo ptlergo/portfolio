@@ -10,7 +10,7 @@
 function WorksController(worksService, homeService) {
   const vm = this;
   vm.img_src = '../../img/iphone.png';
-  vm.tagline = 'Details of some projects i\'ve worked on';
+  vm.tagline = homeService.Content.works.tagline;
   vm.printWorks = homeService.Content.works.title;
   vm.summary = homeService.Content.works.summary;
   vm.cases = worksService.caseStudies;

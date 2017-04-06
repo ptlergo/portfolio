@@ -12,6 +12,7 @@ function homeService() {
     Content: {
       about: {
         title: 'About Me',
+        tagline: '',
         templateUrl: 'views/home/about-section.html',
         summary: `Hello, I am Patrick, A Digital Designer & Front-End Web Developer with 3+ years
                   of experience based in Florida. I tell unique stories using the digital language. My
@@ -22,6 +23,7 @@ function homeService() {
       },
       works: {
         title: 'My Works',
+        tagline: 'Details of some projects i\'ve worked on',
         templateUrl: 'views/home/works-section.html',
         summary: `My years have been spent creating a variety of digital content as a Full Sail University
                   Web Design & Development student, and for clients such as: musicians, agencies, and companies.
@@ -31,6 +33,7 @@ function homeService() {
       },
       publications: {
         title: 'My Publications',
+        tagline: '',
         templateUrl: 'views/home/publications-section.html',
         summary: `From writing code to writing literature, my passions are intertwined. Some
                   of my writings are for brand identies such as taglines, artists bios,
