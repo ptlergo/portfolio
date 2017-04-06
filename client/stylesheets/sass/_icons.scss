@@ -1,3 +1,37 @@
-a[data-value='download'] {
-  color: green;
+a[data-value='download']::after {
+  font-family: FontAwesome;
+  content: "\f063";
+}
+
+a[ng-href*=twitter]::after {
+  font-family: FontAwesome;
+  content: "\f099";
+}
+a[ng-href*=github]::after {
+  font-family: FontAwesome;
+  content: "\f09b";
+}
+a[ng-href*=linkedin]::after {
+  font-family: FontAwesome;
+  content: "\f0e1";
+}
+a[ng-href*=dribble]::after {
+  font-family: FontAwesome;
+  content: "\f17d";
+}
+a[ng-href*=behance]::after {
+  font-family: FontAwesome;
+  content: "\f1b4";
+}
+a[ng-href*=medium]::after {
+  font-family: FontAwesome;
+  content: "\f23a";
+}
+a[href*=tel]::before {
+  font-family: FontAwesome;
+  content: "\f095";
+}
+a[href*=mailto]::before {
+  font-family: FontAwesome;
+  content: "\f003";
 }
