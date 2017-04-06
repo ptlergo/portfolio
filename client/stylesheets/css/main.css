@@ -698,6 +698,9 @@ nav a {
   overflow: hidden;
   padding: 0 38px; }
 
+a[data-value='download'] {
+  color: green; }
+
 footer {
   height: 100%;
   text-align: center; }
