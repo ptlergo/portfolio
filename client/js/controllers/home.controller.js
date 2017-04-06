@@ -1,16 +1,15 @@
 /**
   * @ngdoc method
-  * @name MainController
-  * @methodOf module.MainController
+  * @name HomeController
+  * @methodOf module.HomeController
   * @description
-  * Main controller for homepage, header, and footer
+  * Home controller used for homepage, header, and footer
   *
   * @returns {}
 */
-function MainController() {
+function HomeController() {
   const vm = this;
   vm.main_logo = '../../img/pat-logo.svg';
-  vm.test = 'dd';
 
   vm.templates = [
     { name: 'about', url: 'views/home/about-section.html' },
@@ -20,4 +19,4 @@ function MainController() {
 }
 
 
-angular.module('myApp').controller('MainController', MainController);
+angular.module('myApp').controller('HomeController', HomeController);
