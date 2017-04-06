@@ -12,17 +12,22 @@ function homeService() {
     Content: {
       about: {
         title: 'About Me',
-        template: '',
-        summary: '',
+        templateUrl: 'views/home/about-section.html',
+        summary: `Hello, I am Patrick, A Digital Designer & Front-End Web Developer with 3+ years
+                  of experience based in Florida. I tell unique stories using the digital language. My
+                  coded narratives create fully responsive websites and interactive apps that drive sales,
+                  boost profitability, and engage users. It brings me joy to collaborate intimately with
+                  startups, agencies, and individuals to craft compelling brand identities that
+                  live online as a 'digital you'.`,
       },
       works: {
-        title: 'About Me',
-        template: '',
+        title: 'My Works',
+        templateUrl: 'views/home/works-section.html',
         summary: '',
       },
-      publication: {
-        title: 'About Me',
-        template: '',
+      publications: {
+        title: 'My Publications',
+        templateUrl: 'views/home/publications-section.html',
         summary: '',
       },
     },

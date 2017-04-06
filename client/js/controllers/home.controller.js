@@ -11,10 +11,11 @@ function HomeController(homeService) {
   const vm = this;
   vm.main_logo = '../../img/pat-logo.svg';
   vm.homeService = homeService;
+  vm.summary = homeService.Content.about.summary;
   vm.templates = [
-    { name: 'about', url: 'views/home/about-section.html' },
-    { name: 'works', url: 'views/home/works-section.html' },
-    { name: 'publications', url: 'views/home/publications-section.html' },
+    homeService.Content.about.templateUrl,
+    homeService.Content.works.templateUrl,
+    homeService.Content.publications.templateUrl,
   ];
 }
 
