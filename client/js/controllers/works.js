@@ -7,17 +7,13 @@
   *
   * @returns {}
 */
-function WorksController(worksService) {
+function WorksController(worksService, homeService) {
   const vm = this;
   vm.img_src = '../../img/iphone.png';
   vm.tagline = 'Details of some projects i\'ve worked on';
-  vm.printWorks = 'My Works';
-  vm.summary = `My years have been spent creating a variety of digital content as a Full Sail University
-                Web Design & Development student, and for clients such as: musicians, agencies, and companies.
-                I've made websites, apps, web tools, logos, and graphics. I believe that simplicity can
-                come from complexity which shows in my minimalist design approach. Before beginning I always 
-                ask 'how can I effectively embody the creative expression of my client's brand?`;
+  vm.printWorks = homeService.Content.works.title;
+  vm.summary = homeService.Content.works.summary;
   vm.cases = worksService.caseStudies;
 }
-WorksController.$inject = ['worksService'];
+WorksController.$inject = ['worksService', 'homeService'];
 angular.module('myApp').controller('WorksController', WorksController);

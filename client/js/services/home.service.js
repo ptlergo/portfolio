@@ -23,7 +23,11 @@ function homeService() {
       works: {
         title: 'My Works',
         templateUrl: 'views/home/works-section.html',
-        summary: '',
+        summary: `My years have been spent creating a variety of digital content as a Full Sail University
+                  Web Design & Development student, and for clients such as: musicians, agencies, and companies.
+                  I've made websites, apps, web tools, logos, and graphics. I believe that simplicity can
+                  come from complexity which shows in my minimalist design approach. Before beginning I always
+                  ask 'how can I effectively embody the creative expression of my client's brand?`,
       },
       publications: {
         title: 'My Publications',
