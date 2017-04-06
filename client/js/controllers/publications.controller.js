@@ -9,9 +9,10 @@
 */
 function PublicationsController(homeService) {
   const vm = this;
-  vm.img_src = 'https://marypomerantzadvertising.com/wp-content/uploads/responsiveweb.gif';
-  vm.title = homeService.Content.publications.title;
-  vm.summary = homeService.Content.publications.summary;
+  const publications = homeService.Content.publications;
+  vm.img_src = publications.imgUrl;
+  vm.title = publications.title;
+  vm.summary = publications.summary;
 }
 PublicationsController.$inject = ['homeService'];
 angular.module('myApp').controller('PublicationsController', PublicationsController);
