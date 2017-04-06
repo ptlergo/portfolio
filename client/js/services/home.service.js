@@ -14,6 +14,7 @@ function homeService() {
         title: 'About Me',
         tagline: '',
         templateUrl: 'views/home/about-section.html',
+        imgUrl: '',
         summary: `Hello, I am Patrick, A Digital Designer & Front-End Web Developer with 3+ years
                   of experience based in Florida. I tell unique stories using the digital language. My
                   coded narratives create fully responsive websites and interactive apps that drive sales,
@@ -36,6 +37,7 @@ function homeService() {
         title: 'My Publications',
         tagline: '',
         templateUrl: 'views/home/publications-section.html',
+        imgUrl: 'https://marypomerantzadvertising.com/wp-content/uploads/responsiveweb.gif',
         summary: `From writing code to writing literature, my passions are intertwined. Some
                   of my writings are for brand identies such as taglines, artists bios,
                   and advertisement copy. I also write articles on my own publication, 8Pounds Music,
