@@ -14,7 +14,7 @@ function homeService() {
         title: 'About Me',
         tagline: '',
         templateUrl: 'views/home/about-section.html',
-        imgUrl: '',
+        imgUrl: 'https://marypomerantzadvertising.com/wp-content/uploads/responsiveweb.gif',
         summary: `Hello, I am Patrick, A Digital Designer & Front-End Web Developer with 3+ years
                   of experience based in Florida. I tell unique stories using the digital language. My
                   coded narratives create fully responsive websites and interactive apps that drive sales,

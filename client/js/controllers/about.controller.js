@@ -7,17 +7,18 @@
  *
  * @returns {}
  */
-function AboutController(aboutService) {
+function AboutController(aboutService, homeService) {
   const vm = this;
-  vm.img_src = 'https://marypomerantzadvertising.com/wp-content/uploads/responsiveweb.gif';
-  vm.title = 'About Me';
-  vm.profs = aboutService;
-  vm.skills = aboutService.Proficiencies.development.skills.list;
-  vm.techniquesDev = aboutService.Proficiencies.development.techniques.list;
-  vm.techniquesDes = aboutService.Proficiencies.design.techniques.list;
-  vm.tools = aboutService.Proficiencies.design.tools.list;
-  vm.summary = aboutService.Proficiencies.summary;
+  const aboutPage = aboutService.Proficiencies;
+  const about = homeService.Content.about;
+  vm.img_src = about.imgUrl;
+  vm.title = about.title;
+  vm.skills = aboutPage.development.skills.list;
+  vm.techniquesDev = aboutPage.development.techniques.list;
+  vm.techniquesDes = aboutPage.design.techniques.list;
+  vm.tools = aboutPage.design.tools.list;
+  vm.summary = aboutPage.summary;
 }
 
-AboutController.$inject = ['aboutService'];
+AboutController.$inject = ['aboutService', 'homeService'];
 angular.module('myApp').controller('AboutController', AboutController);
