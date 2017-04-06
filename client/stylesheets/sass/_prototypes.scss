@@ -5,10 +5,10 @@
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
-  height: 600px;
+  height: 60rem;
   content: '*';
   @include phone{
-    height: 300px;
+    height: 30rem;
     width: 110%;
   }
 
@@ -20,11 +20,11 @@
   background-position: center;
   background-repeat: no-repeat;
   content: '*';
-  height: 450px;
-top: 70px;
+  height: 45rem;
+top: 7rem;
 position: relative;
 @include phone{
-  height: 224px;
-    top: 39px;
+  height: 22.4rem;
+    top: 3.9rem;
 }
 }

@@ -1,7 +1,7 @@
 /*VARIABLES*/
 $font-p: "proxima-nova", Corbel, Arial, sans-serif;
 $font: "nunito", corbel, san-serif;
-$font-desktop-p: 2rem;
+$font-desktop-p: 2.2rem;
 $font-mobile-p: 1.6rem;
 
 body {
@@ -13,26 +13,19 @@ body {
     -webkit-font-smoothing: antialiased;
     font-smoothing: antialiased;
 
-    a {
+    a, a:visited{
         color: #ffffff;
         font-weight: 500;
         width: 100%;
         text-decoration: none !important;
         background: inherit !important;
     }
-    a:hover{
-      color: #ffffff;
-      opacity: .6;
-      // font-size: 90%;
-    }
 
     p {
         font-family: $font-p;
-        font-size: $font-desktop-p;
-        line-height: 1.875;
+        font: $font-desktop-p;
         @include phone {
-            font-size: $font-mobile-p;
-            line-height: 1.65;
+            font: $font-mobile-p;
         }
     }
 
@@ -43,14 +36,6 @@ body {
     ul {
         list-style: none;
     }
-}
-
-button {
-    border: solid #71e2a6 0.21em;
-    // line-height: 25px;
-    font-weight: lighter;
-    background: #71e2a6;
-    color: white;
 }
 
 .container,
@@ -112,10 +97,6 @@ footer {
 .home-s {
     @include title-ribbon-super;
     height: 50vh !important;
-
-    button:hover {
-        zoom: 1.1;
-    }
 
     .home-text {
         max-width: 40%;
@@ -204,7 +185,6 @@ footer {
     text-decoration: none;
     box-sizing: border-box;
 }
-
 
 .carousel-indicators li {
     visibility: hidden;
