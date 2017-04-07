@@ -70,16 +70,18 @@ header {
     Sections Content
   ===================================
 */
+.container {
+  width: 90%; }
+
 .summary-box {
   margin: auto;
-  width: 90%; }
+  width: 100%; }
   @media only screen and (min-width: 76.9rem) and (max-width: 180rem) {
     .summary-box {
       width: 70%; } }
   .summary-box p {
     background: white;
-    margin: auto;
-    padding: 4.5rem; }
+    padding: 3.25rem; }
     @media only screen and (min-width: 76.9rem) and (max-width: 180rem) {
       .summary-box p {
         padding: 3rem 25.0rem; } }

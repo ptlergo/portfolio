@@ -79,16 +79,18 @@ header {
     Sections Content
   ===================================
 */
+.container{
+  width: 90%;
+}
 .summary-box {
     margin: auto;
-    width: 90%;
+    width: 100%;
     @include desktop {
         width: 70%;
     }
     p {
         background: white;
-        margin: auto;
-        padding: 4.5rem;
+        padding: 3.25rem;
         @include desktop {
             padding: 3rem 25.0rem;
         }
