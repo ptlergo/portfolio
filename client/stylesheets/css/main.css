@@ -71,7 +71,7 @@ header {
   ===================================
 */
 .container {
-  width: 95%;
+  width: 92%;
   margin: auto; }
   @media only screen and (min-width: 76.9rem) and (max-width: 180rem) {
     .container {
@@ -140,6 +140,9 @@ header {
 
 .tagline {
   padding-top: 15%; }
+
+.about-p ul {
+  overflow: scroll; }
 
 .hamburger-container {
   position: fixed;

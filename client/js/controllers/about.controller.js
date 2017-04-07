@@ -14,10 +14,6 @@ function AboutController(aboutService, homeService) {
   vm.img_src = about.imgUrl;
   vm.aboutService = aboutService;
   vm.title = about.title;
-  vm.skills = aboutPage.development.skills.list;
-  vm.techniquesDev = aboutPage.development.techniques.list;
-  vm.techniquesDes = aboutPage.design.techniques.list;
-  vm.tools = aboutPage.design.tools.list;
   vm.tagline = aboutPage.tagline;
 }
 
