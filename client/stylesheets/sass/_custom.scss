@@ -1,8 +1,4 @@
-/*VARIABLES*/
-$font-p: "proxima-nova", Corbel, Arial, sans-serif;
-$font: "nunito", corbel, san-serif;
-$font-desktop-p: 2.2rem;
-$font-mobile-p: 1.6rem;
+
 
 body {
     font-family: $font;
@@ -117,20 +113,4 @@ footer {
     @include phone {
         width: 90%;
     }
-}
-
-
-.title-link {
-    display: inline-block;
-    color: white;
-    text-decoration: none;
-    box-sizing: border-box;
-}
-
-.carousel-indicators li {
-    visibility: hidden;
-}
-
-.tagline {
-    padding-top: 15%;
 }
