@@ -79,20 +79,19 @@ header {
     Sections Content
   ===================================
 */
-.summary {
-    background: white;
-    margin: auto;
-    padding: 4.5rem;
-    @include desktop {
-        padding: 3rem 25.0rem;
-    }
-}
-
 .summary-box {
     margin: auto;
     width: 90%;
     @include desktop {
         width: 70%;
+    }
+    p {
+        background: white;
+        margin: auto;
+        padding: 4.5rem;
+        @include desktop {
+            padding: 3rem 25.0rem;
+        }
     }
 }
 /*
