@@ -107,3 +107,45 @@ footer {
         width: 70%;
     }
 }
+
+/*
+  ===================================
+    Slant Effects Borders
+  ===================================
+*/
+.section-animate-container-0{
+ background:#ffffff;
+}
+.section-animate-container-1{
+ background:#3263C9;
+}
+.section-animate-container-2{
+ background:#252525;
+}
+.section-animate-container-0::before, .section-animate-container-2::before{
+  display: block;
+  content:"";
+  width: 100%;
+  height: 8rem;
+  background: #3263C9;
+  -webkit-clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
+  @include desktop{
+    height: 16rem;
+
+  }
+}
+
+.section-animate-container-1::before{
+  display: block;
+  content:"";
+  width: 100%;
+  height: 8rem;
+  background: #252525;
+  -webkit-clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
+  @include desktop{
+    height: 16rem;
+
+  }
+}
