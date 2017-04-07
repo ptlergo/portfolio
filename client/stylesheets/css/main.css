@@ -144,6 +144,9 @@ header {
 .about-p ul {
   overflow: scroll; }
 
+.about-p p a {
+  color: #3263C9; }
+
 .hamburger-container {
   position: fixed;
   top: 5%;
