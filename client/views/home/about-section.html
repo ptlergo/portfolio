@@ -1,13 +1,7 @@
 <div class="about-s" ng-controller='AboutController as aboutCtrl'>
-    <div class="title-container">
-      <a href="#about" class="title-link">
-          <h1>{{ aboutCtrl.title }}</h1>
-    </a>
+  <h1>{{ aboutCtrl.title }}</h1>
+  <div class="summary-box">
+      <p>{{homeCtrl.summary}}</p>
   </div>
-    <div class="summary-box">
-        <p class="summary">{{homeCtrl.summary}}</p>
-    </div>
-    <button class="resume">
-      <a href="#about">read more</a>
-    </button>
+  <button class="resume"><a href="#about">read more</a></button>
 </div>

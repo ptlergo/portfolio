@@ -1,14 +1,8 @@
-  <div class="publications-s" ng-controller='PublicationsController as publicationsCtrl'>
-
-      <div class="title-container">
-        <a href="#publications" class="title-link">
-          <h1>{{ publicationsCtrl.title }}</h1>
-      </a>
-    </div>
-
-      <div class="summary-box">
-          <p class="summary">{{ publicationsCtrl.summary }}</p>
-      </div>
-      <button class="resume">
-        <a href="#publications">read more</a></button>
+<div class="publications-s" ng-controller='PublicationsController as publicationsCtrl'>
+  <h1>{{ publicationsCtrl.title }}</h1>
+  <div class="summary-box">
+    <p>{{ publicationsCtrl.summary }}</p>
   </div>
+  <button class="resume">
+    <a href="#publications">read more</a></button>
+</div>
