@@ -80,19 +80,18 @@ header {
   ===================================
 */
 .container{
-  width: 90%;
+  width: 95%;
+  margin: auto;
+  @include desktop {
+      width: 70%;
+  }
 }
 .summary-box {
-    margin: auto;
-    width: 100%;
-    @include desktop {
-        width: 70%;
-    }
     p {
         background: white;
         padding: 3.25rem;
         @include desktop {
-            padding: 3rem 25.0rem;
+            padding: 3rem 15.0rem;
         }
     }
 }
