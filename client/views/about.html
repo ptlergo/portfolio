@@ -1,9 +1,17 @@
 
 <div class="about-p" ng-controller='AboutController as aboutCtrl'>
-  <div class="title-container">
-      {{aboutCtrl.title}}
+  <div class = "container">
+    <h1>{{aboutCtrl.title}}</h1>
+    <div class="summary-box">
+      <p>{{aboutCtrl.tagline}}</p>
+    </div>
+  <div ng-repeat = "props in aboutCtrl.aboutService">
+    <h2>{{props.development.name}}</h2>
+    <h3>{{props.development.techniques.name}}</h3>
+    <h3>{{props.development.skills.name}}</h3>
+    <h2>{{props.design.name}}</h2>
+    <h3>{{props.design.techniques.name}}</h3>
+    <h3>{{props.design.skills.name}}</h3>
   </div>
-  <div class="summary about-summary">
-    <p>{{aboutCtrl.tagline}}</p>
-  </div>
+</div>
 </div>

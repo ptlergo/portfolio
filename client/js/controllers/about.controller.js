@@ -12,6 +12,7 @@ function AboutController(aboutService, homeService) {
   const aboutPage = aboutService.Proficiencies;
   const about = homeService.Content.about;
   vm.img_src = about.imgUrl;
+  vm.aboutService = aboutService;
   vm.title = about.title;
   vm.skills = aboutPage.development.skills.list;
   vm.techniquesDev = aboutPage.development.techniques.list;
