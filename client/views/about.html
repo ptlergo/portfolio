@@ -7,19 +7,27 @@
     </div>
   <div ng-repeat = "props in aboutCtrl.aboutService">
     <h2>Proficencies</h2>
-    <h3>{{props.development.name}}</h3>
-    <h4>{{props.development.techniques.name}}</h4>
-    <ul><li>{{props.development.techniques.list}}</li></ul>
+    <div>
+      <h3>{{props.development.name}}</h3>
+      <h4>{{props.development.techniques.name}}</h4>
+      <ul><li>{{props.development.techniques.list}}</li></ul>
 
-    <h4>{{props.development.skills.name}}</h4>
-    <ul><li>{{props.development.skills.list}}</li></ul>
+      <i>{{props.development.skills.details}}</i>
+      <h4>{{props.development.skills.name}}</h4>
+      <ul><li>{{props.development.skills.list}}</li></ul>
+    </div>
 
-    <h3>{{props.design.name}}</h3>
-    <h4>{{props.design.techniques.name}}</h4>
-    <ul><li>{{props.design.techniques.list}}</li></ul>
+    <div>
+      <h3>{{props.design.name}}</h3>
+      <h4>{{props.design.techniques.name}}</h4>
+      <ul><li>{{props.design.techniques.list}}</li></ul>
+      <i>{{props.design.techniques.details}}</i>
 
-    <h4>{{props.design.tools.name}}</h4>
-    <ul><li>{{props.design.tools.list}}</li></ul>
+      <h4>{{props.design.tools.name}}</h4>
+      <ul><li>{{props.design.tools.list}}</li></ul>
+      <i>{{props.design.tools.details}}</i>
+    </div>
+
 
   </div>
 </div>
