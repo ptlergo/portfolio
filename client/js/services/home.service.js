@@ -44,6 +44,17 @@ function homeService() {
                   and blog about tech on Medium during my free time.`,
       },
     },
+    Contact: {
+      social: [
+        'https://www.linkedin.com/in/patrickfunom',
+        'https://twitter.com/patrickfunom',
+        'https://github.com/ptlergo',
+      ],
+      other: [
+        'me@patrickfunom.com',
+        '1-407-655-9901',
+      ],
+    },
   };
 }
 angular.module('myApp').factory('homeService', homeService);

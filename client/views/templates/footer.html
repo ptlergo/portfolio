@@ -1,29 +1,26 @@
-<footer ng-controller='MainController as mainCtrl'>
-    <div class="f-top">
-        <div class="contact-box">
-          <h3>contact me</h3>
-          <div class ="contact-info">
-            <span>
-            <a href="mailto:me@patrickfunom.com">me@patrickfunom.com</a>
-            </span>
-            <span>
-            <a href ="tel:1-407-655-9901">(407)655-9901</a>
-            </span>
-          </div>
-        </div>
+<footer ng-controller = "HomeController as footerCtrl">
+  <div class="f-top">
+    <div class="contact-box">
+      <h3>contact me</h3>
+      <div class ="contact-info">
+        <span><a ng-href="mailto:{{footerCtrl.otherLinks[0]}}">me@patrickfunom.com</a></span>
+        <span><a ng-href="tel:{{footerCtrl.otherLinks[1]}}">(407)655-9901</a></span>
+      </div>
     </div>
-    <div class="f-bottom">
-        <div class="social-box">
-            <h3>follow me</h3>
-            <a ng-href="#"></a>
-            <a ng-href="https://www.linkedin.com/in/patrickfunom"></a>
-            <a ng-href="https://twitter.com/patrickfunom"></a>
-            <a ng-href="https://github.com/ptlergo"></a>
-        </div>
-        <div class="f-copywright">
-            <a ng-href="#home">
-                <div class="f-logo"><img ng-src='{{mainCtrl.main_logo}}'></div>
-                <div class="f-copywirght"><i>&copy; 2017 Patrick Funom Tunga-Lergo</i></div>
-            </a>
-        </div>
+  </div>
+
+  <div class="f-bottom">
+    <div class="social-box">
+      <h3>follow me</h3>
+      <ul ng-repeat = "social in footerCtrl.socialLinks">
+        <li><a ng-href = "{{social}}"</li>
+      </ul>
+    </div>
+
+    <div class="f-copywright">
+      <a ng-href="#home">
+        <div class="f-logo"><img ng-src='{{mainCtrl.main_logo}}'></div>
+        <div class="f-copywirght"><i>&copy; 2017 Patrick Funom Tunga-Lergo</i></div>
+      </a>
+    </div>
 </footer>

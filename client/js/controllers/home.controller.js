@@ -11,6 +11,8 @@ function HomeController(homeService) {
   const vm = this;
   vm.main_logo = '../../img/pat-logo.svg';
   vm.homeService = homeService;
+  vm.socialLinks = homeService.Contact.social;
+  vm.otherLinks = homeService.Contact.other;
   vm.name = homeService.Content;
   vm.summary = homeService.Content.about.summary;
   vm.templates = [
