@@ -1,4 +1,13 @@
-/*VARIABLES*/
+/*
+  ===================================
+    Variables
+  ===================================
+*/
+/*
+  ===================================
+    Project Defaults
+  ===================================
+*/
 body {
   font-family: "nunito", corbel, san-serif;
   display: -webkit-flex;
@@ -38,21 +47,20 @@ footer {
   order: 3;
   height: 65vh; }
 
-/*Title Animation*/
+/*
+  ===================================
+    Home Page Sections
+  ===================================
+*/
 .home-s {
   height: 60vh; }
   .home-s .home-text {
-    max-width: 40%;
-    margin: 10% 0 0 2%;
-    text-align: left; }
-  .home-s img {
-    width: 25%; }
-  @media only screen and (max-width: 48rem) {
+    margin: 10% 0 0 5%;
+    max-width: 70%; }
+  @media only screen and (min-width: 76.9rem) and (max-width: 180rem) {
     .home-s .home-text {
-      margin: 10% 0 0 5%;
-      max-width: 70%; }
-    .home-s img {
-      width: 50%; } }
+      max-width: 40%;
+      margin: 10% 0 0 2%; } }
 
 .about-s,
 .publications-s,
@@ -69,26 +77,23 @@ footer {
 .summary {
   background: white;
   margin: 0 auto;
-  padding: 30px 50px;
-  text-align: left; }
-  @media only screen and (max-width: 48rem) {
-    .summary {
-      padding: 45px; } }
+  padding: 4.5rem; }
   @media only screen and (min-width: 76.9rem) and (max-width: 180rem) {
     .summary {
-      padding: 30px 250px; } }
+      padding: 3rem 25.0rem; } }
 
 .summary-box {
   margin: auto;
-  width: 70%; }
-  @media only screen and (max-width: 48rem) {
+  width: 90%; }
+  @media only screen and (min-width: 76.9rem) and (max-width: 180rem) {
     .summary-box {
-      width: 90%; } }
+      width: 70%; } }
 
-.title-container {
-  width: 250px;
-  margin: auto; }
-
+/*
+  ======================================================================
+    Buttons, Headers, links, carousel etc.
+  ======================================================================
+*/
 .title-link {
   display: inline-block;
   color: white;
@@ -100,92 +105,6 @@ footer {
 
 .tagline {
   padding-top: 15%; }
-
-.about-p .title-ribbon,
-.publications-p .title-ribbon,
-.works-p .title-ribbon {
-  position: relative;
-  margin: 0 auto;
-  height: 100%;
-  display: block;
-  box-sizing: border-box;
-  transition: 0.3s;
-  z-index: 1;
-  color: white;
-  text-decoration: none; }
-
-.about-p .title-ribbon:hover,
-.publications-p .title-ribbon:hover,
-.works-p .title-ribbon:hover {
-  position: relative;
-  display: block;
-  box-sizing: border-box;
-  transition: 0.3s;
-  z-index: 1;
-  color: white;
-  text-decoration: none; }
-
-.about-p .title-ribbon:before,
-.publications-p .title-ribbon:before,
-.works-p .title-ribbon:before {
-  bottom: 0%;
-  content: '';
-  position: absolute;
-  top: -20%;
-  transition: 0.3s;
-  width: 55%;
-  background: #71e2a6;
-  left: 5%;
-  -webkit-transform: translateY(4px);
-  transform: translateY(4px) skewY(-10deg);
-  z-index: -1;
-  -webkit-transform: skewY(-13.02deg); }
-
-.about-p .title-ribbon:hover:before,
-.publications-p .title-ribbon:hover:before,
-.works-p .title-ribbon:hover:before {
-  bottom: 0%;
-  content: '';
-  position: absolute;
-  top: -20%;
-  transition: 0.3s;
-  width: 55%;
-  background: inherit;
-  left: 5%;
-  -webkit-transform: translateY(0px);
-  transform: translateY(0px);
-  z-index: -1; }
-
-.about-p .title-ribbon:after,
-.publications-p .title-ribbon:after,
-.works-p .title-ribbon:after {
-  bottom: -20%;
-  content: '';
-  position: absolute;
-  top: 0%;
-  transition: 0.3s;
-  width: 55%;
-  background: #e9b921;
-  right: 5%;
-  -webkit-transform: translateY(-4px);
-  transform: translateY(-4px);
-  z-index: -1;
-  -webkit-transform: skewY(-13.02deg); }
-
-.about-p .title-ribbon:hover:after,
-.publications-p .title-ribbon:hover:after,
-.works-p .title-ribbon:hover:after {
-  bottom: -20%;
-  content: '';
-  position: absolute;
-  top: 0%;
-  transition: 0.3s;
-  width: 55%;
-  background: inherit;
-  right: 5%;
-  -webkit-transform: translateY(0px);
-  transform: translateY(0px);
-  z-index: -1; }
 
 .about-p .summary-box,
 .publications-p .summary-box,
