@@ -7,7 +7,8 @@ body {
   flex-direction: column;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased; }
-  body a, body a:visited {
+  body a,
+  body a:visited {
     color: #ffffff;
     font-weight: 500;
     width: 100%;
@@ -33,17 +34,9 @@ header {
 .container {
   order: 2; }
 
-.main-container {
-  text-align: center; }
-
 footer {
   order: 3;
-  height: 60vh; }
-
-#header-as,
-#header-ps,
-#header-ws {
-  background: #3263c9; }
+  height: 65vh; }
 
 /*Title Animation*/
 .home-s {

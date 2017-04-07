@@ -1,0 +1,20 @@
+/*
+  ======================================================================
+    Buttons, Headers, links, carousel etc.
+  ======================================================================
+*/
+
+.title-link {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.carousel-indicators li {
+    visibility: hidden;
+}
+
+.tagline {
+    padding-top: 15%;
+}

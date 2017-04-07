@@ -13,7 +13,8 @@ body {
     -webkit-font-smoothing: antialiased;
     font-smoothing: antialiased;
 
-    a, a:visited{
+    a,
+    a:visited {
         color: #ffffff;
         font-weight: 500;
         width: 100%;
@@ -27,10 +28,6 @@ body {
         @include phone {
             font: $font-mobile-p;
         }
-    }
-
-    h1 {
-        // font-size: 25px;
     }
 
     ul {
@@ -52,69 +49,27 @@ header {
     order: 2;
 }
 
-.main-container {
-    text-align: center;
-}
-
 footer {
     order: 3;
-    height: 60vh;
+    height: 65vh;
 }
 
-
-#header-as,
-#header-ps,
-#header-ws {
-    background: #3263c9;
-}
-/*Title Animation*/
-@mixin title-ribbon-super {
-    .title-ribbon {
-        @include ribbon;
-    }
-
-    .title-ribbon:hover {
-        @include ribbon-hover
-    }
-
-    .title-ribbon:before {
-        @include ribbon-before;
-    }
-
-    .title-ribbon:hover:before {
-        @include ribbon-hover-before;
-    }
-
-    .title-ribbon:after {
-        @include ribbon-after;
-    }
-
-    .title-ribbon:hover:after {
-        @include ribbon-hover-after;
-    }
-}
-
+/*
+  ===================================
+    Home Page Sections
+  ===================================
+*/
 .home-s {
     height: 60vh;
 
     .home-text {
         max-width: 40%;
         margin: 10% 0 0 2%;
-        text-align: left;
-    }
-
-    h2 {
-        // font-size: 20px;
-    }
-
-    h2:first-child {
-        // font-size: 30px;
     }
 
     img {
         width: 25%;
     }
-
 
     @include phone {
         .home-text {
@@ -135,7 +90,7 @@ footer {
 }
 
 .about-s,
-.publications-s{
+.publications-s {
     background: #3263C9;
 }
 
@@ -146,29 +101,24 @@ footer {
 .summary {
     background: white;
     margin: 0 auto;
-    padding: 30px 50px;
+    padding: 0.3rem 0.5rem;
     text-align: left;
-    @include phone{
-      padding: 45px;
+    @include phone {
+        padding: 4.5rem;
     }
-    @include desktop{
-      padding: 30px 250px;
+    @include desktop {
+        padding: 3rem 25.0rem;
     }
-
 }
 
 .summary-box {
     margin: auto;
     width: 70%;
-    @include phone{
-      width: 90%;
+    @include phone {
+        width: 90%;
     }
 }
 
-.title-container {
-    width: 250px;
-    margin: auto;
-}
 
 .title-link {
     display: inline-block;
