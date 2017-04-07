@@ -11,7 +11,6 @@ function worksService() {
   return {
     caseStudies: [
       {
-        id: 1,
         name: 'music\'em',
         details: 'Progressive web app. that aggregates content from curated music brands.',
         challenges: `Utilizing X-Ray to create a bot that scrapes the websites of interest proved
@@ -25,9 +24,9 @@ function worksService() {
         type: 'app',
         tech: 'AngularJS, API, NodeJS, express, firebase, css3, JavaScript, material design, X-Ray, google cloud',
         tags: 'pwa, angular, node, firebase, javascript',
+        category: 'web',
       },
       {
-        id: 2,
         name: 'winter-soulstice',
         details: 'Progressive web app for concert to reserves tickets and provide details of performers. ',
         challenges: `Writing the content for each performer took some time. As this was my first use of the
@@ -41,6 +40,7 @@ function worksService() {
         type: 'app',
         tech: 'codeIgniter, PHP, MongoDB, BootStrap3, JQuery, Heroku',
         tags: 'codeigniter, php, bootstrap, jquery',
+        category: 'web',
       },
     ],
   };

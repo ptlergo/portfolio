@@ -10,16 +10,16 @@
   </div>
 
   <div class="prof-container about-s">
-    <h2>Proficiencies</h2>
+    <h1>Proficiencies</h1>
     <div class="proficiencies" ng-repeat="prof in aboutCtrl track by $index">
       <div class="summary-box">
         <div class="summary prof-dev">
           <img ng-src="{{prof.development.icon}}">
-          <h1>{{prof.development.name}}</h1>
+          <h2>{{prof.development.name}}</h2>
           <div class="dev-skills-container">
             {{prof.development.skills.name}}
             <ul>
-              <li class="dev-skills" ng-repeat="skills in aboutCtrl.skills">
+              <li ng-repeat="skills in aboutCtrl.skills">
                 {{skills}}
               </li>
             </ul>
@@ -47,9 +47,7 @@
               </li>
             </ul>
             <i>
-              My knowledge as a developer allows me to make consistent layouts
-              that are user friendly and easy for developers to integrate and
-              scale reliably.
+
             </i>
           </div>
           <div class="des-tech-container">
@@ -60,9 +58,6 @@
             </li>
           </ul>
             <i>
-              I am able to work in an agile working enviroment alongside
-              back-end engineers, designers, and other front-end developers.
-              I have experience as a Scrum Master.
             </i>
           </div>
         </div>
@@ -73,13 +68,7 @@
   <div class="summary about-site">
     <h1>About This Site</h1>
     <p>
-            This website has been built from the ground up. I started with
-            conception using wireframes to execution using prototyping tools
-            and to deployment.
-            Built using AngularJS and Node.js for optimal speed
-            and easy SEO integration Css and custom animations written
-            in Sass with a mobile first design philosophy. Gulp as my Task manager
-            Jasmine and Karma for unit testing more details visit my repo.
+      
             at <a href = "http://github.com/ptlergo/portfolio">github.com/ptlergo/portfolio.</a>
     </p>
   </div>
