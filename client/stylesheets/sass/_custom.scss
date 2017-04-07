@@ -53,12 +53,12 @@ header {
 }
 
 .main-container {
-    padding: 0;
     text-align: center;
 }
 
 footer {
     order: 3;
+    height: 60vh;
 }
 
 
@@ -95,8 +95,7 @@ footer {
 }
 
 .home-s {
-    @include title-ribbon-super;
-    height: 50vh !important;
+    height: 70vh;
 
     .home-text {
         max-width: 40%;
@@ -117,23 +116,11 @@ footer {
     }
 
 
-    @include desktop {
-        padding-bottom: 35%;
-    }
     @include phone {
         .home-text {
             margin: 10% 0 0 5%;
             max-width: 70%;
         }
-
-        h2 {
-            // font-size: 15px;
-        }
-
-        h2:first-child {
-            // font-size: 20px;
-        }
-        padding-top: 10% !important;
 
         img {
             width: 50%;
@@ -142,13 +129,17 @@ footer {
 }
 
 .about-s,
-.publications-s {
-    @include title-ribbon-super;
+.publications-s,
+.works-s {
+    height: 100vh;
+}
+
+.about-s,
+.publications-s{
     background: #3263C9;
 }
 
 .works-s {
-    @include title-ribbon-super;
     background: #252525;
 }
 

@@ -12,8 +12,8 @@
     </div>
   </div>
 
-  <div id="h-section-animate-container" ng-repeat="temps in homeCtrl.templates">
-      <div id="h-section-animate" ng-include="temps"></div>
+  <div class = "section-animate-container" ng-repeat="temps in homeCtrl.templates track by $index">
+      <ng-include src="temps"></ng-include>
   </div>
 
 </section>

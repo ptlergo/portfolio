@@ -1,12 +1,11 @@
 
-
+.navbar{
+  margin: 0;
+}
 nav a{
   color: white;
 }
 
-.brand:hover{
-  width: 12%;
-}
 .brand{
   width: 10%;
 
@@ -17,34 +16,3 @@ nav a{
     width:100%;
   }
 }
-
-.overlay {
-	position:fixed;
-	top:0;
-  left: 0;
-  right: 0;
-	height:100vh;
-	width:100%;
-	background: #3263C9;
-  z-index: 2;
-  color: white;
-  text-align: center;
-  opacity: 0;
-  -webkit-transition: all linear 0.25s;
-  transition: all linear 0.25s;
-  font-variant: small-caps;
-  .nav-links:first-child{
-    margin-top: 15%;
-    @include phone{
-      margin-top: 50%;
-    }
-  }
-}
-
-.overlayActive{
-  -webkit-transition: all linear 0.25s;
-  transition: all linear 0.25s;
-  opacity: 1;
-}
-
-.overlay ul{list-style: none;}
