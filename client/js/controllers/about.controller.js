@@ -17,7 +17,7 @@ function AboutController(aboutService, homeService) {
   vm.techniquesDev = aboutPage.development.techniques.list;
   vm.techniquesDes = aboutPage.design.techniques.list;
   vm.tools = aboutPage.design.tools.list;
-  vm.summary = aboutPage.summary;
+  vm.tagline = aboutPage.tagline;
 }
 
 AboutController.$inject = ['aboutService', 'homeService'];

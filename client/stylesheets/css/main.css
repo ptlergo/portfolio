@@ -144,27 +144,6 @@ footer {
 .tagline {
   padding-top: 15%; }
 
-.about-p .summary-box,
-.publications-p .summary-box,
-.works-p .summary-box {
-  width: 90%; }
-
-.about-p ul {
-  list-style: circle; }
-
-.about-p .proficiencies {
-  text-align: left; }
-
-.about-p h2 {
-  color: #ffffff; }
-
-.about-p img {
-  width: 10%; }
-
-@media only screen and (max-width: 48rem) {
-  .about-p img {
-    width: 30%; } }
-
 .hamburger-container {
   position: fixed;
   top: 5%;
@@ -361,35 +340,5 @@ a[href*=mailto]::before {
   content: "\f003"; }
 
 footer {
-  text-align: center; }
-  footer .f-top {
-    background: #252525;
-    height: 50%;
-    color: white;
-    padding: 1% 0; }
-    footer .f-top .contact-box {
-      width: 50%;
-      margin: 10% auto; }
-  footer .f-bottom {
-    background: #252525;
-    height: 100%;
-    padding: 1% 0; }
-    footer .f-bottom .social-box {
-      color: white;
-      font-size: 2rem;
-      margin: 0 auto;
-      padding: 0 0 10%; }
-      @media only screen and (max-width: 48rem) {
-        footer .f-bottom .social-box {
-          padding: 0 0 20%; } }
-    footer .f-bottom .f-copywright {
-      padding-bottom: 1%;
-      opacity: 0.6;
-      clear: both; }
-      footer .f-bottom .f-copywright :hover {
-        cursor: pointer; }
-    footer .f-bottom .f-logo img {
-      width: 3%; }
-    @media only screen and (max-width: 48rem) {
-      footer .f-bottom .f-logo img {
-        width: 10%; } }
+  text-align: center;
+  background: #252525; }

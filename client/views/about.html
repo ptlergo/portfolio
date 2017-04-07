@@ -1,75 +1,9 @@
 
 <div class="about-p" ng-controller='AboutController as aboutCtrl'>
   <div class="title-container">
-    <a href="#about" class="title-link">
-      <h1>{{aboutCtrl.printAbout}}</h1>
-    </a>
+      {{aboutCtrl.title}}
   </div>
   <div class="summary about-summary">
-    <p>{{aboutCtrl.summary}}</p>
-  </div>
-
-  <div class="prof-container about-s">
-    <h1>Proficiencies</h1>
-    <div class="proficiencies" ng-repeat="prof in aboutCtrl track by $index">
-      <div class="summary-box">
-        <div class="summary prof-dev">
-          <img ng-src="{{prof.development.icon}}">
-          <h2>{{prof.development.name}}</h2>
-          <div class="dev-skills-container">
-            {{prof.development.skills.name}}
-            <ul>
-              <li ng-repeat="skills in aboutCtrl.skills">
-                {{skills}}
-              </li>
-            </ul>
-          </div>
-          <div class="dev-tech-container">
-            {{prof.development.techniques.name}}
-            <ul>
-              <li class="dev-tech" ng-repeat="tech in aboutCtrl.techniquesDev">
-                {{tech}}
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <div class="summary-box">
-        <div class=" summary prof-des">
-          <img ng-src="{{prof.design.icon}}">
-          <h1>{{prof.design.name}}</h1>
-          <div class="des-tools-container">
-            {{prof.design.tools.name}}
-            <ul>
-              <li class="des-tools" ng-repeat="tools in aboutCtrl.tools">
-                {{tools}}
-              </li>
-            </ul>
-            <i>
-
-            </i>
-          </div>
-          <div class="des-tech-container">
-           {{prof.design.techniques.name}}
-           <ul>
-            <li class="des-tech" ng-repeat="tech in aboutCtrl.techniquesDes">
-              {{tech}}
-            </li>
-          </ul>
-            <i>
-            </i>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="summary about-site">
-    <h1>About This Site</h1>
-    <p>
-      
-            at <a href = "http://github.com/ptlergo/portfolio">github.com/ptlergo/portfolio.</a>
-    </p>
+    <p>{{aboutCtrl.tagline}}</p>
   </div>
 </div>
