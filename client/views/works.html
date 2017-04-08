@@ -6,7 +6,7 @@
     <div class = "case-description">
       <h2>{{case.name}}</h2>
       <button><a href = "#">view case study</a></button>
-      <button ng-click="checked = !checked" aria-label="Toggle ngShow">show tech.</button>
+      <button ng-click="checked = !checked" data-value="Toggle">show tech.</button>
       <ul ng-show = "checked">
         <li ng-repeat = "tech in case.tech"><i>{{tech}}</i></li>
       </ul>

@@ -12,7 +12,7 @@ function worksService() {
     caseStudies: [
       {
         name: 'music\'em',
-        details: 'Progressive web app. that aggregates content from curated music brands.',
+        details: 'Progressive web app. that aggregates content from curated list of music brands.',
         challenges: `Utilizing X-Ray to create a bot that scrapes the websites of interest proved
                      to be difficult but with practice I was able to establish multiple bots per site
                      that collected the information and saved it into my firebase database for access.
@@ -29,7 +29,7 @@ function worksService() {
       },
       {
         name: 'winter-soulstice',
-        details: 'Progressive web app for concert to reserves tickets and provide details of performers. ',
+        details: 'Progressive web app for a concert customer to reserve tickets and view details of performers. ',
         challenges: `Writing the content for each performer took some time. As this was my first use of the
                      codeIgniter framework it was tricky to apply MVC with my PHP coding. The bootstrap styling
                      was simple until using the popup modal for each performer, I had to add a boolean case to get
