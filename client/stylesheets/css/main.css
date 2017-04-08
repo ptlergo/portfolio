@@ -263,49 +263,6 @@ nav a {
     float: left;
     width: 50%; } }
 
-.case-header {
-  float: left;
-  position: relative;
-  z-index: 1;
-  text-align: left;
-  margin: 0 10%; }
-  @media only screen and (max-width: 48rem) {
-    .case-header {
-      width: 45%;
-      margin: 0 auto; }
-      .case-header h2 {
-        font-size: 25px; } }
-
-.super-case-container:nth-of-type(even) .case-container .case-header {
-  float: right; }
-
-@media only screen and (max-width: 48rem) {
-  .super-case-container:nth-of-type(even) .prototype-device {
-    margin-left: -31px; }
-  .super-case-container:nth-of-type(even) .case-container .prototype {
-    float: right; } }
-
-.super-case-container:nth-of-type(even) .case-container .case-details {
-  float: left;
-  text-align: left; }
-
-.case-details {
-  float: right;
-  position: relative;
-  z-index: 1;
-  text-align: left;
-  bottom: 15em;
-  width: 30%; }
-  @media only screen and (max-width: 48rem) {
-    .case-details {
-      width: 50%;
-      top: 0; } }
-
-.case-container {
-  margin: 100px auto;
-  overflow: hidden;
-  padding: 0 38px; }
-
 a[data-value='download']::after {
   font-family: FontAwesome;
   content: "\f063"; }

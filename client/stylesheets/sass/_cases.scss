@@ -7,58 +7,6 @@
 
 }
 
-.case-header{
-  float: left;
-  position: relative;
-  z-index: 1;
-  text-align: left;
-  margin: 0 10%;
-  @include phone{
-    width: 45%;
-    margin: 0 auto;
-    h2{
-      font-size: 25px;
-    }
-  }
-}
 .super-case-container:nth-of-type(even){
-  .case-container .case-header{
-    float: right;
 
-  }
-  @include phone{
-    .prototype-device{
-      margin-left: -31px;
-    }
-
-  .case-container .prototype{
-    float: right;
-  }
-}
-
-  .case-container .case-details{
-    float: left;
-    text-align: left;  }
-
-}
-
-
-
-.case-details{
-  float: right;
-  position: relative;
-  z-index: 1;
-  text-align: left;
-  bottom: 15em;
-  width: 30%;
-  @include phone{
-    width: 50%;
-    top: 0;
-  }
-}
-
-.case-container{
-  margin: 100px auto;
-  overflow: hidden;
-  padding: 0 38px;
 }
