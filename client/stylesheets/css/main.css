@@ -25,7 +25,8 @@ body {
   body p {
     font-family: "proxima-nova", Corbel, Arial, sans-serif;
     font-size: 1.6rem;
-    line-height: 2; }
+    line-height: 2;
+    margin: 0; }
     @media only screen and (min-width: 76.9rem) and (max-width: 180rem) {
       body p {
         font-size: 2.2rem; } }
@@ -96,6 +97,32 @@ header {
 
 .section-animate-container-2 {
   background: #252525; }
+
+.summary-box::before {
+  -webkit-clip-path: polygon(120% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(120% 0%, 0% 100%, 100% 100%);
+  display: block;
+  content: "";
+  width: 100%;
+  height: 8rem;
+  background: #ffffff; }
+  @media only screen and (min-width: 76.9rem) and (max-width: 180rem) {
+    .summary-box::before {
+      height: 16rem; } }
+
+.summary-box::after {
+  -webkit-clip-path: polygon(0% 0%, 0% 100%, 120% 0%);
+  clip-path: polygon(0% 0%, 0% 100%, 120% 0%);
+  display: block;
+  content: "";
+  width: 100%;
+  height: 8rem;
+  background: #ffffff; }
+  @media only screen and (min-width: 76.9rem) and (max-width: 180rem) {
+    .summary-box::after {
+      height: 16rem;
+      -webkit-clip-path: polygon(0% 0%, 0% 100%, 100% 0%);
+      clip-path: polygon(0% 0%, 0% 100%, 100% 0%); } }
 
 .section-animate-container-0::before,
 .section-animate-container-2::before {
