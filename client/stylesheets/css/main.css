@@ -72,11 +72,11 @@ header {
     Sections Content
   ===================================
 */
-.container {
+.section-container {
   width: 92%;
   margin: auto; }
   @media only screen and (min-width: 76.9rem) and (max-width: 180rem) {
-    .container {
+    .section-container {
       width: 70%; } }
 
 .summary-box p {
@@ -297,7 +297,8 @@ nav a {
   display: flex; }
 
 .cases > div {
-  flex: 1; }
+  flex: 1;
+  padding: 1.8rem; }
 
 a[data-value='download']::after {
   font-family: FontAwesome;
