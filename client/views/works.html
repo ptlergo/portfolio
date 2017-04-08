@@ -1,30 +1,8 @@
 
 <div class ="works-p" ng-controller = 'WorksController as worksCtrl'>
-  <div class="title-container">
-    <a href="#works" class="title-link">
-      <span class="title-ribbon">
-        <h1>{{ worksCtrl.printWorks }}</h1>
-      </span>
-  </a>
-</div>
-  <div class = "tagline">
-    {{worksCtrl.tagline}}
+  <h1>{{ worksCtrl.title }}</h1>
+  <p>{{worksCtrl.tagline}}</p>
+  <div class = "super-case-container" ng-repeat = "case in worksCtrl.cases track by $index">
+      {{case}}
   </div>
-    <div class = "super-case-container" ng-repeat = "case in worksCtrl.cases track by case.id">
-      <div class = "case-container">
-      <div class = "case-header">
-        <div class = "case-info">
-        <!-- <i>Tech used: {{case.tech}}</i>
-        <i>Type: {{case.type}}</i> -->
-      </div>
-        <h2>{{case.name}}</h2>
-        <button>view case study</button>
-      </div>
-    <div class = "prototype"></div>
-    <div class = "case-details">
-      <p>{{case.details}}</p>
-    </div>
-  </div>
-</div>
-  <button>more projects</button>
 </div>

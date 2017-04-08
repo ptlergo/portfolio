@@ -48,7 +48,7 @@ function worksService() {
       //   details: 'programming tool published to npm to enhance development.',
       //   challenges: '',
       //   image: '',
-      //   type: 'tool',
+      //   type: 'web tool',
       //   tech: 'NodeJS, javascript, NPM',
       //   tags: '',
       // },
@@ -59,7 +59,7 @@ function worksService() {
       //   challenges: '',
       //   image: '',
       //   tech: 'AngularJS, angular-animate, css3',
-      //   type: 'tool',
+      //   type: 'web interaction',
       //   tags: '',
       // },
       // {
