@@ -35,7 +35,7 @@ body {
   body ul {
     list-style: none; }
 
-#container,
+#view-container,
 footer,
 header {
   flex: 1; }
@@ -179,6 +179,10 @@ button {
 
 .about-p p a {
   color: #3263C9; }
+
+div[class*=-p] {
+  padding-left: 1.4rem;
+  padding-right: 1.4rem; }
 
 .hamburger-container {
   position: fixed;
