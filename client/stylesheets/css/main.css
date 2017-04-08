@@ -11,8 +11,10 @@
 body {
   font-family: "nunito", corbel, san-serif;
   display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased; }
@@ -288,6 +290,14 @@ nav a {
     .prototype-screen {
       height: 22.4rem;
       top: 3.9rem; } }
+
+.cases {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.cases > div {
+  flex: 1; }
 
 a[data-value='download']::after {
   font-family: FontAwesome;

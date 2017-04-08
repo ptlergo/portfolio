@@ -4,13 +4,15 @@
   ===================================
 */
 body {
-    font-family: $font-fam;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-direction: column;
-    flex-direction: column;
-    -webkit-font-smoothing: antialiased;
-    font-smoothing: antialiased;
+  font-family: $font-fam;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
 
     a,
     a:visited {
