@@ -258,11 +258,6 @@ nav a {
       height: 22.4rem;
       top: 3.9rem; } }
 
-@media only screen and (max-width: 48rem) {
-  .prototype {
-    float: left;
-    width: 50%; } }
-
 a[data-value='download']::after {
   font-family: FontAwesome;
   content: "\f063"; }
