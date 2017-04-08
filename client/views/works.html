@@ -6,7 +6,9 @@
     <div class = "case-description">
       <h2>{{case.name}}</h2>
       <button><a href = "#">view case study</a></button>
-      <i>{{case.tech}}</i>
+      <ul>
+        <li ng-repeat = "tech in case.tech"><i>{{tech}}</i></li>
+      </ul>
     </div>
     <div class = "cases-prototype-{{$index}}">
       <div class = "prototype-device">

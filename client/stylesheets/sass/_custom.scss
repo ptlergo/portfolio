@@ -25,7 +25,7 @@ body {
     p {
         font-family: $font-fam-p;
         font-size: $font-mobile-p;
-        line-height:2;
+        line-height:1.85;
         margin: 0;
         @include desktop {
             font-size: $font-desktop-p;

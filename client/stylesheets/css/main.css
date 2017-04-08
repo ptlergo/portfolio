@@ -27,7 +27,7 @@ body {
   body p {
     font-family: "proxima-nova", Corbel, Arial, sans-serif;
     font-size: 1.6rem;
-    line-height: 2;
+    line-height: 1.85;
     margin: 0; }
     @media only screen and (min-width: 76.9rem) and (max-width: 180rem) {
       body p {
@@ -183,6 +183,8 @@ button {
 div[class*=-p] {
   padding-left: 1.4rem;
   padding-right: 1.4rem; }
+  div[class*=-p] ul {
+    padding: 0; }
 
 .hamburger-container {
   position: fixed;
