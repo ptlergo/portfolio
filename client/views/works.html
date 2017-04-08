@@ -3,6 +3,7 @@
   <h1>{{ worksCtrl.title }}</h1>
   <p>{{worksCtrl.tagline}}</p>
   <div class = "super-case-container" ng-repeat = "case in worksCtrl.cases track by $index">
-      {{case}}
+      <h2>{{case.name}}</h2>
+      <img src = '{{worksCtrl.device}}'>
   </div>
 </div>

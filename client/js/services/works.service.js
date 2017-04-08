@@ -43,6 +43,9 @@ function worksService() {
         category: 'web',
       },
     ],
+    Device: {
+      img: '../../img/iphone.png',
+    },
   };
 }
 
