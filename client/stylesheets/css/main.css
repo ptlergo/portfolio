@@ -298,11 +298,11 @@ nav a {
 .cases {
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  padding: 10rem 1rem; }
 
 .cases > div {
-  flex: 1;
-  padding: 1.8rem; }
+  flex: 1; }
 
 a[data-value='download']::after {
   font-family: FontAwesome;
