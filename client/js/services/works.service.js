@@ -20,6 +20,7 @@ function worksService() {
                      made presenting the information challenging until I applied ngAnimate library for
                     transitional animations.`,
         image: 'http://marvelapp.com/1f3ia7a?emb=1',
+        case_images: ['../img/case-images/musicem-case-image.png'],
         gif_src: 'https://media.giphy.com/media/3ohzdLBDAwCtfWy6sM/giphy.gif',
         type: 'app',
         tech: ['AngularJS', 'API', 'NodeJS', 'express', 'firebase', 'css3', 'JavaScript',
