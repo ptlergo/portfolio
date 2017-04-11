@@ -29,6 +29,35 @@ function worksService() {
         category: 'web',
       },
       {
+        name: '8Pounds Music Events',
+        details: 'Utilizing the WordPress CMS to establish a hub for a concert.',
+        challenges: ` The 8Pounds Music website is developed on the WordPress CMS. The benefit
+            of this is that plugins can be used. For this particular case study the plugins used
+            were Ticket Tailor, a ticket kiosk widget, and Add Tabs. The challenges were injecting my
+            PHP into the plugins and having it display as needed.`,
+        paragraph1: `Ticket Tailor allowed the appropiate ability to track meta data of incoming sales.
+        In corelation with geni.us links I was able to create custom links for each individual selling tickets
+        thus tracking each sellers ticket amounts and allowing the ability to redirect to any page needed at any time.
+        The links were enhanced with SEO techniques for increased keyword search results for local concerts. A FaceBook
+        pixel was added to the links to track the demographics marketed to on FaceBook from the ad campaign I started from
+        the 8Pounds Music FaceBook page. `,
+        paragraph2: `Developing this functionality required the use of Stripe, a transcation app. I used
+        their API for secure ticket transcations online that were not used from PayPal. The transacations I
+        made were also requesting additional info. from customers such as referal details in order to increase
+        sales of future events.`,
+        paragraph3: `The conclusion of the campaign provided an increase of the artists involved fan base, generated
+        revenue that exceeded expectations, and had a high egagement rate across twitter, FaceBook, Instagram, and SnapChat.
+        The head liner artist Sylvan LaCue will soon after take the results from the concert to then participate in a much
+        larger tour with Saba Pivot across the nation. The event company Creative's Only used the meta data and egagement results
+        to later partner in a festival with DJ Khaled in Miami for college students.`,
+        image: '../img/winter.gif',
+        gif_src: '',
+        type: 'Marketing Campaign',
+        tech: ['WordPress', 'PHP', 'MySQL', 'BootStrap3', 'JQuery', 'Stripe API', 'Adobe PhotoShop'],
+        tags: 'Stripe API, php, bootstrap, jquery, WordPress',
+        category: 'web',
+      },
+      {
         name: 'winter-soulstice',
         details: 'Progressive web app for a concert customer to reserve tickets and view details of performers. ',
         challenges: `Writing the content for each performer took some time. As this was my first use of the
