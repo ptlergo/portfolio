@@ -52,7 +52,10 @@ img[src*=-logo] {
 button:hover {
     -webkit-animation-play-state: paused;
     animation-play-state: paused;
+    outline-color: #ffffff;
+
 }
+
 /*
   ===================================
     animations: fadeIn, slideUp,
