@@ -330,7 +330,8 @@ footer {
   background: #252525;
   float: left;
   width: 100%;
-  height: 85vh; }
+  height: 100%;
+  padding-top: 10vh; }
   footer h1 {
     margin: 0;
     padding: 0; }
@@ -343,8 +344,8 @@ footer {
   footer ul {
     margin: 0;
     padding: 0; }
-    footer ul .social-box li {
-      display: inline; }
+  footer .f-copywirght {
+    padding-top: 20vh; }
 
 .about-p ul {
   overflow: scroll; }

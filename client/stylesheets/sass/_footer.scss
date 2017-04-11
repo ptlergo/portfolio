@@ -3,7 +3,9 @@ footer {
     background: #252525;
     float: left;
 width: 100%;
-height: 85vh;
+height: 100%;
+padding-top: 10vh;
+
 h1{
   margin: 0;
   padding: 0;
@@ -19,12 +21,10 @@ img{
 ul{
   margin: 0;
   padding: 0;
-  .social-box {
-
-  li{
-    display: inline;
-
-  }
 }
+
+.f-copywirght{
+  padding-top: 20vh;
+
 }
 }
