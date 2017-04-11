@@ -30,8 +30,11 @@ a[ng-href*=medium]::after {
 a[href*=tel]::before {
   font-family: FontAwesome;
   content: "\f095";
+  display: block;
 }
 a[href*=mailto]::before {
   font-family: FontAwesome;
   content: "\f003";
+  display: block;
+
 }
