@@ -13,6 +13,7 @@ function PublicationsController(homeService) {
   vm.img_src = publications.imgUrl;
   vm.title = publications.title;
   vm.summary = publications.summary;
+  vm.links = publications.links;
 }
 PublicationsController.$inject = ['homeService'];
 angular.module('myApp').controller('PublicationsController', PublicationsController);
