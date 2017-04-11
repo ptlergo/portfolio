@@ -9,7 +9,7 @@
 */
 function HomeController(homeService) {
   const vm = this;
-  vm.main_logo = '../../img/pat-logo.svg';
+  vm.main_logo = homeService.brand;
   vm.homeService = homeService;
   vm.socialLinks = homeService.Contact.social;
   vm.otherLinks = homeService.Contact.other;

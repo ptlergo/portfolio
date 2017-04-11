@@ -55,6 +55,7 @@ function homeService() {
         '1-407-655-9901',
       ],
     },
+    brand: '../../img/pat-logo.svg',
   };
 }
 angular.module('myApp').factory('homeService', homeService);
