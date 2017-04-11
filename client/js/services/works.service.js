@@ -24,7 +24,7 @@ function worksService() {
         type: 'app',
         tech: ['AngularJS', 'API', 'NodeJS', 'express', 'firebase', 'css3', 'JavaScript',
           'material design', 'X-Ray', 'google cloud'],
-        tags: 'pwa, angular, node, firebase, javascript',
+        tags: 'PWA, angularjs, node, firebase, javascript',
         category: 'web',
       },
       {

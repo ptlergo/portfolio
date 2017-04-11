@@ -1,9 +1,9 @@
 <div class ="case-p" ng-controller = 'WorksController as worksCtrl'>
   <img>
-  <h1></h1>
-  <h2></h2>
-  <ul><li></li></ul>
-  <ul><li></li></ul>
-  <p></p>
+  <h1>{{worksCtrl.cases[0].name}}</h1>
+  <h2>{{worksCtrl.cases[0].details}}</h2>
+  <i>{{worksCtrl.cases[0].tags}}</i>
+  <ul><li ng-repeat = "tech in worksCtrl.cases[0].tech">{{tech}}</li></ul>
+  <p>{{worksCtrl.cases[0].challenges}}</p>
   <button>more works</button>
 </div>
