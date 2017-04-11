@@ -15,6 +15,7 @@ function WorksController(worksService, homeService) {
   vm.summary = works.summary;
 
   vm.cases = worksService.caseStudies;
+  vm.caseMusicem = worksService.caseStudies[0];
   vm.device = worksService.Device.img;
 }
 WorksController.$inject = ['worksService', 'homeService'];
