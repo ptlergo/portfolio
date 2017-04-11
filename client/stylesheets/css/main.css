@@ -153,6 +153,44 @@ header {
     .section-animate-container-1::before {
       height: 16rem; } }
 
+a[data-value='download']::after {
+  font-family: FontAwesome;
+  content: "\f063"; }
+
+a[ng-href*=twitter]::after {
+  font-family: FontAwesome;
+  content: "\f099"; }
+
+a[ng-href*=github]::after {
+  font-family: FontAwesome;
+  content: "\f09b"; }
+
+a[ng-href*=linkedin]::after {
+  font-family: FontAwesome;
+  content: "\f0e1"; }
+
+a[ng-href*=dribble]::after {
+  font-family: FontAwesome;
+  content: "\f17d"; }
+
+a[ng-href*=behance]::after {
+  font-family: FontAwesome;
+  content: "\f1b4"; }
+
+a[ng-href*=medium]::after {
+  font-family: FontAwesome;
+  content: "\f23a"; }
+
+a[href*=tel]::before {
+  font-family: FontAwesome;
+  content: "\f095";
+  display: block; }
+
+a[href*=mailto]::before {
+  font-family: FontAwesome;
+  content: "\f003";
+  display: block; }
+
 /*
   ======================================================================
     Buttons, Headers, links, carousel etc.
@@ -175,18 +213,6 @@ button {
   background: #71e2a6;
   border: none;
   line-height: 2.95rem; }
-
-.about-p ul {
-  overflow: scroll; }
-
-.about-p p a {
-  color: #3263C9; }
-
-div[class*=-p] {
-  padding-left: 1.4rem;
-  padding-right: 1.4rem; }
-  div[class*=-p] ul {
-    padding: 0; }
 
 .hamburger-container {
   position: fixed;
@@ -299,65 +325,12 @@ nav a {
       height: 22.4rem;
       top: 3.9rem; } }
 
-.cases {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 10rem 1rem; }
-
-.cases > div {
-  flex: 1; }
-
-.case-p #case-image {
-  width: 100%; }
-  @media only screen and (min-width: 76.9rem) and (max-width: 180rem) {
-    .case-p #case-image {
-      width: 70%; } }
-
-a[data-value='download']::after {
-  font-family: FontAwesome;
-  content: "\f063"; }
-
-a[ng-href*=twitter]::after {
-  font-family: FontAwesome;
-  content: "\f099"; }
-
-a[ng-href*=github]::after {
-  font-family: FontAwesome;
-  content: "\f09b"; }
-
-a[ng-href*=linkedin]::after {
-  font-family: FontAwesome;
-  content: "\f0e1"; }
-
-a[ng-href*=dribble]::after {
-  font-family: FontAwesome;
-  content: "\f17d"; }
-
-a[ng-href*=behance]::after {
-  font-family: FontAwesome;
-  content: "\f1b4"; }
-
-a[ng-href*=medium]::after {
-  font-family: FontAwesome;
-  content: "\f23a"; }
-
-a[href*=tel]::before {
-  font-family: FontAwesome;
-  content: "\f095";
-  display: block; }
-
-a[href*=mailto]::before {
-  font-family: FontAwesome;
-  content: "\f003";
-  display: block; }
-
 footer {
   text-align: center;
   background: #252525;
   float: left;
   width: 100%;
-  height: 100%; }
+  height: 85vh; }
   footer h1 {
     margin: 0;
     padding: 0; }
@@ -372,3 +345,30 @@ footer {
     padding: 0; }
     footer ul .social-box li {
       display: inline; }
+
+.about-p ul {
+  overflow: scroll; }
+
+.about-p p a {
+  color: #3263C9; }
+
+div[class*=-p] {
+  padding-left: 1.4rem;
+  padding-right: 1.4rem; }
+  div[class*=-p] ul {
+    padding: 0; }
+
+.cases {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10rem 1rem; }
+
+.cases > div {
+  flex: 1; }
+
+.case-p #case-image {
+  width: 100%; }
+  @media only screen and (min-width: 76.9rem) and (max-width: 180rem) {
+    .case-p #case-image {
+      width: 70%; } }
