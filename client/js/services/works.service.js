@@ -29,7 +29,7 @@ function worksService() {
         category: 'web',
       },
       {
-        name: '8Pounds Music Events',
+        name: 'lonertour',
         details: 'Utilizing the WordPress CMS to establish a hub for a concert.',
         challenges: ` The 8Pounds Music website is developed on the WordPress CMS. The benefit
             of this is that plugins can be used. For this particular case study the plugins used
@@ -50,8 +50,9 @@ function worksService() {
         The head liner artist Sylvan LaCue will soon after take the results from the concert to then participate in a much
         larger tour with Saba Pivot across the nation. The event company Creative's Only used the meta data and egagement results
         to later partner in a festival with DJ Khaled in Miami for college students.`,
-        image: '../img/winter.gif',
+        image: '',
         gif_src: '',
+        case_images: ['../img/case-images/thelonertour/sylvan-banner.png'],
         type: 'Marketing Campaign',
         tech: ['WordPress', 'PHP', 'MySQL', 'BootStrap3', 'JQuery', 'Stripe API', 'Adobe PhotoShop'],
         tags: 'Stripe API, php, bootstrap, jquery, WordPress',

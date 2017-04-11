@@ -1,0 +1,10 @@
+<div class ="case-p" ng-controller = 'WorksController as worksCtrl'>
+  <img id = "case-image" ng-src = "{{worksCtrl.lonerTour.case_images[0]}}">
+  <h1>The Loner Tour e-Commerce Study</h1>
+  <h2>e-Commerce Service</h2>
+  <h3>Details: {{worksCtrl.lonerTour.details}}</h3>
+  <i>{{worksCtrl.lonerTour.tags}}</i>
+  <ul><li ng-repeat = "tech in worksCtrl.lonerTour.tech">{{tech}}</li></ul>
+  <p>{{worksCtrl.lonerTour.challenges}}</p>
+  <button>more works</button>
+</div>
