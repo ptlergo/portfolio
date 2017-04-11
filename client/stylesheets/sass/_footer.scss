@@ -8,6 +8,13 @@ h1{
   margin: 0;
   padding: 0;
 }
+img{
+  width: 35%;
+  padding: 2.6rem;
+  @include desktop{
+    width: 10%;
+  }
+}
 
 ul{
   margin: 0;

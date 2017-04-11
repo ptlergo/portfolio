@@ -361,6 +361,12 @@ footer {
   footer h1 {
     margin: 0;
     padding: 0; }
+  footer img {
+    width: 35%;
+    padding: 2.6rem; }
+    @media only screen and (min-width: 76.9rem) and (max-width: 180rem) {
+      footer img {
+        width: 10%; } }
   footer ul {
     margin: 0;
     padding: 0; }
