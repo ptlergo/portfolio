@@ -20,10 +20,22 @@ angular.module('myApp', ['ngRoute', 'ngSanitize', 'ngAnimate', 'ui.bootstrap'])
       templateUrl: 'views/works.html',
     };
 
+    const musicemRoute = {
+      controller: 'WorksController',
+      templateUrl: 'views/works/case.html',
+    };
+
+    const winterRoute = {
+      controller: 'WorksController',
+      templateUrl: 'views/works/case.html',
+    };
+
     $routeProvider.when('/', homeRoute);
     $routeProvider.when('/about', aboutRoute);
     $routeProvider.when('/publications', publicationsRoute);
     $routeProvider.when('/works', worksRoute);
+    $routeProvider.when('/musicem', musicemRoute);
+    $routeProvider.when('/winter', winterRoute);
     $routeProvider.otherwise({ redirectTo: '/' });
     $locationProvider.hashPrefix('');
   });

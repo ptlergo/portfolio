@@ -11,7 +11,7 @@ function worksService() {
   return {
     caseStudies: [
       {
-        name: 'music\'em',
+        name: 'musicem',
         details: 'Progressive web app. that aggregates content from curated list of music brands.',
         challenges: `Utilizing X-Ray to create a bot that scrapes the websites of interest proved
                      to be difficult but with practice I was able to establish multiple bots per site

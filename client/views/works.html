@@ -5,7 +5,7 @@
   <div class = "cases" ng-repeat = "case in worksCtrl.cases track by $index">
     <div class = "case-description">
       <h2>{{case.name}}</h2>
-      <button><a href = "#">view case study</a></button>
+      <button><a ng-href = "#{{case.name}}">view case study</a></button>
       <button ng-click="checked = !checked" data-value="Toggle">show tech.</button>
       <ul ng-show = "checked">
         <li ng-repeat = "tech in case.tech"><i>{{tech}}</i></li>
