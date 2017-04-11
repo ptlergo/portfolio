@@ -17,7 +17,8 @@ body {
   -ms-flex-direction: column;
   flex-direction: column;
   -webkit-font-smoothing: antialiased;
-  font-smoothing: antialiased; }
+  font-smoothing: antialiased;
+  color: #4c4e4d; }
   body a,
   body a:visited {
     color: #ffffff;
@@ -363,3 +364,5 @@ footer {
   footer ul {
     margin: 0;
     padding: 0; }
+    footer ul .social-box li {
+      display: inline; }
