@@ -73,6 +73,10 @@ header {
 .publications-s,
 .works-s {
   padding: 1.6rem 0; }
+  .about-s h1,
+  .publications-s h1,
+  .works-s h1 {
+    color: #ffffff; }
 
 .about-s,
 .publications-s {

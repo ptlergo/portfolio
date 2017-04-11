@@ -55,6 +55,7 @@ header {
 .home-s {
     height: 60vh;
 
+
     .home-text {
         margin: 10% 0 0 5%;
         max-width: 80%;
@@ -86,6 +87,9 @@ header {
 .publications-s,
 .works-s {
     padding: 1.6rem 0;
+    h1{
+      color: #ffffff;
+    }
 }
 
 .about-s,
