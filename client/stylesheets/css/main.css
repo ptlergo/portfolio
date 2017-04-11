@@ -230,18 +230,35 @@ img[src*=-logo] {
 @keyframes logoArrival {
   0% {
     position: relative;
-    top: -100vh; }
+    bottom: -100vh; }
   100% {
-    top: 100vh; } }
+    bottom: 100vh; } }
 
 @keyframes slideLeft {
   0% {
     position: relative;
-    left: -100vw; }
+    right: -100vw; }
   100% {
-    left: 100vw; } }
+    right: 100vw; } }
 
-@keyframes button-click {}.hamburger-container {
+/*
+  ===================================
+    resume & menu arrival animation
+  ===================================
+*/
+.home-text button {
+  animation: appear 5s ease-in; }
+
+.hamburger-container {
+  animation: appear 5s ease-in; }
+
+@keyframes appear {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.hamburger-container {
   position: fixed;
   top: 5%;
   right: 2%;
