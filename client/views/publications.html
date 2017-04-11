@@ -5,10 +5,14 @@
   </div>
   <div>
     <p>{{ publicationsCtrl.summary }}</p>
+    <div class = "vid-p">
+        {{publicationsCtrl.links[0].title}}
+        <iframe src="https://www.youtube.com/embed/BL80370LkzQ" frameborder="0" allowfullscreen></iframe>
+        <a ng-href = "{{publicationsCtrl.links[0].src}}">watch here</a>
+      </div>
     <ul>
-      <li>{{publicationsCtrl.link[0].title}}<a ng-href = "{{publicationsCtrl.links[0].src}}">watch here</a></li>
-      <li>{{publicationsCtrl.link[1].title}}<a ng-href = "{{publicationsCtrl.links[1].src}}">read here</a></li>
-      <li>{{publicationsCtrl.link[2].title}}<a ng-href = "{{publicationsCtrl.links[2].src}}">read here</a></li>
+      <li>{{publicationsCtrl.links[1].title}} | <a ng-href = "{{publicationsCtrl.links[1].src}}">read here</a></li>
+      <li>{{publicationsCtrl.links[2].title}} | <a ng-href = "{{publicationsCtrl.links[2].src}}">read here</a></li>
     </ul>
   </div>
 </div>
