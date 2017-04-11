@@ -220,7 +220,7 @@ a[href*=mailto]::before {
   padding-top: 15%; }
 
 button {
-  box-shadow: 0px 0.1rem 0.1rem rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.1rem 0.1rem rgba(0, 0, 0, 0.2);
   background: #71e2a6;
   border: none;
   line-height: 2.95rem;
@@ -233,12 +233,30 @@ button {
   ===================================
 */
 img[src*=-logo] {
-  animation: logoArrival 2s ease-in; }
+  animation: slideUp 2s ease-in; }
 
 .home-text {
   animation: slideLeft 2.5s ease-in; }
 
-@keyframes logoArrival {
+.home-text button {
+  animation: fadeIn 5s ease-in; }
+
+.hamburger-container {
+  animation: fadeIn 5s ease-in; }
+
+/*
+  ===================================
+    animations: fadeIn, slideUp,
+    slideLeft
+  ===================================
+*/
+@keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes slideUp {
   0% {
     position: relative;
     bottom: -100vh; }
@@ -251,23 +269,6 @@ img[src*=-logo] {
     right: -100vw; }
   100% {
     right: 100vw; } }
-
-/*
-  ===================================
-    resume & menu arrival animation
-  ===================================
-*/
-.home-text button {
-  animation: appear 5s ease-in; }
-
-.hamburger-container {
-  animation: appear 5s ease-in; }
-
-@keyframes appear {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
 
 .hamburger-container {
   position: fixed;

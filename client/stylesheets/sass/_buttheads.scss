@@ -3,7 +3,6 @@
     Buttons, Headers, links, carousel etc.
   ======================================================================
 */
-
 .title-link {
     display: inline-block;
     color: white;
@@ -19,53 +18,68 @@
     padding-top: 15%;
 }
 
-button{
-  box-shadow: 0px 0.1rem 0.1rem rgba(0,0,0,0.2);
-  background: #71e2a6;
-  border: none;
-  line-height: 2.95rem;
-  animation: button-click 2s ease-in;
-  margin: 1rem 0;
+button {
+    box-shadow: 0 0.1rem 0.1rem rgba(0,0,0,0.2);
+    background: #71e2a6;
+    border: none;
+    line-height: 2.95rem;
+    animation: button-click 2s ease-in;
+    margin: 1rem 0;
 }
-
 /*
   ===================================
     HomePage Animations
   ===================================
 */
-img[src*=-logo]{
-  animation: logoArrival 2s ease-in;
+img[src*=-logo] {
+    animation: slideUp 2s ease-in;
 }
 
-.home-text{
-  animation: slideLeft 2.5s ease-in;
-}
-@keyframes logoArrival{
-  0%{ position: relative; bottom: -100vh;}
-  100%{ bottom: 100vh;}
+.home-text {
+    animation: slideLeft 2.5s ease-in;
 }
 
-@keyframes slideLeft{
-  0%{ position: relative; right: -100vw;}
-  100%{ right: 100vw;}
+.home-text {
+    button {
+        animation: fadeIn 5s ease-in;
+    }
 }
 
+.hamburger-container {
+    animation: fadeIn 5s ease-in;
+}
 /*
   ===================================
-    resume & menu arrival animation
+    animations: fadeIn, slideUp,
+    slideLeft
   ===================================
 */
-.home-text{
-  button{
-    animation: appear 5s ease-in;
-  }
-}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
 
-.hamburger-container{
-  animation: appear 5s ease-in;
+    100% {
+        opacity: 1;
+    }
 }
-@keyframes appear{
-  0% { opacity: 0;}
-  100% { opacity: 1;}
+@keyframes slideUp {
+    0% {
+        position: relative;
+        bottom: -100vh;
+    }
 
+    100% {
+        bottom: 100vh;
+    }
+}
+@keyframes slideLeft {
+    0% {
+        position: relative;
+        right: -100vw;
+    }
+
+    100% {
+        right: 100vw;
+    }
 }
