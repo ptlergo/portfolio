@@ -16,12 +16,14 @@ body {
   color: #4c4e4d;
 
     a,
-    a:visited {
+    a:visited,
+    a:hover {
         color: #ffffff;
         font-weight: 500;
         width: 100%;
         text-decoration: none !important;
     }
+
 
     p {
         font-family: $font-fam-p;

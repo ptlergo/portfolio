@@ -20,7 +20,8 @@ body {
   font-smoothing: antialiased;
   color: #4c4e4d; }
   body a,
-  body a:visited {
+  body a:visited,
+  body a:hover {
     color: #ffffff;
     font-weight: 500;
     width: 100%;
