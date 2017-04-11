@@ -32,11 +32,11 @@ button {
   ===================================
 */
 img[src*=-logo] {
-    animation: slideUp 2s ease-in;
+    animation: slideUp 2.5s ease-in-out;
 }
 
 .home-text {
-    animation: slideLeft 2.5s ease-in;
+    animation: slideLeft 3s ease-in-out;
 }
 
 .home-text {
@@ -47,6 +47,11 @@ img[src*=-logo] {
 
 .hamburger-container {
     animation: fadeIn 5s ease-in;
+}
+
+button:hover {
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
 }
 /*
   ===================================
