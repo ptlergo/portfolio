@@ -22,7 +22,7 @@ angular.module('myApp', ['ngRoute', 'ngSanitize', 'ngAnimate', 'ui.bootstrap'])
 
     const musicemRoute = {
       controller: 'WorksController',
-      templateUrl: 'views/works/case.html',
+      templateUrl: 'views/works/musicem.html',
     };
 
     $routeProvider.when('/', homeRoute);

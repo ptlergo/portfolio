@@ -307,6 +307,12 @@ nav a {
 .cases > div {
   flex: 1; }
 
+.case-p #case-image {
+  width: 100%; }
+  @media only screen and (min-width: 76.9rem) and (max-width: 180rem) {
+    .case-p #case-image {
+      width: 70%; } }
+
 a[data-value='download']::after {
   font-family: FontAwesome;
   content: "\f063"; }

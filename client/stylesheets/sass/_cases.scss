@@ -9,3 +9,12 @@
 .cases > div {
     flex: 1;
 }
+
+.case-p{
+  #case-image{
+    width: 100%;
+    @include desktop{
+      width: 70%;
+    }
+  }
+}
