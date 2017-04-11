@@ -55,12 +55,27 @@ header {
 
     .home-text {
         margin: 10% 0 0 5%;
-        max-width: 70%;
+        max-width: 80%;
+        padding-top: 2.0rem;
+        h1{
+          font-size: 2rem;
+        }
+        h2{
+          font-size: 1.5rem;
+          margin: 0 !important;
+        }
     }
     @include desktop {
         .home-text {
             max-width: 40%;
             margin: 10% 0 0 2%;
+
+            h1{
+              font-size: 4.0rem;
+            }
+            h2{
+              font-size: 2.5rem;
+            }
         }
     }
 }
