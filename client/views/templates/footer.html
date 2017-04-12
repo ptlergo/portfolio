@@ -1,4 +1,5 @@
 <footer ng-controller = "HomeController as footerCtrl">
+  <img ng-src='{{footerCtrl.main_logo}}'>
     <div class="contact-box">
       <h1>contact me</h1>
       <ul>
@@ -9,14 +10,13 @@
 
     <div class="social-box">
       <h1>follow me</h1>
-      <ul ng-repeat = "social in footerCtrl.socialLinks">
-        <li><a ng-href = "{{social}}"></a></li>
+      <ul>
+        <li ng-repeat = "social in footerCtrl.socialLinks"><a ng-href = "{{social}}"></a></li>
       </ul>
     </div>
 
     <div class="f-copywirght">
       <ul>
-        <li><img ng-src='{{mainCtrl.main_logo}}'></li>
         <li><i>&copy; 2017 Patrick Funom Tunga-Lergo</i></li>
       </ul>
     </div>

@@ -1,0 +1,454 @@
+<<<<<<< HEAD
+=======
+/*
+  ===================================
+    Variables
+  ===================================
+*/
+/*
+  ===================================
+    Project Defaults
+  ===================================
+*/
+body {
+  font-family: "nunito", corbel, san-serif;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  color: #4c4e4d; }
+  body a,
+  body a:visited,
+  body a:hover,
+  body a:focus {
+    color: #ffffff;
+    font-weight: 500;
+    width: 100%;
+    text-decoration: none !important;
+    outline-color: transparent; }
+  body button a, body .home-text a {
+    color: #71e2a6; }
+  body p {
+    font-family: "proxima-nova", Corbel, Arial, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.85;
+    margin: 0; }
+    @media only screen and (min-width: 76.9rem) and (max-width: 180rem) {
+      body p {
+        font-size: 2.2rem; } }
+  body ul {
+    list-style: none; }
+
+#view-container,
+footer,
+header {
+  flex: 1; }
+
+/*
+  ===================================
+    Home Sections
+  ===================================
+*/
+.home-s {
+  height: 60vh; }
+  .home-s .home-text {
+    margin: 10% 0 0 5%;
+    max-width: 80%;
+    padding-top: 2.0rem; }
+    .home-s .home-text h1 {
+      font-size: 2rem; }
+    .home-s .home-text h2 {
+      font-size: 1.5rem;
+      margin: 0 !important; }
+  @media only screen and (min-width: 76.9rem) and (max-width: 180rem) {
+    .home-s .home-text {
+      max-width: 40%;
+      margin: 10% 0 0 2%; }
+      .home-s .home-text h1 {
+        font-size: 4.0rem; }
+      .home-s .home-text h2 {
+        font-size: 2.5rem; } }
+
+.about-s,
+.publications-s,
+.works-s {
+  padding: 1.6rem 0; }
+
+.about-s,
+.publications-s {
+  background: #3263C9; }
+
+.works-s {
+  background: #252525; }
+
+/*
+  ===================================
+    Sections Content
+  ===================================
+*/
+.section-container {
+  width: 92%;
+  margin: auto; }
+  @media only screen and (min-width: 76.9rem) and (max-width: 180rem) {
+    .section-container {
+      width: 70%; } }
+
+.summary-box p {
+  background: white;
+  padding: 3.25rem; }
+  @media only screen and (min-width: 76.9rem) and (max-width: 180rem) {
+    .summary-box p {
+      padding: 3rem 15.0rem; } }
+
+/*
+  ===================================
+    Slant Effects Borders
+  ===================================
+*/
+.section-animate-container-0 {
+  background: #ffffff; }
+
+.section-animate-container-1 {
+  background: #3263C9; }
+
+.section-animate-container-2 {
+  background: #252525; }
+
+.summary-box::before {
+  -webkit-clip-path: polygon(120% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(120% 0%, 0% 100%, 100% 100%);
+  display: block;
+  content: "";
+  width: 100%;
+  height: 8rem;
+  background: #ffffff; }
+  @media only screen and (min-width: 76.9rem) and (max-width: 180rem) {
+    .summary-box::before {
+      height: 16rem; } }
+
+.summary-box::after {
+  -webkit-clip-path: polygon(0% 0%, 0% 100%, 120% 0%);
+  clip-path: polygon(0% 0%, 0% 100%, 120% 0%);
+  display: block;
+  content: "";
+  width: 100%;
+  height: 8rem;
+  background: #ffffff; }
+  @media only screen and (min-width: 76.9rem) and (max-width: 180rem) {
+    .summary-box::after {
+      height: 16rem;
+      -webkit-clip-path: polygon(0% 0%, 0% 100%, 100% 0%);
+      clip-path: polygon(0% 0%, 0% 100%, 100% 0%); } }
+
+.section-animate-container-0::before,
+.section-animate-container-2::before {
+  display: block;
+  content: "";
+  width: 100%;
+  height: 8rem;
+  background: #3263C9;
+  -webkit-clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(100% 0%, 0% 100%, 100% 100%); }
+  @media only screen and (min-width: 76.9rem) and (max-width: 180rem) {
+    .section-animate-container-0::before,
+    .section-animate-container-2::before {
+      height: 16rem; } }
+
+.section-animate-container-1::before {
+  display: block;
+  content: "";
+  width: 100%;
+  height: 8rem;
+  background: #252525;
+  -webkit-clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(100% 0%, 0% 100%, 100% 100%); }
+  @media only screen and (min-width: 76.9rem) and (max-width: 180rem) {
+    .section-animate-container-1::before {
+      height: 16rem; } }
+
+a[data-value='download']::after {
+  font-family: FontAwesome;
+  content: "\f063"; }
+
+a[ng-href*=twitter]::after {
+  font-family: FontAwesome;
+  content: "\f099"; }
+
+a[ng-href*=github]::after {
+  font-family: FontAwesome;
+  content: "\f09b"; }
+
+a[ng-href*=linkedin]::after {
+  font-family: FontAwesome;
+  content: "\f0e1"; }
+
+a[ng-href*=dribble]::after {
+  font-family: FontAwesome;
+  content: "\f17d"; }
+
+a[ng-href*=behance]::after {
+  font-family: FontAwesome;
+  content: "\f1b4"; }
+
+a[ng-href*=medium]::after {
+  font-family: FontAwesome;
+  content: "\f23a"; }
+
+a[href*=tel]::before {
+  font-family: FontAwesome;
+  content: "\f095";
+  display: block; }
+
+a[href*=mailto]::before {
+  font-family: FontAwesome;
+  content: "\f003";
+  display: block; }
+
+/*
+  ======================================================================
+    Buttons, Headers, links, carousel etc.
+  ======================================================================
+*/
+.title-link {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  box-sizing: border-box; }
+
+.carousel-indicators li {
+  visibility: hidden; }
+
+.tagline {
+  padding-top: 15%; }
+
+button {
+  margin-top: 1.6rem;
+  text-rendering: optimizeLegibility;
+  font-smoothing: antialiased;
+  background: transparent;
+  text-align: center;
+  color: #71e2a6;
+  font-weight: bold;
+  border: 1px solid #71e2a6;
+  box-shadow: 0.4rem 0.4rem 0px 0px #71e2a6;
+  text-transform: uppercase;
+  transition: all .2s ease-in-out; }
+
+/*scale transform works better than zoom*/
+button:hover {
+  box-shadow: none;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05); }
+
+/*
+  ===================================
+    HomePage Animations
+  ===================================
+*/
+img[src*=-logo] {
+  animation: slideUp 2.5s ease-in-out; }
+
+.home-text {
+  animation: slideLeft 3s ease-in-out; }
+
+.hamburger-container {
+  animation: fadeIn 5s ease-in; }
+
+/*
+  ===================================
+    animations: fadeIn, slideUp,
+    slideLeft
+  ===================================
+*/
+@keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes slideUp {
+  0% {
+    position: relative;
+    bottom: -100vh; }
+  100% {
+    bottom: 100vh; } }
+
+@keyframes slideLeft {
+  0% {
+    position: relative;
+    right: -100vw; }
+  100% {
+    right: 100vw; } }
+
+.hamburger-container {
+  position: fixed;
+  top: 5%;
+  right: 2%;
+  height: 3.5rem;
+  width: 3.5rem;
+  cursor: pointer;
+  z-index: 100;
+  transition: opacity 0.25s ease; }
+
+.hamburger-container:hover {
+  opacity: 0.5; }
+
+.hamburger-container span {
+  background: #EFC638;
+  border: none;
+  height: 0.5rem;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.35s ease;
+  cursor: pointer; }
+
+.hamburger-container span:nth-of-type(2) {
+  top: 1.1rem; }
+
+.hamburger-container span:nth-of-type(3) {
+  top: 2.2rem; }
+
+.menuActive {
+  -webkit-transition: all linear 0.5s;
+  transition: all linear 0.5s; }
+  .menuActive .top {
+    transform: translateY(11px) translateX(0) rotate(45deg); }
+  .menuActive .middle {
+    opacity: 0;
+    width: 0%; }
+  .menuActive .bottom {
+    transform: translateY(-11px) translateX(0) rotate(-45deg); }
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  width: 100%;
+  background: #3263C9;
+  z-index: 2;
+  color: white;
+  text-align: center;
+  opacity: 0;
+  -webkit-transition: all linear 0.25s;
+  transition: all linear 0.25s;
+  font-variant: small-caps; }
+  .overlay .nav-links:first-child {
+    margin-top: 15%; }
+    @media only screen and (max-width: 48rem) {
+      .overlay .nav-links:first-child {
+        margin-top: 50%; } }
+
+.overlayActive {
+  -webkit-transition: all linear 0.25s;
+  transition: all linear 0.25s;
+  opacity: 1; }
+
+.overlay ul {
+  list-style: none; }
+
+.navbar {
+  margin: 0; }
+
+nav a {
+  color: white; }
+
+.brand {
+  width: 10%; }
+  @media only screen and (max-width: 48rem) {
+    .brand {
+      width: 25%; } }
+  .brand img {
+    width: 100%; }
+
+.prototype-device {
+  background-image: url("../../img/iphone.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 60rem;
+  content: '*'; }
+  @media only screen and (max-width: 48rem) {
+    .prototype-device {
+      height: 30rem;
+      width: 100%; } }
+
+.prototype-screen {
+  background-image: url("");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  content: '*';
+  height: 45rem;
+  top: 7rem;
+  position: relative; }
+  @media only screen and (max-width: 48rem) {
+    .prototype-screen {
+      height: 22.4rem;
+      top: 3.9rem; } }
+
+footer {
+  text-align: center;
+  background: #252525;
+  float: left;
+  width: 100%;
+  height: 100%;
+  padding-top: 10vh; }
+  footer div[class*=-box] {
+    margin: 6rem auto; }
+  footer h1 {
+    margin: 0;
+    padding: 0; }
+  footer img {
+    width: 30%;
+    padding: 0.6rem; }
+    @media only screen and (min-width: 76.9rem) and (max-width: 180rem) {
+      footer img {
+        width: 10%; } }
+  footer ul {
+    margin: 0;
+    padding: 0; }
+  footer .social-box ul {
+    display: inline-flex; }
+  footer .social-box li {
+    padding: 1rem;
+    font-size: 3rem; }
+  footer .f-copywirght {
+    padding-top: 5vh; }
+
+.about-p ul {
+  overflow: scroll; }
+
+.about-p p a {
+  color: #3263C9; }
+
+div[class*=-p] {
+  padding-left: 1.4rem;
+  padding-right: 1.4rem; }
+  div[class*=-p] ul {
+    padding: 0; }
+
+.cases {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10rem 1rem; }
+
+.cases > div {
+  flex: 1; }
+
+.case-p #case-image {
+  width: 100%; }
+  @media only screen and (min-width: 76.9rem) and (max-width: 180rem) {
+    .case-p #case-image {
+      width: 70%; } }
+>>>>>>> c24747a2e86fd581bf3001c4fd6c2cf7a1553a33

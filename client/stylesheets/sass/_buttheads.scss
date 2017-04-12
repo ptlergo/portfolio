@@ -3,7 +3,6 @@
     Buttons, Headers, links, carousel etc.
   ======================================================================
 */
-
 .title-link {
     display: inline-block;
     color: white;
@@ -17,4 +16,82 @@
 
 .tagline {
     padding-top: 15%;
+}
+
+
+
+button{
+  margin-top: 1.6rem;
+	text-rendering: optimizeLegibility;
+	font-smoothing: antialiased;
+	background: transparent;
+	text-align: center;
+	color: #71e2a6;
+	font-weight: bold;
+	border: 1px solid #71e2a6;
+	box-shadow: 0.4rem 0.4rem 0px 0px #71e2a6;
+	text-transform: uppercase;
+	transition: all .2s ease-in-out;
+}
+
+/*scale transform works better than zoom*/
+button:hover{
+	box-shadow: none;
+    -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+            transform: scale(1.05);
+}
+
+/*
+  ===================================
+    HomePage Animations
+  ===================================
+*/
+img[src*=-logo] {
+    animation: slideUp 2.5s ease-in-out;
+}
+
+.home-text {
+    animation: slideLeft 3s ease-in-out;
+}
+
+.hamburger-container {
+    animation: fadeIn 5s ease-in;
+}
+
+
+/*
+  ===================================
+    animations: fadeIn, slideUp,
+    slideLeft
+  ===================================
+*/
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes slideUp {
+    0% {
+        position: relative;
+        bottom: -100vh;
+    }
+
+    100% {
+        bottom: 100vh;
+    }
+}
+@keyframes slideLeft {
+    0% {
+        position: relative;
+        right: -100vw;
+    }
+
+    100% {
+        right: 100vw;
+    }
 }

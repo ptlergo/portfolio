@@ -7,12 +7,12 @@
   *
   * @returns {}
 */
-function NavController() {
+function NavController(homeService) {
   const vm = this;
 
   vm.hamClass = true;
   vm.mToggle = false;
-  vm.brand = '../../img/pat-logo.svg';
+  vm.brand = homeService.brand;
 
 
   vm.routes = [
@@ -34,4 +34,5 @@ function NavController() {
     },
   ];
 }
+NavController.$inject = ['homeService'];
 angular.module('myApp').controller('NavController', NavController);
