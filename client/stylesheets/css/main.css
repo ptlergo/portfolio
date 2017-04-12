@@ -5,6 +5,32 @@
 */
 /*
   ===================================
+    animations: fadeIn, slideUp,
+    slideLeft
+  ===================================
+*/
+@keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes slideUp {
+  0% {
+    position: relative;
+    bottom: -100vh; }
+  100% {
+    bottom: 100vh; } }
+
+@keyframes slideLeft {
+  0% {
+    position: relative;
+    right: -100vw; }
+  100% {
+    right: 100vw; } }
+
+/*
+  ===================================
     Project Defaults
   ===================================
 */
@@ -18,6 +44,7 @@ body {
   flex-direction: column;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
   color: #4c4e4d; }
   body a,
   body a:visited,
@@ -229,8 +256,6 @@ a[href*=mailto]::before {
 
 button {
   margin-top: 1.6rem;
-  text-rendering: optimizeLegibility;
-  font-smoothing: antialiased;
   background: transparent;
   text-align: center;
   color: #71e2a6;
@@ -249,7 +274,7 @@ button:hover {
 
 /*
   ===================================
-    HomePage Animations
+    HomePage Triggers
   ===================================
 */
 img[src*=-logo] {
@@ -260,32 +285,6 @@ img[src*=-logo] {
 
 .hamburger-container {
   animation: fadeIn 5s ease-in; }
-
-/*
-  ===================================
-    animations: fadeIn, slideUp,
-    slideLeft
-  ===================================
-*/
-@keyframes fadeIn {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-
-@keyframes slideUp {
-  0% {
-    position: relative;
-    bottom: -100vh; }
-  100% {
-    bottom: 100vh; } }
-
-@keyframes slideLeft {
-  0% {
-    position: relative;
-    right: -100vw; }
-  100% {
-    right: 100vw; } }
 
 .hamburger-container {
   position: fixed;

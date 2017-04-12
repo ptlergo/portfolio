@@ -72,3 +72,39 @@
     transform: translateY(0px);
     z-index: -1;
 }
+
+/*
+  ===================================
+    animations: fadeIn, slideUp,
+    slideLeft
+  ===================================
+*/
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes slideUp {
+    0% {
+        position: relative;
+        bottom: -100vh;
+    }
+
+    100% {
+        bottom: 100vh;
+    }
+}
+@keyframes slideLeft {
+    0% {
+        position: relative;
+        right: -100vw;
+    }
+
+    100% {
+        right: 100vw;
+    }
+}
