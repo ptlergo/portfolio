@@ -36,21 +36,23 @@ function worksService() {
         challenges: ` I developed the 8Pounds Music website on the WordPress CMS from a PHP based theme. As of recent
                       there are more than 400 articles written on the platform with images, audio, and video content to match.
                       The benefit of the CMS is the many plugins one of which I used to create a ticket kiosk widget.`,
-        paragraphA: `Ticket Tailor allowed the appropiate ability to track meta data of incoming sales.
-        In corelation with geni.us links I was able to create custom links for each individual selling tickets
-        thus tracking each sellers ticket amounts and allowing the ability to redirect to any page needed at any time.
-        The links were enhanced with SEO techniques for increased keyword search results for local concerts. A FaceBook
-        pixel was added to the links to track the demographics marketed to on FaceBook from the ad campaign I started from
-        the 8Pounds Music FaceBook page. `,
-        paragraphB: `Developing this functionality required the use of Stripe, a transcation app. I used
-        their API for secure ticket transcations online that were not used from PayPal. The transacations I
-        made were also requesting additional info. from customers such as referal details in order to increase
-        sales of future events.`,
-        paragraphC: `The conclusion of the campaign provided an increase of the artists involved fan base, generated
-        revenue that exceeded expectations, and had a high egagement rate across twitter, FaceBook, Instagram, and SnapChat.
-        The head liner artist Sylvan LaCue will soon after take the results from the concert to then participate in a much
-        larger tour with Saba Pivot across the nation. The event company Creative's Only used the meta data and egagement results
-        to later partner in a festival with DJ Khaled in Miami for college students.`,
+        paragraphs: [
+          `Ticket Tailor allowed the appropiate ability to track meta data of incoming sales.
+             In corelation with geni.us links I was able to create custom links for each individual selling tickets
+             thus tracking each sellers ticket amounts and allowing the ability to redirect to any page needed at any time.
+             The links were enhanced with SEO techniques for increased keyword search results for local concerts. A FaceBook
+             pixel was added to the links to track the demographics marketed to on FaceBook from the ad campaign I started from
+             the 8Pounds Music FaceBook page. `,
+          `Developing this functionality required the use of Stripe, a transcation app. I used
+             their API for secure ticket transcations online that were not used from PayPal. The transacations I
+             made were also requesting additional info. from customers such as referal details in order to increase
+             sales of future events.`,
+          `The conclusion of the campaign provided an increase of the artists involved fan base, generated
+             revenue that exceeded expectations, and had a high egagement rate across twitter, FaceBook, Instagram, and SnapChat.
+             The head liner artist Sylvan LaCue will soon after take the results from the concert to then participate in a much
+             larger tour with Saba Pivot across the nation. The event company Creative's Only used the meta data and egagement results
+             to later partner in a festival with DJ Khaled in Miami for college students.`,
+        ],
         image: '',
         gif_src: '',
         case_images: ['../img/case-images/thelonertour/sylvan-banner.png'],
