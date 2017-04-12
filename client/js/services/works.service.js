@@ -55,8 +55,8 @@ function worksService() {
         case_images: ['../img/case-images/thelonertour/sylvan-banner.png'],
         type: 'Marketing Campaign',
         tech: ['WordPress', 'PHP', 'MySQL', 'BootStrap3', 'JQuery', 'Stripe API', 'Adobe PhotoShop'],
-        tags: 'Stripe API, php, bootstrap, jquery, WordPress',
-        category: 'web',
+        tags: 'Stripe API, php, bootstrap, jquery, WordPress, branding',
+        category: 'branding',
       },
       {
         name: 'winter-soulstice',
