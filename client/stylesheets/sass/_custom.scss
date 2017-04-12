@@ -25,6 +25,9 @@ body {
         text-decoration: none !important;
         outline-color: transparent;
     }
+    button a, .home-text a{
+      color: #71e2a6;
+    }
 
 
     p {
@@ -54,6 +57,7 @@ header {
 */
 .home-s {
     height: 60vh;
+
 
     .home-text {
         margin: 10% 0 0 5%;
