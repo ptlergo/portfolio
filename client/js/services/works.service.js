@@ -12,19 +12,19 @@ function worksService() {
     caseStudies: [
       {
         name: 'musicem',
-        details: 'Progressive web app. that aggregates content from curated list of music brands.',
-        challenges: `Utilizing X-Ray to create a bot that scrapes the websites of interest proved
-                     to be difficult but with practice I was able to establish multiple bots per site
-                     that collected the information and saved it into my firebase database for access.
-                     I used AngularJS to bind my information from my nodejs server to the front-end which
-                     made presenting the information challenging until I applied ngAnimate library for
-                    transitional animations.`,
+        details: 'MEAN Stack progressive web app. that aggregates content from curated list of music brands.',
+        challenges: `Music'em is built with X-Ray to create a bot that scrapes websites of interest.
+                     I built multiple bots per site to collect information such as: content title, images,
+                     links, and etc. The data is then saved to a firebase database for further access.
+                     AngularJS was used to bind my information from my nodejs API to the front-end. My app.
+                     runs on the express NodeJS server. I gained a thorough understanding of JavaScript,
+                     Angular's MVVM architecture and http requests from this project.`,
         image: 'http://marvelapp.com/1f3ia7a?emb=1',
         case_images: ['../img/case-images/musicem/musicem-case-image.png'],
         gif_src: 'https://media.giphy.com/media/3ohzdLBDAwCtfWy6sM/giphy.gif',
-        type: 'app',
-        tech: ['AngularJS', 'API', 'NodeJS', 'express', 'firebase', 'css3', 'JavaScript',
-          'material design', 'X-Ray', 'google cloud'],
+        type: 'web app',
+        tech: ['AngularJS', 'API', 'NodeJS', 'firebase', 'css3', 'JavaScript',
+          'material design', 'X-Ray', 'google app engine'],
         tags: 'PWA, angularjs, node, firebase, javascript',
         category: 'web',
       },
