@@ -13,6 +13,7 @@ body {
       flex-direction: column;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
   color: #4c4e4d;
 
     a,
@@ -143,8 +144,8 @@ header {
 }
 
 .summary-box::before{
-  -webkit-clip-path: polygon(120% 0%, 0% 100%, 100% 100%);
-  clip-path: polygon(120% 0%, 0% 100%, 100% 100%);
+  -webkit-clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
   display: block;
   content: "";
   width: 100%;
@@ -157,8 +158,8 @@ header {
 }
 
 .summary-box::after{
-  -webkit-clip-path: polygon(0% 0%, 0% 100%, 120% 0%);
-  clip-path: polygon(0% 0%, 0% 100%, 120% 0%);
+  -webkit-clip-path: polygon(0% 0%, 0% 100%, 100% 0%);
+  clip-path: polygon(0% 0%, 0% 100%, 100% 0%);
   display: block;
   content: "";
   width: 100%;
