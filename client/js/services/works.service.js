@@ -37,25 +37,25 @@ function worksService() {
                       there are more than 400 articles written on the platform with images, audio, and video content to match.
                       The benefit of the CMS is the many plugins one of which I used to create a ticket kiosk widget.`,
         paragraphs: [
-          `Ticket Tailor allowed the appropiate ability to track meta data of incoming sales.
-             In corelation with geni.us links I was able to create custom links for each individual selling tickets
-             thus tracking each sellers ticket amounts and allowing the ability to redirect to any page needed at any time.
-             The links were enhanced with SEO techniques for increased keyword search results for local concerts. A FaceBook
-             pixel was added to the links to track the demographics marketed to on FaceBook from the ad campaign I started from
-             the 8Pounds Music FaceBook page. `,
-          `Developing this functionality required the use of Stripe, a transcation app. I used
-             their API for secure ticket transcations online that were not used from PayPal. The transacations I
-             made were also requesting additional info. from customers such as referal details in order to increase
-             sales of future events.`,
-          `The conclusion of the campaign provided an increase of the artists involved fan base, generated
-             revenue that exceeded expectations, and had a high egagement rate across twitter, FaceBook, Instagram, and SnapChat.
-             The head liner artist Sylvan LaCue will soon after take the results from the concert to then participate in a much
-             larger tour with Saba Pivot across the nation. The event company Creative's Only used the meta data and egagement results
-             to later partner in a festival with DJ Khaled in Miami for college students.`,
+          `The Ticket Tailor service allowed me to set certain meta data values to track of incoming sales such as: device used,
+             concert referal method, purchasing method, and a few others. This information will later be of huge value in increasing
+             future events' potential revenue. Each link to the ticket kiosk were embeded with a FaceBook pixel to add more information
+             from the FaceBook ad campaign created for the concert. FaceBook pixel gave more depth with customer demographics. `,
+          'The Stripe API came in handy for making secure credit card transactions with a receipt.',
+          `The result of the campaign was: an increase of all the artists', and the event company's visibility, increase of their fan base
+             twitter, FaceBook, Instagram, and SnapChat engagement rate, surplus of concert revenue expectation, and saved budget amount.
+             The head liner, Sylvan LaCue, would soon be presented with the oppurtunity to join a larger nationwide tour with
+             Saba Pivot, and the event company, Creative's Only partnered in a Miami, FL college festival with DJ Khaled.
+             The experience was enjoyable and built team work skills under a Agile workflow enviroment. I learned additional branding
+             techniques, and eCommerce tools that will surely drive sales and enhance overall enjoyment.`,
         ],
         image: '',
         gif_src: '',
-        case_images: ['../img/case-images/thelonertour/sylvan-banner.png'],
+        case_images: [
+          '../img/case-images/thelonertour/sylvan-banner.png',
+          '../img/case-images/thelonertour/stripe-api.png',
+          '../img/case-images/thelonertour/ticket_sales.png',
+        ],
         type: 'Marketing Campaign & eCommerce',
         tech: ['WordPress', 'PHP', 'MySQL', 'BootStrap3', 'JQuery', 'Stripe API', 'Adobe PhotoShop'],
         tags: 'Stripe API, php, bootstrap, jquery, WordPress, branding, e-commerce',
