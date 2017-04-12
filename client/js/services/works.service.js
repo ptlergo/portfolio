@@ -32,11 +32,10 @@ function worksService() {
       {
         name: 'Sylvan LaCue\'s The Loner Tour Marketing Campaign',
         path: 'lonertour',
-        details: 'Utilizing the WordPress CMS to establish a hub for a concert.',
-        challenges: ` The 8Pounds Music website is developed on the WordPress CMS. The benefit
-            of this is that plugins can be used. For this particular case study the plugins used
-            were Ticket Tailor, a ticket kiosk widget, and Add Tabs. The challenges were injecting my
-            PHP into the plugins and having it display as needed.`,
+        details: 'Took advantage of the WordPress CMS to establish an e-commerce hub for a concert and drive sales to event.',
+        challenges: ` I developed the 8Pounds Music website on the WordPress CMS from a PHP based theme. As of recent
+                      there are more than 400 articles written on the platform with images, audio, and video content to match.
+                      The benefit of the CMS is the many plugins one of which I used to create a ticket kiosk widget.`,
         paragraphA: `Ticket Tailor allowed the appropiate ability to track meta data of incoming sales.
         In corelation with geni.us links I was able to create custom links for each individual selling tickets
         thus tracking each sellers ticket amounts and allowing the ability to redirect to any page needed at any time.
@@ -55,10 +54,10 @@ function worksService() {
         image: '',
         gif_src: '',
         case_images: ['../img/case-images/thelonertour/sylvan-banner.png'],
-        type: 'Marketing Campaign',
+        type: 'Marketing Campaign & eCommerce',
         tech: ['WordPress', 'PHP', 'MySQL', 'BootStrap3', 'JQuery', 'Stripe API', 'Adobe PhotoShop'],
-        tags: 'Stripe API, php, bootstrap, jquery, WordPress, branding',
-        category: 'branding',
+        tags: 'Stripe API, php, bootstrap, jquery, WordPress, branding, e-commerce',
+        category: 'marketing & ecommerce',
       },
       {
         name: 'Winter Soulstice Concert RSVP App.',
