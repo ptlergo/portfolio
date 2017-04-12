@@ -65,12 +65,11 @@ function worksService() {
         name: 'Winter Soulstice Concert RSVP App.',
         path: 'wintersoulstice',
         details: 'Progressive web app for a concert customer to reserve tickets and view details of performers. ',
-        challenges: `Writing the content for each performer took some time. As this was my first use of the
-                     codeIgniter framework it was tricky to apply MVC with my PHP coding. The bootstrap styling
-                     was simple until using the popup modal for each performer, I had to add a boolean case to get
-                     the modal to open upon screen click, but because my knowledge was limited at the time I did not
-                     properly develop the app. for desktops so the z-index I added for the snow effect prevented the
-                     button listening event to happen. `,
+        challenges: `This was my first use of the codeIgniter framework, it was tricky practicing MVC with PHP.
+                     The bootstrap styling was simple until using the popup modal for each performer, I had to
+                     add a boolean case to get the modal to open upon screen click, but because my knowledge
+                     was limited at the time I did not properly develop the app. for desktops so the z-index I
+                     added for the JavaScript snow effect prevented the button listening event from happening. `,
         image: '../img/winter.gif',
         gif_src: '../img/winter-soulstice-rsvp-app.gif',
         type: 'app',
