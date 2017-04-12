@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 /*
   ===================================
     Variables
@@ -28,6 +30,8 @@ body {
     width: 100%;
     text-decoration: none !important;
     outline-color: transparent; }
+  body button a, body .home-text a {
+    color: #71e2a6; }
   body p {
     font-family: "proxima-nova", Corbel, Arial, sans-serif;
     font-size: 1.6rem;
@@ -226,12 +230,24 @@ a[href*=mailto]::before {
   padding-top: 15%; }
 
 button {
-  box-shadow: 0 0.1rem 0.1rem rgba(0, 0, 0, 0.2);
-  background: #71e2a6;
-  border: none;
-  line-height: 2.95rem;
-  animation: button-click 2s ease-in;
-  margin: 1rem 0; }
+  margin-top: 1.6rem;
+  text-rendering: optimizeLegibility;
+  font-smoothing: antialiased;
+  background: transparent;
+  text-align: center;
+  color: #71e2a6;
+  font-weight: bold;
+  border: 1px solid #71e2a6;
+  box-shadow: 0.4rem 0.4rem 0px 0px #71e2a6;
+  text-transform: uppercase;
+  transition: all .2s ease-in-out; }
+
+/*scale transform works better than zoom*/
+button:hover {
+  box-shadow: none;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05); }
 
 /*
   ===================================
@@ -244,16 +260,8 @@ img[src*=-logo] {
 .home-text {
   animation: slideLeft 3s ease-in-out; }
 
-.home-text button {
-  animation: fadeIn 5s ease-in; }
-
 .hamburger-container {
   animation: fadeIn 5s ease-in; }
-
-button:hover {
-  -webkit-animation-play-state: paused;
-  animation-play-state: paused;
-  outline-color: #ffffff; }
 
 /*
   ===================================
@@ -450,3 +458,4 @@ div[class*=-p] {
   @media only screen and (min-width: 76.9rem) and (max-width: 180rem) {
     .case-p #case-image {
       width: 70%; } }
+>>>>>>> c24747a2e86fd581bf3001c4fd6c2cf7a1553a33

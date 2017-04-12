@@ -18,14 +18,30 @@
     padding-top: 15%;
 }
 
-button {
-    box-shadow: 0 0.1rem 0.1rem rgba(0,0,0,0.2);
-    background: #71e2a6;
-    border: none;
-    line-height: 2.95rem;
-    animation: button-click 2s ease-in;
-    margin: 1rem 0;
+
+
+button{
+  margin-top: 1.6rem;
+	text-rendering: optimizeLegibility;
+	font-smoothing: antialiased;
+	background: transparent;
+	text-align: center;
+	color: #71e2a6;
+	font-weight: bold;
+	border: 1px solid #71e2a6;
+	box-shadow: 0.4rem 0.4rem 0px 0px #71e2a6;
+	text-transform: uppercase;
+	transition: all .2s ease-in-out;
 }
+
+/*scale transform works better than zoom*/
+button:hover{
+	box-shadow: none;
+    -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+            transform: scale(1.05);
+}
+
 /*
   ===================================
     HomePage Animations
@@ -39,22 +55,10 @@ img[src*=-logo] {
     animation: slideLeft 3s ease-in-out;
 }
 
-.home-text {
-    button {
-        animation: fadeIn 5s ease-in;
-    }
-}
-
 .hamburger-container {
     animation: fadeIn 5s ease-in;
 }
 
-button:hover {
-    -webkit-animation-play-state: paused;
-    animation-play-state: paused;
-    outline-color: #ffffff;
-
-}
 
 /*
   ===================================
