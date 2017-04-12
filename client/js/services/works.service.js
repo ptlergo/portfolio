@@ -12,7 +12,7 @@ function worksService() {
     caseStudies: [
       {
         name: 'music\'em The Content Aggregation Progressive Web App.',
-        location: 'musicem',
+        path: 'musicem',
         details: 'MEAN Stack progressive web app. that aggregates content from curated list of music brands.',
         challenges: `Music'em is built with X-Ray to create a bot that scrapes websites of interest.
                      I built multiple bots per site to collect information such as: content title, images,
@@ -31,7 +31,7 @@ function worksService() {
       },
       {
         name: 'Sylvan LaCue\'s The Loner Tour Marketing Campaign',
-        location: 'lonertour',
+        path: 'lonertour',
         details: 'Utilizing the WordPress CMS to establish a hub for a concert.',
         challenges: ` The 8Pounds Music website is developed on the WordPress CMS. The benefit
             of this is that plugins can be used. For this particular case study the plugins used
@@ -62,7 +62,7 @@ function worksService() {
       },
       {
         name: 'Winter Soulstice Concert RSVP App.',
-        location: 'wintersoulstice',
+        path: 'wintersoulstice',
         details: 'Progressive web app for a concert customer to reserve tickets and view details of performers. ',
         challenges: `Writing the content for each performer took some time. As this was my first use of the
                      codeIgniter framework it was tricky to apply MVC with my PHP coding. The bootstrap styling
