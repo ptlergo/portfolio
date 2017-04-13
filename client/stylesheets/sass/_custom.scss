@@ -90,9 +90,14 @@ header {
 .about-s,
 .publications-s,
 .works-s {
-    padding: 1.6rem 0;
+    padding: 0;
     h1{
       color: #ffffff;
+      padding-top: 0;
+      padding-bottom: 0;
+      margin-top: 0;
+      margin-bottom: 0;
+
     }
 }
 
@@ -111,10 +116,10 @@ header {
   ===================================
 */
 .section-container{
-  width: 92%;
+  width: $section-container-width;
   margin: auto;
   @include desktop {
-      width: 70%;
+      width: $section-container-width-desktop;
   }
 }
 .summary-box {
@@ -148,11 +153,12 @@ header {
   clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
   display: block;
   content: "";
-  width: 100%;
-  height: 8rem;
+  width: $section-container-width;
+  height: $border-slant-height;
   background: #ffffff;
   @include desktop {
-      height: 16rem;
+    width: $section-container-width-desktop;
+
 
   }
 }
@@ -162,13 +168,13 @@ header {
   clip-path: polygon(0% 0%, 0% 100%, 100% 0%);
   display: block;
   content: "";
-  width: 100%;
-  height: 8rem;
+  width: $section-container-width;
+  height: $border-slant-height;
   background: #ffffff;
   @include desktop {
-      height: 16rem;
-      -webkit-clip-path: polygon(0% 0%, 0% 100%, 100% 0%);
-      clip-path: polygon(0% 0%, 0% 100%, 100% 0%);
+    width: $section-container-width-desktop;
+
+
   }
 }
 
@@ -176,25 +182,23 @@ header {
 .section-animate-container-2::before {
     display: block;
     content: "";
-    width: 100%;
-    height: 8rem;
+    width: 100vw;
+    height: $border-slant-height;
     background: #3263C9;
     -webkit-clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
     clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
     @include desktop {
-        height: 16rem;
     }
 }
 
 .section-animate-container-1::before {
     display: block;
     content: "";
-    width: 100%;
-    height: 8rem;
+    width: 100vw;
+    height: $border-slant-height;
     background: #252525;
     -webkit-clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
     clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
     @include desktop {
-        height: 16rem;
     }
 }
