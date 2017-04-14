@@ -3,14 +3,16 @@
   <div class="title-container">
   <h1>{{publicationsCtrl.title}}</h1>
   </div>
+  <p>{{ publicationsCtrl.tagline }}</p>
   <div>
-    <p>{{ publicationsCtrl.summary }}</p>
     <h2>Writings</h2>
+    <p>{{ publicationsCtrl.summary.writings }}</p>
     <ul>
       <li>{{publicationsCtrl.links[1].title}} | <a ng-href = "{{publicationsCtrl.links[1].src}}">read here</a></li>
       <li>{{publicationsCtrl.links[2].title}} | <a ng-href = "{{publicationsCtrl.links[2].src}}">read here</a></li>
     </ul>
     <h2>Talks</h2>
+    <p>{{ publicationsCtrl.summary.talks }}</p>
     <div>
       <h3>{{publicationsCtrl.links[0].title}}</h3>
       <h4>Full Sail University</h4>

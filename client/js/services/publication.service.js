@@ -14,11 +14,16 @@ function publicationService() {
       tagline: '',
       templateUrl: 'views/home/publications-section.html',
       imgUrl: 'https://marypomerantzadvertising.com/wp-content/uploads/responsiveweb.gif',
-      summary: `From writing code to writing literature, my passions are intertwined. Some
-      of my writings include brand identies such as taglines, artists bios,
-      and advertisement copy. I also write music centric articles on my own publication,
-      8Pounds.com. I recently had the oppurtunity to talk about developing my latest app.
-      music'em to Full Sail University which was broadcasted worldwide.`,
+      summary: {
+        writings: `The music centric articles I write are prodminately published
+                     on my publication, 8Pounds.com. I've written more than 300 articles
+                     and also write tutorials, and OP'EDs on tech on Medium.com.`,
+        talks: `My background includes tutoring math. This has helped my
+                  ability to communicate. I recently had the oppurtunity to talk
+                  about developing my latest app music'em. I communicated to room
+                  full of Full Sail University students and a worldwide audience from
+                  the broadcast on my journey as a developer.`,
+      },
       links: [{
         title: 'Making music\'em: A Progressive Web App.',
         src: 'https://www.youtube.com/watch?v=BL80370LkzQ',
