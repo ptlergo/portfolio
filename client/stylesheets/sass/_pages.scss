@@ -38,6 +38,12 @@
 div[class*=-p]{
   padding-left: 2.6rem;
   padding-right: 2.6rem;
+  p{
+    opacity: 0.9;
+  }
+  p:hover{
+    opacity: 1;
+  }
   @include desktop{
     padding: 12rem;
   }

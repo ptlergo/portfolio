@@ -36,14 +36,11 @@ body {
         font-size: $font-mobile-p;
         line-height:1.85;
         margin: 0;
-        opacity: 0.85;
         @include desktop {
             font-size: $font-desktop-p;
         }
     }
-    p:hover{
-      opacity: 1;
-    }
+ 
 
     ul {
         list-style: none;
