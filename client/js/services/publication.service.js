@@ -16,7 +16,7 @@ function publicationService() {
       imgUrl: 'https://marypomerantzadvertising.com/wp-content/uploads/responsiveweb.gif',
       summary: {
         writings: `I've written more than 300 articles on my music publication 8Pounds.com.
-                   Other articles about technology and tutorials are on Medium.com`,
+                   Other writings include sales copy, and code tutorials on Medium.com`,
         talks: `My background as a math tutor helps me to communicate.
                   I recently had the opportunity to communicate to a worldwide broadcasted
                   audience and a room full of students at Full Sail University about my
