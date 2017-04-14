@@ -8,13 +8,19 @@
   }
 }
 .publications-p{
+  div p{
+    padding: 1.6rem;
+  }
   a{
     color: #252525;
   }
 }
 div[class*=-p]{
-  padding-left: 1.4rem;
-  padding-right: 1.4rem;
+  padding-left: 2.6rem;
+  padding-right: 2.6rem;
+  @include desktop{
+    padding: 12rem;
+  }
   ul{
     padding: 0;
   }

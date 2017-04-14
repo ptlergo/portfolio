@@ -5,14 +5,17 @@
   </div>
   <div>
     <p>{{ publicationsCtrl.summary }}</p>
-    <div class = "vid-p">
-        {{publicationsCtrl.links[0].title}}
-        <iframe src="https://www.youtube.com/embed/BL80370LkzQ" frameborder="0" allowfullscreen></iframe>
-        <a ng-href = "{{publicationsCtrl.links[0].src}}">watch here</a>
-      </div>
+    <h2>Writings</h2>
     <ul>
       <li>{{publicationsCtrl.links[1].title}} | <a ng-href = "{{publicationsCtrl.links[1].src}}">read here</a></li>
       <li>{{publicationsCtrl.links[2].title}} | <a ng-href = "{{publicationsCtrl.links[2].src}}">read here</a></li>
     </ul>
+    <h2>Talks</h2>
+    <div>
+      <img></img>
+      <h3>{{publicationsCtrl.links[0].title}}</h3>
+      <h4>Full Sail University</h4>
+      <h4>Orlando, FL</h4>
+    </div>
   </div>
 </div>
