@@ -71,37 +71,34 @@ div[class*=-section],div[class*=-p]{
     position: relative;
     z-index: 1;
     text-align: center;
-    width: 35rem;
+    width: 25rem;
     margin: 0 auto;
     color: #ffffff;
   }
   h1:before{
-    content:'';
+    content: '';
     display: block;
-    height: 6rem;
+    height: 7rem;
     top: 5rem;
     background: #e9b921;
-    transform: translateY(0px) skewY(532deg);
+    transform: translateY(0px) skewY(524deg);
     position: relative;
     z-index: -1;
-    width: 50%;
-    left: 10%;
-
-
-
+    width: 90%;
+    left: -10%;
   }
+
   h1:after{
     content: '';
     display: block;
     background: #71e2a6;
-    transform: translateY(30px) skewY(532deg);
+    transform: translateY(90%) skewY(524deg);
     position: relative;
-    height: 6rem;
-  bottom: 8rem;
-  z-index: -1;
-  width: 50%;
-  left: 45%;
-  animation: slop 1s ease-in;
+    height: 7rem;
+    bottom: 10rem;
+    z-index: -1;
+    width: 90%;
+    left: 20%;
   }
 
 }
