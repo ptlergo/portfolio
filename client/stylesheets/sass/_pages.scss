@@ -1,53 +1,88 @@
-.about-p{
-  ul{
-    overflow:scroll;
-  }
+/*
+  ===================================
+    All Pages
+  ===================================
+*/
+div[class*=-p] {
+    padding-left: 2.6rem;
+    padding-right: 2.6rem;
 
-  p a{
-    color: #3263C9;
-  }
-}
-.publications-p{
-  .talk-1{
-    display: flex;
-    h3{font-size: 1.9rem; margin: 0;}
-    h4{font-size: 1.4rem;}
-    div{
-      flex: 1;
+    p {
+        opacity: 0.9;
     }
-    div:last-child{
-      flex:2;
-    }
-    iframe{
-      width: 90%;
-      height: 50%;
-      @include desktop{
-        width: 55%;
-        height: 60%;
-      }
-    }
-  }
-  div p{
-    padding: 1.6rem;
-  }
 
-  a{
-    color: #252525;
-  }
+    p:hover {
+        opacity: 1;
+    }
+    @include desktop {
+        padding: 12rem;
+    }
+
+    ul {
+        padding: 0;
+    }
 }
-div[class*=-p]{
-  padding-left: 2.6rem;
-  padding-right: 2.6rem;
-  p{
-    opacity: 0.9;
+
+/*
+  ===================================
+    About Page
+  ===================================
+*/
+.about-p {
+    ul {
+        overflow: scroll;
+    }
+
+    p a {
+        color: #3263C9;
+    }
+}
+
+/*
+  ===================================
+    Publications Page
+  ===================================
+*/
+.publications-p {
+  h1:after{
+    content: "";
+    
   }
-  p:hover{
-    opacity: 1;
-  }
-  @include desktop{
-    padding: 12rem;
-  }
-  ul{
-    padding: 0;
-  }
+    .talk-1 {
+        display: flex;
+
+        h3 {
+            font-size: 1.9rem;
+            margin: 0;
+        }
+
+        h4 {
+            font-size: 1.4rem;
+        }
+
+        div {
+            flex: 1;
+        }
+
+        div:last-child {
+            flex: 2;
+        }
+
+        iframe {
+            width: 90%;
+            height: 50%;
+            @include desktop {
+                width: 55%;
+                height: 60%;
+            }
+        }
+    }
+
+    div p {
+        padding: 1.6rem;
+    }
+
+    a {
+        color: #252525;
+    }
 }

@@ -442,11 +442,42 @@ footer {
   footer .f-copywirght {
     padding-top: 5vh; }
 
+/*
+  ===================================
+    All Pages
+  ===================================
+*/
+div[class*=-p] {
+  padding-left: 2.6rem;
+  padding-right: 2.6rem; }
+  div[class*=-p] p {
+    opacity: 0.9; }
+  div[class*=-p] p:hover {
+    opacity: 1; }
+  @media only screen and (min-width: 76.9rem) and (max-width: 180rem) {
+    div[class*=-p] {
+      padding: 12rem; } }
+  div[class*=-p] ul {
+    padding: 0; }
+
+/*
+  ===================================
+    About Page
+  ===================================
+*/
 .about-p ul {
   overflow: scroll; }
 
 .about-p p a {
   color: #3263C9; }
+
+/*
+  ===================================
+    Publications Page
+  ===================================
+*/
+.publications-p h1:after {
+  content: ""; }
 
 .publications-p .talk-1 {
   display: flex; }
@@ -472,19 +503,6 @@ footer {
 
 .publications-p a {
   color: #252525; }
-
-div[class*=-p] {
-  padding-left: 2.6rem;
-  padding-right: 2.6rem; }
-  div[class*=-p] p {
-    opacity: 0.9; }
-  div[class*=-p] p:hover {
-    opacity: 1; }
-  @media only screen and (min-width: 76.9rem) and (max-width: 180rem) {
-    div[class*=-p] {
-      padding: 12rem; } }
-  div[class*=-p] ul {
-    padding: 0; }
 
 .cases {
   display: -webkit-flex;
