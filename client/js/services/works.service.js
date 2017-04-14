@@ -11,7 +11,7 @@ function worksService() {
   return {
     caseStudies: [
       {
-        name: 'music\'em The Content Aggregation Progressive Web App.',
+        name: 'music\'em: Discover. Fetch. Feed.',
         path: 'musicem',
         details: 'MEAN Stack progressive web app. that aggregates content from curated list of music brands.',
         challenges: `Music'em is built with X-Ray to create a bot that scrapes websites of interest.
@@ -20,6 +20,15 @@ function worksService() {
                      AngularJS was used to bind my information from my nodejs API to the front-end. My app.
                      runs on the express NodeJS server. I gained a thorough understanding of JavaScript,
                      Angular's MVVM architecture and http requests from this project.`,
+        paragraphs: [
+          `The intent of this project was not only to showcase the skills acquired as a Full Sail University
+            Web Design and Development student, but to also establish a credible and profitable brand to further the goals
+            i've established from the expertise acquired as the Editor-In-Chief of 8Pounds Music.`,
+          `The project took the span of 3 months, each month focusing on different phases of SPRINTS.`,
+          `Month 1 focused on conception.`,
+          `Month 2 focused on usability tests.`,
+          `Month 3 focused on development, QA, and deployment.`,
+        ],
         image: 'http://marvelapp.com/1f3ia7a?emb=1',
         case_images: ['../img/case-images/musicem/musicem-case-image.png'],
         gif_src: 'https://media.giphy.com/media/3ohzdLBDAwCtfWy6sM/giphy.gif',
@@ -30,7 +39,7 @@ function worksService() {
         category: 'web',
       },
       {
-        name: 'Sylvan LaCue\'s The Loner Tour Marketing Campaign',
+        name: 'Sylvan LaCue\'s The Loner Tour',
         path: 'lonertour',
         details: `Partnering with CreativesOnly, an event company, I was tasked with delivering a digital strategy
                   and platform to optimize exposure and sales of Sylvan LaCue's concert, The Loner Tour.`,
