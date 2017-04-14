@@ -281,6 +281,9 @@ button:hover {
   -ms-transform: scale(1.05);
   transform: scale(1.05); }
 
+button:focus {
+  outline: none; }
+
 /*
   ===================================
     HomePage Triggers

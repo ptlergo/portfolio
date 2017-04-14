@@ -40,6 +40,10 @@ button:hover{
             transform: scale(1.05);
 }
 
+button:focus{
+  outline: none;
+}
+
 /*
   ===================================
     HomePage Triggers
