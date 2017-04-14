@@ -39,9 +39,10 @@ function homeService() {
         templateUrl: 'views/home/publications-section.html',
         imgUrl: 'https://marypomerantzadvertising.com/wp-content/uploads/responsiveweb.gif',
         summary: `From writing code to writing literature, my passions are intertwined. Some
-                  of my writings are for brand identies such as taglines, artists bios,
-                  and advertisement copy. I also write articles on my own publication, 8Pounds Music,
-                  and blog about tech on Medium during my free time.`,
+                  of my writings include brand identies such as taglines, artists bios,
+                  and advertisement copy. I also write music centric articles on my own publication,
+                  8Pounds.com. I recently had the oppurtunity to talk about developing my latest app.
+                  music'em to Full Sail University which was broadcasted worldwide.`,
       },
     },
     Contact: {

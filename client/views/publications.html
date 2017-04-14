@@ -1,6 +1,27 @@
 
 <div class = "publications-p" ng-controller = 'PublicationsController as publicationsCtrl'>
   <div class="title-container">
-    <a href="#publications" class="title-link"><h1>  {{publicationsCtrl.printWritings}}</h1></a>
-</div>
+  <h1>{{publicationsCtrl.title}}</h1>
+  </div>
+  <p>{{ publicationsCtrl.tagline }}</p>
+  <div>
+    <h2>Writings</h2>
+    <p>{{ publicationsCtrl.summary.writings }}</p>
+    <ul>
+      <li>{{publicationsCtrl.links[1].title}} | <a ng-href = "{{publicationsCtrl.links[1].src}}">read here</a></li>
+      <li>{{publicationsCtrl.links[2].title}} | <a ng-href = "{{publicationsCtrl.links[2].src}}">read here</a></li>
+    </ul>
+    <h2>Talks</h2>
+    <p>{{ publicationsCtrl.summary.talks }}</p>
+    <div class = "talk-1">
+      <div>
+      <iframe ng-src = "{{publicationsCtrl.video}}"></iframe>
+    </div>
+      <div>
+      <h3>{{publicationsCtrl.links[0].title}}</h3>
+      <h4>Full Sail University</h4>
+      <h4>Orlando, FL</h4>
+    </div>
+    </div>
+  </div>
 </div>

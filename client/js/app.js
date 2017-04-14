@@ -24,12 +24,17 @@ angular.module('myApp', ['ngRoute', 'ngSanitize', 'ngAnimate', 'ui.bootstrap'])
       controller: 'WorksController',
       templateUrl: 'views/works/musicem.html',
     };
+    const lonerTourRoute = {
+      controller: 'WorksController',
+      templateUrl: 'views/works/lonerTour.html',
+    };
 
     $routeProvider.when('/', homeRoute);
     $routeProvider.when('/about', aboutRoute);
     $routeProvider.when('/publications', publicationsRoute);
     $routeProvider.when('/works', worksRoute);
     $routeProvider.when('/musicem', musicemRoute);
+    $routeProvider.when('/lonertour', lonerTourRoute);
     $routeProvider.otherwise({ redirectTo: '/' });
     $locationProvider.hashPrefix('');
   });

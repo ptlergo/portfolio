@@ -58,6 +58,7 @@ body {
   flex-direction: column;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
   color: #4c4e4d; }
   body a,
   body a:visited,
@@ -80,6 +81,11 @@ body {
         font-size: 2.2rem; } }
   body ul {
     list-style: none; }
+  body h1:hover,
+  body h2:hover,
+  body h3:hover,
+  body h4:hover {
+    opacity: 0.8; }
 
 #view-container,
 footer,
@@ -114,7 +120,15 @@ header {
 .about-s,
 .publications-s,
 .works-s {
-  padding: 1.6rem 0; }
+  padding: 0; }
+  .about-s h1,
+  .publications-s h1,
+  .works-s h1 {
+    color: #ffffff;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0; }
 
 .about-s,
 .publications-s {
@@ -129,11 +143,11 @@ header {
   ===================================
 */
 .section-container {
-  width: 92%;
+  width: 92vw;
   margin: auto; }
   @media only screen and (min-width: 76.9rem) and (max-width: 180rem) {
     .section-container {
-      width: 70%; } }
+      width: 70vw; } }
 
 .summary-box p {
   background: white;
@@ -157,56 +171,47 @@ header {
   background: #252525; }
 
 .summary-box::before {
-  -webkit-clip-path: polygon(120% 0%, 0% 100%, 100% 100%);
-  clip-path: polygon(120% 0%, 0% 100%, 100% 100%);
+  -webkit-clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
   display: block;
   content: "";
-  width: 100%;
-  height: 8rem;
+  width: 92vw;
+  height: 14vh;
   background: #ffffff; }
   @media only screen and (min-width: 76.9rem) and (max-width: 180rem) {
     .summary-box::before {
-      height: 16rem; } }
+      width: 70vw; } }
 
 .summary-box::after {
-  -webkit-clip-path: polygon(0% 0%, 0% 100%, 120% 0%);
-  clip-path: polygon(0% 0%, 0% 100%, 120% 0%);
+  -webkit-clip-path: polygon(0% 0%, 0% 100%, 100% 0%);
+  clip-path: polygon(0% 0%, 0% 100%, 100% 0%);
   display: block;
   content: "";
-  width: 100%;
-  height: 8rem;
+  width: 92vw;
+  height: 14vh;
   background: #ffffff; }
   @media only screen and (min-width: 76.9rem) and (max-width: 180rem) {
     .summary-box::after {
-      height: 16rem;
-      -webkit-clip-path: polygon(0% 0%, 0% 100%, 100% 0%);
-      clip-path: polygon(0% 0%, 0% 100%, 100% 0%); } }
+      width: 70vw; } }
 
 .section-animate-container-0::before,
 .section-animate-container-2::before {
   display: block;
   content: "";
-  width: 100%;
-  height: 8rem;
+  width: 100vw;
+  height: 14vh;
   background: #3263C9;
   -webkit-clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
   clip-path: polygon(100% 0%, 0% 100%, 100% 100%); }
-  @media only screen and (min-width: 76.9rem) and (max-width: 180rem) {
-    .section-animate-container-0::before,
-    .section-animate-container-2::before {
-      height: 16rem; } }
 
 .section-animate-container-1::before {
   display: block;
   content: "";
-  width: 100%;
-  height: 8rem;
+  width: 100vw;
+  height: 14vh;
   background: #252525;
   -webkit-clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
   clip-path: polygon(100% 0%, 0% 100%, 100% 100%); }
-  @media only screen and (min-width: 76.9rem) and (max-width: 180rem) {
-    .section-animate-container-1::before {
-      height: 16rem; } }
 
 a[data-value='download']::after {
   font-family: FontAwesome;
@@ -265,8 +270,6 @@ a[href*=mailto]::before {
 
 button {
   margin-top: 1.6rem;
-  text-rendering: optimizeLegibility;
-  font-smoothing: antialiased;
   background: transparent;
   text-align: center;
   color: #71e2a6;
@@ -283,9 +286,12 @@ button:hover {
   -ms-transform: scale(1.05);
   transform: scale(1.05); }
 
+button:focus {
+  outline: none; }
+
 /*
   ===================================
-    HomePage Animations
+    HomePage Triggers
   ===================================
 */
 img[src*=-logo] {
@@ -296,32 +302,6 @@ img[src*=-logo] {
 
 .hamburger-container {
   animation: fadeIn 5s ease-in; }
-
-/*
-  ===================================
-    animations: fadeIn, slideUp,
-    slideLeft
-  ===================================
-*/
-@keyframes fadeIn {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-
-@keyframes slideUp {
-  0% {
-    position: relative;
-    bottom: -100vh; }
-  100% {
-    bottom: 100vh; } }
-
-@keyframes slideLeft {
-  0% {
-    position: relative;
-    right: -100vw; }
-  100% {
-    right: 100vw; } }
 
 .hamburger-container {
   position: fixed;
@@ -437,7 +417,6 @@ nav a {
 footer {
   text-align: center;
   background: #252525;
-  float: left;
   width: 100%;
   height: 100%;
   padding-top: 10vh; }
@@ -463,17 +442,67 @@ footer {
   footer .f-copywirght {
     padding-top: 5vh; }
 
+/*
+  ===================================
+    All Pages
+  ===================================
+*/
+div[class*=-p] {
+  padding-left: 2.6rem;
+  padding-right: 2.6rem; }
+  div[class*=-p] p {
+    opacity: 0.9; }
+  div[class*=-p] p:hover {
+    opacity: 1; }
+  @media only screen and (min-width: 76.9rem) and (max-width: 180rem) {
+    div[class*=-p] {
+      padding: 12rem; } }
+  div[class*=-p] ul {
+    padding: 0; }
+
+/*
+  ===================================
+    About Page
+  ===================================
+*/
 .about-p ul {
   overflow: scroll; }
 
 .about-p p a {
   color: #3263C9; }
 
-div[class*=-p] {
-  padding-left: 1.4rem;
-  padding-right: 1.4rem; }
-  div[class*=-p] ul {
-    padding: 0; }
+/*
+  ===================================
+    Publications Page
+  ===================================
+*/
+.publications-p h1:after {
+  content: ""; }
+
+.publications-p .talk-1 {
+  display: flex; }
+  .publications-p .talk-1 h3 {
+    font-size: 1.9rem;
+    margin: 0; }
+  .publications-p .talk-1 h4 {
+    font-size: 1.4rem; }
+  .publications-p .talk-1 div {
+    flex: 1; }
+  .publications-p .talk-1 div:last-child {
+    flex: 2; }
+  .publications-p .talk-1 iframe {
+    width: 90%;
+    height: 50%; }
+    @media only screen and (min-width: 76.9rem) and (max-width: 180rem) {
+      .publications-p .talk-1 iframe {
+        width: 55%;
+        height: 60%; } }
+
+.publications-p div p {
+  padding: 1.6rem; }
+
+.publications-p a {
+  color: #252525; }
 
 .cases {
   display: -webkit-flex;
