@@ -19,7 +19,6 @@
 }
 
 
-
 button{
   margin-top: 1.6rem;
 	background: transparent;
@@ -59,4 +58,122 @@ img[src*=-logo] {
 
 .hamburger-container {
     animation: fadeIn 5s ease-in;
+}
+
+/*
+  ===================================
+    H1 Tag Styles
+  ===================================
+*/
+
+div[class*=-section],div[class*=-p]{
+  h1{
+    position: relative;
+    z-index: 1;
+    text-align: left;
+    width: 35rem;
+    margin: 0 auto;
+  }
+  h1:before{
+    content:'';
+    display: block;
+    height: 6rem;
+    top: 6rem;
+    background: #e9b921;
+    transform: translateY(0px) skewY(532deg);
+    position: relative;
+    z-index: -1;
+    width: 50%;
+
+
+  }
+  h1:after{
+    content: '';
+    display: block;
+    background: #71e2a6;
+    transform: translateY(30px) skewY(532deg);
+    position: relative;
+    height: 6rem;
+    bottom: 6rem;
+    z-index: -1;
+    width: 50%;
+    left: 30%;
+
+  }
+}
+
+
+@mixin ribbon {
+    position: relative;
+    margin: 0 auto;
+    height: 100%;
+    display: block;
+    box-sizing: border-box;
+    transition: 0.3s;
+    z-index: 1;
+    color: white;
+    text-decoration: none;
+}
+@mixin ribbon-hover {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    transition: 0.3s;
+    z-index: 1;
+    color: white;
+    text-decoration: none;
+}
+@mixin ribbon-before {
+    bottom: 0%;
+    content: '';
+    position: absolute;
+    top: -20%;
+    transition: 0.3s;
+    width: 55%;
+    background: #71e2a6;
+    left: 5%;
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px) skewY(-10deg);
+    z-index: -1;
+    -webkit-transform: skewY(-13.02deg);
+}
+@mixin ribbon-after {
+    bottom: -20%;
+    content: '';
+    position: absolute;
+    top: 0%;
+    transition: 0.3s;
+    width: 55%;
+    background: #e9b921;
+    right: 5%;
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+    z-index: -1;
+    -webkit-transform: skewY(-13.02deg);
+}
+@mixin ribbon-hover-after {
+    bottom: -20%;
+    content: '';
+    position: absolute;
+    top: 0%;
+    transition: 0.3s;
+    width: 55%;
+    background: inherit;
+    right: 5%;
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    z-index: -1;
+}
+@mixin ribbon-hover-before {
+    bottom: 0%;
+    content: '';
+    position: absolute;
+    top: -20%;
+    transition: 0.3s;
+    width: 55%;
+    background: inherit;
+    left: 5%;
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    z-index: -1;
 }

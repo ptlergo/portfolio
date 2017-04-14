@@ -40,7 +40,7 @@ body {
             font-size: $font-desktop-p;
         }
     }
- 
+
 
     ul {
         list-style: none;
@@ -96,9 +96,9 @@ header {
     }
 }
 
-.about-s,
-.publications-s,
-.works-s {
+.about-section,
+.publications-section,
+.works-section {
     padding: 0;
     h1{
       color: #ffffff;
@@ -110,12 +110,12 @@ header {
     }
 }
 
-.about-s,
-.publications-s {
+.about-section,
+.publications-section {
     background: #3263C9;
 }
 
-.works-s {
+.works-section {
     background: #252525;
 }
 

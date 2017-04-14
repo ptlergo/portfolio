@@ -117,24 +117,24 @@ header {
       .home-s .home-text h2 {
         font-size: 2.5rem; } }
 
-.about-s,
-.publications-s,
-.works-s {
+.about-section,
+.publications-section,
+.works-section {
   padding: 0; }
-  .about-s h1,
-  .publications-s h1,
-  .works-s h1 {
+  .about-section h1,
+  .publications-section h1,
+  .works-section h1 {
     color: #ffffff;
     padding-top: 0;
     padding-bottom: 0;
     margin-top: 0;
     margin-bottom: 0; }
 
-.about-s,
-.publications-s {
+.about-section,
+.publications-section {
   background: #3263C9; }
 
-.works-s {
+.works-section {
   background: #252525; }
 
 /*
@@ -302,6 +302,41 @@ img[src*=-logo] {
 
 .hamburger-container {
   animation: fadeIn 5s ease-in; }
+
+/*
+  ===================================
+    H1 Tag Styles
+  ===================================
+*/
+div[class*=-section] h1, div[class*=-p] h1 {
+  position: relative;
+  z-index: 1;
+  text-align: left;
+  width: 35rem;
+  margin: 0 auto; }
+
+div[class*=-section] h1:before, div[class*=-p] h1:before {
+  content: '';
+  display: block;
+  height: 6rem;
+  top: 6rem;
+  background: #e9b921;
+  transform: translateY(0px) skewY(532deg);
+  position: relative;
+  z-index: -1;
+  width: 50%; }
+
+div[class*=-section] h1:after, div[class*=-p] h1:after {
+  content: '';
+  display: block;
+  background: #71e2a6;
+  transform: translateY(30px) skewY(532deg);
+  position: relative;
+  height: 6rem;
+  bottom: 6rem;
+  z-index: -1;
+  width: 50%;
+  left: 30%; }
 
 .hamburger-container {
   position: fixed;
