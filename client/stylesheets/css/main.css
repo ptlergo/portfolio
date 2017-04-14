@@ -443,6 +443,25 @@ footer {
 .about-p p a {
   color: #3263C9; }
 
+.publications-p .talk-1 {
+  display: flex; }
+  .publications-p .talk-1 h3 {
+    font-size: 1.9rem;
+    margin: 0; }
+  .publications-p .talk-1 h4 {
+    font-size: 1.4rem; }
+  .publications-p .talk-1 div {
+    flex: 1; }
+  .publications-p .talk-1 div:last-child {
+    flex: 2; }
+  .publications-p .talk-1 iframe {
+    width: 90%;
+    height: 50%; }
+    @media only screen and (min-width: 76.9rem) and (max-width: 180rem) {
+      .publications-p .talk-1 iframe {
+        width: 55%;
+        height: 60%; } }
+
 .publications-p div p {
   padding: 1.6rem; }
 

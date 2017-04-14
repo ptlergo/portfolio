@@ -13,10 +13,15 @@
     </ul>
     <h2>Talks</h2>
     <p>{{ publicationsCtrl.summary.talks }}</p>
-    <div>
+    <div class = "talk-1">
+      <div>
+      <iframe ng-src = "{{publicationsCtrl.video}}"></iframe>
+    </div>
+      <div>
       <h3>{{publicationsCtrl.links[0].title}}</h3>
       <h4>Full Sail University</h4>
       <h4>Orlando, FL</h4>
+    </div>
     </div>
   </div>
 </div>

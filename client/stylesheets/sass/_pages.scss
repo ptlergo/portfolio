@@ -8,6 +8,25 @@
   }
 }
 .publications-p{
+  .talk-1{
+    display: flex;
+    h3{font-size: 1.9rem; margin: 0;}
+    h4{font-size: 1.4rem;}
+    div{
+      flex: 1;
+    }
+    div:last-child{
+      flex:2;
+    }
+    iframe{
+      width: 90%;
+      height: 50%;
+      @include desktop{
+        width: 55%;
+        height: 60%;
+      }
+    }
+  }
   div p{
     padding: 1.6rem;
   }
