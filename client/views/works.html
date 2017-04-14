@@ -1,32 +1,22 @@
-<div id = "header-ws" ng-include ="'views/templates/header.html'"></div>
 
 <div class ="works-p" ng-controller = 'WorksController as worksCtrl'>
-  <div class="title-container">
-    <a href="#works" class="title-link">
-      <span class="title-ribbon">
-        <h1>{{ worksCtrl.printWorks }}</h1>
-      </span>
-  </a>
-</div>
-  <div class = "tagline">
-    {{worksCtrl.tagline}}
-  </div>
-    <div class = "super-case-container" ng-repeat = "case in worksCtrl.cases track by case.id">
-      <div class = "case-container">
-      <div class = "case-header">
-        <div class = "case-info">
-        <!-- <i>Tech used: {{case.tech}}</i>
-        <i>Type: {{case.type}}</i> -->
+  <h1>{{ worksCtrl.title }}</h1>
+  <p>{{worksCtrl.tagline}}</p>
+  <div class = "cases" ng-repeat = "case in worksCtrl.cases track by $index">
+    <div class = "case-description">
+      <h2>{{case.name}}</h2>
+      <button><a ng-href = "#{{case.path}}">view case study</a></button>
+      <button ng-click="checked = !checked" data-value="Toggle">show tech.</button>
+      <ul ng-show = "checked">
+        <li ng-repeat = "tech in case.tech"><i>{{tech}}</i></li>
+      </ul>
+    </div>
+    <div class = "cases-prototype-{{$index}}">
+      <div class = "prototype-device">
+        <div class = "prototype-screen" style = "background-image: url({{case.gif_src}})">
+        </div>
       </div>
-        <h2>{{case.name}}</h2>
-        <button>view case study</button>
-      </div>
-    <div class = "prototype"></div>
-    <div class = "case-details">
       <p>{{case.details}}</p>
     </div>
   </div>
 </div>
-  <button>more projects</button>
-</div>
-<div id = "footer-ws" ng-include ="'views/templates/footer.html'"></div>

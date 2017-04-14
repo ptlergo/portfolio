@@ -1,343 +1,207 @@
-/*VARIABLES*/
-$font-p: "proxima-nova", Corbel, Arial, sans-serif;
-$font: "nunito", corbel, san-serif;
-
+/*
+  ===================================
+    Project Defaults
+  ===================================
+*/
 body {
-    font-family: $font;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-direction: column;
-    flex-direction: column;
-    -webkit-font-smoothing: antialiased;
-    font-smoothing: antialiased;
-    @include phone {
-        text-align: center;
+  font-family: $font-fam;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  color: #4c4e4d;
+
+    a,
+    a:visited,
+    a:hover,
+    a:focus {
+        color: #ffffff;
+        font-weight: 500;
+        width: 100%;
+        text-decoration: none !important;
+        outline-color: transparent;
     }
+    button a, .home-text a{
+      color: #71e2a6;
+    }
+
 
     p {
-        font-family: $font-p;
+        font-family: $font-fam-p;
+        font-size: $font-mobile-p;
+        line-height:1.85;
+        margin: 0;
+        @include desktop {
+            font-size: $font-desktop-p;
+        }
     }
 
-    h1 {
-        font-size: 25px;
+
+    ul {
+        list-style: none;
+    }
+
+    h1{ font-size: 3.0rem;}
+
+    h1:hover,
+    h2:hover,
+    h3:hover,
+    h4:hover,
+    {
+      opacity:0.8;
     }
 }
 
-button {
-    border: solid #71e2a6 0.21em;
-    line-height: 25px;
-    font-weight: lighter;
-    background: #71e2a6;
-    color: white;
-}
-
-.container,
+#view-container,
 footer,
 header {
-    flex: 1 100%;
+    flex: 1;
 }
-
-header {
-    order: 1;
-}
-
-.container {
-    order: 2;
-}
-
-.main-container {
-    padding: 0;
-    text-align: center;
-}
-
-footer {
-    order: 3;
-}
-/*Border triangle svg*/
-svg {
-    margin-bottom: -7px;
-}
-
-.about-border {
-    svg {
-        background: none;
-    }
-
-    #Triangle {
-        fill: #3263C9;
-    }
-}
-
-.about-border-bottom {
-    svg {
-        background: none;
-    }
-
-    #Triangle {
-        fill: #ffffff;
-    }
-}
-
-.works-border {
-    svg {
-        background: #3263C9;
-    }
-
-    #Triangle {
-        fill: #252525;
-    }
-}
-
-#header-as,
-#header-ps,
-#header-ws {
-    .header-border {
-        svg {
-            background: #3263C9;
-        }
-
-        #Triangle {
-            fill: #ffffff;
-        }
-    }
-}
-
-#header-hs .header-border {
-    svg {
-        background: transparent;
-    }
-
-    #Triangle {
-        fill: none;
-    }
-}
-
-.summary-box {
-    #Triangle {
-        fill: white;
-    }
-
-    .summary-border-b {
-        svg {
-            transform: rotate(180deg);
-            margin-bottom: -5px;
-        }
-    }
-}
-
-.publications-border {
-    svg {
-        background: #252525;
-    }
-
-    #Triangle {
-        fill: #3263C9;
-    }
-}
-
-.footer-border {
-    svg {
-        background: #3263c9;
-        display: transparent;
-    }
-
-    #Triangle {
-        fill: #252525;
-    }
-}
-
-#footer-hs .footer-border {
-    svg {
-        background: #3263c9;
-        display: transparent;
-    }
-
-    #Triangle {
-        fill: #252525;
-    }
-}
-
-#footer-as,
-#footer-ps .footer-border,
-#footer-ws {
-    svg {
-        background: transparent;
-    }
-
-    #Triangle {
-        fill: #252525;
-    }
-}
-
-#header-as,
-#header-ps,
-#header-ws {
-    background: #3263c9;
-}
-/*Title Animation*/
-@mixin title-ribbon-super {
-    .title-ribbon {
-        @include ribbon;
-    }
-
-    .title-ribbon:hover {
-        @include ribbon-hover
-    }
-
-    .title-ribbon:before {
-        @include ribbon-before;
-    }
-
-    .title-ribbon:hover:before {
-        @include ribbon-hover-before;
-    }
-
-    .title-ribbon:after {
-        @include ribbon-after;
-    }
-
-    .title-ribbon:hover:after {
-        @include ribbon-hover-after;
-    }
-}
-
+/*
+  ===================================
+    Home Sections
+  ===================================
+*/
 .home-s {
-    @include title-ribbon-super;
     height: 60vh;
 
-    button:hover {
-        zoom: 1.1;
-    }
 
     .home-text {
-        max-width: 40%;
-        margin: 10% 0 0 2%;
-        text-align: left;
-    }
-
-    h2 {
-        font-size: 20px;
-    }
-
-    h2:first-child {
-        font-size: 30px;
-    }
-
-    img {
-        width: 25%;
+        margin: 10% 0 0 5%;
+        max-width: 80%;
+        padding-top: 2.0rem;
+        h1{
+          font-size: 2rem;
+        }
+        h2{
+          font-size: 1.5rem;
+          margin: 0 !important;
+        }
     }
     @include desktop {
-        padding-bottom: 35%;
-    }
-    @include phone {
         .home-text {
-            margin: 10% 0 0 5%;
-            max-width: 70%;
-        }
+            max-width: 40%;
+            margin: 10% 0 0 2%;
 
-        h2 {
-            font-size: 15px;
-        }
-
-        h2:first-child {
-            font-size: 20px;
-        }
-        padding-top: 10% !important;
-
-        img {
-            width: 50%;
+            h1{
+              font-size: 4.0rem;
+            }
+            h2{
+              font-size: 2.5rem;
+            }
         }
     }
 }
 
-.about-s,
-.publications-s {
-    @include title-ribbon-super;
+.about-section,
+.publications-section,
+.works-section {
+    padding: 0;
+}
+
+.about-section,
+.publications-section {
     background: #3263C9;
-    border-top: #3263C9 solid 10px;
 }
 
-.works-s {
-    @include title-ribbon-super;
+.works-section {
     background: #252525;
-    border-top: #252525 solid 10px;
 }
 
-.works-p, .about-p, .publications-p {
-  @include title-ribbon-super;
+/*
+  ===================================
+    Sections Content
+  ===================================
+*/
+.section-container{
+  width: $section-container-width;
+  margin: auto;
+  @include desktop {
+      width: $section-container-width-desktop;
+  }
 }
-
-.summary {
-    background: white;
-    margin: 0;
-    padding: 20px;
-    margin: 0 auto;
-    @include desktop {
-        font-size: 25px;
-        padding: 40px 200px;
-    }
-}
-
 .summary-box {
-    margin: auto;
-    width: 75%;
+    p {
+        background: white;
+        padding: 3.25rem;
+        @include desktop {
+            padding: 3rem 15.0rem;
+        }
+    }
+}
+/*
+  ===================================
+    Slant Effects Borders
+  ===================================
+*/
+.section-animate-container-0 {
+    background: #ffffff;
+}
+
+.section-animate-container-1 {
+    background: #3263C9;
+}
+
+.section-animate-container-2 {
+    background: #252525;
+}
+
+.summary-box::before{
+  -webkit-clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
+  display: block;
+  content: "";
+  width: $section-container-width;
+  height: $border-slant-height;
+  background: #ffffff;
+  @include desktop {
+    width: $section-container-width-desktop;
+
+
+  }
+}
+
+.summary-box::after{
+  -webkit-clip-path: polygon(0% 0%, 0% 100%, 100% 0%);
+  clip-path: polygon(0% 0%, 0% 100%, 100% 0%);
+  display: block;
+  content: "";
+  width: $section-container-width;
+  height: $border-slant-height;
+  background: #ffffff;
+  @include desktop {
+    width: $section-container-width-desktop;
+
+
+  }
+}
+
+.section-animate-container-0::before,
+.section-animate-container-2::before {
+    display: block;
+    content: "";
+    width: 100vw;
+    height: $border-slant-height;
+    background: #3263C9;
+    -webkit-clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
+    clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
     @include desktop {
-        width: 85%;
     }
 }
 
-.title-container {
-    width: 250px;
-    margin: auto;
-}
-
-.title-link {
-    display: inline-block;
-    color: white;
-    text-decoration: none;
-    box-sizing: border-box;
-}
-
-a {
-    width: 100%;
-    text-decoration: none !important;
-    background: inherit !important;
-    color: #ccc !important;
-}
-
-.carousel-indicators li {
-    visibility: hidden;
-}
-
-.tagline{
-
-  padding-top: 15%;
-}
-
-.about-p {
-
-  p{
-    padding: 10px 20px;
-    text-align: left;
-  }
-
-  div[class*='des'], div[class*='dev']{
-    padding: 40px 0;
-
-  }
-
-
-  ul{
-    text-align: left;
-    
-  }
-  img {
-    width: 30%;
-  }
-  .about-summary, .about-site{
-    padding: 20px 100px;
-    @include phone{
-      padding: 20px 20px;
+.section-animate-container-1::before {
+    display: block;
+    content: "";
+    width: 100vw;
+    height: $border-slant-height;
+    background: #252525;
+    -webkit-clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
+    clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
+    @include desktop {
     }
-  }
 }

@@ -1,80 +1,44 @@
 footer {
-    height: 100%;
     text-align: center;
+    background: #252525;
+    width: 100%;
+    height: 100%;
+    padding-top: 10vh;
 
-    h3{
-      margin: 0;
-      padding: 3%;
-      text-decoration: underline;
-    }
+div[class*=-box]{
+  margin: 6rem auto;
+}
 
-    .slant {
-        border-right: 100vw solid #252525;
-        border-top: 300px solid #3263c9;
-        @include phone {
-            border-top: 67px solid #3263c9;
-        }
-        @include tablet {
-            border-top: 163px solid #3263c9;
-        }
-        @include tablet {
-            border-top: 300px solid #3263c9;
-        }
-    }
+h1{
+  margin: 0;
+  padding: 0;
+}
+img{
+  width: 30%;
+  padding: 0.6rem;
+  @include desktop{
+    width: 10%;
+  }
+}
 
-    .f-top {
-        background: #252525;
-        height: 45%;
-        padding: 5% 0;
-        color: white;
+ul{
+  margin: 0;
+  padding: 0;
 
+}
 
-      .contact-box{
-        width: 100%;
-        margin: 10% auto;
-      }
-    }
+.social-box{
+  ul{
+    display: inline-flex;
+  }
+  li{
+    padding: 1rem;
+    font-size: 3rem;
+  }
+}
 
-    .f-bottom {
-        background: #252525;
-        height: 45%;
+.f-copywirght{
+  padding-top: 5vh;
 
-
-        .social-box {
-            color: white;
-            font-size: 20pt;
-            margin: 0 auto;
-            padding: 0 0 10%;
-            @include phone {
-                padding: 0 0 20%;
-            }
-        }
-
-        span {
-            width: 40px;
-            margin: 0 auto;
-            padding: 10px;
-        }
-
-        .f-copywright {
-            padding-bottom: 1%;
-            opacity: 0.6;
-            clear: both;
-
-            :hover {
-                cursor: pointer;
-            }
-        }
-
-        .f-logo img {
-            width: 3%;
-        }
-        @include phone {
-            font-size: 10pt;
-
-            .f-logo img {
-                width: 10%;
-            }
-        }
-    }
+}
 }

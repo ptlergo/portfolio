@@ -1,87 +1,17 @@
-<div id = "header-hs" ng-include ="'views/templates/header.html'"></div>
-
-<section ng-controller='MainController as mainCtrl'>
-    <div class="home-s">
-
-      <div class="circle-container"><div class="circle"></div></div>
-        <div class="home-text">
-            <h2>Patrick Funom Tunga-Lergo</h2>
-            <h2>Front-End Web Developer<br>& Digital Designer</h2>
-            <button class="resume" href="Patrick_Funom_Tunga-Lergo_resume.pdf">
-              resume
-              <i class="fa fa-arrow-down" aria-hidden="true"></i>
-            </button>
-        </div>
-    </div>
-
-    <ng-include class="about-border" src = "'img/border-slant.svg'"></ng-include>
-    <div class="about-s" ng-controller='AboutController as aboutCtrl'>
-
-        <div class="title-container">
-          <a href="#about" class="title-link">
-            <span class="title-ribbon">
-              <h1>{{ aboutCtrl.printAbout }}</h1>
-            </span>
+<section class="main-section" ng-controller='HomeController as homeCtrl'>
+  <div class="home-s">
+    <div class="home-text">
+      <h1>Patrick Funom Tunga-Lergo</h1>
+      <h2>Front-End Web Developer</h2>
+      <h2>& Digital Designer</h2>
+      <button>
+        <a data-value = "download" href="../img/Patrick_Funom_Tunga-Lergo_resume.pdf" target="_blank">
+          resume
         </a>
-      </div>
-
-        <div class="summary-box">
-          <ng-include class="summary-border-t" src = "'img/border-slant.svg'"></ng-include>
-            <p class="summary">
-              Hello, I am Patrick, A Digital Designer & Front-End Web Developer with 3+ years of experience based in Florida.
-              I tell unique stories using the digital language.
-              <br>
-              <br>
-              My coded narratives create fully responsive websites and interactive apps
-              that drive sales, boost profitability, and engage users.
-              <br>
-              <br>
-              It brings me joy to collaborate intimately with startups, agencies, and individuals to craft compelling brand identities
-              that live online as a 'digital you'.
-            </p>
-            <ng-include class="summary-border-b" src = "'img/border-slant.svg'"></ng-include>
-        </div>
-
+      </button>
     </div>
-
-    <ng-include class="works-border" src = "'img/border-slant.svg'"></ng-include>
-    <div class="works-s" ng-controller='WorksController as worksCtrl'>
-        <div class="title-container">
-          <a href="#works" class="title-link">
-          <span class="title-ribbon">
-            <h1>{{ worksCtrl.printWorks }}</h1>
-          </span>
-        </a>
-      </div>
-
-        <div class="summary-box">
-          <ng-include class="summary-border-t" src = "'img/border-slant.svg'"></ng-include>
-            <p class="summary">{{ worksCtrl.summary }}</p>
-            <ng-include class="summary-border-b" src = "'img/border-slant.svg'"></ng-include>
-        </div>
-
-        <div carousel></div>
-    </div>
-
-
-    <ng-include class="publications-border" src = "'img/border-slant.svg'"></ng-include>
-    <div class="publications-s" ng-controller='PublicationsController as publicationsCtrl'>
-
-        <div class="title-container">
-          <a href="#publications" class="title-link">
-          <span class="title-ribbon">
-            <h1>{{ publicationsCtrl.printWritings }}</h1>
-          </span>
-        </a>
-      </div>
-
-        <div class="summary-box">
-          <ng-include class="summary-border-t" src = "'img/border-slant.svg'"></ng-include>
-            <p class="summary">{{ publicationsCtrl.summary }}</p>
-            <ng-include class="summary-border-b" src = "'img/border-slant.svg'"></ng-include>
-        </div>
-
-
-    </div>
+  </div>
+  <div class = "section-animate-container-{{$index}}" ng-repeat="temps in homeCtrl.templates track by $index">
+      <ng-include src="temps"></ng-include>
+  </div>
 </section>
-<div id = "footer-hs" ng-include ="'views/templates/footer.html'"></div>

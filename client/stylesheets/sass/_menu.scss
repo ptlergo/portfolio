@@ -1,0 +1,82 @@
+
+.hamburger-container {
+    position: fixed;
+    top: 5%;
+    right: 2%;
+    height: 3.5rem;
+    width: 3.5rem;
+    cursor: pointer;
+    z-index: 100;
+    transition: opacity 0.25s ease;
+}
+
+.hamburger-container:hover {
+    opacity: 0.5;
+}
+
+.hamburger-container span {
+    background: #EFC638;
+    border: none;
+    height: 0.5rem;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.35s ease;
+    cursor: pointer;
+}
+
+.hamburger-container span:nth-of-type(2) {
+    top: 1.1rem;
+}
+
+.hamburger-container span:nth-of-type(3) {
+    top: 2.2rem;
+}
+
+// animate icon to 'x'
+.menuActive{
+  -webkit-transition:all linear 0.5s;
+  transition:all linear 0.5s;
+   .top {
+    transform: translateY(11px) translateX(0) rotate(45deg);
+  }
+  .middle {
+    opacity: 0;
+    width: 0%;
+  }
+  .bottom {
+      transform: translateY(-11px) translateX(0) rotate(-45deg);
+  }
+}
+
+.overlay {
+	position:fixed;
+	top:0;
+  left: 0;
+  right: 0;
+	height:100vh;
+	width:100%;
+	background: #3263C9;
+  z-index: 2;
+  color: white;
+  text-align: center;
+  opacity: 0;
+  -webkit-transition: all linear 0.25s;
+  transition: all linear 0.25s;
+  font-variant: small-caps;
+  .nav-links:first-child{
+    margin-top: 15%;
+    @include phone{
+      margin-top: 50%;
+    }
+  }
+}
+
+.overlayActive{
+  -webkit-transition: all linear 0.25s;
+  transition: all linear 0.25s;
+  opacity: 1;
+}
+
+.overlay ul{list-style: none;}

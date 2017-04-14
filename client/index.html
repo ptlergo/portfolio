@@ -1,5 +1,12 @@
 <!doctype html>
 <html lang="en" ng-app="myApp">
+<!---
+Author: Patrick Funom Tunga-Lergo
+Contact: me@PatrickFunom.com
+Date: 04/07/17
+Version: v1.3.0
+Details: Built With AngularJS & NodeJS Web Design and Front-End Development Portfolio
+--->
   <head>
     <title>Patrick Funom Tunga-Lergo's Portfolio</title>
     <base href="/">
@@ -44,15 +51,18 @@
     <script src="js/directives/hamburger.directive.js"></script>
     <script src="js/directives/carousel.directive.js"></script>
     <script src="js/directives/prototype.directive.js"></script>
+
     <script src="js/services/works.service.js"></script>
     <script src="js/services/about.service.js"></script>
+    <script src="js/services/publication.service.js"></script>
+    <script src="js/services/home.service.js"></script>
 
     <script src="js/controllers/nav-overlay.controller.js"></script>
-    <script src="js/controllers/main.controller.js"></script>
+    <script src="js/controllers/home.controller.js"></script>
     <script src="js/controllers/carousel.js"></script>
-    <script src="js/controllers/about.js"></script>
-    <script src="js/controllers/publications.js"></script>
-    <script src="js/controllers/works.js"></script>
+    <script src="js/controllers/about.controller.js"></script>
+    <script src="js/controllers/publications.controller.js"></script>
+    <script src="js/controllers/works.controller.js"></script>
 
     <script src="https://use.fontawesome.com/09f8b8534d.js"></script>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -65,13 +75,17 @@
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-WK7C9P5');</script>
     <!-- End Google Tag Manager -->
-  </head>
 
+  </head>
   <body>
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WK7C9P5"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-    <div ng-include ="'views/container.html'" ></div>
+
+    <ng-include src ="'views/templates/header.html'"></ng-include>
+    <ng-view id = "view-container" autoscroll="true" ></ng-view>
+    <ng-include src="'views/templates/footer.html'"></ng-include>
+
   </body>
 </html>
