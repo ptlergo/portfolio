@@ -32,10 +32,12 @@ function worksService() {
       {
         name: 'Sylvan LaCue\'s The Loner Tour Marketing Campaign',
         path: 'lonertour',
-        details: 'Took advantage of the WordPress CMS to establish an e-commerce hub for a concert and drive sales to event.',
-        challenges: ` I developed the 8Pounds Music website on the WordPress CMS from a PHP based theme. As of recent
-                      there are more than 400 articles written on the platform with images, audio, and video content to match.
-                      The benefit of the CMS is the many plugins one of which I used to create a ticket kiosk widget.`,
+        details: `Partnering with CreativesOnly, an event company, I was tasked with delivering a digital strategy
+                  and platform to optimize exposure and sales of Sylvan LaCue's concert, The Loner Tour.`,
+        challenges: ` I utilized my 8Pounds Music platform to opperate as the concert 'hub'. 8Pounds.com is developed on
+                      the WordPress CMS from a PHP based theme I tailored for my brand's needs which includes e-commerce.
+                      The 8Pounds platform has an audience ranging between 16 - 26yrs of age, the prime demographic to target.
+                      The benefit of using the CMS is the many plugins, one of which I used to create a ticket kiosk widget for the concert.`,
         paragraphs: [
           `The Ticket Tailor service allowed me to set certain meta data values to track of incoming sales such as: device used,
              concert referal method, purchasing method, and a few others. This information will later be of huge value in increasing
@@ -48,6 +50,8 @@ function worksService() {
              Saba Pivot, and the event company, Creative's Only partnered in a Miami, FL college festival with DJ Khaled.
              The experience was enjoyable and built team work skills under a Agile workflow enviroment. I learned additional branding
              techniques, and eCommerce tools that will surely drive sales and enhance overall enjoyment.`,
+          `A video recap of the event was created to allow fans to relive the experience forever, and to also envoke emotions of the
+             possible fun expereince that can be delivered for projects to come.`,
         ],
         image: '',
         gif_src: '',
