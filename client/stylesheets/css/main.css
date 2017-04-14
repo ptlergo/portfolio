@@ -75,12 +75,20 @@ body {
     font-family: "proxima-nova", Corbel, Arial, sans-serif;
     font-size: 1.6rem;
     line-height: 1.85;
-    margin: 0; }
+    margin: 0;
+    opacity: 0.85; }
     @media only screen and (min-width: 76.9rem) and (max-width: 180rem) {
       body p {
         font-size: 2.2rem; } }
+  body p:hover {
+    opacity: 1; }
   body ul {
     list-style: none; }
+  body h1:hover,
+  body h2:hover,
+  body h3:hover,
+  body h4:hover {
+    opacity: 0.8; }
 
 #view-container,
 footer,
