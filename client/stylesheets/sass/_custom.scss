@@ -46,6 +46,8 @@ body {
         list-style: none;
     }
 
+    h1{ font-size: 3.0rem;}
+
     h1:hover,
     h2:hover,
     h3:hover,
@@ -100,10 +102,6 @@ header {
 .publications-section,
 .works-section {
     padding: 0;
-    h1{
-      font-size: 3.0rem;
-
-    }
 }
 
 .about-section,
