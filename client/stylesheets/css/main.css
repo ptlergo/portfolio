@@ -311,20 +311,22 @@ img[src*=-logo] {
 div[class*=-section] h1, div[class*=-p] h1 {
   position: relative;
   z-index: 1;
-  text-align: left;
+  text-align: center;
   width: 35rem;
-  margin: 0 auto; }
+  margin: 0 auto;
+  color: #ffffff; }
 
 div[class*=-section] h1:before, div[class*=-p] h1:before {
   content: '';
   display: block;
   height: 6rem;
-  top: 6rem;
+  top: 5rem;
   background: #e9b921;
   transform: translateY(0px) skewY(532deg);
   position: relative;
   z-index: -1;
-  width: 50%; }
+  width: 50%;
+  left: 10%; }
 
 div[class*=-section] h1:after, div[class*=-p] h1:after {
   content: '';
@@ -333,10 +335,11 @@ div[class*=-section] h1:after, div[class*=-p] h1:after {
   transform: translateY(30px) skewY(532deg);
   position: relative;
   height: 6rem;
-  bottom: 6rem;
+  bottom: 8rem;
   z-index: -1;
   width: 50%;
-  left: 30%; }
+  left: 45%;
+  animation: slop 1s ease-in; }
 
 .hamburger-container {
   position: fixed;
