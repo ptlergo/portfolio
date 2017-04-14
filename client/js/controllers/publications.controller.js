@@ -7,13 +7,13 @@
   *
   * @returns {}
 */
-function PublicationsController(homeService) {
+function PublicationsController(publicationService) {
   const vm = this;
-  const publications = homeService.Content.publications;
+  const publications = publicationService.publications;
   vm.img_src = publications.imgUrl;
   vm.title = publications.title;
   vm.summary = publications.summary;
   vm.links = publications.links;
 }
-PublicationsController.$inject = ['homeService'];
+PublicationsController.$inject = ['publicationService'];
 angular.module('myApp').controller('PublicationsController', PublicationsController);
