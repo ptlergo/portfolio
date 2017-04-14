@@ -43,17 +43,6 @@ function homeService() {
                   and advertisement copy. I also write music centric articles on my own publication,
                   8Pounds.com. I recently had the oppurtunity to talk about developing my latest app.
                   music'em to Full Sail University which was broadcasted worldwide.`,
-        links: [
-          { title: 'Full Sail University Presentation: music\'em app.',
-            src: 'https://www.youtube.com/watch?v=BL80370LkzQ',
-          },
-          { title: 'Kim ft. King Los Block 4',
-            src: 'http://bit.ly/2p3CkfT',
-          },
-          { title: 'Kaiydo Fruit Punch',
-            src: 'http://bit.ly/2oUT1xa',
-          },
-        ],
       },
     },
     Contact: {
