@@ -13,7 +13,7 @@ function worksService() {
       {
         name: 'music\'em: Discover. Fetch. Feed.',
         path: 'musicem',
-        details: 'MEAN Stack progressive web app. that aggregates content from curated list of music brands.',
+        details: 'Developed a Progressive Web App. with the MEAN Stack in a 3 month SCRUM sprint.',
         challenges: `Music'em is built with X-Ray to create a bot that scrapes websites of interest.
                      I built multiple bots per site to collect information such as: content title, images,
                      links, and etc. The data is then saved to a firebase database for further access.
@@ -41,8 +41,8 @@ function worksService() {
       {
         name: 'Sylvan LaCue\'s The Loner Tour',
         path: 'lonertour',
-        details: `Partnering with CreativesOnly, an event company, I was tasked with delivering a digital strategy
-                  and platform to optimize exposure and sales of Sylvan LaCue's concert, The Loner Tour.`,
+        details: `Partnering with an event company I was tasked with delivering a strategy
+                  that optimized profits and fandom of Sylvan LaCue's concert, "The Loner Tour".`,
         challenges: ` I utilized my 8Pounds Music platform to opperate as the concert 'hub'. 8Pounds.com is developed on
                       the WordPress CMS from a PHP based theme I tailored for my brand's needs which includes e-commerce.
                       The 8Pounds platform has an audience ranging between 16 - 26yrs of age, the prime demographic to target.
@@ -77,7 +77,7 @@ function worksService() {
       {
         name: 'Winter Soulstice Concert RSVP App.',
         path: 'wintersoulstice',
-        details: 'Progressive web app for a concert customer to reserve tickets and view details of performers. ',
+        details: 'Progressive Web App for a concert customer to reserve tickets, view details of performances, and engage with using social media. ',
         challenges: `This was my first use of the codeIgniter framework, it was tricky practicing MVC with PHP.
                      The bootstrap styling was simple until using the popup modal for each performer, I had to
                      add a boolean case to get the modal to open upon screen click, but because my knowledge

@@ -40,13 +40,24 @@ div[class*=-p] {
 
 /*
   ===================================
+    Works Page
+  ===================================
+*/
+.works-p{
+  div[class*=cases-prototype-]{
+    padding: 0;
+  }
+}
+/*
+  ===================================
     Publications Page
   ===================================
 */
+.pu
 .publications-p {
   h1:after{
     content: "";
-    
+
   }
     .talk-1 {
         display: flex;

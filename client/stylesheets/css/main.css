@@ -82,7 +82,9 @@ body {
   body ul {
     list-style: none; }
   body h1 {
-    font-size: 3.0rem; }
+    font-size: 3.0rem !important; }
+  body h2 {
+    font-size: 1.5rem !important; }
   body h1:hover,
   body h2:hover,
   body h3:hover,
@@ -504,34 +506,52 @@ div[class*=-p] {
 
 /*
   ===================================
+    Works Page
+  ===================================
+*/
+.works-p div[class*=cases-prototype-] {
+  padding: 0; }
+
+/*
+  ===================================
     Publications Page
   ===================================
 */
+.pu
 .publications-p h1:after {
   content: ""; }
 
+.pu
 .publications-p .talk-1 {
   display: flex; }
-  .publications-p .talk-1 h3 {
+  .pu
+.publications-p .talk-1 h3 {
     font-size: 1.9rem;
     margin: 0; }
-  .publications-p .talk-1 h4 {
+  .pu
+.publications-p .talk-1 h4 {
     font-size: 1.4rem; }
-  .publications-p .talk-1 div {
+  .pu
+.publications-p .talk-1 div {
     flex: 1; }
-  .publications-p .talk-1 div:last-child {
+  .pu
+.publications-p .talk-1 div:last-child {
     flex: 2; }
-  .publications-p .talk-1 iframe {
+  .pu
+.publications-p .talk-1 iframe {
     width: 90%;
     height: 50%; }
     @media only screen and (min-width: 76.9rem) and (max-width: 180rem) {
-      .publications-p .talk-1 iframe {
+      .pu
+.publications-p .talk-1 iframe {
         width: 55%;
         height: 60%; } }
 
+.pu
 .publications-p div p {
   padding: 1.6rem; }
 
+.pu
 .publications-p a {
   color: #252525; }
 
