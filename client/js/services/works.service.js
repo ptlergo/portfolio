@@ -11,7 +11,7 @@ function worksService() {
   return {
     caseStudies: [
       {
-        name: 'music\'em Web App.: Discover. Fetch. Feed.',
+        name: 'music\'em Web App.',
         path: 'musicem',
         details: 'A MEAN Stack Progressive Web App. I developed in a 3 month SCRUM sprint.',
         challenges: `Music'em is built with X-Ray to create a bot that scrapes websites of interest.
@@ -39,7 +39,7 @@ function worksService() {
         category: 'web',
       },
       {
-        name: 'Sylvan LaCue\'s The Loner Tour: Digital Marketing Campaign',
+        name: 'Event Campaign of Sylvan LaCue\'s "The Loner Tour"',
         path: 'lonertour',
         details: `Partnered with CreativesOnly, an event company, I was tasked with delivering a strategy
                   that optimized profits and fandom of Sylvan LaCue's concert, "The Loner Tour".`,
@@ -75,7 +75,7 @@ function worksService() {
         category: 'marketing & ecommerce',
       },
       {
-        name: 'Winter Soulstice RSVP App.: UX implementation.',
+        name: 'Winter Soulstice RSVP App.',
         path: 'wintersoulstice',
         details: 'PHP based Progressive Web App for concert customers to have memorable reservation experience that seeks to inform and incentivise social media engagement. ',
         challenges: `This was my first use of the codeIgniter framework, it was tricky practicing MVC with PHP.
