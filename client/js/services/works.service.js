@@ -41,7 +41,7 @@ function worksService() {
       {
         name: 'Sylvan LaCue\'s The Loner Tour',
         path: 'lonertour',
-        details: `Partnering with an event company I was tasked with delivering a strategy
+        details: `Partnering with CreativesOnly, an event company, I was tasked with delivering a strategy
                   that optimized profits and fandom of Sylvan LaCue's concert, "The Loner Tour".`,
         challenges: ` I utilized my 8Pounds Music platform to opperate as the concert 'hub'. 8Pounds.com is developed on
                       the WordPress CMS from a PHP based theme I tailored for my brand's needs which includes e-commerce.
@@ -60,7 +60,7 @@ function worksService() {
              The experience was enjoyable and built team work skills under a Agile workflow enviroment. I learned additional branding
              techniques, and eCommerce tools that will surely drive sales and enhance overall enjoyment.`,
           `A video recap of the event was created to allow fans to relive the experience forever, and to also envoke emotions of the
-             possible fun expereince that can be delivered for projects to come.`,
+             possible fun expereince that can be delivered for projects to come. The event was documented by Orlando Weekly.`,
         ],
         image: '',
         gif_src: '',
