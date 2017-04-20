@@ -10,14 +10,13 @@
     flex: 1;
 }
 
-.case-p{
+.case-p {
   img{
-    width: 100%;
-  }
-  img:last-child{
     width: 75%;
     display:block;
     margin: 0 auto;
-
+  }
+  img[alt*="feature-image"]{
+      width: 100%;
   }
 }

@@ -545,9 +545,9 @@ div[class*=-p] {
   flex: 1; }
 
 .case-p img {
-  width: 100%; }
-
-.case-p img:last-child {
   width: 75%;
   display: block;
   margin: 0 auto; }
+
+.case-p img[alt*="feature-image"] {
+  width: 100%; }
