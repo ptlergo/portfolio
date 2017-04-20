@@ -13,7 +13,7 @@ function worksService() {
       {
         name: 'music\'em Web App.: Discover. Fetch. Feed.',
         path: 'musicem',
-        details: 'Developed a Progressive Web App. with the MEAN Stack in a 3 month SCRUM sprint.',
+        details: 'A MEAN Stack Progressive Web App. I developed in a 3 month SCRUM sprint.',
         challenges: `Music'em is built with X-Ray to create a bot that scrapes websites of interest.
                      I built multiple bots per site to collect information such as: content title, images,
                      links, and etc. The data is then saved to a firebase database for further access.
@@ -41,7 +41,7 @@ function worksService() {
       {
         name: 'Sylvan LaCue\'s The Loner Tour: Digital Marketing Campaign',
         path: 'lonertour',
-        details: `Partnering with CreativesOnly, an event company, I was tasked with delivering a strategy
+        details: `Partnered with CreativesOnly, an event company, I was tasked with delivering a strategy
                   that optimized profits and fandom of Sylvan LaCue's concert, "The Loner Tour".`,
         challenges: ` I utilized my 8Pounds Music platform to opperate as the concert 'hub'. 8Pounds.com is developed on
                       the WordPress CMS from a PHP based theme I tailored for my brand's needs which includes e-commerce.
