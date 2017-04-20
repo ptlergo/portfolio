@@ -11,7 +11,7 @@ function worksService() {
   return {
     caseStudies: [
       {
-        name: 'music\'em: Discover. Fetch. Feed.',
+        name: 'music\'em Web App.: Discover. Fetch. Feed.',
         path: 'musicem',
         details: 'Developed a Progressive Web App. with the MEAN Stack in a 3 month SCRUM sprint.',
         challenges: `Music'em is built with X-Ray to create a bot that scrapes websites of interest.
@@ -39,7 +39,7 @@ function worksService() {
         category: 'web',
       },
       {
-        name: 'Sylvan LaCue\'s The Loner Tour',
+        name: 'Sylvan LaCue\'s The Loner Tour: Digital Marketing Campaign',
         path: 'lonertour',
         details: `Partnering with CreativesOnly, an event company, I was tasked with delivering a strategy
                   that optimized profits and fandom of Sylvan LaCue's concert, "The Loner Tour".`,
@@ -75,9 +75,9 @@ function worksService() {
         category: 'marketing & ecommerce',
       },
       {
-        name: 'Winter Soulstice Concert RSVP App.',
+        name: 'Winter Soulstice RSVP App.',
         path: 'wintersoulstice',
-        details: 'Progressive Web App for a concert customer to reserve tickets, view details of performances, and engage with using social media. ',
+        details: 'PHP based Progressive Web App for a concert customer to reserve tickets, view details of performances, and engage with using social media. ',
         challenges: `This was my first use of the codeIgniter framework, it was tricky practicing MVC with PHP.
                      The bootstrap styling was simple until using the popup modal for each performer, I had to
                      add a boolean case to get the modal to open upon screen click, but because my knowledge

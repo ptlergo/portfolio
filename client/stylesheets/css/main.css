@@ -84,7 +84,7 @@ body {
   body h1 {
     font-size: 3.0rem !important; }
   body h2 {
-    font-size: 1.5rem !important; }
+    font-size: 2.5rem !important; }
   body h1:hover,
   body h2:hover,
   body h3:hover,
@@ -559,7 +559,7 @@ div[class*=-p] {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding: 10rem 1rem; }
+  padding: 10rem 0; }
 
 .cases > div {
   flex: 1; }
