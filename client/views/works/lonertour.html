@@ -1,8 +1,8 @@
 <div class ="case-p" ng-controller = 'WorksController as worksCtrl'>
+  <h2>{{worksCtrl.lonerTour.name}}</h2>
   <img id = "case-image" ng-src = "{{worksCtrl.lonerTour.case_images[0]}}">
-  <h1>{{worksCtrl.lonerTour.name}}</h1>
-  <h2>e-Commerce Service</h2>
-  <h3>Details: {{worksCtrl.lonerTour.details}}</h3>
+  <h3>e-Commerce Service</h3>
+  <h4>Details: {{worksCtrl.lonerTour.details}}</h4>
   <i>{{worksCtrl.lonerTour.tags}}</i>
   <ul><li ng-repeat = "tech in worksCtrl.lonerTour.tech">{{tech}}</li></ul>
   <p>{{worksCtrl.lonerTour.challenges}}</p>
