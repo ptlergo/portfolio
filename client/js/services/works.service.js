@@ -75,7 +75,7 @@ function worksService() {
         category: 'marketing & ecommerce',
       },
       {
-        name: 'Winter Soulstice RSVP App.',
+        name: 'Winter Soulstice RSVP App.: UX implementation.',
         path: 'wintersoulstice',
         details: 'PHP based Progressive Web App for a concert customer to reserve tickets, view details of performances, and engage with using social media. ',
         challenges: `This was my first use of the codeIgniter framework, it was tricky practicing MVC with PHP.
