@@ -11,7 +11,13 @@
 }
 
 .case-p{
-  #case-image{
+  img{
     width: 100%;
+  }
+  img:last-child{
+    width: 75%;
+    display:block;
+    margin: 0 auto;
+
   }
 }

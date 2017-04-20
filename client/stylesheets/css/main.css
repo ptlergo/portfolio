@@ -544,5 +544,10 @@ div[class*=-p] {
 .cases > div {
   flex: 1; }
 
-.case-p #case-image {
+.case-p img {
   width: 100%; }
+
+.case-p img:last-child {
+  width: 75%;
+  display: block;
+  margin: 0 auto; }
