@@ -27,9 +27,9 @@ function homeService() {
         imgUrl: '',
         summary: `My years have been spent creating a variety of digital content as a Full Sail University
                   Web Design & Development student, and for clients such as musicians, and agencies.
-                  I've made websites, apps, web tools, logos, and graphics. I believe that simplicity can
-                  come from complexity which shows in my minimalist approach. Before beginning I always
-                  ask 'how can I effectively embody the creative expression of my client's brand?`,
+                  I've created websites, apps, web tools, logos, and graphics. Before beginning I always
+                  ask 'how can I effectively embody the creative expression of my client's brand across
+                  devices using the latest most suitable tech. available?''`,
       },
       publications: {
         title: 'My Publications',
