@@ -1,6 +1,6 @@
 <div class ="case-p" ng-controller = 'WorksController as worksCtrl'>
-  <h2>{{worksCtrl.caseMusicem.name}}</h2>
   <img ng-src = "{{worksCtrl.caseMusicem.case_images[0]}}" alt = "feature-image">
+  <h2>{{worksCtrl.caseMusicem.name}}</h2>
   <h3>{{worksCtrl.caseMusicem.details}}</h3>
   <i>{{worksCtrl.caseMusicem.tags}}</i>
   <ul><li ng-repeat = "tech in worksCtrl.caseMusicem.tech">{{tech}}</li></ul>

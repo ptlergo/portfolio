@@ -7,6 +7,26 @@ div[class*=-p] {
     padding-left: 2.6rem;
     padding-right: 2.6rem;
 
+
+    h2,h3{
+      text-transform: uppercase;
+      width: 50%;
+
+    }
+
+    h2{
+      font-size: 4.0rem !important;
+      padding-top: 2rem;
+      margin: 0;
+
+    }
+    h3{
+      font-size: 1.2rem !important;
+      padding-bottom: 2rem;
+      margin-top: 0;
+
+    }
+
     p {
         opacity: 0.9;
     }
@@ -20,6 +40,13 @@ div[class*=-p] {
 
     ul {
         padding: 0;
+        padding-bottom: 2rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    li{
+      padding-right: 1rem;
     }
 }
 
