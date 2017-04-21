@@ -160,6 +160,7 @@ header {
   width: $section-container-width;
   height: $border-slant-height;
   background: #ffffff;
+  outline: 1px solid #ffffff;
   @include desktop {
     width: $section-container-width-desktop;
 
@@ -175,6 +176,8 @@ header {
   width: $section-container-width;
   height: $border-slant-height;
   background: #ffffff;
+outline: 1px solid #ffffff;
+
   @include desktop {
     width: $section-container-width-desktop;
 
@@ -191,6 +194,8 @@ header {
     background: #3263C9;
     -webkit-clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
     clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
+outline: 1px solid transparent;
+
     @include desktop {
     }
 }
@@ -203,6 +208,8 @@ header {
     background: #252525;
     -webkit-clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
     clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
+outline: 1px solid transparent;
+
     @include desktop {
     }
 }

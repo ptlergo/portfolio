@@ -9,20 +9,20 @@
     slideLeft
   ===================================
 */
-@keyframes fadeIn {
+@-webkit-keyframes fadeIn {
   0% {
     opacity: 0; }
   100% {
     opacity: 1; } }
 
-@keyframes slideUp {
+@-webkit-keyframes slideUp {
   0% {
     position: relative;
     bottom: -100vh; }
   100% {
     bottom: 100vh; } }
 
-@keyframes slideLeft {
+@-webkit-keyframes slideLeft {
   0% {
     position: relative;
     right: -100vw; }
@@ -33,15 +33,102 @@
   0% {
     -webkit-transform: scale(0);
     -moz-transform: scale(0);
-    -o-transform: scale(0);
     -ms-transform: scale(0);
     transform: scale(0); }
   100% {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
-    -o-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1); } }
+
+/*
+  ======================================================================
+    Buttons, Headers, links, carousel etc.
+  ======================================================================
+*/
+.title-link {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  box-sizing: border-box; }
+
+.carousel-indicators li {
+  visibility: hidden; }
+
+.tagline {
+  padding-top: 15%; }
+
+button {
+  margin-top: 1.6rem;
+  background: transparent;
+  text-align: center;
+  color: #71e2a6;
+  font-weight: bold;
+  border: 1px solid #71e2a6;
+  box-shadow: 0.4rem 0.4rem 0px 0px #71e2a6;
+  text-transform: uppercase;
+  transition: all .2s ease-in-out; }
+
+/*scale transform works better than zoom*/
+button:hover {
+  box-shadow: none;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05); }
+
+button:focus {
+  outline: none; }
+
+/*
+  ===================================
+    HomePage Triggers
+  ===================================
+*/
+img[src*=-logo] {
+  animation: slideUp 2.5s ease-in-out; }
+
+.home-text {
+  animation: slideLeft 3s ease-in-out; }
+
+.hamburger-container {
+  animation: fadeIn 5s ease-in; }
+
+/*
+  ===================================
+    H1 Tag Styles
+  ===================================
+*/
+div[class*=-section] h1, div[class*=-p] h1 {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  width: 25rem;
+  margin: 0 auto;
+  color: #ffffff; }
+
+div[class*=-section] h1:before, div[class*=-p] h1:before {
+  content: '';
+  display: block;
+  height: 7rem;
+  top: 5rem;
+  background: #e9b921;
+  transform: translateY(0px) skewY(524deg);
+  position: relative;
+  z-index: -1;
+  width: 90%;
+  left: -10%; }
+
+div[class*=-section] h1:after, div[class*=-p] h1:after {
+  content: '';
+  display: block;
+  background: #71e2a6;
+  transform: translateY(90%) skewY(524deg);
+  position: relative;
+  height: 7rem;
+  bottom: 10rem;
+  z-index: -1;
+  width: 90%;
+  left: 20%; }
 
 /*
   ===================================
@@ -173,7 +260,8 @@ header {
   content: "";
   width: 92vw;
   height: 14vh;
-  background: #ffffff; }
+  background: #ffffff;
+  outline: 1px solid #ffffff; }
   @media only screen and (min-width: 76.9rem) and (max-width: 180rem) {
     .summary-box::before {
       width: 70vw; } }
@@ -185,7 +273,8 @@ header {
   content: "";
   width: 92vw;
   height: 14vh;
-  background: #ffffff; }
+  background: #ffffff;
+  outline: 1px solid #ffffff; }
   @media only screen and (min-width: 76.9rem) and (max-width: 180rem) {
     .summary-box::after {
       width: 70vw; } }
@@ -198,7 +287,8 @@ header {
   height: 14vh;
   background: #3263C9;
   -webkit-clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
-  clip-path: polygon(100% 0%, 0% 100%, 100% 100%); }
+  clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
+  outline: 1px solid transparent; }
 
 .section-animate-container-1::before {
   display: block;
@@ -207,7 +297,8 @@ header {
   height: 14vh;
   background: #252525;
   -webkit-clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
-  clip-path: polygon(100% 0%, 0% 100%, 100% 100%); }
+  clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
+  outline: 1px solid transparent; }
 
 a[data-value='download']::after {
   font-family: FontAwesome;
@@ -246,95 +337,6 @@ a[href*=mailto]::before {
   font-family: FontAwesome;
   content: "\f003";
   display: block; }
-
-/*
-  ======================================================================
-    Buttons, Headers, links, carousel etc.
-  ======================================================================
-*/
-.title-link {
-  display: inline-block;
-  color: white;
-  text-decoration: none;
-  box-sizing: border-box; }
-
-.carousel-indicators li {
-  visibility: hidden; }
-
-.tagline {
-  padding-top: 15%; }
-
-button {
-  margin-top: 1.6rem;
-  background: transparent;
-  text-align: center;
-  color: #71e2a6;
-  font-weight: bold;
-  border: 1px solid #71e2a6;
-  box-shadow: 0.4rem 0.4rem 0px 0px #71e2a6;
-  text-transform: uppercase;
-  transition: all .2s ease-in-out; }
-
-/*scale transform works better than zoom*/
-button:hover {
-  box-shadow: none;
-  -webkit-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  transform: scale(1.05); }
-
-button:focus {
-  outline: none; }
-
-/*
-  ===================================
-    HomePage Triggers
-  ===================================
-*/
-img[src*=-logo] {
-  animation: slideUp 2.5s ease-in-out; }
-
-.home-text {
-  animation: slideLeft 3s ease-in-out; }
-
-.hamburger-container {
-  animation: fadeIn 5s ease-in; }
-
-/*
-  ===================================
-    H1 Tag Styles
-  ===================================
-*/
-div[class*=-section] h1, div[class*=-p] h1 {
-  position: relative;
-  z-index: 1;
-  text-align: center;
-  width: 25rem;
-  margin: 0 auto;
-  color: #ffffff; }
-
-div[class*=-section] h1:before, div[class*=-p] h1:before {
-  content: '';
-  display: block;
-  height: 7rem;
-  top: 5rem;
-  background: #e9b921;
-  transform: translateY(0px) skewY(524deg);
-  position: relative;
-  z-index: -1;
-  width: 90%;
-  left: -10%; }
-
-div[class*=-section] h1:after, div[class*=-p] h1:after {
-  content: '';
-  display: block;
-  background: #71e2a6;
-  transform: translateY(90%) skewY(524deg);
-  position: relative;
-  height: 7rem;
-  bottom: 10rem;
-  z-index: -1;
-  width: 90%;
-  left: 20%; }
 
 .hamburger-container {
   position: fixed;
