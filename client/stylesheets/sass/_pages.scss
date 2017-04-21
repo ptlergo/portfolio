@@ -10,7 +10,7 @@ div[class*=-p] {
 
     h2,h3{
       text-transform: uppercase;
-      width: 50%;
+      width: 65%;
 
     }
 
@@ -34,9 +34,6 @@ div[class*=-p] {
     p:hover {
         opacity: 1;
     }
-    @include desktop {
-        padding: 12rem;
-    }
 
     ul {
         padding: 0;
@@ -47,6 +44,26 @@ div[class*=-p] {
 
     li{
       padding-right: 1rem;
+    }
+    @include desktop{
+
+      padding: 5.2rem;
+      section{
+        padding: 0 12.2rem;
+
+      }
+      h2,h3{
+        position: relative;
+        bottom: 45rem;
+      }
+      h2{
+        font-size: 5rem !important;
+      }
+      img{
+        width: 100rem !important;
+      }
+
+
     }
 }
 

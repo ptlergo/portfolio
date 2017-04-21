@@ -2,19 +2,21 @@
   <img ng-src = "{{worksCtrl.caseMusicem.case_images[0]}}" alt = "feature-image">
   <h2>{{worksCtrl.caseMusicem.name}}</h2>
   <h3>Progressive Web App.</h3>
-  <h4>Tools</h4>
-  <ul><li ng-repeat = "tech in worksCtrl.caseMusicem.tech">{{tech}}</li></ul>
-  <p>{{worksCtrl.caseMusicem.paragraphs[0]}}</p>
-  <img ng-src = "{{worksCtrl.caseMusicem.case_images[1]}}"  alt = "case-image">
-  <p>{{worksCtrl.caseMusicem.paragraphs[1]}}</p>
-  <p>{{worksCtrl.caseMusicem.paragraphs[2]}}</p>
-  <p>{{worksCtrl.caseMusicem.paragraphs[3]}}</p>
+  <section>
+    <h4>Tools</h4>
+    <ul><li ng-repeat = "tech in worksCtrl.caseMusicem.tech">{{tech}}</li></ul>
+    <p>{{worksCtrl.caseMusicem.paragraphs[0]}}</p>
+    <img ng-src = "{{worksCtrl.caseMusicem.case_images[1]}}"  alt = "case-image">
+    <p>{{worksCtrl.caseMusicem.paragraphs[1]}}</p>
+    <p>{{worksCtrl.caseMusicem.paragraphs[2]}}</p>
+    <p>{{worksCtrl.caseMusicem.paragraphs[3]}}</p>
 
-  <img ng-src = "{{worksCtrl.caseMusicem.case_images[3]}}"  alt = "case-image">
-  <p>{{worksCtrl.caseMusicem.challenges}}</p>
+    <img ng-src = "{{worksCtrl.caseMusicem.case_images[3]}}"  alt = "case-image">
+    <p>{{worksCtrl.caseMusicem.challenges}}</p>
 
-  <img ng-src = "{{worksCtrl.caseMusicem.case_images[2]}}"  alt = "case-image">
+    <img ng-src = "{{worksCtrl.caseMusicem.case_images[2]}}"  alt = "case-image">
 
-  <i>{{worksCtrl.caseMusicem.tags}}</i>
-  <button><a href = "#works">more works</a></button>
+    <i>{{worksCtrl.caseMusicem.tags}}</i>
+    <button><a href = "#works">more works</a></button>
+  </section>
 </div>
