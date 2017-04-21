@@ -3,7 +3,59 @@
     All Pages
   ===================================
 */
+
+
 div[class*=-p] {
+    padding-left: 2.6rem;
+    padding-right: 2.6rem;
+
+    p {
+        opacity: 0.9;
+    }
+
+    p:hover {
+        opacity: 1;
+    }
+    @include desktop {
+        padding: 12rem;
+    }
+
+    ul {
+        padding: 0;
+    }
+}
+
+/*
+  ===================================
+    About Page
+  ===================================
+*/
+.about-p {
+    ul {
+        overflow: scroll;
+    }
+
+    p a {
+        color: #3263C9;
+    }
+}
+
+/*
+  ===================================
+    Works Page
+  ===================================
+*/
+.works-p{
+  div[class*=cases-prototype-]{
+    padding: 0;
+  }
+}
+/*
+  ===================================
+    Cases Page
+  ===================================
+*/
+div[class*=case-p] {
     padding-left: 2.6rem;
     padding-right: 2.6rem;
 
@@ -65,32 +117,6 @@ div[class*=-p] {
 
 
     }
-}
-
-/*
-  ===================================
-    About Page
-  ===================================
-*/
-.about-p {
-    ul {
-        overflow: scroll;
-    }
-
-    p a {
-        color: #3263C9;
-    }
-}
-
-/*
-  ===================================
-    Works Page
-  ===================================
-*/
-.works-p{
-  div[class*=cases-prototype-]{
-    padding: 0;
-  }
 }
 /*
   ===================================
