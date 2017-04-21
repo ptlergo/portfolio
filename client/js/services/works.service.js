@@ -30,7 +30,13 @@ function worksService() {
           `Month 3 focused on development, QA, and deployment.`,
         ],
         image: 'http://marvelapp.com/1f3ia7a?emb=1',
-        case_images: ['../img/case-images/musicem/musicem-case-image.png'],
+        case_images: [
+          '../img/case-images/musicem/musicem-case-image.png',
+          '../img/case-images/musicem/xxl-influencers.png',
+          '../img/case-images/musicem/home-m.png',
+          '../img/case-images/musicem/musicem-engagement.png',
+
+        ],
         gif_src: 'https://media.giphy.com/media/3ohzdLBDAwCtfWy6sM/giphy.gif',
         type: 'web app',
         tech: ['AngularJS', 'API', 'NodeJS', 'firebase', 'css3', 'JavaScript',
