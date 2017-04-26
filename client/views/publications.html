@@ -5,27 +5,32 @@
   </div>
   <p>{{ publicationsCtrl.tagline }}</p>
   <div>
-    <h2>Writings</h2>
-    <p>{{ publicationsCtrl.summary.writings }}</p>
-    <ul>
-      <li>{{publicationsCtrl.links[1].title}} | <a ng-href = "{{publicationsCtrl.links[1].src}}">read here</a></li>
-      <li>{{publicationsCtrl.links[2].title}} | <a ng-href = "{{publicationsCtrl.links[1].src}}">read here</a></li>
-      <li>{{publicationsCtrl.links[4].title}} | <a ng-href = "{{publicationsCtrl.links[2].src}}">read here</a></li>
-      <li>{{publicationsCtrl.links[5].title}} | <a ng-href = "{{publicationsCtrl.links[2].src}}">read here</a></li>
-      <li>{{publicationsCtrl.links[6].title}} | <a ng-href = "{{publicationsCtrl.links[2].src}}">read here</a></li>
-      <li>{{publicationsCtrl.links[7].title}} | <a ng-href = "{{publicationsCtrl.links[2].src}}">read here</a></li>
-    </ul>
-    <h2>Talks</h2>
-    <p>{{ publicationsCtrl.summary.talks }}</p>
-    <div class = "talk-1">
-      <div>
-      <iframe ng-src = "{{publicationsCtrl.video}}"></iframe>
+    <div>
+      <h2>Writings</h2>
+      <p>{{ publicationsCtrl.summary.writings }}</p>
+      <ul>
+        <li>{{publicationsCtrl.links[1].title}} | <a ng-href = "{{publicationsCtrl.links[1].src}}">read here</a></li>
+        <li>{{publicationsCtrl.links[2].title}} | <a ng-href = "{{publicationsCtrl.links[1].src}}">read here</a></li>
+        <li>{{publicationsCtrl.links[4].title}} | <a ng-href = "{{publicationsCtrl.links[2].src}}">read here</a></li>
+        <li>{{publicationsCtrl.links[5].title}} | <a ng-href = "{{publicationsCtrl.links[2].src}}">read here</a></li>
+        <li>{{publicationsCtrl.links[6].title}} | <a ng-href = "{{publicationsCtrl.links[2].src}}">read here</a></li>
+        <li>{{publicationsCtrl.links[7].title}} | <a ng-href = "{{publicationsCtrl.links[2].src}}">read here</a></li>
+      </ul>
     </div>
-      <div>
-      <h3>{{publicationsCtrl.links[0].title}}</h3>
-      <h4>Full Sail University</h4>
-      <h4>Orlando, FL</h4>
-    </div>
+    <div>
+      <h2>Talks</h2>
+      <p>{{ publicationsCtrl.summary.talks }}</p>
+      <ul>
+        <li>
+          <img ng-src = "{{publicationsCtrl.links[0].img_src}}">
+          <section>
+            <h3>{{publicationsCtrl.links[0].title}}</h3>
+            <h4>Full Sail University</h4>
+            <h4>Orlando, FL</h4>
+          </section>
+        </li>
+      </ul>
+      </div>
     </div>
   </div>
 </div>

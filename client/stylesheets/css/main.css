@@ -562,43 +562,21 @@ div[class*=case-p] {
     Publications Page
   ===================================
 */
-.pu
-.publications-p h1:after {
-  content: ""; }
+.publications-p ul {
+  padding: 4.1rem 2.1rem !important; }
+  .publications-p ul li {
+    padding: 0.6rem 0; }
 
-.pu
-.publications-p .talk-1 {
-  display: flex; }
-  .pu
-.publications-p .talk-1 h3 {
-    font-size: 1.9rem;
-    margin: 0; }
-  .pu
-.publications-p .talk-1 h4 {
-    font-size: 1.4rem; }
-  .pu
-.publications-p .talk-1 div {
-    flex: 1; }
-  .pu
-.publications-p .talk-1 div:last-child {
-    flex: 2; }
-  .pu
-.publications-p .talk-1 iframe {
-    width: 90%;
-    height: 50%; }
-    @media only screen and (min-width: 76.9rem) and (max-width: 180rem) {
-      .pu
-.publications-p .talk-1 iframe {
-        width: 55%;
-        height: 60%; } }
-
-.pu
-.publications-p div p {
-  padding: 1.6rem; }
-
-.pu
 .publications-p a {
-  color: #252525; }
+  color: #337ab7 !important; }
+
+@media only screen and (min-width: 76.9rem) and (max-width: 180rem) {
+  .publications-p ul {
+    padding: 4.1rem !important; }
+  .publications-p div > div:nth-child(2) ul li {
+    display: flex; }
+    .publications-p div > div:nth-child(2) ul li section {
+      padding-left: 4rem; } }
 
 .cases {
   display: -webkit-flex;

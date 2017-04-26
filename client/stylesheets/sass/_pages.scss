@@ -123,47 +123,29 @@ div[class*=case-p] {
     Publications Page
   ===================================
 */
-.pu
 .publications-p {
-  h1:after{
-    content: "";
 
-  }
-    .talk-1 {
-        display: flex;
-
-        h3 {
-            font-size: 1.9rem;
-            margin: 0;
-        }
-
-        h4 {
-            font-size: 1.4rem;
-        }
-
-        div {
-            flex: 1;
-        }
-
-        div:last-child {
-            flex: 2;
-        }
-
-        iframe {
-            width: 90%;
-            height: 50%;
-            @include desktop {
-                width: 55%;
-                height: 60%;
-            }
-        }
+    ul{
+      padding: 4.1rem 2.1rem !important;
+      li{
+        padding: 0.6rem 0;
+      }
     }
-
-    div p {
-        padding: 1.6rem;
-    }
-
     a {
-        color: #252525;
+        color: #337ab7 !important;
+    }
+    @include desktop{
+      ul{
+        padding: 4.1rem !important;
+      }
+
+      div > div:nth-child(2){
+        ul li{
+          display: flex;
+          section{
+            padding-left: 4rem;
+          }
+        }
+      }
     }
 }
