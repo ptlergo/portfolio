@@ -16,11 +16,9 @@ function homeService() {
         templateUrl: 'views/home/about-section.html',
         imgUrl: 'https://marypomerantzadvertising.com/wp-content/uploads/responsiveweb.gif',
         summary: `Hello, I am Patrick, A Digital Designer & Front-End Web Developer with 3+ years
-                  of experience based in Florida. I tell unique stories using the digital language. My
-                  coded narratives create fully responsive websites and interactive apps that drive sales,
-                  boost profitability, and engage users. It brings me joy to collaborate intimately with
-                  startups, agencies, and individuals to craft compelling brand identities that
-                  live online as a 'digital you'.`,
+                  of experience based in Orlando, Florida. I like to tell unique stories. Some stories are
+                  coded narratives intended to engage users and others craft compelling messages that drive
+                  sales of brands.`,
       },
       works: {
         title: 'My Works',
@@ -28,10 +26,10 @@ function homeService() {
         templateUrl: 'views/home/works-section.html',
         imgUrl: '',
         summary: `My years have been spent creating a variety of digital content as a Full Sail University
-                  Web Design & Development student, and for clients such as: musicians, agencies, and companies.
-                  I've made websites, apps, web tools, logos, and graphics. I believe that simplicity can
-                  come from complexity which shows in my minimalist design approach. Before beginning I always
-                  ask 'how can I effectively embody the creative expression of my client's brand?`,
+                  Web Design & Development student, and for clients such as musicians, and agencies.
+                  I've created websites, apps, web tools, logos, and graphics. Before beginning I always
+                  ask 'how can I effectively embody the creative expression of my client's brand across
+                  devices using the latest most suitable tech. available?''`,
       },
       publications: {
         title: 'My Publications',

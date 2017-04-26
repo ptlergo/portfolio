@@ -3,6 +3,8 @@
     All Pages
   ===================================
 */
+
+
 div[class*=-p] {
     padding-left: 2.6rem;
     padding-right: 2.6rem;
@@ -40,13 +42,92 @@ div[class*=-p] {
 
 /*
   ===================================
+    Works Page
+  ===================================
+*/
+.works-p{
+  div[class*=cases-prototype-]{
+    padding: 0;
+  }
+}
+/*
+  ===================================
+    Cases Page
+  ===================================
+*/
+div[class*=case-p] {
+    padding-left: 2.6rem;
+    padding-right: 2.6rem;
+
+
+    h2,h3{
+      text-transform: uppercase;
+      width: 65%;
+
+    }
+
+    h2{
+      font-size: 4.0rem !important;
+      padding-top: 2rem;
+      margin: 0;
+
+    }
+    h3{
+      font-size: 1.2rem !important;
+      padding-bottom: 2rem;
+      margin-top: 0;
+
+    }
+
+    p {
+        opacity: 0.9;
+    }
+
+    p:hover {
+        opacity: 1;
+    }
+
+    ul {
+        padding: 0;
+        padding-bottom: 2rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    li{
+      padding-right: 1rem;
+    }
+    @include desktop{
+
+      padding: 5.2rem;
+      section{
+        padding: 0 12.2rem;
+
+      }
+      h2,h3{
+        position: relative;
+        bottom: 45rem;
+      }
+      h2{
+        font-size: 5rem !important;
+      }
+      img{
+        width: 100rem !important;
+      }
+
+
+    }
+}
+/*
+  ===================================
     Publications Page
   ===================================
 */
+.pu
 .publications-p {
   h1:after{
     content: "";
-    
+
   }
     .talk-1 {
         display: flex;

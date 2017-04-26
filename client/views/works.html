@@ -1,8 +1,13 @@
 
 <div class ="works-p" ng-controller = 'WorksController as worksCtrl'>
   <h1>{{ worksCtrl.title }}</h1>
-  <p>{{worksCtrl.tagline}}</p>
   <div class = "cases" ng-repeat = "case in worksCtrl.cases track by $index">
+    <div class = "cases-prototype-{{$index}}">
+      <div class = "prototype-device">
+        <div class = "prototype-screen" style = "background-image: url({{case.gif_src}})">
+        </div>
+      </div>
+    </div>
     <div class = "case-description">
       <h2>{{case.name}}</h2>
       <button><a ng-href = "#{{case.path}}">view case study</a></button>
@@ -11,12 +16,6 @@
         <li ng-repeat = "tech in case.tech"><i>{{tech}}</i></li>
       </ul>
     </div>
-    <div class = "cases-prototype-{{$index}}">
-      <div class = "prototype-device">
-        <div class = "prototype-screen" style = "background-image: url({{case.gif_src}})">
-        </div>
-      </div>
-      <p>{{case.details}}</p>
-    </div>
+    <div class ="case-details"><p>{{case.details}}</p></div>
   </div>
 </div>
