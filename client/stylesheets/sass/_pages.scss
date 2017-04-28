@@ -24,6 +24,8 @@ div[class*=-p] {
     }
     @include desktop {
         padding: 0 20rem;
+        padding-bottom: 12rem;
+
     }
 
     ul {

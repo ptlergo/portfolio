@@ -494,7 +494,8 @@ div[class*=-p] {
     opacity: 1; }
   @media only screen and (min-width: 76.9rem) and (max-width: 180rem) {
     div[class*=-p] {
-      padding: 0 20rem; } }
+      padding: 0 20rem;
+      padding-bottom: 12rem; } }
   div[class*=-p] ul {
     padding: 0; }
 
