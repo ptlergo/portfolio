@@ -69,7 +69,7 @@ function worksService() {
              possible fun expereince that can be delivered for projects to come. The event was documented by Orlando Weekly.`,
         ],
         image: '',
-        gif_src: '',
+        gif_src: '../img/case-images/thelonertour/poster-thelonertour.png',
         case_images: [
           '../img/case-images/thelonertour/sylvan-banner.png',
           '../img/case-images/thelonertour/stripe-api.png',
@@ -78,7 +78,7 @@ function worksService() {
         type: 'Marketing Campaign & eCommerce',
         tech: ['WordPress', 'PHP', 'MySQL', 'BootStrap3', 'JQuery', 'Stripe API', 'Adobe PhotoShop'],
         tags: 'Stripe API, php, bootstrap, jquery, WordPress, branding, e-commerce',
-        category: 'marketing & ecommerce',
+        category: 'digital strategy',
       },
       {
         name: 'Winter Soulstice RSVP App.',

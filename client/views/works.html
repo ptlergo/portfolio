@@ -4,13 +4,13 @@
   <div class = "cases" ng-repeat = "case in worksCtrl.cases track by $index">
     <div class = "cases-prototype-{{$index}}">
       <div class = "prototype-device" ng-show = "case.category == 'web'">
-        <div class = "prototype-screen" style = "background-image: url({{case.gif_src}})">
+        <div class = "prototype-screen" style = "background-image: url({{case.gif_src}})">          
         </div>
       </div>
+      <div class = "prototype-screen" style = "background-image: url({{case.gif_src}})" ng-show = "case.category == 'digital strategy'"></div>
     </div>
     <div class = "case-description">
       <h2>{{case.name}}</h2>
-      <i>{{case.category}}</i>
       <button><a ng-href = "#{{case.path}}">view case study</a></button>
       <button ng-click="checked = !checked" data-value="Toggle">show tech.</button>
       <ul ng-show = "checked">
