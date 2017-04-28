@@ -518,6 +518,12 @@ div[class*=-p] {
 .works-p div[class*=cases-prototype-] {
   padding: 0; }
 
+.works-p .cases:nth-child(odd) .case-description {
+  order: 3; }
+
+.works-p .cases:nth-child(odd) .case-details {
+  order: 1; }
+
 /*
   ===================================
     Cases Page

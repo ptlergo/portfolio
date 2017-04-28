@@ -57,6 +57,15 @@ div[class*=-p] {
   div[class*=cases-prototype-]{
     padding: 0;
   }
+
+  .cases:nth-child(odd){
+    .case-description{
+      order: 3;
+    }
+    .case-details{
+      order: 1;
+    }
+  }
 }
 /*
   ===================================
