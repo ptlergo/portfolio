@@ -171,7 +171,7 @@ body {
   body h1 {
     font-size: 3.0rem !important; }
   body h2 {
-    font-size: 2.5rem !important; }
+    font-size: 3.5rem !important; }
   body h1:hover,
   body h2:hover,
   body h3:hover,
@@ -484,14 +484,18 @@ footer {
 */
 div[class*=-p] {
   padding-left: 2.6rem;
-  padding-right: 2.6rem; }
+  padding-right: 2.6rem;
+  padding-bottom: 3rem; }
+  div[class*=-p] .title-container {
+    padding-bottom: 3rem; }
   div[class*=-p] p {
     opacity: 0.9; }
   div[class*=-p] p:hover {
     opacity: 1; }
   @media only screen and (min-width: 76.9rem) and (max-width: 180rem) {
     div[class*=-p] {
-      padding: 12rem; } }
+      padding: 0 20rem;
+      padding-bottom: 12rem; } }
   div[class*=-p] ul {
     padding: 0; }
 
@@ -511,8 +515,22 @@ div[class*=-p] {
     Works Page
   ===================================
 */
+@media only screen and (max-width: 48rem) {
+  .works-p .case-description {
+    display: inline-grid; }
+    .works-p .case-description h2 {
+      font-size: 3rem !important; }
+  .works-p .case-details {
+    text-align: justify; } }
+
 .works-p div[class*=cases-prototype-] {
   padding: 0; }
+
+@media only screen and (min-width: 76.9rem) and (max-width: 180rem) {
+  .works-p .cases:nth-child(odd) .case-description {
+    order: 3; }
+  .works-p .cases:nth-child(odd) .case-details {
+    order: 1; } }
 
 /*
   ===================================
@@ -522,7 +540,8 @@ div[class*=-p] {
 div[class*=case-p] {
   padding-left: 2.6rem;
   padding-right: 2.6rem; }
-  div[class*=case-p] h2, div[class*=case-p] h3 {
+  div[class*=case-p] h2,
+  div[class*=case-p] h3 {
     text-transform: uppercase;
     width: 65%; }
   div[class*=case-p] h2 {
@@ -549,7 +568,8 @@ div[class*=case-p] {
       padding: 5.2rem; }
       div[class*=case-p] section {
         padding: 0 12.2rem; }
-      div[class*=case-p] h2, div[class*=case-p] h3 {
+      div[class*=case-p] h2,
+      div[class*=case-p] h3 {
         position: relative;
         bottom: 45rem; }
       div[class*=case-p] h2 {
@@ -562,49 +582,29 @@ div[class*=case-p] {
     Publications Page
   ===================================
 */
-.pu
-.publications-p h1:after {
-  content: ""; }
+.publications-p ul {
+  padding: 4.1rem 1.5rem !important;
+  font-size: 1.2rem; }
+  .publications-p ul li {
+    padding: 0.6rem 0; }
 
-.pu
-.publications-p .talk-1 {
-  display: flex; }
-  .pu
-.publications-p .talk-1 h3 {
-    font-size: 1.9rem;
-    margin: 0; }
-  .pu
-.publications-p .talk-1 h4 {
-    font-size: 1.4rem; }
-  .pu
-.publications-p .talk-1 div {
-    flex: 1; }
-  .pu
-.publications-p .talk-1 div:last-child {
-    flex: 2; }
-  .pu
-.publications-p .talk-1 iframe {
-    width: 90%;
-    height: 50%; }
-    @media only screen and (min-width: 76.9rem) and (max-width: 180rem) {
-      .pu
-.publications-p .talk-1 iframe {
-        width: 55%;
-        height: 60%; } }
-
-.pu
-.publications-p div p {
-  padding: 1.6rem; }
-
-.pu
 .publications-p a {
-  color: #252525; }
+  color: #337ab7 !important; }
+
+@media only screen and (min-width: 76.9rem) and (max-width: 180rem) {
+  .publications-p ul {
+    padding: 4.1rem !important;
+    font-size: 1.6rem; }
+  .publications-p div > div:nth-child(2) ul li {
+    display: flex; }
+    .publications-p div > div:nth-child(2) ul li section {
+      padding-left: 4rem; } }
 
 .cases {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding: 8rem 0; }
+  padding: 8rem 1rem; }
   @media only screen and (max-width: 48rem) {
     .cases {
       flex-direction: column; }
