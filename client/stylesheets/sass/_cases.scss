@@ -2,7 +2,7 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    padding: 8rem 0;
+    padding: 8rem 1rem;
     @include phone {
         flex-direction: column;
 

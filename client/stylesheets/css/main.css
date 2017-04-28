@@ -516,8 +516,12 @@ div[class*=-p] {
   ===================================
 */
 @media only screen and (max-width: 48rem) {
-  .works-p {
-    text-align: center; } }
+  .works-p .case-description {
+    display: inline-grid; }
+    .works-p .case-description h2 {
+      font-size: 3rem !important; }
+  .works-p .case-details {
+    text-align: justify; } }
 
 .works-p div[class*=cases-prototype-] {
   padding: 0; }
@@ -600,7 +604,7 @@ div[class*=case-p] {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding: 8rem 0; }
+  padding: 8rem 1rem; }
   @media only screen and (max-width: 48rem) {
     .cases {
       flex-direction: column; }

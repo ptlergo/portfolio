@@ -50,7 +50,17 @@ div[class*=-p] {
 */
 
 .works-p {
-  @include phone{ text-align: center; }
+  @include phone {
+    .case-description {
+      h2{
+        font-size: 3rem !important;
+      }
+      display: inline-grid;
+    }
+    .case-details {
+      text-align: justify;
+    }
+  }
   div[class*=cases-prototype-] {
     padding: 0;
   }

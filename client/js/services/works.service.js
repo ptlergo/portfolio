@@ -11,7 +11,7 @@ function worksService() {
   return {
     caseStudies: [
       {
-        name: 'music\'em Web App.',
+        name: 'music\'em Content Aggregation App.',
         path: 'musicem',
         details: 'A MEAN Stack Progressive Web App. I developed in a 3 month SCRUM sprint.',
         challenges: `Music'em is built with X-Ray to create a bot that scrapes websites of interest.
@@ -47,8 +47,8 @@ function worksService() {
       {
         name: 'Event Campaign of Sylvan LaCue\'s "The Loner Tour"',
         path: 'lonertour',
-        details: `Partnered with CreativesOnly, an event company, I was tasked with delivering a strategy
-                  that optimized profits and fandom of Sylvan LaCue's concert, "The Loner Tour".`,
+        details: `Partnered with CreativesOnly, an event company. My task was to with deliver a digital strategy
+                  to optimize profits and fan engagement of Sylvan LaCue's "The Loner Tour".`,
         challenges: ` I utilized my 8Pounds Music platform to opperate as the concert 'hub'. 8Pounds.com is developed on
                       the WordPress CMS from a PHP based theme I tailored for my brand's needs which includes e-commerce.
                       The 8Pounds platform has an audience ranging between 16 - 26yrs of age, the prime demographic to target.
