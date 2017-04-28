@@ -74,7 +74,7 @@ function worksService() {
           '../img/case-images/thelonertour/sylvan-banner.png',
           '../img/case-images/thelonertour/stripe-api.png',
           '../img/case-images/thelonertour/ticket_sales.png',
-          '../img/case-images/thelonertour/poster-lonertour-at-venue.png',
+          '../img/case-images/thelonertour/poster-lonertour-at-venue.jpg',
           '../img/case-images/thelonertour/purchases-turn-into-visual-stats.png',
           '../img/case-images/thelonertour/mockups/mockup-orlando-weekly-sylvan-lacue.png',
           '../img/case-images/thelonertour/mockups/mockup-thelonertour-editpage.png',
