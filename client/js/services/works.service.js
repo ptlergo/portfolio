@@ -11,7 +11,7 @@ function worksService() {
   return {
     caseStudies: [
       {
-        name: 'music\'em Content Aggregation App.',
+        name: 'music\'em: Content Aggregation App',
         path: 'musicem',
         details: 'A MEAN Stack Progressive Web App. I developed in a 3 month SCRUM sprint.',
         challenges: `Music'em is built with X-Ray to create a bot that scrapes websites of interest.
