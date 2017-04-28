@@ -8,6 +8,8 @@
 div[class*=-p] {
     padding-left: 2.6rem;
     padding-right: 2.6rem;
+    padding-bottom: 3rem;
+
 
     .title-container{
       padding-bottom: 3rem;
@@ -130,7 +132,8 @@ div[class*=case-p] {
 .publications-p {
 
     ul{
-      padding: 4.1rem 2.1rem !important;
+      padding: 4.1rem 1.5rem !important;
+      font-size: 1.2rem;
       li{
         padding: 0.6rem 0;
       }
@@ -141,6 +144,8 @@ div[class*=case-p] {
     @include desktop{
       ul{
         padding: 4.1rem !important;
+        font-size: 1.6rem;
+
       }
 
       div > div:nth-child(2){

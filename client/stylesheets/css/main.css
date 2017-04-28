@@ -484,7 +484,8 @@ footer {
 */
 div[class*=-p] {
   padding-left: 2.6rem;
-  padding-right: 2.6rem; }
+  padding-right: 2.6rem;
+  padding-bottom: 3rem; }
   div[class*=-p] .title-container {
     padding-bottom: 3rem; }
   div[class*=-p] p {
@@ -565,7 +566,8 @@ div[class*=case-p] {
   ===================================
 */
 .publications-p ul {
-  padding: 4.1rem 2.1rem !important; }
+  padding: 4.1rem 1.5rem !important;
+  font-size: 1.2rem; }
   .publications-p ul li {
     padding: 0.6rem 0; }
 
@@ -574,7 +576,8 @@ div[class*=case-p] {
 
 @media only screen and (min-width: 76.9rem) and (max-width: 180rem) {
   .publications-p ul {
-    padding: 4.1rem !important; }
+    padding: 4.1rem !important;
+    font-size: 1.6rem; }
   .publications-p div > div:nth-child(2) ul li {
     display: flex; }
     .publications-p div > div:nth-child(2) ul li section {
