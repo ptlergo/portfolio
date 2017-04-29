@@ -71,7 +71,7 @@ function worksService() {
         image: '',
         gif_src: '../img/case-images/thelonertour/poster-thelonertour.png',
         case_images: [
-          '../img/case-images/thelonertour/poster-thelonertour-instagram.png',
+          '../img/case-images/thelonertour/thelonertour-banner-clean-lrg.png',
           '../img/case-images/thelonertour/stripe-api.png',
           '../img/case-images/thelonertour/ticket_sales.png',
           '../img/case-images/thelonertour/poster-lonertour-at-venue.jpg',
@@ -83,7 +83,7 @@ function worksService() {
         type: 'Marketing Campaign & eCommerce',
         tech: ['WordPress', 'PHP', 'MySQL', 'BootStrap3', 'JQuery', 'Stripe API', 'Adobe PhotoShop'],
         tags: 'Stripe API, php, bootstrap, jquery, WordPress, branding, e-commerce',
-        category: 'digital strategy',
+        category: 'digital strategy & ecommerce',
       },
       {
         name: 'Winter Soulstice RSVP App.',
