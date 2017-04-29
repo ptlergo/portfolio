@@ -169,9 +169,13 @@ body {
   body ul {
     list-style: none; }
   body h1 {
-    font-size: 3.0rem; }
+    font-size: 3.0rem;
+    font-weight: 800; }
   body h2 {
-    font-size: 3.5rem; }
+    font-size: 3.0rem;
+    font-weight: 800;
+    margin: 0;
+    text-transform: uppercase; }
   body h1:hover,
   body h2:hover,
   body h3:hover,
@@ -540,16 +544,18 @@ div[class*=-p] {
 div[class*=case-p] {
   padding-left: 2.6rem;
   padding-right: 2.6rem; }
+  div[class*=case-p] .case-title h3 {
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 600; }
+  div[class*=case-p] h3 {
+    font: small-caption; }
   div[class*=case-p] img {
     width: 75%;
     display: block;
     margin: 0 auto; }
   div[class*=case-p] img[alt*="feature-image"] {
     width: 100%; }
-  div[class*=case-p] p {
-    opacity: 0.9; }
-  div[class*=case-p] p:hover {
-    opacity: 1; }
   div[class*=case-p] ul {
     padding: 0;
     padding-bottom: 2rem;
@@ -563,7 +569,15 @@ div[class*=case-p] {
       div[class*=case-p] section {
         padding: 0 12.2rem; }
       div[class*=case-p] img {
-        width: 100rem !important; } }
+        width: 100rem !important; }
+      div[class*=case-p] .case-title {
+        background: #efc739;
+        width: 62rem;
+        color: #ffffff;
+        position: relative;
+        box-shadow: -2rem 2rem #71e2a6;
+        bottom: 50rem;
+        padding: 1.3rem; } }
 
 /*
   ===================================

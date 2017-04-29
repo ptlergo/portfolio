@@ -159,6 +159,11 @@ div[class*=-p] {
 */
 
 div[class*=case-p] {
+  .case-title{
+          h3 {margin: 0; text-transform: uppercase; font-weight: 600; }
+
+  }
+  h3{font: small-caption;}
   padding-left: 2.6rem;
   padding-right: 2.6rem;
   img {
@@ -168,12 +173,6 @@ div[class*=case-p] {
   }
   img[alt*="feature-image"] {
     width: 100%;
-  }
-  p {
-    opacity: 0.9;
-  }
-  p:hover {
-    opacity: 1;
   }
   ul {
     padding: 0;
@@ -191,6 +190,15 @@ div[class*=case-p] {
     }
     img {
       width: 100rem !important;
+    }
+    .case-title {
+      background: #efc739;
+      width: 62rem;
+      color: #ffffff;
+      position: relative;
+      box-shadow: -2rem 2rem #71e2a6;
+      bottom: 50rem;
+      padding: 1.3rem;
     }
   }
 }
