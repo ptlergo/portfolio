@@ -634,3 +634,8 @@ div[class*=case-p] {
 
 .case-p img[alt*="feature-image"] {
   width: 100%; }
+
+@media only screen and (min-width: 76.9rem) and (max-width: 180rem) {
+  .case-p .case-title h2,
+  .case-p .case-title h3 {
+    z-index: 1; } }
