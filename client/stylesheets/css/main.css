@@ -147,6 +147,10 @@ body {
   font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   color: #4c4e4d; }
+  body iframe {
+    border: none;
+    width: 100%;
+    height: 100%; }
   body a,
   body a:visited,
   body a:hover,
@@ -588,7 +592,11 @@ div[class*=case-p] {
         position: relative;
         box-shadow: -2rem 2rem #71e2a6;
         bottom: 50rem;
-        padding: 1.3rem; } }
+        padding: 1.3rem; }
+      div[class*=case-p] section div {
+        width: 60rem;
+        height: 40rem;
+        margin: 0 auto; } }
 
 /*
   ===================================
