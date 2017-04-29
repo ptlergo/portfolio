@@ -71,7 +71,7 @@ function worksService() {
         image: '',
         gif_src: '../img/case-images/thelonertour/poster-thelonertour.png',
         case_images: [
-          '../img/case-images/thelonertour/sylvan-banner.png',
+          '../img/case-images/thelonertour/poster-thelonertour-instagram.png',
           '../img/case-images/thelonertour/stripe-api.png',
           '../img/case-images/thelonertour/ticket_sales.png',
           '../img/case-images/thelonertour/poster-lonertour-at-venue.jpg',
