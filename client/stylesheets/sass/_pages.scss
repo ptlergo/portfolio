@@ -26,78 +26,81 @@ div[class*=-p] {
   }
 }
 
+
 /*
   ===================================
     Home Page
   ===================================
 */
+
 .home-s {
-    height: 60vh;
-
-
+  height: 60vh;
+  .home-text {
+    margin: 10% 0 0 5%;
+    max-width: 80%;
+    padding-top: 2.0rem;
+    h1 {
+      font-size: 2rem;
+    }
+    h2 {
+      font-size: 1.5rem;
+      margin: 0 !important;
+    }
+  }
+  @include desktop {
     .home-text {
-        margin: 10% 0 0 5%;
-        max-width: 80%;
-        padding-top: 2.0rem;
-        h1{
-          font-size: 2rem;
-        }
-        h2{
-          font-size: 1.5rem;
-          margin: 0 !important;
-        }
+      max-width: 40%;
+      margin: 10% 0 0 2%;
+      h1 {
+        font-size: 3.0rem !important;
+      }
+      h2 {
+        font-size: 2.0rem !important;
+      }
     }
-    @include desktop {
-        .home-text {
-            max-width: 40%;
-            margin: 10% 0 0 2%;
-
-            h1{
-              font-size: 3.0rem !important;
-            }
-            h2{
-              font-size: 2.0rem !important;
-            }
-        }
-    }
+  }
 }
 
 .about-section,
 .publications-section,
 .works-section {
-    padding: 0;
+  padding: 0;
 }
 
 .about-section,
 .publications-section {
-    background: #3263C9;
+  background: #3263C9;
 }
 
 .works-section {
-    background: #252525;
+  background: #252525;
 }
+
 
 /*
   ===================================
     Home Sections Content
   ===================================
 */
-.section-container{
+
+.section-container {
   width: $section-container-width;
   margin: auto;
   @include desktop {
-      width: $section-container-width-desktop;
+    width: $section-container-width-desktop;
   }
 }
+
 .summary-box {
-    p {
-        background: white;
-        padding: 3.25rem;
-        @include desktop {
-            padding: 3rem 15.0rem;
-        }
+  p {
+    background: white;
+    padding: 3.25rem;
+    @include desktop {
+      padding: 3rem 15.0rem;
     }
+  }
 }
+
 
 /*
   ===================================
@@ -124,7 +127,7 @@ div[class*=-p] {
 .works-p {
   @include phone {
     .case-description {
-      h2{
+      h2 {
         font-size: 3rem !important;
       }
       display: inline-grid;
@@ -158,20 +161,13 @@ div[class*=-p] {
 div[class*=case-p] {
   padding-left: 2.6rem;
   padding-right: 2.6rem;
-  h2,
-  h3 {
-    text-transform: uppercase;
-    width: 65%;
+  img {
+    width: 75%;
+    display: block;
+    margin: 0 auto;
   }
-  h2 {
-    font-size: 4.0rem !important;
-    padding-top: 2rem;
-    margin: 0;
-  }
-  h3 {
-    font-size: 1.2rem !important;
-    padding-bottom: 2rem;
-    margin-top: 0;
+  img[alt*="feature-image"] {
+    width: 100%;
   }
   p {
     opacity: 0.9;
@@ -192,14 +188,6 @@ div[class*=case-p] {
     padding: 5.2rem;
     section {
       padding: 0 12.2rem;
-    }
-    h2,
-    h3 {
-      position: relative;
-      bottom: 45rem;
-    }
-    h2 {
-      font-size: 5rem !important;
     }
     img {
       width: 100rem !important;

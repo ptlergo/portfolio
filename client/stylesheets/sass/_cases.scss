@@ -30,22 +30,3 @@
     flex: 1;
     padding: 1rem 0 0;
 }
-
-.case-p {
-    img {
-        width: 75%;
-        display: block;
-        margin: 0 auto;
-    }
-    img[alt*="feature-image"] {
-        width: 100%;
-    }
-    .case-title {
-        @include desktop {
-            h2,
-            h3 {
-                z-index: 1;
-            }
-        }
-    }
-}
