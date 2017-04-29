@@ -159,11 +159,23 @@ div[class*=-p] {
 */
 
 div[class*=case-p] {
-  .case-title{
-          h3 {margin: 0; text-transform: uppercase; font-weight: 600; }
-
+  .case-title {
+    h3 {
+      margin: 0;
+      text-transform: uppercase;
+      font-weight: 600;
+      font: small-caption;
+    }
+    h3:before {
+      content: '';
+      height: 0.35rem;
+      width: 3.5rem;
+      margin: 0.25rem 0.5rem;
+      background: #71e2a6;
+      position: relative;
+      display: inline-block;
+    }
   }
-  h3{font: small-caption;}
   padding-left: 2.6rem;
   padding-right: 2.6rem;
   img {
@@ -187,6 +199,9 @@ div[class*=case-p] {
     padding: 5.2rem;
     section {
       padding: 0 12.2rem;
+      p {
+        padding: 6rem 20rem;
+      }
     }
     img {
       width: 100rem !important;
