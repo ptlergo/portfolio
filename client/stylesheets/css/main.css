@@ -566,7 +566,7 @@ div[class*=case-p] img[alt*="feature-image"] {
   width: 100%; }
 
 div[class*=case-p] img[alt*="case-image"] {
-  margin: 6rem 0;
+  margin: 6rem auto;
   box-shadow: 0rem 0.2rem 0.7rem #d2d2d2; }
 
 div[class*=case-p] ul {
