@@ -140,6 +140,8 @@ div[class*=-p] {
     padding: 0;
   }
   @include desktop {
+      padding: 0 10rem !important;
+
     .cases:nth-child(odd) {
       .case-description {
         order: 3;
@@ -175,6 +177,20 @@ div[class*=case-p] {
     img[alt*="case-image"] {
     margin: 6rem auto;
     box-shadow: 0rem 0.2rem 0.7rem #d2d2d2;
+  }
+  .dual-image{
+    width: 100rem;
+    img{
+      float: left;
+      position: relative;
+    }
+    img:first-child{
+      width: 60rem !important;
+      left: 10rem;
+    }
+    img:last-child{
+      width: 15rem !important;
+    }
   }
   ul {
     padding: 0 0 2rem 0;

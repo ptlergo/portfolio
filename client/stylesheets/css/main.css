@@ -535,10 +535,12 @@ div[class*=-p] {
   padding: 0; }
 
 @media only screen and (min-width: 76.9rem) and (max-width: 180rem) {
-  .works-p .cases:nth-child(odd) .case-description {
-    order: 3; }
-  .works-p .cases:nth-child(odd) .case-details {
-    order: 1; } }
+  .works-p {
+    padding: 0 10rem !important; }
+    .works-p .cases:nth-child(odd) .case-description {
+      order: 3; }
+    .works-p .cases:nth-child(odd) .case-details {
+      order: 1; } }
 
 /*
   ===================================
@@ -563,6 +565,17 @@ div[class*=case-p] img[alt*="feature-image"] {
 div[class*=case-p] img[alt*="case-image"] {
   margin: 6rem auto;
   box-shadow: 0rem 0.2rem 0.7rem #d2d2d2; }
+
+div[class*=case-p] .dual-image {
+  width: 100rem; }
+  div[class*=case-p] .dual-image img {
+    float: left;
+    position: relative; }
+  div[class*=case-p] .dual-image img:first-child {
+    width: 60rem !important;
+    left: 10rem; }
+  div[class*=case-p] .dual-image img:last-child {
+    width: 15rem !important; }
 
 div[class*=case-p] ul {
   padding: 0 0 2rem 0;

@@ -72,11 +72,10 @@ function worksService() {
              possible fun expereince that can be delivered for projects to come. The event was documented by Orlando Weekly.`,
         ],
         image: '',
-        gif_src: '../img/case-images/thelonertour/poster-thelonertour.png',
+        gif_src: '../img/case-images/thelonertour/mockups/mockup-thelonertour-8pounds.png',
         case_images: [
           '../img/case-images/thelonertour/thelonertour-banner-clean-lrg.png',
           '../img/case-images/thelonertour/mockups/mockup-thelonertour-8pounds.png',
-          '../img/case-images/thelonertour/mockups/mockup-thelonertour-8pounds-iphone.png',
           '../img/case-images/thelonertour/mockups/mockup-thelonertour-editpage.png',
           '../img/case-images/thelonertour/stripe-api.png',
           '../img/case-images/thelonertour/mockups/mockup-thelonertour-fb-event.png',
