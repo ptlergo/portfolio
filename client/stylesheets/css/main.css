@@ -450,11 +450,6 @@ div[class*=-p] {
       padding-bottom: 12rem; } }
   div[class*=-p] ul {
     padding: 0; }
-  div[class*=-p] canvas {
-    width: 100% !important;
-    height: 50rem important; }
-  div[class*=-p] #chart {
-    width: 100%; }
 
 /*
   ===================================
@@ -620,9 +615,16 @@ div[class*=case-p] .case-title {
       box-shadow: -2rem 2rem #71e2a6;
       bottom: 50rem;
       padding: 1.3rem; }
-    div[class*=case-p] section div {
+    div[class*=case-p] section div iframe {
       width: 60rem;
       height: 40rem;
+      margin: 0 auto;
+      display: block; }
+    div[class*=case-p] section canvas {
+      width: 100%;
+      height: 100%; }
+    div[class*=case-p] #chart {
+      width: 25%;
       margin: 0 auto; } }
 
 /*

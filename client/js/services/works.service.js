@@ -56,15 +56,16 @@ function worksService() {
                       The concerts were a huge success resulting in high sales and boost of all parties brand recognition 
                       and followings on FaceBook, Instagram, Snapchat, and Twitter.`,
         paragraphs: [
-          `The Ticket Tailor service allowed me to set certain meta data values to track of incoming sales such as: device used,
+          `Taking advantage of the Ticket Tailor service I was able to track incoming sales meta data. Details targeted were:
              concert referal method, purchasing method, and a few others. This information will later be of huge value in increasing
-             future events' potential revenue. Each link to the ticket kiosk were embeded with a FaceBook pixel to add more information
-             from the FaceBook ad campaign created for the concert. FaceBook pixel gave more depth with customer demographics. `,
+             future events' potential revenue.`,
+          `Each link to the ticket kiosk were embeded with a FaceBook pixel to for additional tracking and in depth customer demographic
+             analytics from the concert's FaceBook ad campaign. `,
           'The Stripe API came in handy for making secure credit card transactions with a receipt.',
           `The result of the campaign was: an increase of all the artists', and the event company's visibility, increase of their fan base
-             twitter, FaceBook, Instagram, and SnapChat engagement rate, surplus of concert revenue expectation, and saved budget amount.
+             Twitter, FaceBook, Instagram, and SnapChat engagement rate, surplus of concert revenue expectation, and saved budget amount.
              The head liner, Sylvan LaCue, would soon be presented with the oppurtunity to join a larger nationwide tour with
-             Saba Pivot, and the event company, Creative's Only partnered in a Miami, FL college festival with DJ Khaled.
+             Saba Pivot, and the event company, CreativesOnly partnered in a Miami, FL college festival with DJ Khaled.
              The experience was enjoyable and built team work skills under a Agile workflow enviroment. I learned additional branding
              techniques, and eCommerce tools that will surely drive sales and enhance overall enjoyment.`,
           `A video recap of the event was created to allow fans to relive the experience forever, and to also envoke emotions of the
