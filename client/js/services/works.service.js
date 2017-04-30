@@ -49,10 +49,12 @@ function worksService() {
         path: 'lonertour',
         details: `Partnered with CreativesOnly, an event company. My task was to with deliver a digital strategy
                   to optimize profits and fan engagement of Sylvan LaCue's "The Loner Tour".`,
-        challenges: ` I utilized my 8Pounds Music platform to opperate as the concert 'hub'. 8Pounds.com is developed on
-                      the WordPress CMS from a PHP based theme I tailored for my brand's needs which includes e-commerce.
-                      The 8Pounds platform has an audience ranging between 16 - 26yrs of age, the prime demographic to target.
-                      The benefit of using the CMS is the many plugins, one of which I used to create a ticket kiosk widget for the concert.`,
+        challenges: ` Partnering with Florida event company CreativesOnly, I was tasked with deilvering a digital strategy
+                      and a platform to help launch artist Sylvan Lacue's concert at BackBooth venue. Through the campaign 
+                      I utilized my 8Pounds Music platform built on the PHP based CMS, WordPress, to opperate as a hub for 
+                      two live concerts on his tour for e-commerce and 'infotainment'.
+                      The concerts were a huge success resulting in high sales and boost of all parties brand recognition 
+                      and followings on FaceBook, Instagram, Snapchat, and Twitter.`,
         paragraphs: [
           `The Ticket Tailor service allowed me to set certain meta data values to track of incoming sales such as: device used,
              concert referal method, purchasing method, and a few others. This information will later be of huge value in increasing
