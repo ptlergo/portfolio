@@ -136,9 +136,7 @@ div[class*=-p] {
       text-align: justify;
     }
   }
-  div[class*=cases-prototype-] {
-    padding: 0;
-  }
+
   @include desktop {
       padding: 0 10rem !important;
 

@@ -4,6 +4,8 @@
     display: flex;
     padding: 8rem 1rem;
     @include phone {
+            padding: 4rem 1rem;
+
         flex-direction: column;
         div[class*="case-description"] {
             margin: 0 auto;
