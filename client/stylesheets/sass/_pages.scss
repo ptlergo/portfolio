@@ -24,11 +24,13 @@ div[class*=-p] {
   ul {
     padding: 0;
   }
-
-  canvas{width: 100% !important; height: 50rem important;}
-
-  #chart{width: 100%;}
-
+  canvas {
+    width: 100% !important;
+    height: 50rem important;
+  }
+  #chart {
+    width: 100%;
+  }
 }
 
 
@@ -164,6 +166,32 @@ div[class*=-p] {
 */
 
 div[class*=case-p] {
+  h5 {
+    font-weight: 600;
+    font-size: 3rem;
+  }
+  h5, p {padding: 0 1.5rem;}
+  img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+  img[alt*="feature-image"] {
+    width: 100%;
+  }
+    img[alt*="case-image"] {
+    margin: 6rem 0;
+    box-shadow: 0rem 0.2rem 0.7rem #d2d2d2;
+  }
+  ul {
+    padding: 0 0 2rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  li {
+    padding-right: 2rem;
+  }
   .case-title {
     padding: 2rem 0;
     h3 {
@@ -182,31 +210,24 @@ div[class*=case-p] {
       display: inline-block;
     }
   }
-  padding-left: 2.6rem;
-  padding-right: 2.6rem;
-  img {
-    width: 75%;
-    display: block;
-    margin: 0 auto;
-  }
-  img[alt*="feature-image"] {
-    width: 100%;
-  }
-  ul {
-    padding: 0;
-    padding-bottom: 2rem;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  li {
-    padding-right: 1rem;
-  }
   @include desktop {
     padding: 5.2rem;
+    h4 {
+      padding: 0 20rem;
+      font-weight: 600;
+    }
+    ul {
+      padding: 0 20rem 2rem 20rem;
+    }
     section {
       padding: 0 12.2rem;
       p {
-        padding: 6rem 20rem;
+        padding: 0 20rem 6rem 20rem;
+      }
+      h5 {
+        padding: 6rem 20rem 0 20rem;
+        font-weight: 600;
+        font-size: 3rem;
       }
     }
     img {
@@ -221,7 +242,7 @@ div[class*=case-p] {
       bottom: 50rem;
       padding: 1.3rem;
     }
-    section div{
+    section div {
       width: 60rem;
       height: 40rem;
       margin: 0 auto;
