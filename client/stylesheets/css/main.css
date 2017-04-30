@@ -450,6 +450,11 @@ div[class*=-p] {
       padding-bottom: 12rem; } }
   div[class*=-p] ul {
     padding: 0; }
+  div[class*=-p] canvas {
+    width: 100% !important;
+    height: 50rem important; }
+  div[class*=-p] #chart {
+    width: 100%; }
 
 /*
   ===================================
