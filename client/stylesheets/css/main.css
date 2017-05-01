@@ -558,25 +558,16 @@ div[class*=case-p] h5, div[class*=case-p] p {
 div[class*=case-p] img {
   width: 100%;
   display: block;
-  margin: 0 auto; }
+  margin: 6rem auto; }
 
 div[class*=case-p] img[alt*="feature-image"] {
   width: 100%; }
 
 div[class*=case-p] img[alt*="case-image"] {
-  margin: 6rem auto;
   box-shadow: 0rem 0.2rem 0.7rem #d2d2d2; }
 
-div[class*=case-p] .dual-image {
-  width: 100rem; }
-  div[class*=case-p] .dual-image img {
-    float: left;
-    position: relative; }
-  div[class*=case-p] .dual-image img:first-child {
-    width: 60rem !important;
-    left: 10rem; }
-  div[class*=case-p] .dual-image img:last-child {
-    width: 15rem !important; }
+div[class*=case-p] #chart {
+  margin: 6rem auto; }
 
 div[class*=case-p] ul {
   padding: 0 0 2rem 0;
