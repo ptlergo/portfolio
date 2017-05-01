@@ -1,6 +1,7 @@
 const gulp = require('gulp');
 const browserSync = require('browser-sync').create();
 const sass = require('gulp-sass');
+const imageMin =  require('gulp-imagemin');
 
 // Sass files variables
 const sassSource = 'client/stylesheets/sass/**/*.scss';
@@ -28,4 +29,7 @@ gulp.task('sass', () => {
 gulp.task('default', ['run'], () => {
   gulp.watch(sassSource, ['sass']);
   gulp.watch('./client/*.html').on('change', browserSync.reload);
+  gulp.src('client/img/*')
+    .pipe(imageMin())
+    .pipe(gulp.dest('client/img'));
 });
