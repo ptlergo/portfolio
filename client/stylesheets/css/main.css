@@ -160,7 +160,8 @@ body {
     width: 100%;
     text-decoration: none !important;
     outline-color: transparent; }
-  body button a, body .home-text a {
+  body button a,
+  body .home-text a {
     color: #71e2a6; }
   body p {
     font-family: "proxima-nova", Corbel, Arial, sans-serif;
@@ -235,7 +236,6 @@ header {
 .section-animate-container-2::before {
   display: block;
   content: "";
-  width: 100vw;
   height: 14vh;
   background: #3263C9;
   -webkit-clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
@@ -245,7 +245,6 @@ header {
 .section-animate-container-1::before {
   display: block;
   content: "";
-  width: 100vw;
   height: 14vh;
   background: #252525;
   -webkit-clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
