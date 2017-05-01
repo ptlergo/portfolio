@@ -82,7 +82,6 @@ function worksService() {
         '../img/case-images/thelonertour/mockups/mockup-thelonertour-editpage.png',
         '../img/case-images/thelonertour/stripe-api.png',
         '../img/case-images/thelonertour/mockups/mockup-thelonertour-fb-event.png',
-        '../img/case-images/thelonertour/ticket_sales.png',
         '../img/case-images/thelonertour/mockups/mockup-orlando-weekly-sylvan-lacue.png',
       ],
       type: 'Marketing Campaign & eCommerce',

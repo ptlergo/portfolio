@@ -566,7 +566,7 @@ div[class*=case-p] img[alt*="feature-image"] {
 div[class*=case-p] img[alt*="case-image"] {
   box-shadow: 0rem 0.2rem 0.7rem #d2d2d2; }
 
-div[class*=case-p] #chart {
+div[class*=case-p] #chart, div[class*=case-p] #visual {
   margin: 6rem auto; }
 
 div[class*=case-p] ul {
