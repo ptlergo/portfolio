@@ -43,7 +43,8 @@
     "gulp": "^3.9.1",
     "jquery": "^3.1.1",
     "morgan": "^1.7.0",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "pm2": "^2.4.6"
   },
   "devDependencies": {
     "angular": "^1.6.1",
@@ -55,6 +56,7 @@
     "eslint-plugin-import": "^2.2.0",
     "gulp-imagemin": "^3.2.0",
     "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.1.2",
     "jasmine-core": "^2.5.2",
     "karma": "^1.4.0",
     "karma-chrome-launcher": "^2.0.0",
