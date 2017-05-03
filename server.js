@@ -3,7 +3,7 @@ const express = require('express'),
   path = require('path'),
   morgan = require('morgan'),
   app = express(),
-  port = 3000;
+  port = process.env.PORT || 3000;
 
 // Request stream formating
 app.use(bodyParser.urlencoded({ extended: true }));
