@@ -26,7 +26,11 @@ angular.module('myApp', ['ngRoute', 'ngSanitize', 'ngAnimate', 'ui.bootstrap'])
     };
     const lonerTourRoute = {
       controller: 'WorksController',
-      templateUrl: 'views/works/lonerTour.html',
+      templateUrl: 'views/works/lonertour.html',
+    };
+    const winterSoulsticeRoute = {
+      controller: 'WorksController',
+      templateUrl: 'views/works/wintersoulstice.html',
     };
 
     $routeProvider.when('/', homeRoute);
@@ -35,6 +39,7 @@ angular.module('myApp', ['ngRoute', 'ngSanitize', 'ngAnimate', 'ui.bootstrap'])
     $routeProvider.when('/works', worksRoute);
     $routeProvider.when('/musicem', musicemRoute);
     $routeProvider.when('/lonertour', lonerTourRoute);
+    $routeProvider.when('/wintersoulstice', winterSoulsticeRoute);
     $routeProvider.otherwise({ redirectTo: '/' });
     $locationProvider.hashPrefix('');
   });
