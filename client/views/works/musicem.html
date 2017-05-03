@@ -7,18 +7,29 @@
   <section>
     <h4>Tools</h4>
     <ul><li ng-repeat = "tech in worksCtrl.caseMusicem.tech">{{tech}}</li></ul>
-    <p>{{worksCtrl.caseMusicem.paragraphs[0]}}</p>
-    <img ng-src = "{{worksCtrl.caseMusicem.case_images[1]}}"  alt = "case-image">
+    
+    <h5>Summary</h5>   
+    <p>{{worksCtrl.caseMusicem.challenges[0]}}</p>
+    <p>{{worksCtrl.caseMusicem.challenges[1]}}</p>
+    <img ng-src = "{{worksCtrl.caseMusicem.case_images[1]}}"  alt = "case-summary-image">
+    <p>{{worksCtrl.caseMusicem.challenges[2]}}</p>
+
+
+    <h5>Sprint</h5>
     <p>{{worksCtrl.caseMusicem.paragraphs[1]}}</p>
+    <h5>Month 1: Conception</h5>
     <p>{{worksCtrl.caseMusicem.paragraphs[2]}}</p>
-    <p>{{worksCtrl.caseMusicem.paragraphs[3]}}</p>
-
-    <img ng-src = "{{worksCtrl.caseMusicem.case_images[3]}}"  alt = "case-image">
-    <p>{{worksCtrl.caseMusicem.challenges}}</p>
-
+    <h5>Month 2: UI/UX Testing</h5>
     <img ng-src = "{{worksCtrl.caseMusicem.case_images[2]}}"  alt = "case-image">
+    <img ng-src = "{{worksCtrl.caseMusicem.case_images[3]}}"  alt = "case-image">
+    <p>{{worksCtrl.caseMusicem.paragraphs[3]}}</p>
+    <h5>Month 3: QA & Deployment</h5>
+    <p>{{worksCtrl.caseMusicem.paragraphs[4]}}</p>
+    
+    <h5>Result</h5>
+    <p>{{worksCtrl.caseMusicem.paragraphs[5]}}</p>
+    <div id = "visual"><iframe src="https://www.youtube.com/watch?v=ZtiYjIk0rwc" allowfullscreen></iframe></div>
 
-    <i>{{worksCtrl.caseMusicem.tags}}</i>
     <button><a href = "#works">more works</a></button>
   </section>
 </div>
