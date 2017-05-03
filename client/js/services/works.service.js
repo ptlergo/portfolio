@@ -107,6 +107,9 @@ function worksService() {
                      was limited at the time I did not properly develop the app. for desktops so the z-index I
                      added for the JavaScript snow effect prevented the button listening event from happening. `,
       image: '../img/winter.gif',
+      case_images: [
+        '../img/case-images/winter/winter-feature.gif',
+      ],
       gif_src: '../img/case-images/winter/winter-soulstice-rsvp-app.gif',
       type: 'app',
       tech: ['codeIgniter', 'PHP', 'MongoDB', 'BootStrap3', 'JQuery', 'Heroku'],
