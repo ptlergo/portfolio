@@ -12,27 +12,35 @@ function worksService() {
     caseStudies: [{
       name: 'music\'em: Content Aggregation App',
       path: 'musicem',
-      details: 'A MEAN Stack Progressive Web App. I developed in a 3 month SCRUM sprint.',
-      challenges: `Music'em is built with X-Ray to create a bot that scrapes websites of interest.
+      details: 'A MEAN Stack Progressive Web App. I developed in a 3 month Scrum sprint.',
+      challenges: [
+        `Music'em is built with the MEAN Stack, and uses the User-Centered Design approach resulting in a Progressive Web App
+            that aggregates content from music brands like the RollingStone, Billboard, EDM, HotNewHipHop, and etc.
+            The project also showcases my skills acquired as a Full Sail University Web Design & Development student,
+            and enhances the lives of bloggers, PR Specialists, and everyday music listeners.`,
+        `I utilized the Scrum framework to give me a manageable process for the project in the span of 3 months. Each month
+            I focused on taking the project from conception, to usability testing, and finally to deployment.`,
+        `The launch of my app was a great success giving me the oppurtunity to present my it to the Full Sail University student body, 
+            and a nationwide broadcast.`,
+      ],
+      paragraphs: [
+        `I've established from the expertise acquired as the Editor-In-Chief of 8Pounds Music.`,
+        'The project took the span of 3 months, each month focusing on different phases of SPRINTS.',
+        'Month 1 focused on conception.',
+        'Month 2 focused on usability tests.',
+        'Month 3 focused on development, QA, and deployment.',
+        `Music'em is built with X-Ray to create a bot that scrapes websites of interest.
                      I built multiple bots per site to collect information such as: content title, images,
                      links, and etc. The data is then saved to a firebase database for further access.
                      AngularJS was used to bind my information from my nodejs API to the front-end. My app.
                      runs on the express NodeJS server. I gained a thorough understanding of JavaScript,
                      Angular's MVVM architecture and http requests from this project.`,
-      paragraphs: [
-        `The intent of this project was not only to showcase the skills acquired as a Full Sail University
-            Web Design and Development student, but to also establish a credible and profitable brand to further the goals
-            i've established from the expertise acquired as the Editor-In-Chief of 8Pounds Music.`,
-        'The project took the span of 3 months, each month focusing on different phases of SPRINTS.',
-        'Month 1 focused on conception.',
-        'Month 2 focused on usability tests.',
-        'Month 3 focused on development, QA, and deployment.',
       ],
       image: 'http://marvelapp.com/1f3ia7a?emb=1',
       case_images: [
         '../img/case-images/musicem/musicem-case-image.png',
-        '../img/case-images/musicem/xxl-influencers.png',
         '../img/case-images/musicem/home-m.png',
+        '../img/case-images/musicem/xxl-influencers.png',
         '../img/case-images/musicem/musicem-engagement.png',
 
       ],
@@ -99,6 +107,9 @@ function worksService() {
                      was limited at the time I did not properly develop the app. for desktops so the z-index I
                      added for the JavaScript snow effect prevented the button listening event from happening. `,
       image: '../img/winter.gif',
+      case_images: [
+        '../img/case-images/winter/winter-feature.gif',
+      ],
       gif_src: '../img/case-images/winter/winter-soulstice-rsvp-app.gif',
       type: 'app',
       tech: ['codeIgniter', 'PHP', 'MongoDB', 'BootStrap3', 'JQuery', 'Heroku'],
