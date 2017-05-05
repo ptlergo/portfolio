@@ -13,19 +13,18 @@ function worksService() {
       name: 'music\'em: Content Aggregation App',
       path: 'musicem',
       details: 'A MEAN Stack Progressive Web App. I developed in a 3 month Scrum sprint.',
-      challenges: [
-        `Music'em is built with the MEAN Stack, I used the User-Centered Design approach resulting in a Progressive Web App
-            that aggregates content from music brands like the RollingStone, Billboard, EDM, HotNewHipHop, and etc.
-            The project showcases my skills acquired as a Full Sail University Web Design & Development student,
-            and enhances the lives of bloggers, PR Specialists, and everyday music listeners.`,
-        `The launch of my app was a great success giving me the oppurtunity to present it to the Full Sail University student body, 
-            and a nationwide broadcast.`,
+      summary: [
+        `Music'em is a PWA built with the MEAN Stack. I implemented the User-Centered Design approach in a span of 3 months
+          comprised of sprints using methods that will take my project from conception, to usability testing, and finally deployment.`,
+        `The final product is an app that uses a JavaScript web scraping bot to aggregate content from RollingStone, Billboard, HotnewHipHop, 8Pounds Music, EDM,
+          and other currated music brands to simplify the lives of bloggers, PR Specialists, and everday music listeners.`,
+        `Launching the app was a success as I was given the oppurtunity to present music'em to the Full Sail University student body, 
+          and a nationwide broadcast.`,
       ],
       paragraphs: [
-        `I utilized the Scrum framework to have a manageable process for my project in the span of 3 months. Each month
-          was treated like a Sprint where I focused on taking the project from conception, to usability testing, and finally to deployment.`,
-        `"Create a Progressive Web app using the MEAN Stack to aggregate content from a currated
-        list of music brands to save users time in digging for great music ultimately helping to simplify their lives."`,
+        `"Create a Progressive Web app using the MEAN Stack to aggregate content from a currated list of music brands to
+          to save users time from digging for great music ultimately helping to simplify their lives and make discovering
+          great new music effortless."`,
         `Month 1 focused on conception. Begininning with functional specs listing the features and revenue model.`,
         `Details of the functional specs were surveyed amongst peers, friends, family, and professors before confirming and
         moving on with the next step of Sprint which was creating a sitemap of the app.`,
@@ -73,7 +72,7 @@ function worksService() {
       path: 'lonertour',
       details: `Partnered with CreativesOnly, an event company. My task was to with deliver a digital strategy
                   to optimize profits and fan engagement of Sylvan LaCue's "The Loner Tour".`,
-      challenges: [
+      summary: [
         ` Partnering with Florida event company CreativesOnly, I was tasked with deilvering a digital strategy
             and a platform to help launch artist Sylvan Lacue's concert at Orlando, FL's BackBooth venue for his
             nationwide tour 'The Loner Tour'.`,
@@ -117,7 +116,7 @@ function worksService() {
       name: 'Winter Soulstice RSVP App.',
       path: 'wintersoulstice',
       details: 'PHP based Progressive Web App for concert customers to have memorable reservation experience that seeks to inform and incentivise social media engagement. ',
-      challenges: `This was my first use of the codeIgniter framework, it was tricky practicing MVC with PHP.
+      summary: `This was my first use of the codeIgniter framework, it was tricky practicing MVC with PHP.
                      The bootstrap styling was simple until using the popup modal for each performer, I had to
                      add a boolean case to get the modal to open upon screen click, but because my knowledge
                      was limited at the time I did not properly develop the app. for desktops so the z-index I
