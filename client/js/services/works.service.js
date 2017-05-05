@@ -14,18 +14,16 @@ function worksService() {
       path: 'musicem',
       details: 'A MEAN Stack Progressive Web App. I developed in a 3 month Scrum sprint.',
       challenges: [
-        `Music'em is built with the MEAN Stack, and uses the User-Centered Design approach resulting in a Progressive Web App
+        `Music'em is built with the MEAN Stack, I used the User-Centered Design approach resulting in a Progressive Web App
             that aggregates content from music brands like the RollingStone, Billboard, EDM, HotNewHipHop, and etc.
-            The project also showcases my skills acquired as a Full Sail University Web Design & Development student,
+            The project showcases my skills acquired as a Full Sail University Web Design & Development student,
             and enhances the lives of bloggers, PR Specialists, and everyday music listeners.`,
-        `I utilized the Scrum framework to give me a manageable process for the project in the span of 3 months. Each month
-            I focused on taking the project from conception, to usability testing, and finally to deployment.`,
-        `The launch of my app was a great success giving me the oppurtunity to present my it to the Full Sail University student body, 
+        `The launch of my app was a great success giving me the oppurtunity to present it to the Full Sail University student body, 
             and a nationwide broadcast.`,
       ],
       paragraphs: [
-        `I've established from the expertise acquired as the Editor-In-Chief of 8Pounds Music.`,
-        'The project took the span of 3 months, each month focusing on different phases of SPRINTS.',
+        `I utilized the Scrum framework to have a manageable process for the project in the span of 3 months. Each month
+          is a Sprint where I focused on taking the project from conception, to usability testing, and finally to deployment.`,
         'Month 1 focused on conception.',
         'Month 2 focused on usability tests.',
         'Month 3 focused on development, QA, and deployment.',
@@ -40,14 +38,15 @@ function worksService() {
       case_images: [
         '../img/case-images/musicem/musicem-case-image.png',
         '../img/case-images/musicem/home-m.png',
-        '../img/case-images/musicem/xxl-influencers.png',
-        '../img/case-images/musicem/musicem-engagement.png',
-        '../img/case-images/musicem/musicem-desktop-wireframe-homepage.png',
         '../img/case-images/musicem/Functional-Specs_Page_1.png',
         '../img/case-images/musicem/Functional-Specs_Page_2.png',
         '../img/case-images/musicem/Functional-Specs_Page_3.png',
         '../img/case-images/musicem/Functional-Specs_Page_4.png',
-
+        '../img/case-images/musicem/xxl-influencers.png',
+        '../img/case-images/musicem/musicem-engagement.png',
+        '../img/case-images/musicem/musicem-desktop-wireframe-homepage.png',
+        '../img/case-images/musicem/musicem-sitemap.png',
+        '../img/case-images/musicem/musicem-welcome-frames.png',
       ],
       gif_src: 'https://media.giphy.com/media/3ohzdLBDAwCtfWy6sM/giphy.gif',
       type: 'web app',
