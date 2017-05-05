@@ -22,9 +22,11 @@ function worksService() {
             and a nationwide broadcast.`,
       ],
       paragraphs: [
-        `I utilized the Scrum framework to have a manageable process for the project in the span of 3 months. Each month
-          is a Sprint where I focused on taking the project from conception, to usability testing, and finally to deployment.`,
-        'Month 1 focused on conception. Begininning with functional specs listing the features and revenue model.',
+        `I utilized the Scrum framework to have a manageable process for my project in the span of 3 months. Each month
+          was treated like a Sprint where I focused on taking the project from conception, to usability testing, and finally to deployment.`,
+        `"Create a Progressive Web app using the MEAN Stack to aggregate content from a currated
+        list of music brands to save users time in digging for great music ultimately helping to simplify their lives."`,
+        `Month 1 focused on conception. Begininning with functional specs listing the features and revenue model.`,
         `Details of the functional specs were surveyed amongst peers, friends, family, and professors before confirming and
         moving on with the next step of Sprint which was creating a sitemap of the app.`,
         `Researching brands to include in the app. The process weighed the brand's influence amongst demographics of male and females
