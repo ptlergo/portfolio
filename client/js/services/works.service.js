@@ -24,28 +24,38 @@ function worksService() {
       paragraphs: [
         `I utilized the Scrum framework to have a manageable process for the project in the span of 3 months. Each month
           is a Sprint where I focused on taking the project from conception, to usability testing, and finally to deployment.`,
-        'Month 1 focused on conception.',
-        'Month 2 focused on usability tests.',
+        'Month 1 focused on conception. Begininning with functional specs listing the features and revenue model.',
+        `Details of the functional specs were surveyed amongst peers, friends, family, and professors before confirming and
+        moving on with the next step of Sprint which was creating a sitemap of the app.`,
+        `Researching brands to include in the app. The process weighed the brand's influence amongst demographics of male and females
+        between the ages of 16 and 34.`,
+        `Month 2 focused on usability tests. using SketchApp I developed a preliminary wireframe from whiteboard sketches.
+          The details of the frames took into account the functional specs feedback. The frames were a loose representation
+          of what the app would represent to see if the locations of the settings bar, content, category title, and content 
+          tabs are appropiate.`,
+        `The next frames are of the signup section on mobile for users that are not logged in. The details of the app. are
+          organzied with information architecture. The goal was to inform users within 1min. the app and sell them on music'em's 
+          usefulness.`,
         'Month 3 focused on development, QA, and deployment.',
         `Music'em is built with X-Ray to create a bot that scrapes websites of interest.
-                     I built multiple bots per site to collect information such as: content title, images,
-                     links, and etc. The data is then saved to a firebase database for further access.
-                     AngularJS was used to bind my information from my nodejs API to the front-end. My app.
-                     runs on the express NodeJS server. I gained a thorough understanding of JavaScript,
-                     Angular's MVVM architecture and http requests from this project.`,
+          I built multiple bots per site to collect information such as: content title, images,
+          links, and etc. The data is then saved to a firebase database for further access.
+          AngularJS was used to bind my information from my nodejs API to the front-end. My app.
+          runs on the express NodeJS server. I gained a thorough understanding of JavaScript,
+          Angular's MVVM architecture and http requests from this project.`,
+        ` The full project's codebase can be found on my github page here github.com/ptlergo/musicemapp.
+            To view the app itself follow the link to musicemapp.com here.`,
       ],
       image: 'http://marvelapp.com/1f3ia7a?emb=1',
       case_images: [
         '../img/case-images/musicem/musicem-case-image.png',
         '../img/case-images/musicem/home-m.png',
-        '../img/case-images/musicem/Functional-Specs_Page_1.png',
         '../img/case-images/musicem/Functional-Specs_Page_2.png',
         '../img/case-images/musicem/Functional-Specs_Page_3.png',
-        '../img/case-images/musicem/Functional-Specs_Page_4.png',
+        '../img/case-images/musicem/musicem-sitemap.png',
         '../img/case-images/musicem/xxl-influencers.png',
         '../img/case-images/musicem/musicem-engagement.png',
         '../img/case-images/musicem/musicem-desktop-wireframe-homepage.png',
-        '../img/case-images/musicem/musicem-sitemap.png',
         '../img/case-images/musicem/musicem-welcome-frames.png',
       ],
       gif_src: 'https://media.giphy.com/media/3ohzdLBDAwCtfWy6sM/giphy.gif',

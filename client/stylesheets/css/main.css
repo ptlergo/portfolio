@@ -627,9 +627,6 @@ div[class*=case-p] .case-title {
       height: 40rem;
       margin: 0 auto;
       display: block; }
-    div[class*=case-p] section div:nth-child(1) {
-      background: red;
-      width: 10%; }
     div[class*=case-p] section canvas {
       width: 100%;
       height: 100%; }
