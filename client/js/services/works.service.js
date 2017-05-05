@@ -28,7 +28,7 @@ function worksService() {
         `I surveyed peers, friends, family, and professors before confirming
           the app's features and proceeding to the next step in the Sprint; creating a sitemap.`,
         `Researching brands to include in the app. The process weighed the brand's influence amongst demographics of male and females
-        between the ages of 16 and 34.`,
+          between the ages of 16 and 34.`,
         `Month 2 focused on usability tests. using SketchApp I developed a preliminary wireframe from whiteboard sketches.
           The details of the frames took into account the functional specs feedback. The frames were a loose representation
           of what the app would represent to see if the locations of the settings bar, content, category title, and content 
@@ -36,15 +36,20 @@ function worksService() {
         `The next frames are of the signup section on mobile for users that are not logged in. The details of the app. are
           organzied with information architecture. The goal was to inform users within 1min. the app and sell them on music'em's 
           usefulness.`,
-        'Month 3 focused on development, QA, and deployment.',
-        `Music'em is built with X-Ray to create a bot that scrapes websites of interest.
-          I built multiple bots per site to collect information such as: content title, images,
-          links, and etc. The data is then saved to a firebase database for further access.
-          AngularJS was used to bind my information from my nodejs API to the front-end. My app.
-          runs on the express NodeJS server. I gained a thorough understanding of JavaScript,
-          Angular's MVVM architecture and http requests from this project.`,
-        ` The full project's codebase can be found on my github page here github.com/ptlergo/musicemapp.
-            To view the app itself follow the link to musicemapp.com here.`,
+        `Facebook OAuth is one of the technologies used. Integrating Firebase for my database and authorizaiont makes it easier
+          for users to register and login with one simple click. As a registered Facebook developer I used Facebook's services to
+          also track my userbase and create a page for the app to advertise the app in the future.`,
+        `Music'em uses a JavaScript web bot to aggregate content from the currated list of websites. Each brand has their own bot
+          targeting specific data: content title, image sources, links, iframe sources, and etc. The firebase service is used to 
+          store all the data for use.`,
+        `AngularJS was used to bind my information from my nodejs API to the client view. Google's material design allowed me
+          to have a consistent design that translated well across all devices, adjustments to my SASS files were to implement flexbox
+          changes for a more modern design feel for music'em.`,
+        `The 3 month development cycle gave me a more thouruogh understanding of ES6, design principles, Angular's MVVM architecture, and http requests.
+          Many mistakes were made but I turned them into learning experiences that would then translate into a better understanding of the product I
+          wanted to deliver and could be proud of presenting which I ultimately was and the receptance of my hardwork can be viewed below.`,
+        `The full project's codebase can be found on my github page here github.com/ptlergo/musicemapp.
+          To view the app itself follow the link to musicemapp.com here.`,
       ],
       image: 'http://marvelapp.com/1f3ia7a?emb=1',
       case_images: [
@@ -57,6 +62,7 @@ function worksService() {
         '../img/case-images/musicem/musicem-engagement.png',
         '../img/case-images/musicem/musicem-desktop-wireframe-homepage.png',
         '../img/case-images/musicem/musicem-welcome-frames.png',
+        '../img/case-images/musicem/mockup-musicem-facebook.png',
       ],
       gif_src: 'https://media.giphy.com/media/3ohzdLBDAwCtfWy6sM/giphy.gif',
       type: 'web app',
