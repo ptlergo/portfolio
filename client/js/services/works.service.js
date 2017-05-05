@@ -42,6 +42,11 @@ function worksService() {
         '../img/case-images/musicem/home-m.png',
         '../img/case-images/musicem/xxl-influencers.png',
         '../img/case-images/musicem/musicem-engagement.png',
+        '../img/case-images/musicem/musicem-desktop-wireframe-homepage.png',
+        '../img/case-images/musicem/Functional-Specs_Page_1.png',
+        '../img/case-images/musicem/Functional-Specs_Page_2.png',
+        '../img/case-images/musicem/Functional-Specs_Page_3.png',
+        '../img/case-images/musicem/Functional-Specs_Page_4.png',
 
       ],
       gif_src: 'https://media.giphy.com/media/3ohzdLBDAwCtfWy6sM/giphy.gif',
