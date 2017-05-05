@@ -15,19 +15,18 @@ function worksService() {
       details: 'A MEAN Stack Progressive Web App. I developed in a 3 month Scrum sprint.',
       summary: [
         `Music'em is a PWA built with the MEAN Stack. I implemented the User-Centered Design approach in a span of 3 months
-          comprised of sprints using methods that will take my project from conception, to usability testing, and finally deployment.`,
-        `The final product is an app that uses a JavaScript web scraping bot to aggregate content from RollingStone, Billboard, HotnewHipHop, 8Pounds Music, EDM,
-          and other currated music brands to simplify the lives of bloggers, PR Specialists, and everday music listeners.`,
-        `Launching the app was a success as I was given the oppurtunity to present music'em to the Full Sail University student body, 
-          and a nationwide broadcast.`,
+          comprised of methods that will take my project through sprints focusing on: conception, usability testing, and deployment.`,
+        `I would be given the oppurtunity to present music'em to the Full Sail University student body, and a nationwide broadcast detailing
+          my development journey to launching a successful app.`,
       ],
       paragraphs: [
-        `"Create a Progressive Web app using the MEAN Stack to aggregate content from a currated list of music brands to
-          to save users time from digging for great music ultimately helping to simplify their lives and make discovering
-          great new music effortless."`,
-        `Month 1 focused on conception. Begininning with functional specs listing the features and revenue model.`,
-        `Details of the functional specs were surveyed amongst peers, friends, family, and professors before confirming and
-        moving on with the next step of Sprint which was creating a sitemap of the app.`,
+        `"Create a Progressive Web app using the MEAN Stack to aggregate content from a currated list of music brands (RollingStone, 
+          HotNewHipHop, 8PoundsMusic, EDM, and etc.) to save users time from digging for great music ultimately helping to simplify 
+          their lives and make discovering great new music effortless."`,
+        `Month 1 focused on conception. I began with functional specs listing the desired features and revenue model of music'em.
+          A design audit was conducted on the functional specs.`,
+        `I surveyed peers, friends, family, and professors before confirming
+          the app's features and proceeding to the next step in the Sprint; creating a sitemap.`,
         `Researching brands to include in the app. The process weighed the brand's influence amongst demographics of male and females
         between the ages of 16 and 34.`,
         `Month 2 focused on usability tests. using SketchApp I developed a preliminary wireframe from whiteboard sketches.
