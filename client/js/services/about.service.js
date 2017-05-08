@@ -35,21 +35,18 @@ function aboutService() {
         techniques: {
           name: 'Techniques',
           icon: '',
-          list: ['User-Centered Design', 'Pixel Perfect Layouts', 'Golden Ratio', 'Rule Of Thirds',
-            'Material Design', 'Flat Design',
-          ],
+          list: ['Wireframing/Prototyping', 'Pixel Perfect Layouts', 'Golden Ratio', 'Rule Of Thirds', 'Flat Design'],
           details: `My expereince as a Scrum Master working in an agile enviroment alongside 
                     back-end developers, designers, and other front-end developers.`,
         },
         tools: {
           name: 'Tools',
           icon: '',
-          list: ['Adobe Illustrator', 'Adobe PhotoShop', 'Sketch App',
-            'FaceBook Origami', 'MarvelApp', 'InvisionApp',
+          list: ['Whiteboard', 'Notecards', 'Adobe Illustrator', 'Adobe PhotoShop', 'Sketch App', 'Trello',
+            'FaceBook Origami', 'Optimizely', 'InvisionApp', 'Gulp Task Manager', 'Mocha/Jasmine Unit Tests', 'Visual Studio IDE',
           ],
-          details: `My knowledge as a developer allows me to make consistent layouts
-                    that are user friendly and easy for developers to integrate and
-                    scale reliably.`,
+          details: `Each tools I use help me conduct a User-Centered Design approach in achieving the goal to
+                    build a well conceived product that has thoughtful unit tests and will always function as planned.`,
         },
       },
       aboutSite: `This website has been built from the ground up using
