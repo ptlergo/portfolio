@@ -16,7 +16,7 @@ function aboutService() {
         techniques: {
           name: 'Techniques',
           list: ['Object Oriented Programming', 'MVC', 'MVVM', 'Whitehat SEO',
-            'Digital Marketing', 'UCD', 'TDD', 'Flux Application Architecture',
+            'Digital Marketing', 'TDD', 'Flux Application Architecture',
           ],
         },
         skills: {
@@ -35,14 +35,15 @@ function aboutService() {
         techniques: {
           name: 'Techniques',
           icon: '',
-          list: ['Wireframing/Prototyping', 'Pixel Perfect Layouts', 'Golden Ratio', 'Rule Of Thirds', 'Flat Design'],
-          details: `My expereince as a Scrum Master working in an agile enviroment alongside 
-                    back-end developers, designers, and other front-end developers.`,
+          list: ['UCD', 'Pixel Perfect Layouts', 'Golden Ratio', 'Rule Of Thirds', 'Flat Design'],
+          details: `Working in an agile enviroment alongside key team members as the scrum master has
+          taught me the importance of communicating not just verbally but also with images that best 
+          convey the collective vision.`,
         },
         tools: {
           name: 'Tools',
           icon: '',
-          list: ['Whiteboard', 'Notecards', 'Adobe Illustrator', 'Adobe PhotoShop', 'Sketch App', 'Trello',
+          list: ['Whiteboard', 'Notecards', 'Sketch Pad', 'Adobe Illustrator', 'Adobe PhotoShop', 'Sketch App', 'Trello',
             'FaceBook Origami', 'Optimizely', 'InvisionApp', 'Gulp Task Manager', 'Mocha/Jasmine Unit Tests', 'Visual Studio IDE',
           ],
           details: `Each tools I use help me conduct a User-Centered Design approach in achieving the goal to
