@@ -16,19 +16,17 @@ function aboutService() {
         techniques: {
           name: 'Techniques',
           list: ['Object Oriented Programming', 'MVC', 'MVVM', 'Whitehat SEO',
-            'Digital Marketing', 'Flux Application Architecture',
+            'Digital Marketing', 'UCD', 'TDD', 'Flux Application Architecture',
           ],
         },
         skills: {
           name: 'Skills',
           icon: '',
-          list: ['HTML5', 'CSS3', 'AngularJS', 'Angular', 'JavaScript/ES6',
-            'JQuery', 'Git Hooks', 'Gulp/Grunt', 'NodeJS', 'PHP',
-            'Sass/Less', 'BootStrap', 'MongoDB', 'MySQL', 'React', 'ReactNative', 'ionic',
+          list: ['HTML5', 'CSS3', 'AngularJS', 'TypeScript', 'JavaScript/ES6', 'PHP',
+            'Git Hooks', 'NodeJS', 'JQuery', 'SASS', 'WordPress', 'MongoDB', 'MySQL', 'React',
           ],
-          details: `My knowledge as a developer allows me to make consistent layouts
-                    that are user friendly and easy for developers to integrate and
-                    scale reliably.`,
+          details: `My knowledge as a developer allows me to make consistent frameworks
+                    that are user friendly, easy to integrate, and scale reliably.`,
         },
       },
       design: {
@@ -40,7 +38,7 @@ function aboutService() {
           list: ['User-Centered Design', 'Pixel Perfect Layouts', 'Golden Ratio', 'Rule Of Thirds',
             'Material Design', 'Flat Design',
           ],
-          details: `Expereince as a Scrum Master from working in an agile enviroment alongside 
+          details: `My expereince as a Scrum Master working in an agile enviroment alongside 
                     back-end developers, designers, and other front-end developers.`,
         },
         tools: {
