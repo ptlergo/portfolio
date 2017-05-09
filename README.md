@@ -1,6 +1,6 @@
-![logo](https://github.com/ptlergo/portfolio/blob/master/client/img/pat-logo-lg.png?raw=true)
+![logo](https://github.com/ptlergo/portfolio/blob/master/client/img/pat-logo.fav?raw=true)
 # portfolio
-[https://github.com/ptlergo/portfolio](https://github.com/ptlergo/portfolio) Repo For Portfolio Site Built With Angular & Node.
+[https://github.com/ptlergo/portfolio](https://patrickfunom-portfolio.herokuapp.com/#/) Repo For Portfolio Site Built With Angular & Node.
 
 # INSTALL
 Install project dependencies
@@ -43,6 +43,7 @@ Menu icon created with css and animated with css
 ```
 <div carousel title=""></div>
 ```
+
 # RUN
 Must have gulp installed globally to run successfully
 ```
