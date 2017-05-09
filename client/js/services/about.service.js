@@ -50,13 +50,11 @@ function aboutService() {
                     build a well conceived product that has thoughtful unit tests and will always function as planned.`,
         },
       },
-      aboutSite: `This website has been built from the ground up using
-                  AngularJS and Node.js for an express server that optimizes speed
-                  with a Google page rank score of 98 on mobile and desktop. The animations
-                  are custom using CSS keyframes and AngularJS. All the custom animations, and
-                  buttons are made with Sass for easy use across other projects, and Gulp as my 
-                  task manager to execute unit tests, and BrowserSync easily. More details can be
-                  found in the public repo on my github account.`,
+      aboutSite: `This application has been built from the ground up using AngularJS running on a Node.js enviroment
+                  deployed to A DigitalOcean Ubuntu VPS with NGINX as a reverse proxy. Also a 'production version' app
+                  deployed to the PaaS, Heroku. All animations, and buttons are made using SASS. The task manager Gulp
+                  I use to execute Jasmine unit tests, and BrowserSync for a more efficient development enviroment.
+                  For more details visit the public repository on my github account.`,
       tagline: `
                 Hello, I'm Patrick Funom Tunga-Lergo, A Digital Designer & Front-End Web Developer
                 with 3+ years of experience based in Orlando, Florida. I tell unique stories using
