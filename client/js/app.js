@@ -1,4 +1,4 @@
-angular.module('myApp', ['ngRoute', 'ngSanitize', 'ngAnimate', 'ui.bootstrap', '$compileProvider'])
+angular.module('myApp', ['ngRoute', 'ngSanitize', 'ngAnimate', 'ui.bootstrap'])
   .config(($routeProvider, $locationProvider, $compileProvider) => {
     const homeRoute = {
       controller: 'HomeController',
