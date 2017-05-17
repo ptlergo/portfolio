@@ -1,5 +1,5 @@
-<section class="main-section" ng-controller='HomeController as homeCtrl'>
-  <div class="home-s">
+<div class="main-section" ng-controller='HomeController as homeCtrl'>
+  <section class="home-s">
     <div class="home-text">
       <h1>Patrick Funom Tunga-Lergo</h1>
       <h2>Front-End Web Developer</h2>
@@ -10,8 +10,6 @@
         </a>
       </button>
     </div>
-  </div>
-  <div class = "section-animate-container-{{$index}}" ng-repeat="temps in homeCtrl.templates track by $index">
-      <ng-include src="temps"></ng-include>
-  </div>
-</section>
+  </section>
+  <ng-include ng-repeat="temps in homeCtrl.templates track by $index" src="temps"></ng-include>
+</div>
