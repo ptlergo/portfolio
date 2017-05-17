@@ -79,6 +79,28 @@ header {
   ===================================
 */
 
+section[class *=-section]{
+    transform: skewY(524deg);
+    height: 160vh;
+}
+
+// show only if on home page
+footer::before{
+    content: '';
+    height: 65vh;
+    width: 100vw;
+    background: #252525;
+    position: absolute;
+    bottom: -502vh;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.section-container{
+    transform: skewY(-524deg);
+}
+
     // background: #ffffff;
 
 

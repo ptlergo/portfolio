@@ -11,5 +11,5 @@
       </button>
     </div>
   </div>
-  <ng-include ng-repeat="temps in homeCtrl.templates track by $index" src="temps"></ng-include>
+  <ng-include id = "section-{{$index}}" ng-repeat="temps in homeCtrl.templates track by $index" src="temps"></ng-include>
 </div>
