@@ -98,7 +98,7 @@ img[src*=-logo] {
     H1 Tag Styles
   ===================================
 */
-div[class*=-section] h1, div[class*=-p] h1 {
+section[class*=-section] h1, div[class*=-p] h1 {
   position: relative;
   z-index: 1;
   text-align: center;
@@ -106,7 +106,7 @@ div[class*=-section] h1, div[class*=-p] h1 {
   margin: 0 auto;
   color: #ffffff; }
 
-div[class*=-section] h1:before, div[class*=-p] h1:before {
+section[class*=-section] h1:before, div[class*=-p] h1:before {
   content: '';
   display: block;
   height: 7rem;
@@ -118,7 +118,7 @@ div[class*=-section] h1:before, div[class*=-p] h1:before {
   width: 90%;
   left: -10%; }
 
-div[class*=-section] h1:after, div[class*=-p] h1:after {
+section[class*=-section] h1:after, div[class*=-p] h1:after {
   content: '';
   display: block;
   background: #71e2a6;
@@ -197,15 +197,6 @@ header {
     Slant Effects Borders
   ===================================
 */
-.section-animate-container-0 {
-  background: #ffffff; }
-
-.section-animate-container-1 {
-  background: #3263C9; }
-
-.section-animate-container-2 {
-  background: #252525; }
-
 a[data-value='download']::after {
   font-family: FontAwesome;
   content: "\f063"; }
