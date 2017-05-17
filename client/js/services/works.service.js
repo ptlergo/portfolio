@@ -16,38 +16,33 @@ function worksService() {
       summary: [
         `Music'em is a PWA built with the MEAN Stack. I implemented the User-Centered Design approach in a span of 3 months
           comprised of methods that will take my project through sprints focusing on: conception, usability testing, and deployment.`,
-        `I would be given the oppurtunity to present music'em to the Full Sail University student body, and a nationwide broadcast detailing
+        `I would be given the opportunity to present music'em to the Full Sail University student body, and a nationwide broadcast detailing
           my development journey to launching a successful app.`,
       ],
       paragraphs: [
-        `"Create a Progressive Web app using the MEAN Stack to aggregate content from a currated list of music brands (RollingStone, 
-          HotNewHipHop, 8PoundsMusic, EDM, and etc.) to save users time from digging for great music ultimately helping to simplify 
-          their lives and make discovering great new music effortless."`,
+        `"In 3 months take a User-Centered Design approach to create a Progressive Web App using the MEAN Stack to aggregate content 
+          from a curated list of music brands (RollingStone, HotNewHipHop, 8PoundsMusic, EDM, and etc.) to save users time from digging 
+          for great music ultimately simplifying their lives and making discovering great new music effortless.`,
         `Month 1 focused on conception. I began with functional specs listing the desired features and revenue model of music'em.
           A design audit was conducted on the functional specs.`,
         `I surveyed peers, friends, family, and professors before confirming
           the app's features and proceeding to the next step in the Sprint; creating a sitemap.`,
         `Researching brands to include in the app. The process weighed the brand's influence amongst demographics of male and females
           between the ages of 16 and 34.`,
-        `Month 2 focused on usability tests. using SketchApp I developed a preliminary wireframe from whiteboard sketches.
-          The details of the frames took into account the functional specs feedback. The frames were a loose representation
-          of what the app would represent to see if the locations of the settings bar, content, category title, and content 
-          tabs are appropiate.`,
-        `The next frames are of the signup section on mobile for users that are not logged in. The details of the app. are
-          organzied with information architecture. The goal was to inform users within 1min. the app and sell them on music'em's 
-          usefulness.`,
-        `Facebook OAuth is one of the technologies used. Integrating Firebase for my database and authorizaiont makes it easier
-          for users to register and login with one simple click. As a registered Facebook developer I used Facebook's services to
-          also track my userbase and create a page for the app to advertise the app in the future.`,
-        `Music'em uses a JavaScript web bot to aggregate content from the currated list of websites. Each brand has their own bot
-          targeting specific data: content title, image sources, links, iframe sources, and etc. The firebase service is used to 
-          store all the data for use.`,
+        `Month 2 focused on usability tests. using SketchApp I developed a preliminary wireframe from my whiteboard sketches.
+          The details of the frames took into account the functional specs feedback.`,
+        `The next frames are of the signup section on mobile for users that are not logged in with the goal to inform users within 1min. 
+          on why they want music'em.`,
+        `Integrating Firebase for my database and OAuth 2.0 to make signup/signin simple and secure for users.
+          As a registered Facebook developer i'm given analytics of my user-base and in app advertisement capabilities.`,
+        `Music'em uses a JavaScript web bot I created to aggregate content from the curated list of websites. Each brand has their own bot
+          targeting specific data stored with Firebase.`,
         `AngularJS was used to bind my information from my nodejs API to the client view. Google's material design allowed me
           to have a consistent design that translated well across all devices, adjustments to my SASS files were to implement flexbox
           changes for a more modern design feel for music'em.`,
-        `The 3 month development cycle gave me a more thouruogh understanding of ES6, design principles, Angular's MVVM architecture, and http requests.
+        `The 3 month development cycle gave me a more thorough understanding of ES6, design principles, Angular's MVVM architecture, and http requests.
           Many mistakes were made but I turned them into learning experiences that would then translate into a better understanding of the product I
-          wanted to deliver and could be proud of presenting which I ultimately was and the receptance of my hardwork can be viewed below.`,
+          wanted to deliver and could be proud of presenting and further develop.`,
         `The full project's codebase can be found on my github page here github.com/ptlergo/musicemapp.
           To view the app itself follow the link to musicemapp.com here.`,
       ],
