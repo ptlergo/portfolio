@@ -18,19 +18,19 @@ function NavController(homeService) {
   vm.routes = [
     {
       name: 'Home',
-      url: '#home',
+      url: 'home',
     },
     {
       name: 'About',
-      url: '#about',
+      url: 'about',
     },
     {
       name: 'Publications',
-      url: '#publications',
+      url: 'publications',
     },
     {
       name: 'Works',
-      url: '#works',
+      url: 'works',
     },
   ];
 }
