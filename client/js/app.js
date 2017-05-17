@@ -43,5 +43,6 @@ angular.module('myApp', ['ngRoute', 'ngSanitize', 'ngAnimate', 'ui.bootstrap'])
     $routeProvider.otherwise({ redirectTo: '/' });
 
     $locationProvider.hashPrefix('');
+    $locationProvider.html5Mode(true);
     $compileProvider.debugInfoEnabled(false);
   });
