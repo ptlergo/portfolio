@@ -24,9 +24,7 @@ function worksService() {
           from a curated list of music brands (RollingStone, HotNewHipHop, 8PoundsMusic, EDM, and etc.) to save users time from digging 
           for great music ultimately simplifying their lives and making discovering great new music effortless.`,
         `Month 1 focused on conception. I began with functional specs listing the desired features and revenue model of music'em.
-          A design audit was conducted on the functional specs.`,
-        `I surveyed peers, friends, family, and professors before confirming
-          the app's features and proceeding to the next step in the Sprint; creating a sitemap.`,
+          A design audit was conducted from surveying friends, family, and peers before creating a sitemap and solidifying features.`,
         `Researching brands to include in the app. The process weighed the brand's influence amongst demographics of male and females
           between the ages of 16 and 34.`,
         `Month 2 focused on usability tests. using SketchApp I developed a preliminary wireframe from my whiteboard sketches.
