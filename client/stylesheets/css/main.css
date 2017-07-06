@@ -411,15 +411,15 @@ div[class*=-p] {
 */ }
   #home-page-container > div:nth-child(1) {
     max-width: 130rem;
-    width: 80%;
-    padding: 2.0rem; }
+    width: 45ch;
+    padding: 2.5rem; }
     #home-page-container > div:nth-child(1) h1 {
       font-size: 2rem; }
     #home-page-container > div:nth-child(1) h2 {
       font-size: 1.5rem; }
   #home-page-container > div:nth-child(2) div[class*=-section] section {
     max-width: 130rem;
-    width: 80%;
+    width: 85%;
     margin: 0 auto; }
   #home-page-container > div:nth-child(2) p {
     background: white;

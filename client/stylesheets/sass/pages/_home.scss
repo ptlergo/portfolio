@@ -7,8 +7,8 @@
 #home-page-container {
   >div:nth-child(1) {
     max-width: $max-width;
-    width: 80%;
-    padding: 2.0rem;
+    width: 45ch;
+    padding: $edge-padding;
     h1 {
       font-size: 2rem;
     }
@@ -26,7 +26,7 @@
   
       section {
         max-width: $max-width;
-        width: 80%;
+        width: 85%;
         margin: 0 auto;
       }
     }
