@@ -4,72 +4,41 @@
   ===================================
 */
 
-.home-s {
-  height: 50vh;
-  .home-text {
-    margin: 10% 0 0 5%;
-    max-width: 80%;
-    padding-top: 2.0rem;
+#home-page-container {
+  >div:nth-child(1) {
+    max-width: $max-width;
+    width: 80%;
+    padding: 2.0rem;
     h1 {
       font-size: 2rem;
     }
     h2 {
       font-size: 1.5rem;
-      margin: 0 !important;
     }
   }
-  @include desktop {
-    .home-text {
-      max-width: 40%;
-      margin: 10% 0 0 2%;
-      h1 {
-        font-size: 3.0rem !important;
-      }
-      h2 {
-        font-size: 2.0rem !important;
-      }
-    }
-  }
-}
-
-.about-section,
-.publications-section,
-.works-section {
-  padding: 0;
-}
-
-.about-section,
-.publications-section {
-  background: #3263C9;
-}
-
-.works-section {
-  background: #252525;
-}
-
-
-/*
+  /*
   ===================================
-    Home Sections Content
+    Home Page Sections Content
   ===================================
 */
-
-.section-container {
-  width: $section-container-width;
-  margin: auto;
-  @include desktop {
-    width: $section-container-width-desktop;
-  }
-}
-
-.summary-box {
-  p {
-    background: white;
-    padding: 3.25rem;
-    @include desktop {
-      padding: 3rem 15.0rem;
+  >div:nth-child(2) {
+    div[class *=-section]{
+      section {
+        max-width: $max-width;
+        width: 80%;
+        margin: 0 auto;
+      }
+    }
+    p {
+      background: white;
+      padding: 3.25rem;
     }
   }
+  .about-section,
+  .publications-section {
+    background: #3263C9;
+  }
+  .works-section {
+    background: #252525;
+  }
 }
-
-

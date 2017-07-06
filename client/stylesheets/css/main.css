@@ -159,17 +159,12 @@ body {
     width: 100%;
     text-decoration: none !important;
     outline-color: transparent; }
-  body button a,
-  body .home-text a {
+  body button a {
     color: #71e2a6; }
   body p {
     font-family: "proxima-nova", Corbel, Arial, sans-serif;
     font-size: 1.6rem;
-    line-height: 2;
-    margin: 0; }
-    @media only screen and (min-width: 76.9rem) and (max-width: 180rem) {
-      body p {
-        font-size: 2.2rem; } }
+    line-height: 2; }
   body ul {
     list-style: none; }
   body h1 {
@@ -178,7 +173,6 @@ body {
   body h2 {
     font-size: 2.8rem;
     font-weight: 700;
-    margin: 0;
     text-transform: uppercase; }
   body h1:hover,
   body h2:hover,
@@ -186,33 +180,14 @@ body {
   body h4:hover {
     opacity: 0.8; }
 
-#view-container,
-footer,
-header {
-  flex: 1; }
-
 /*
   ===================================
     Slant Effects Borders
   ===================================
 */
-section[class*=-section] {
-  transform: skewY(524deg);
-  height: 160vh; }
-
-footer::before {
-  content: '';
-  height: 65vh;
-  width: 100vw;
-  background: #252525;
-  position: absolute;
-  bottom: -502vh;
-  left: 0;
-  right: 0;
-  z-index: -1; }
-
-.section-container {
-  transform: skewY(-524deg); }
+@media only screen and (min-width: 76.9rem) and (max-width: 180rem) {
+  p {
+    font-size: 2.2rem; } }
 
 a[data-value='download']::after {
   font-family: FontAwesome;
@@ -422,56 +397,32 @@ div[class*=-p] {
     Home Page
   ===================================
 */
-.home-s {
-  height: 50vh; }
-  .home-s .home-text {
-    margin: 10% 0 0 5%;
-    max-width: 80%;
-    padding-top: 2.0rem; }
-    .home-s .home-text h1 {
+#home-page-container {
+  /*
+  ===================================
+    Home Page Sections Content
+  ===================================
+*/ }
+  #home-page-container > div:nth-child(1) {
+    max-width: 130rem;
+    width: 80%;
+    padding: 2.0rem; }
+    #home-page-container > div:nth-child(1) h1 {
       font-size: 2rem; }
-    .home-s .home-text h2 {
-      font-size: 1.5rem;
-      margin: 0 !important; }
-  @media only screen and (min-width: 76.9rem) and (max-width: 180rem) {
-    .home-s .home-text {
-      max-width: 40%;
-      margin: 10% 0 0 2%; }
-      .home-s .home-text h1 {
-        font-size: 3.0rem !important; }
-      .home-s .home-text h2 {
-        font-size: 2.0rem !important; } }
-
-.about-section,
-.publications-section,
-.works-section {
-  padding: 0; }
-
-.about-section,
-.publications-section {
-  background: #3263C9; }
-
-.works-section {
-  background: #252525; }
-
-/*
-  ===================================
-    Home Sections Content
-  ===================================
-*/
-.section-container {
-  width: 92vw;
-  margin: auto; }
-  @media only screen and (min-width: 76.9rem) and (max-width: 180rem) {
-    .section-container {
-      width: 70vw; } }
-
-.summary-box p {
-  background: white;
-  padding: 3.25rem; }
-  @media only screen and (min-width: 76.9rem) and (max-width: 180rem) {
-    .summary-box p {
-      padding: 3rem 15.0rem; } }
+    #home-page-container > div:nth-child(1) h2 {
+      font-size: 1.5rem; }
+  #home-page-container > div:nth-child(2) div[class*=-section] section {
+    max-width: 130rem;
+    width: 80%;
+    margin: 0 auto; }
+  #home-page-container > div:nth-child(2) p {
+    background: white;
+    padding: 3.25rem; }
+  #home-page-container .about-section,
+  #home-page-container .publications-section {
+    background: #3263C9; }
+  #home-page-container .works-section {
+    background: #252525; }
 
 /*
   ===================================

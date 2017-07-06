@@ -1,10 +1,8 @@
-<section class="works-section" ng-controller='WorksController as worksCtrl'>
-  <div class="section-container">
+<div class="works-section" ng-controller='WorksController as worksCtrl'>
+  <section class="summary-box">
     <h1>{{ worksCtrl.title }}</h1>
-    <div class="summary-box">
-      <p>{{ worksCtrl.summary }}</p>
-      <!-- <div carousel></div> -->
-      <button><a href="works">read more</a></button>
-    </div>
-  </div>
-</section>
+    <p>{{ worksCtrl.summary }}</p>
+    <!-- <div carousel></div> -->
+    <button><a href="works">read more</a></button>
+  </section>
+</div>
