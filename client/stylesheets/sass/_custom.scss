@@ -37,8 +37,9 @@ body {
     p {
         font-family: $font-fam-p;
         font-size: $font-mobile-p;
-        line-height: 2;
-        // margin: 0;
+        line-height: 2; 
+        padding: 0;
+        margin: 0;
     }
     ul {
         list-style: none;
@@ -46,11 +47,14 @@ body {
     h1 {
         font-size: 3.2rem;
         font-weight: 800;
+        padding: 0;
+        margin: 0;
     }
     h2 {
         font-size: 2.8rem;
         font-weight: 700;
-        // margin: 0;
+        padding: 0;
+        margin: 0;
         text-transform: uppercase;
     }
     h1,
@@ -58,8 +62,8 @@ body {
     h3,
     h4,
     {
-        &:hover{
-        opacity: 0.8;
+        &:hover {
+            opacity: 0.8;
         }
     }
 }
@@ -69,7 +73,6 @@ body {
 // header {
 //     flex: 1;
 // }
-
 
 /*
   ===================================
@@ -81,7 +84,6 @@ body {
 //     transform: skewY(524deg);
 //     height: 160vh;
 // }
-
 // show only if on home page
 // footer::before {
 //     content: '';
@@ -94,11 +96,9 @@ body {
 //     right: 0;
 //     z-index: -1;
 // }
-
 // .section-container {
 //     transform: skewY(-524deg);
 // }
-
 @include desktop {
     p {
         font-size: $font-desktop-p;

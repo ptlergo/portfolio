@@ -164,15 +164,21 @@ body {
   body p {
     font-family: "proxima-nova", Corbel, Arial, sans-serif;
     font-size: 1.6rem;
-    line-height: 2; }
+    line-height: 2;
+    padding: 0;
+    margin: 0; }
   body ul {
     list-style: none; }
   body h1 {
     font-size: 3.2rem;
-    font-weight: 800; }
+    font-weight: 800;
+    padding: 0;
+    margin: 0; }
   body h2 {
     font-size: 2.8rem;
     font-weight: 700;
+    padding: 0;
+    margin: 0;
     text-transform: uppercase; }
   body h1:hover,
   body h2:hover,
