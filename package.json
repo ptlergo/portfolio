@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "version": "1.3.1",
+  "version": "1.3.2",
   "engines": {
     "node": "7.10.0",
     "npm": "4.2.0"
@@ -8,12 +8,14 @@
   "description": "Patrick Funom Tunga-Lergo Portfolio Page",
   "author": "Patrick Funom Tunga-Lergo <me@patrickfunom.com>",
   "email": "me@patrickfunom.com",
-  "url": "http://patrickfunom.com",
+  "url": "https://patrickfunom.com",
   "keywords": [
     "nodejs",
     "angular",
     "patrick",
     "patrick funom",
+    "funom",
+    "tunga-lergo",
     "portfolio",
     "front end",
     "design",

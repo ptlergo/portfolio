@@ -144,7 +144,6 @@ body {
   -ms-flex-direction: column;
   flex-direction: column;
   -webkit-font-smoothing: antialiased;
-  font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   color: #4c4e4d; }
   body iframe {
@@ -201,7 +200,7 @@ section[class*=-section] {
   transform: skewY(524deg);
   height: 160vh; }
 
-.main-section footer::before {
+footer::before {
   content: '';
   height: 65vh;
   width: 100vw;
@@ -476,38 +475,6 @@ div[class*=-p] {
 
 /*
   ===================================
-    About Page
-  ===================================
-*/
-.about-p ul {
-  overflow: scroll; }
-
-.about-p p a {
-  color: #3263C9; }
-
-/*
-  ===================================
-    Works Page
-  ===================================
-*/
-@media only screen and (max-width: 48rem) {
-  .works-p .case-description {
-    display: inline-grid; }
-    .works-p .case-description h2 {
-      font-size: 3rem !important; }
-  .works-p .case-details {
-    text-align: justify; } }
-
-@media only screen and (min-width: 76.9rem) and (max-width: 180rem) {
-  .works-p {
-    padding: 0 10rem !important; }
-    .works-p .cases:nth-child(odd) .case-description {
-      order: 3; }
-    .works-p .cases:nth-child(odd) .case-details {
-      order: 1; } }
-
-/*
-  ===================================
     Cases Page
   ===================================
 */
@@ -620,6 +587,27 @@ div[class*=case-p] .case-title {
     display: flex; }
     .publications-p div > div:nth-child(2) ul li section {
       padding-left: 4rem; } }
+
+/*
+  ===================================
+    Works Page
+  ===================================
+*/
+@media only screen and (max-width: 48rem) {
+  .works-p .case-description {
+    display: inline-grid; }
+    .works-p .case-description h2 {
+      font-size: 3rem !important; }
+  .works-p .case-details {
+    text-align: justify; } }
+
+@media only screen and (min-width: 76.9rem) and (max-width: 180rem) {
+  .works-p {
+    padding: 0 10rem !important; }
+    .works-p .cases:nth-child(odd) .case-description {
+      order: 3; }
+    .works-p .cases:nth-child(odd) .case-details {
+      order: 1; } }
 
 .cases {
   display: -webkit-flex;
