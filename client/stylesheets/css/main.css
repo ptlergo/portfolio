@@ -411,26 +411,24 @@ div[class*=-p] {
     Home Page Sections Content
   ===================================
 */ }
-  #home-page-container section {
+  #home-page-container > section:first-child {
     max-width: 130rem;
     width: 45ch;
     padding: 2.5rem;
     height: 25rem; }
-    #home-page-container section h1 {
+    #home-page-container > section:first-child h1 {
       font-size: 2rem; }
-    #home-page-container section h2 {
+    #home-page-container > section:first-child h2 {
       font-size: 1.5rem; }
-  #home-page-container div[class$="-section"] {
-    height: 50rem; }
-    #home-page-container div[class$="-section"] section {
-      max-width: 130rem;
-      width: 85%;
-      margin: 0 auto;
-      height: 100%; }
-      #home-page-container div[class$="-section"] section p {
-        background: white;
-        padding: 3.25rem;
-        width: 100%; }
+  #home-page-container div[class$="-section"] section {
+    max-width: 130rem;
+    width: 85%;
+    margin: 0 auto;
+    height: 100%; }
+    #home-page-container div[class$="-section"] section p {
+      background: white;
+      padding: 3.25rem;
+      width: 100%; }
   #home-page-container .about-section::before {
     content: '';
     background: white;
