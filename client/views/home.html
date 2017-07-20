@@ -1,11 +1,9 @@
 <div id="home-page-container" ng-controller='HomeController as homeCtrl'>
-  <div>
+  <section>
     <h1>Patrick Funom Tunga-Lergo</h1>
     <h2>Front-End Web Developer</h2>
     <h2>& Digital Designer</h2>
     <button><a data-value = "download" href="../img/Patrick_Funom_Tunga-Lergo_resume.pdf" target="_blank">resume</a></button>
-  </div>
-  <div>
-    <ng-include id = "section-{{$index}}" ng-repeat="temps in homeCtrl.templates track by $index" src="temps"></ng-include>
-  </div>
+  </section>
+  <ng-include id = "section-{{$index}}" ng-repeat="temps in homeCtrl.templates track by $index" src="temps"></ng-include>
 </div>

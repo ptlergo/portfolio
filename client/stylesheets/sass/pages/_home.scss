@@ -5,10 +5,13 @@
 */
 
 #home-page-container {
-  >div:nth-child(1) {
+  display: flex;
+  flex-flow: column;
+  section {
     max-width: $max-width;
     width: 45ch;
     padding: $edge-padding;
+    height: 25rem;
     h1 {
       font-size: 2rem;
     }
@@ -21,19 +24,37 @@
     Home Page Sections Content
   ===================================
 */
-  >div:nth-child(2) {
-    div[class *=-section]{
-  
-      section {
-        max-width: $max-width;
-        width: 85%;
-        margin: 0 auto;
+  div[class$="-section"] {
+    height: 50rem;
+    section {
+      max-width: $max-width;
+      width: 85%;
+      margin: 0 auto;
+      height: 100%;
+      p {
+        background: white;
+        padding: 3.25rem;
+        width: 100%;
       }
     }
-    p {
-      background: white;
-      padding: 3.25rem;
-    }
+  }
+  .about-section::before {
+    content: '';
+    background: white;
+    width: 100%;
+    height: 25%;
+  }
+  .works-section::before {
+    content: '';
+    background: #3263c9;
+    width: 100%;
+    height: 25%;
+  }
+  .publications-section::before {
+    content: '';
+    background: #252525;
+    width: 100%;
+    height: 25%;
   }
   .about-section,
   .publications-section {
