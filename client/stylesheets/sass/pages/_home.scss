@@ -47,22 +47,22 @@
   .works-section{
     padding: 0 0 12rem  0;
   }
-  .works-section::before {
-    content: "";
-    border-style: solid;
-    border-width: 17vh 0 0 99.225vw;
-    border-color: rgb(50, 99, 201) #252525 rgba(144, 34, 34, 0);
-    padding: 8rem 0 0 0;
-    position: relative;
-  }
-  .publications-section::before {
-    content: "";
-    border-style: solid;
-    border-width: 17vh 0 0 99.225vw;
-    border-color: rgb(50, 99, 201) #252525 rgba(144, 34, 34, 0);
-    padding: 8rem 0 0 0;
-    position: relative;
-  }
+  // .works-section::before {
+  //   content: "";
+  //   border-style: solid;
+  //   border-width: 17vh 0 0 99.225vw;
+  //   border-color: rgb(50, 99, 201) #252525 rgba(144, 34, 34, 0);
+  //   padding: 8rem 0 0 0;
+  //   position: relative;
+  // }
+  // .publications-section::before {
+  //   content: "";
+  //   border-style: solid;
+  //   border-width: 17vh 0 0 99.225vw;
+  //   border-color: rgb(50, 99, 201) #252525 rgba(144, 34, 34, 0);
+  //   padding: 8rem 0 0 0;
+  //   position: relative;
+  // }
   .about-section,
   .publications-section {
     background: #3263C9;
