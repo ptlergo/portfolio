@@ -66,7 +66,7 @@ img[src*=-logo] {
   ===================================
 */
 
-div[class*=-section],div[class*=-p]{
+section[class*=-section],div[class*=-p]{
   h1{
     position: relative;
     z-index: 1;

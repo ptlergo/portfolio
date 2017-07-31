@@ -16,38 +16,31 @@ function worksService() {
       summary: [
         `Music'em is a PWA built with the MEAN Stack. I implemented the User-Centered Design approach in a span of 3 months
           comprised of methods that will take my project through sprints focusing on: conception, usability testing, and deployment.`,
-        `I would be given the oppurtunity to present music'em to the Full Sail University student body, and a nationwide broadcast detailing
+        `I would be given the opportunity to present music'em to the Full Sail University student body, and a nationwide broadcast detailing
           my development journey to launching a successful app.`,
       ],
       paragraphs: [
-        `"Create a Progressive Web app using the MEAN Stack to aggregate content from a currated list of music brands (RollingStone, 
-          HotNewHipHop, 8PoundsMusic, EDM, and etc.) to save users time from digging for great music ultimately helping to simplify 
-          their lives and make discovering great new music effortless."`,
+        `"In 3 months take a User-Centered Design approach to create a Progressive Web App using the MEAN Stack to aggregate content 
+          from a curated list of music brands (RollingStone, HotNewHipHop, 8PoundsMusic, EDM, and etc.) to save users time from digging 
+          for great music ultimately simplifying their lives and making discovering great new music effortless.`,
         `Month 1 focused on conception. I began with functional specs listing the desired features and revenue model of music'em.
-          A design audit was conducted on the functional specs.`,
-        `I surveyed peers, friends, family, and professors before confirming
-          the app's features and proceeding to the next step in the Sprint; creating a sitemap.`,
+          A design audit was conducted from surveying friends, family, and peers before creating a sitemap and solidifying features.`,
         `Researching brands to include in the app. The process weighed the brand's influence amongst demographics of male and females
           between the ages of 16 and 34.`,
-        `Month 2 focused on usability tests. using SketchApp I developed a preliminary wireframe from whiteboard sketches.
-          The details of the frames took into account the functional specs feedback. The frames were a loose representation
-          of what the app would represent to see if the locations of the settings bar, content, category title, and content 
-          tabs are appropiate.`,
-        `The next frames are of the signup section on mobile for users that are not logged in. The details of the app. are
-          organzied with information architecture. The goal was to inform users within 1min. the app and sell them on music'em's 
-          usefulness.`,
-        `Facebook OAuth is one of the technologies used. Integrating Firebase for my database and authorizaiont makes it easier
-          for users to register and login with one simple click. As a registered Facebook developer I used Facebook's services to
-          also track my userbase and create a page for the app to advertise the app in the future.`,
-        `Music'em uses a JavaScript web bot to aggregate content from the currated list of websites. Each brand has their own bot
-          targeting specific data: content title, image sources, links, iframe sources, and etc. The firebase service is used to 
-          store all the data for use.`,
+        `Month 2 focused on usability tests. using SketchApp I developed a preliminary wireframe from my whiteboard sketches.
+          The details of the frames took into account the functional specs feedback.`,
+        `The next frames are of the signup section on mobile for users that are not logged in with the goal to inform users within 1min. 
+          on why they want music'em.`,
+        `Integrating Firebase for my database and OAuth 2.0 to make signup/signin simple and secure for users.
+          As a registered Facebook developer i'm given analytics of my user-base and in app advertisement capabilities.`,
+        `Music'em uses a JavaScript web bot I created to aggregate content from the curated list of websites. Each brand has their own bot
+          targeting specific data stored with Firebase.`,
         `AngularJS was used to bind my information from my nodejs API to the client view. Google's material design allowed me
           to have a consistent design that translated well across all devices, adjustments to my SASS files were to implement flexbox
           changes for a more modern design feel for music'em.`,
-        `The 3 month development cycle gave me a more thouruogh understanding of ES6, design principles, Angular's MVVM architecture, and http requests.
+        `The 3 month development cycle gave me a more thorough understanding of ES6, design principles, Angular's MVVM architecture, and http requests.
           Many mistakes were made but I turned them into learning experiences that would then translate into a better understanding of the product I
-          wanted to deliver and could be proud of presenting which I ultimately was and the receptance of my hardwork can be viewed below.`,
+          wanted to deliver and could be proud of presenting and further develop.`,
         `The full project's codebase can be found on my github page here github.com/ptlergo/musicemapp.
           To view the app itself follow the link to musicemapp.com here.`,
       ],
@@ -78,8 +71,8 @@ function worksService() {
       details: `Partnered with CreativesOnly, an event company. My task was to with deliver a digital strategy
                   to optimize profits and fan engagement of Sylvan LaCue's "The Loner Tour".`,
       summary: [
-        ` Partnering with Florida event company CreativesOnly, I was tasked with deilvering a digital strategy
-            and a platform to help launch artist Sylvan Lacue's concert at Orlando, FL's BackBooth venue for his
+        ` Partnering with Florida event company CreativesOnly, I was tasked with delivering a digital strategy
+            and a platform to help launch artist Sylvan LaCue's concert at Orlando, FL's BackBooth venue for his
             nationwide tour 'The Loner Tour'.`,
         `Through the campaign I utilized my 8Pounds Music platform (built on the PHP based CMS, WordPress) 
             to operate as an Ecommerce and 'infotainment' hub.`,
@@ -87,19 +80,19 @@ function worksService() {
             and followings on Facebook, Instagram, Snapchat, and Twitter.`,
       ],
       paragraphs: [
-        `Taking advantage of the Ticket Tailor service I tracked meta data of ticket sales. Data targeted were:
-             purchasing method, and most importantly referal method percentage difference as shown in the chart below. 
+        `Taking advantage of the Ticket Tailor service I tracked meta data of ticket sales such as:
+             purchasing method, and most importantly referral method percentage difference (shown in the chart below). 
              These information will later be of huge value in increasing future events' potential revenue.`,
-        `Each link to the ticket kiosk were embeded with a Facebook pixel for additional tracking to give in-depth analytics 
+        `Each link to the ticket kiosk were embedded with a Facebook pixel for additional tracking to give in-depth analytics 
             of customer demographics from the concert's Facebook event page and ad campaign I created. `,
         'The Stripe API came in handy for making easy, and secure credit card transactions with an emailed receipt.',
-        `As part of the campaign other platforms advertised the concert. Most prominent was Orlando Weekly. Their publications
-            is distrubuted to more than 1,000 locations citywide including Full Sail University, UCF, Valencia, and other local universities.`,
+        `Influencer Marketing was used and platforms such as Orlando Weekly advertised the concert. Orlando Weekly
+            is distributed to more than 1,000 locations citywide including Full Sail University, UCF, and Valencia College.`,
         `The campaign was a great learning experience in online marketing and collaborating with a talented team in an agile 
-            work enivroment. The head liner Sylvan LaCue, would later join Saba Pivot's nationwide tour, and the event 
-            company CreativesOnly, partnered with DJ Khaled's college festival in a Miami, FL.`,
+            work environment. The head liner Sylvan LaCue, would later join Saba Pivot's nationwide tour, and the event 
+            company CreativesOnly, partnered with DJ Khaled's college festival in Miami, FL.`,
         `A video recap of the event was co-directed by myself and videographer Pat Frazier. The recap was released on my 8Pounds Music
-            YouTube channel for fans to relive the amazing experience whenever, and as a testimony to what type of expereince 
+            YouTube channel for fans to relive the amazing experience whenever, and as a testimony to what type of experience 
             could be delivered for future projects to come.`,
       ],
       image: '',

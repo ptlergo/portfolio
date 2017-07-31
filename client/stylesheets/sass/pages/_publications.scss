@@ -1,0 +1,32 @@
+/*
+  ===================================
+    Publications Page
+  ===================================
+*/
+
+.publications-p {
+  ul {
+    padding: 4.1rem 1.5rem !important;
+    font-size: 1.2rem;
+    li {
+      padding: 0.6rem 0;
+    }
+  }
+  a {
+    color: #337ab7 !important;
+  }
+  @include desktop {
+    ul {
+      padding: 4.1rem !important;
+      font-size: 1.6rem;
+    }
+    div>div:nth-child(2) {
+      ul li {
+        display: flex;
+        section {
+          padding-left: 4rem;
+        }
+      }
+    }
+  }
+}

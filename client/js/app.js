@@ -1,5 +1,5 @@
 angular.module('myApp', ['ngRoute', 'ngSanitize', 'ngAnimate', 'ui.bootstrap'])
-  .config(($routeProvider, $locationProvider) => {
+  .config(($routeProvider, $locationProvider, $compileProvider) => {
     const homeRoute = {
       controller: 'HomeController',
       templateUrl: 'views/home.html',
@@ -41,5 +41,8 @@ angular.module('myApp', ['ngRoute', 'ngSanitize', 'ngAnimate', 'ui.bootstrap'])
     $routeProvider.when('/lonertour', lonerTourRoute);
     $routeProvider.when('/wintersoulstice', winterSoulsticeRoute);
     $routeProvider.otherwise({ redirectTo: '/' });
+
     $locationProvider.hashPrefix('');
+    $locationProvider.html5Mode(true);
+    $compileProvider.debugInfoEnabled(false);
   });

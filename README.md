@@ -1,6 +1,5 @@
-![logo](https://github.com/ptlergo/portfolio/blob/master/client/img/pat-logo.fav?raw=true)
 # portfolio
-[https://github.com/ptlergo/portfolio](https://patrickfunom-portfolio.herokuapp.com/#/) Repo For Portfolio Site Built With Angular & Node.
+[View Portfolio Page](https://patrickfunom-portfolio.herokuapp.com/#/) Link For Portfolio Site Built With Angular & Node.
 
 # INSTALL
 Install project dependencies
