@@ -23,7 +23,7 @@
   ],
   "main": "server.js",
   "scripts": {
-    "test": "karma start",
+    "test": "",
     "start": "node server.js",
     "run": "gulp run"
   },
