@@ -1,5 +1,9 @@
 # portfolio
-[View Portfolio Page](https://patrickfunom-portfolio.herokuapp.com/#/) Link For Portfolio Site Built With Angular & Node.
+[ ![Codeship Status for ptlergo/portfolio](https://app.codeship.com/projects/afa5ba70-58a4-0135-17fc-3234c345d80c/status?branch=master)](https://app.codeship.com/projects/236376)
+[View Portfolio Page]
+(https://patrickfunom-portfolio.herokuapp.com/#/) Heroku link For Portfolio Site Built With Angular & Node. or 
+[patrickfunom.com]
+(http://patrickfunom.com)
 
 # INSTALL
 Install project dependencies
