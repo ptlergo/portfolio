@@ -24,7 +24,7 @@
   "main": "server.js",
   "scripts": {
     "test": "",
-    "start": "node server.js",
+    "start": "pm2 start server.js",
     "run": "gulp run"
   },
   "repository": {
