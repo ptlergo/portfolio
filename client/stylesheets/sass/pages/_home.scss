@@ -25,11 +25,11 @@
   ===================================
 */
   div[class$="-section"] {
-    padding: 15rem 0;
     section {
       max-width: $max-width;
       width: 85%;
       margin: 0 auto;
+      padding: 12rem 0;
       height: 100%;
       p {
         background: white;
@@ -40,13 +40,36 @@
   }
   .about-section::before {
     content: '';
-    background: white;
     width: 100%;
-    height: 25%;
+    height: 20rem;
+    display: flex;
+    background: #fff;
+    transform: skewY(535deg);
+    transform-origin: 0 0;
   }
-  .works-section{
-    padding: 0 0 12rem  0;
+
+
+  .works-section::before {
+    content: '';
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    background: #3263c9;
+    transform: skewY(535deg);
+    transform-origin: 0 100px;
   }
+
+  .publications-section::before {
+    content: '';
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    background: #252525;
+    transform: skewY(535deg);
+    transform-origin: 0 100px;
+  
+  }
+
   // .works-section::before {
   //   content: "";
   //   border-style: solid;
