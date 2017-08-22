@@ -31,10 +31,22 @@
       margin: 0 auto;
       padding: 12rem 0;
       height: 100%;
-      p {
-        background: white;
-        padding: 3.25rem;
+      
+     span{
         width: 100%;
+        height: 55vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10rem auto;        
+        background: #fff;
+        transform: skewY(535deg);
+        transform-origin: 0 0;
+
+      }
+      p {
+        width: 80%;
+        transform: skewY(-535deg);
       }
     }
   }
