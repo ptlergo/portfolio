@@ -1,22 +1,19 @@
 /**
-  * @ngdoc method
-  * @name NavController
-  * @methodOf module.NavController
-  * @description
-  * Navbar controller for overlay click
-  *
-  * @returns {}
-*/
+ * @ngdoc method
+ * @name NavController
+ * @methodOf module.NavController
+ * @description
+ * Navbar controller for overlay click
+ *
+ * @returns {}
+ */
 function NavController(homeService) {
   const vm = this;
 
   vm.hamClass = true;
   vm.mToggle = false;
   vm.brand = homeService.brand;
-
-
-  vm.routes = [
-    {
+  vm.routes = [{
       name: 'Home',
       url: 'home',
     },

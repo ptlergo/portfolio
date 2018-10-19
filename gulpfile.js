@@ -19,7 +19,8 @@ gulp.task('run', () => {
 
 // Sass compile once then reload browser
 gulp.task('sass', () => {
-  return gulp.src(sassSource)
+  return gulp
+    .src(sassSource)
     .pipe(sass().on('error', sass.logError))
     .pipe(gulp.dest(sassDest))
     .pipe(browserSync.reload({ stream: true }));

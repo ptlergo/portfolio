@@ -1,12 +1,12 @@
 /**
-  * @ngdoc method
-  * @name homeService
-  * @methodOf module.homeService
-  * @description
-  * Home Page service for section summaries
-  *
-  * @returns {}
-*/
+ * @ngdoc method
+ * @name homeService
+ * @methodOf module.homeService
+ * @description
+ * Home Page service for section summaries
+ *
+ * @returns {}
+ */
 function homeService() {
   return {
     Content: {
