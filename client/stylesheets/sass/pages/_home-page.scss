@@ -5,17 +5,35 @@
         align-content: center;
         align-items: center;
         justify-content: center;
+
         .content {
             display: flex;
             flex-direction: column;
             align-content: center;
             align-items: center;
             background: #fff;
-            width: 100%;
-            max-width: 100rem;
-            padding: 2.5rem;
+            max-width: $content-width;
+            padding: $content-spacing;
+
+            @include respond-above('xs') {
+                max-width: 100rem;
+            }
+
             p {
                 max-width: 75ch;
+            }
+        }
+
+        &--hero {
+            flex-direction: column;
+
+            .content {
+                align-items: flex-start;
+
+                @include respond-above('xs') {
+                    align-items: center;
+
+                }
             }
         }
 

@@ -1,32 +1,20 @@
 
 .navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   margin: 0;
+  padding: $content-spacing;
+  &__brand{
+    .img-box {
+      width: 10%;
+    }
+  }
+  &__menu{}
 }
 nav a{
   color: white;
 }
 
 .brand{
-  width: 10%;
-
-  @include phone{
-    width: 25%;
-  }
-  img{
-    width:100%;
-  }
 }
-
-// nav{    background: #3263C9;}
-// header{    background: transparent;}
-// header::after {
-//     display: block;
-//     content: "";
-//     width: 100vw;
-//     height: $border-slant-height+5vh;
-//     background: #3263C9;
-//     -webkit-clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
-//     clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
-//     @include desktop {
-//     }
-// }

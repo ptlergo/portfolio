@@ -357,23 +357,17 @@ a[href*=mailto]::before {
 }
 
 .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   margin: 0;
+  padding: 2rem;
 }
-
-nav a {
-  color: white;
-}
-
-.brand {
+.navbar__brand .img-box {
   width: 10%;
 }
-@media only screen and (max-width: 48rem) {
-  .brand {
-    width: 25%;
-  }
-}
-.brand img {
-  width: 100%;
+nav a {
+  color: white;
 }
 
 @media only screen and (max-width: 48rem) {
@@ -480,6 +474,10 @@ div[class*=-p] p:hover {
 }
 div[class*=-p] ul {
   padding: 0;
+}
+
+.img-box img {
+  width: 100%;
 }
 
 /*
@@ -657,12 +655,27 @@ div[class*=case-p] .case-title h3:before {
   align-content: center;
   align-items: center;
   background: #fff;
-  width: 100%;
-  max-width: 100rem;
-  padding: 2.5rem;
+  max-width: 34rem;
+  padding: 2rem;
+}
+@media (min-width: 576px) {
+  .home__section .content {
+    max-width: 100rem;
+  }
 }
 .home__section .content p {
   max-width: 75ch;
+}
+.home__section--hero {
+  flex-direction: column;
+}
+.home__section--hero .content {
+  align-items: flex-start;
+}
+@media (min-width: 576px) {
+  .home__section--hero .content {
+    align-items: center;
+  }
 }
 .home__section--about {
   background: #3263C9;
