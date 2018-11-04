@@ -1,4 +1,5 @@
-angular.module('myApp', ['ngRoute', 'ngSanitize', 'ngAnimate', 'ui.bootstrap'])
+angular
+  .module('myApp', ['ngRoute', 'ngSanitize', 'ngAnimate', 'ui.bootstrap'])
   .config(($routeProvider, $locationProvider, $compileProvider) => {
     const homeRoute = {
       controller: 'HomeController',
@@ -32,6 +33,11 @@ angular.module('myApp', ['ngRoute', 'ngSanitize', 'ngAnimate', 'ui.bootstrap'])
       controller: 'WorksController',
       templateUrl: 'views/works/wintersoulstice.html',
     };
+    
+    const quickSlingRoute = {
+      controller: 'WorksController',
+      templateUrl: 'views/works/quicksling.html',
+    };
 
     $routeProvider.when('/', homeRoute);
     $routeProvider.when('/about', aboutRoute);
@@ -40,9 +46,12 @@ angular.module('myApp', ['ngRoute', 'ngSanitize', 'ngAnimate', 'ui.bootstrap'])
     $routeProvider.when('/musicem', musicemRoute);
     $routeProvider.when('/lonertour', lonerTourRoute);
     $routeProvider.when('/wintersoulstice', winterSoulsticeRoute);
-    $routeProvider.otherwise({ redirectTo: '/' });
+    $routeProvider.when('/quicksling', quickSlingRoute);
+    $routeProvider.otherwise({
+      redirectTo: '/',
+    });
 
     $locationProvider.hashPrefix('');
-    $locationProvider.html5Mode(true);
+    $locationProvider.html5Mode(false);
     $compileProvider.debugInfoEnabled(false);
   });

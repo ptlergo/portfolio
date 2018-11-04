@@ -9,7 +9,27 @@
  */
 function worksService() {
   return {
-    caseStudies: [{
+    caseStudies: [
+      {
+        name: 'quickSling iOS App',
+        path: 'quicksling',
+        details: 'PHP based Progressive Web App for concert customers to have memorable reservation experience that seeks to inform and incentivise social media engagement. ',
+        summary: `This was my first use of the codeIgniter framework, it was tricky practicing MVC with PHP.
+                       The bootstrap styling was simple until using the popup modal for each performer, I had to
+                       add a boolean case to get the modal to open upon screen click, but because my knowledge
+                       was limited at the time I did not properly develop the app. for desktops so the z-index I
+                       added for the JavaScript snow effect prevented the button listening event from happening. `,
+        image: '../img/winter.gif',
+        case_images: [
+          '../img/case-images/winter/winter-feature.gif',
+        ],
+        gif_src: '../img/case-images/winter/winter-soulstice-rsvp-app.gif',
+        type: 'app',
+        tech: ['codeIgniter', 'PHP', 'MongoDB', 'BootStrap3', 'JQuery', 'Heroku'],
+        tags: 'codeigniter, php, bootstrap, jquery',
+        category: 'web',
+      },
+      {
       name: 'music\'em: Content Aggregation App',
       path: 'musicem',
       details: 'A MEAN Stack Progressive Web App. I developed in a 3 month Scrum sprint.',
