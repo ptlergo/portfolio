@@ -586,6 +586,28 @@ div[class*=case-p] .case-title h3:before {
   }
 }
 
+.case-study {
+  margin: 0 auto;
+  padding: 2.5rem;
+  max-width: 160rem;
+}
+.case-study__body {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+.case-study__footer {
+  background: transparent;
+}
+
+.case-study-header__img-box {
+  max-width: 120rem;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.case-study-header__img-box img {
+  width: 100%;
+}
+
 /*
   ===================================
     Publications Page
