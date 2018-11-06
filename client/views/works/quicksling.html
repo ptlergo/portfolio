@@ -1,1 +1,29 @@
-quicksling
+<main class ="case-p case-study" ng-controller = 'WorksController as worksCtrl'>
+    <header class="case-study__header case-study-header">
+        <div class="case-study-header__img-box">
+            <img ng-src = "{{worksCtrl.caseMusicem.case_images[0]}}" alt = "feature-image">
+        </div>
+        <div class = "case-title case-study-header__title">
+            <h2>{{worksCtrl.caseMusicem.name}}</h2>
+            <h3>Progressive Web App.</h3>
+        </div>
+    </header>
+    <div class ="case-study__body">
+        <div class="case-study__metadata">
+            <h4>Tools</h4>
+            <ul><li ng-repeat = "tech in worksCtrl.caseMusicem.tech">{{tech}}</li></ul>          
+        </div>
+        <section class="case-study__section case-study-section">
+            <header class="case-study-section__header">
+                <h5>Challenge Statement</h5>   
+            </header>
+            <div class="case-study-section__content">
+                <p>content 1</p>
+            </div>
+        </section>
+        <footer class="case-study__footer">
+                <button><a href = "works">more works</a></button>
+        </footer>
+    </div>
+</main>
+  
