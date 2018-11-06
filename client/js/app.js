@@ -43,10 +43,10 @@ angular
     $routeProvider.when('/about', aboutRoute);
     $routeProvider.when('/publications', publicationsRoute);
     $routeProvider.when('/works', worksRoute);
-    $routeProvider.when('/musicem', musicemRoute);
-    $routeProvider.when('/lonertour', lonerTourRoute);
-    $routeProvider.when('/wintersoulstice', winterSoulsticeRoute);
-    $routeProvider.when('/quicksling', quickSlingRoute);
+    $routeProvider.when('/works/musicem', musicemRoute);
+    $routeProvider.when('/works/lonertour', lonerTourRoute);
+    $routeProvider.when('/works/wintersoulstice', winterSoulsticeRoute);
+    $routeProvider.when('/works/quicksling', quickSlingRoute);
     $routeProvider.otherwise({
       redirectTo: '/',
     });
