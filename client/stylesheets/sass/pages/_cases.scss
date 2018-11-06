@@ -108,4 +108,44 @@ div[class*=case-p] {
   }
 }
 
+.case-study{
+  margin: 0 auto;
+  padding: 2.5rem;
+  max-width: 160rem;
+  &__header{
+  }
+  &__metadata{
+  }
+  &__body {
+    max-width: 120rem;
+    margin: 0 auto;
+  }
+  &__section{
+
+  }
+  &__footer {
+    background: transparent;
+  }
+  
+}
+.case-study-header {
+  &__img-box{
+    max-width: 120rem;
+    margin: 0 auto;
+    overflow: hidden;
+    img {
+      width: 100%;
+    }
+  }
+
+}
+.case-study-section {
+  &__header {
+
+  }
+  &__content {
+
+  }
+}
+
 
