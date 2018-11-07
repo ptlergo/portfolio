@@ -1,0 +1,33 @@
+@mixin case-study-title {
+    .case-study-header__title {
+        .metadata-item {
+            margin: 0;
+            text-transform: uppercase;
+            font-weight: 600;
+            font: small-caption;
+        }
+
+        .metadata-item:before {
+            content: '';
+            height: 0.35rem;
+            width: 3.5rem;
+            margin: 0.25rem 0.5rem;
+            background: #71e2a6;
+            position: relative;
+            display: inline-block;
+        }
+
+        @include container();
+
+        @include respond-above(sm) {
+            width: 45%;
+            background: #efc739;
+            color: #ffffff;
+            position: relative;
+            box-shadow: -2rem 2rem #71e2a6;
+            bottom: 35rem;
+            right: 10rem;
+            margin: 0;
+        }
+    }
+}
