@@ -1,3 +1,21 @@
-<header>
-  <div ng-include ="'views/templates/navbar.html'"></div>
+<header class="header" ng-controller="NavController as navCtrl">
+  <div class="header__brand brand">
+    <div class="img-box">
+      <a ng-href="home">
+        <img ng-src="{{navCtrl.brand}}">
+      </a>
+    </div>
+  </div>
+  <nav class="header__navbar header-navbar">
+    <div class="header-navbar__menu" hamburger-icon ng-click="navCtrl.mToggle = !navCtrl.mToggle"></div>
+    <div class="overlay header-navbar__menu-overlay" ng-show="navCtrl.mToggle" ng-class="{ 'overlayActive': navCtrl.mToggle }">
+      <div class="nav-links header-navbar__links" ng-repeat="route in navCtrl.routes">
+        <h1>
+          <a ng-href='{{route.url}}' ng-click="navCtrl.mToggle = !navCtrl.mToggle">
+            {{route.name}}
+          </a>
+        </h1>
+      </div>
+    </div>
+  </nav>
 </header>
