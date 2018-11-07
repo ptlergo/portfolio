@@ -3,7 +3,12 @@
     Project Defaults
   ===================================
 */
-
+.img-box {
+    width: 100%;
+    img {
+        width: 100%;
+    }
+}
 body {
     font-family: $font-fam;
     display: -webkit-flex;

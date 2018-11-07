@@ -334,57 +334,73 @@ section[class*=-section] h1:after, div[class*=-p] h1:after {
   }
 }
 
-.hamburger-container {
-  position: fixed;
-  top: 5%;
-  right: 2%;
+/*
+  ===================================
+    Global Page Header
+  ===================================
+*/
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 130rem;
+  padding: 1rem;
+}
+.header__brand .img-box {
+  width: 7rem;
+}
+@media (min-width: 768px) {
+  .header__brand .img-box {
+    width: 10rem;
+  }
+}
+.header__navbar {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.header__navbar .hamburger-container {
+  position: relative;
   height: 3.5rem;
   width: 3.5rem;
   cursor: pointer;
   z-index: 100;
   transition: opacity 0.25s ease;
 }
-
-.hamburger-container:hover {
+.header__navbar .hamburger-container:hover {
   opacity: 0.5;
 }
-
-.hamburger-container span {
+.header__navbar .hamburger-container span {
   background: #EFC638;
   border: none;
   height: 0.5rem;
   width: 100%;
   position: absolute;
-  top: 0;
-  left: 0;
   transition: all 0.35s ease;
   cursor: pointer;
 }
-
-.hamburger-container span:nth-of-type(2) {
+.header__navbar .hamburger-container span:nth-of-type(2) {
   top: 1.1rem;
 }
-
-.hamburger-container span:nth-of-type(3) {
+.header__navbar .hamburger-container span:nth-of-type(3) {
   top: 2.2rem;
 }
-
-.menuActive {
+.header__navbar .menuActive {
   -webkit-transition: all linear 0.5s;
   transition: all linear 0.5s;
 }
-.menuActive .top {
+.header__navbar .menuActive .top {
   transform: translateY(11px) translateX(0) rotate(45deg);
 }
-.menuActive .middle {
+.header__navbar .menuActive .middle {
   opacity: 0;
   width: 0%;
 }
-.menuActive .bottom {
+.header__navbar .menuActive .bottom {
   transform: translateY(-11px) translateX(0) rotate(-45deg);
 }
-
-.overlay {
+.header__navbar .overlay {
   position: fixed;
   top: 0;
   left: 0;
@@ -400,37 +416,21 @@ section[class*=-section] h1:after, div[class*=-p] h1:after {
   transition: all linear 0.25s;
   font-variant: small-caps;
 }
-.overlay .nav-links:first-child {
+.header__navbar .overlay .nav-links:first-child {
   margin-top: 15%;
 }
 @media only screen and (max-width: 48rem) {
-  .overlay .nav-links:first-child {
+  .header__navbar .overlay .nav-links:first-child {
     margin-top: 50%;
   }
 }
-
-.overlayActive {
+.header__navbar .overlayActive {
   -webkit-transition: all linear 0.25s;
   transition: all linear 0.25s;
   opacity: 1;
 }
-
-.overlay ul {
+.header__navbar .overlay ul {
   list-style: none;
-}
-
-.navbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 0;
-  padding: 1rem;
-}
-.navbar__brand .img-box {
-  width: 10%;
-}
-nav a {
-  color: white;
 }
 
 footer {
@@ -672,6 +672,12 @@ div[class*=case-p] .case-title h3:before {
     Works Page
   ===================================
 */
+.works-p {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
 @media only screen and (max-width: 48rem) {
   .works-p .case-description {
     display: inline-grid;
@@ -745,6 +751,13 @@ div[class*=case-p] .case-title h3:before {
     Project Defaults
   ===================================
 */
+.img-box {
+  width: 100%;
+}
+.img-box img {
+  width: 100%;
+}
+
 body {
   font-family: "nunito", corbel, san-serif;
   display: -webkit-flex;
