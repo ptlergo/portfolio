@@ -1,29 +1,53 @@
-<main class ="case-p case-study" ng-controller = 'WorksController as worksCtrl'>
+<main class ="case-study case-p" ng-controller = 'WorksController as worksCtrl'>
+    <!-- case study header -->
     <header class="case-study__header case-study-header">
         <div class="case-study-header__img-box">
             <img ng-src = "{{worksCtrl.caseMusicem.case_images[0]}}" alt = "feature-image">
         </div>
         <div class = "case-title case-study-header__title">
-            <h2>{{worksCtrl.caseMusicem.name}}</h2>
-            <h3>Progressive Web App.</h3>
+            <h1>{{worksCtrl.lonerTour.name}}</h1>
+            <p class="metadata-item">{{worksCtrl.lonerTour.category}}</p>
         </div>
     </header>
+    <!-- /case study header -->
+    <!-- case study body -->
     <div class ="case-study__body">
         <div class="case-study__metadata">
-            <h4>Tools</h4>
-            <ul><li ng-repeat = "tech in worksCtrl.caseMusicem.tech">{{tech}}</li></ul>          
+            <h2 class="case-study__metadata-title">Tools</h2>
+            <ul class="case-study__metadata-list">
+                <li ng-repeat = "tech in worksCtrl.caseMusicem.tech">
+                    <p class="metadata-item case-study__metadata-item">
+                        {{tech}}
+                    </p>
+                </li>
+            </ul>          
         </div>
+        <!-- case study section 1 -->
         <section class="case-study__section case-study-section">
             <header class="case-study-section__header">
-                <h5>Challenge Statement</h5>   
+                <h2 class="case-study-section__title">Challenge Statement</h2>   
             </header>
             <div class="case-study-section__content">
-                <p>content 1</p>
+                <p>{{worksCtrl.lonerTour.summary[0]}}</p>
             </div>
         </section>
-        <footer class="case-study__footer">
-                <button><a href = "works">more works</a></button>
-        </footer>
+        <!-- /case study section 1 -->
+        <!-- case study section 2 -->
+        <section class="case-study__section case-study-section">
+                <header class="case-study-section__header">
+                    <h2 class="case-study-section__title">Summary</h2>   
+                </header>
+                <div class="case-study-section__content">
+                    <p>{{worksCtrl.lonerTour.summary[0]}}</p>
+                </div>
+            </section>
+            <!-- /case study section 2 -->
     </div>
+    <!-- /case study body -->
+    <!-- case study footer -->
+    <footer class="case-study__footer">
+            <button><a href = "works">more works</a></button>
+    </footer>
+    <!-- /case study footer -->
 </main>
   

@@ -9,24 +9,34 @@ div[class*=case-p] {
     font-weight: 600;
     font-size: 3rem;
   }
-  h5, p {padding: 0 1.5rem;}
+
+  h5,
+  p {
+    padding: 0 1.5rem;
+  }
+
   img {
     width: 100%;
     display: block;
     margin: 6rem auto;
   }
+
   img[alt*="feature-image"] {
     width: 100%;
   }
-    img[alt*="case-image"] {
+
+  img[alt*="case-image"] {
     box-shadow: 0rem 0.2rem 0.7rem #d2d2d2;
   }
 
-      img[alt*="case-summary-image"] {
+  img[alt*="case-summary-image"] {
     width: 30% !important;
   }
-  
-  #chart, #visual{margin: 6rem auto;}
+
+  #chart,
+  #visual {
+    margin: 6rem auto;
+  }
 
   ul {
     padding: 0 0 2rem 0;
@@ -34,17 +44,21 @@ div[class*=case-p] {
     flex-wrap: wrap;
     margin: 0 auto;
   }
+
   li {
     padding-right: 2rem;
   }
+
   .case-title {
     padding: 2rem 0;
+
     h3 {
       margin: 0;
       text-transform: uppercase;
       font-weight: 600;
       font: small-caption;
     }
+
     h3:before {
       content: '';
       height: 0.35rem;
@@ -58,27 +72,34 @@ div[class*=case-p] {
 
   @include desktop {
     padding: 5.2rem;
+
     h4 {
       padding: 0 20rem;
       font-weight: 600;
     }
+
     ul {
       padding: 0 20rem 2rem 20rem;
     }
+
     section {
       padding: 0 12.2rem;
+
       p {
         padding: 0 20rem 6rem 20rem;
       }
+
       h5 {
         padding: 6rem 20rem 0 20rem;
         font-weight: 600;
         font-size: 3rem;
       }
     }
+
     img {
       width: 100rem !important;
     }
+
     .case-title {
       background: #efc739;
       width: 62rem;
@@ -88,6 +109,7 @@ div[class*=case-p] {
       bottom: 50rem;
       padding: 1.3rem;
     }
+
     section div iframe {
       width: 60rem;
       height: 40rem;
@@ -97,55 +119,58 @@ div[class*=case-p] {
 
 
 
-    section canvas{
-    width: 100%;
-    height: 100%;
-  }
-  #chart {
-    width: 25%;
-    margin: 0 auto;
-  }
+    section canvas {
+      width: 100%;
+      height: 100%;
+    }
+
+    #chart {
+      width: 25%;
+      margin: 0 auto;
+    }
   }
 }
 
-.case-study{
-  margin: 0 auto;
-  padding: 2.5rem;
-  max-width: 160rem;
-  &__header{
-  }
-  &__metadata{
-  }
-  &__body {
-    max-width: 120rem;
-    margin: 0 auto;
-  }
-  &__section{
+.case-study {
+  @include container();
 
+  &__header {}
+
+  &__metadata {}
+
+  &__body {
+    @include content-container();
+
+    @include respond-below(lg) {
+      @include respond-above(md) {
+        @include content-container(85rem);
+      }
+    }
   }
+
+  &__section {}
+
   &__footer {
     background: transparent;
   }
-  
+
 }
+
 .case-study-header {
-  &__img-box{
-    max-width: 120rem;
-    margin: 0 auto;
+  @include case-study-title();
+
+  &__img-box {
     overflow: hidden;
+
     img {
       width: 100%;
     }
   }
 
 }
+
 .case-study-section {
-  &__header {
+  &__header {}
 
-  }
-  &__content {
-
-  }
+  &__content {}
 }
-
-
