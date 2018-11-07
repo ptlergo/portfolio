@@ -1,0 +1,20 @@
+
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: $standard-spacing;
+  &__brand{
+    .img-box {
+      width: 10%;
+    }
+  }
+  &__menu{}
+}
+nav a{
+  color: white;
+}
+
+.brand{
+}

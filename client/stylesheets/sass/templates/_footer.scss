@@ -1,0 +1,44 @@
+footer {
+    text-align: center;
+    background: #252525;
+    width: 100%;
+    height: 100%;
+    padding-top: 10vh;
+
+div[class*=-box]{
+  margin: 6rem auto;
+}
+
+h1{
+  margin: 0;
+  padding: 0;
+}
+img{
+  width: 30%;
+  padding: 0.6rem;
+  @include desktop{
+    width: 10%;
+  }
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+
+}
+
+.social-box{
+  ul{
+    display: inline-flex;
+  }
+  li{
+    padding: 1rem;
+    font-size: 3rem;
+  }
+}
+
+.f-copywirght{
+  padding-top: 5vh;
+
+}
+}
