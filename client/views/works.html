@@ -1,5 +1,4 @@
-
-<div class ="works-p" ng-controller = 'WorksController as worksCtrl'>
+<!-- <div class ="works-p" ng-controller = 'WorksController as worksCtrl'>
   <h1>{{ worksCtrl.title }}</h1>
   <div class = "cases" ng-repeat = "case in worksCtrl.cases track by $index">
     <div class = "cases-prototype-{{$index}}">
@@ -19,4 +18,57 @@
     </div>
     <div class ="case-details"><p>{{case.details}}</p></div>
   </div>
-</div>
+</div> -->
+<main class="projects works-p" ng-controller='WorksController as worksCtrl'>
+  <section class="projects__top">
+    <header class="projects__header">
+      <h1>{{ worksCtrl.title }}</h1>
+    </header>
+  </section>
+  <section class="projects__items">
+    <!-- <div class="cases" ng-repeat="case in worksCtrl.cases track by $index"> -->
+    <!-- <div class="cases-prototype-{{$index}}">
+        <div class="prototype-device" ng-show="case.category == 'web'">
+          <div class="prototype-screen" style="background-image: url({{case.gif_src}})">
+          </div>
+        </div>
+        <div class="prototype-screen" style="background-image: url({{case.gif_src}})" ng-show="case.category == 'digital strategy & ecommerce'"></div>
+      </div> -->
+    <!-- <div class="case-description"> -->
+    <!-- <button><a ng-href="{{case.path}}">view case study</a></button> -->
+    <!-- <button ng-click="checked = !checked" data-value="Toggle">show tech.</button> -->
+    <!-- <ul ng-show="checked">
+          <li ng-repeat="tech in case.tech"><i>{{tech}}</i></li>
+        </ul> -->
+    <!-- </div> -->
+    <!-- <div class="case-details">
+        <p>{{case.details}}</p>
+      </div> -->
+    <!-- </div> -->
+    <article class="projects__item projects-item" ng-repeat="case in worksCtrl.cases track by $index">
+      <header class="projects-item__header">
+        <h2>{{case.name}}</h2>
+        <div class="projects-item__actions">
+          <button><a ng-href="{{case.path}}">view case study</a></button>
+          <button ng-click="checked = !checked" data-value="Toggle">show tech.</button>
+        </div>
+      </header>
+      <div class="projects-item__media media">
+        <div class="media__screen-box">
+          <img class="media__screen-img" src={{case.gif_src}} alt="project screen">
+        </div>
+        <div class="media__device-box">
+          <img class="media__device-img" ng-show="case.category == 'web'" src="..\img\iphone.png" alt="project device">
+        </div>
+      </div>
+      <div class="projects-item__content">
+        <div class="projects-item__content-details">
+          <p>{{case.details}}</p>
+        </div>
+        <ul ng-show="checked">
+          <li ng-repeat="tech in case.tech"><i>{{tech}}</i> tech</li>
+        </ul>
+      </div>
+    </article>
+  </section>
+</main>

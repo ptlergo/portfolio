@@ -1,22 +1,24 @@
-<footer ng-controller = "HomeController as footerCtrl">
-  <img ng-src='{{footerCtrl.main_logo}}'>
-  <h1>Get In Touch</h1>
+<footer class="footer" -controller="HomeController as footerCtrl">
+  <section class="footer__top">
+    <div class="img-box">
+      <a ng-href="home">
+        <img ng-src='{{footerCtrl.main_logo}}' alt="footer img">
+      </a>
+    </div>
     <div class="contact-box">
+      <h1>Get In Touch</h1>
       <ul>
         <li><a ng-href="mailto:{{footerCtrl.otherLinks[0]}}">me@patrickfunom.com</a></li>
         <li><a ng-href="tel:{{footerCtrl.otherLinks[1]}}">(407)655-9901</a></li>
       </ul>
     </div>
-
+  </section>
+  <section class="footer__bottom">
     <div class="social-box">
       <ul>
-        <li ng-repeat = "social in footerCtrl.socialLinks"><a ng-href = "{{social}}"></a></li>
+        <li ng-repeat="social in footerCtrl.socialLinks"><a ng-href="{{social}}"></a></li>
       </ul>
     </div>
-
-    <div class="f-copywirght">
-      <ul>
-        <li><i>&copy; 2017 Patrick Funom Tunga-Lergo</i></li>
-      </ul>
-    </div>
+    <i>&copy; 2018 Patrick Funom Tunga-Lergo</i>
+  </section>
 </footer>
