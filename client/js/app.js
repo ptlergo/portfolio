@@ -51,7 +51,7 @@ angular
       redirectTo: '/',
     });
 
-    $locationProvider.hashPrefix('');
-    $locationProvider.html5Mode(false);
-    $compileProvider.debugInfoEnabled(false);
+    // $locationProvider.hashPrefix('');
+    $locationProvider.html5Mode(true);
+    // $compileProvider.debugInfoEnabled(false);
   });

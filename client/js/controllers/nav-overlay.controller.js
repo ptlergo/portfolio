@@ -26,8 +26,8 @@ function NavController(homeService) {
       url: 'publications',
     },
     {
-      name: 'Works',
-      url: 'works',
+      name: 'Projects',
+      url: 'projects',
     },
   ];
 }

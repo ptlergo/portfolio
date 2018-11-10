@@ -21,9 +21,9 @@ function homeService() {
                   sales of brands.`,
       },
       works: {
-        title: 'My Works',
+        title: 'My Projects',
         tagline: 'Details of some projects i\'ve worked on',
-        templateUrl: 'views/home/works-section.html',
+        templateUrl: 'views/home/projects-section.html',
         imgUrl: '',
         summary: `My years have been spent creating a variety of digital content as a Full Sail University
                   Web Design & Development student, and for clients such as musicians, and agencies.
