@@ -18,35 +18,35 @@ angular
 
     const worksRoute = {
       controller: 'WorksController',
-      templateUrl: 'views/works.html',
+      templateUrl: 'views/projects.html',
     };
 
     const musicemRoute = {
       controller: 'WorksController',
-      templateUrl: 'views/works/musicem.html',
+      templateUrl: 'views/projects/musicem.html',
     };
     const lonerTourRoute = {
       controller: 'WorksController',
-      templateUrl: 'views/works/lonertour.html',
+      templateUrl: 'views/projects/lonertour.html',
     };
     const winterSoulsticeRoute = {
       controller: 'WorksController',
-      templateUrl: 'views/works/wintersoulstice.html',
+      templateUrl: 'views/projects/wintersoulstice.html',
     };
     
     const quickSlingRoute = {
       controller: 'WorksController',
-      templateUrl: 'views/works/quicksling.html',
+      templateUrl: 'views/projects/quicksling.html',
     };
 
     $routeProvider.when('/', homeRoute);
     $routeProvider.when('/about', aboutRoute);
     $routeProvider.when('/publications', publicationsRoute);
-    $routeProvider.when('/works', worksRoute);
-    $routeProvider.when('/works/musicem', musicemRoute);
-    $routeProvider.when('/works/lonertour', lonerTourRoute);
-    $routeProvider.when('/works/wintersoulstice', winterSoulsticeRoute);
-    $routeProvider.when('/works/quicksling', quickSlingRoute);
+    $routeProvider.when('/projects', worksRoute);
+    $routeProvider.when('/projects/musicem', musicemRoute);
+    $routeProvider.when('/projects/lonertour', lonerTourRoute);
+    $routeProvider.when('/projects/wintersoulstice', winterSoulsticeRoute);
+    $routeProvider.when('/projects/quicksling', quickSlingRoute);
     $routeProvider.otherwise({
       redirectTo: '/',
     });
