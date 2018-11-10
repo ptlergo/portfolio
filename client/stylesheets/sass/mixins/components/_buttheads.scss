@@ -18,31 +18,6 @@
     padding-top: 15%;
 }
 
-
-button{
-  margin-top: 1.6rem;
-	background: transparent;
-	text-align: center;
-	color: #71e2a6;
-	font-weight: bold;
-	border: 1px solid #71e2a6;
-	box-shadow: 0.4rem 0.4rem 0px 0px #71e2a6;
-	text-transform: uppercase;
-	transition: all .2s ease-in-out;
-}
-
-/*scale transform works better than zoom*/
-button:hover{
-	box-shadow: none;
-    -webkit-transform: scale(1.05);
-        -ms-transform: scale(1.05);
-            transform: scale(1.05);
-}
-
-button:focus{
-  outline: none;
-}
-
 /*
   ===================================
     HomePage Triggers
@@ -91,7 +66,7 @@ section[class*=-section],div[class*=-p]{
   h1:after{
     content: '';
     display: block;
-    background: #71e2a6;
+    background: $brand-green;
     transform: translateY(90%) skewY(524deg);
     position: relative;
     height: 7rem;

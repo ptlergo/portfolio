@@ -29,16 +29,12 @@ body {
     a:visited,
     a:hover,
     a:focus {
-        color: #ffffff;
         font-weight: 500;
         width: 100%;
-        text-decoration: none !important;
+        text-decoration: none;
         outline-color: transparent;
     }
-    button a,
-    {
-        color: #71e2a6;
-    }
+  
     p {
         font-family: $font-fam-p;
         font-size: $font-mobile-p;

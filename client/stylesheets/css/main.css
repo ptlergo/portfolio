@@ -117,30 +117,6 @@ a[href*=mailto]::before {
   padding-top: 15%;
 }
 
-button {
-  margin-top: 1.6rem;
-  background: transparent;
-  text-align: center;
-  color: #71e2a6;
-  font-weight: bold;
-  border: 1px solid #71e2a6;
-  box-shadow: 0.4rem 0.4rem 0px 0px #71e2a6;
-  text-transform: uppercase;
-  transition: all 0.2s ease-in-out;
-}
-
-/*scale transform works better than zoom*/
-button:hover {
-  box-shadow: none;
-  -webkit-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  transform: scale(1.05);
-}
-
-button:focus {
-  outline: none;
-}
-
 /*
   ===================================
     HomePage Triggers
@@ -196,26 +172,6 @@ section[class*=-section] h1:after, div[class*=-p] h1:after {
   left: 20%;
 }
 
-/*
-  ======================================================================
-    Buttons, Headers, links, carousel etc.
-  ======================================================================
-*/
-.title-link {
-  display: inline-block;
-  color: white;
-  text-decoration: none;
-  box-sizing: border-box;
-}
-
-.carousel-indicators li {
-  visibility: hidden;
-}
-
-.tagline {
-  padding-top: 15%;
-}
-
 button {
   margin-top: 1.6rem;
   background: transparent;
@@ -226,6 +182,9 @@ button {
   box-shadow: 0.4rem 0.4rem 0px 0px #71e2a6;
   text-transform: uppercase;
   transition: all 0.2s ease-in-out;
+}
+button a {
+  color: #71e2a6;
 }
 
 /*scale transform works better than zoom*/
@@ -240,77 +199,50 @@ button:focus {
   outline: none;
 }
 
-/*
-  ===================================
-    HomePage Triggers
-  ===================================
-*/
-img[src*=-logo] {
-  animation: slideUp 2.5s ease-in-out;
+@media only screen and (max-width: 48rem) {
+  div[class*=cases-prototype-] {
+    width: 20rem;
+    align-self: center;
+  }
 }
 
-.home-text {
-  animation: slideLeft 3s ease-in-out;
-}
-
-.hamburger-container {
-  animation: fadeIn 5s ease-in;
-}
-
-/*
-  ===================================
-    H1 Tag Styles
-  ===================================
-*/
-section[class*=-section] h1, div[class*=-p] h1 {
+.prototype-device {
+  background-image: url("../../img/iphone.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
   position: relative;
-  z-index: 1;
-  text-align: center;
-  width: 25rem;
-  margin: 0 auto;
-  color: #ffffff;
-}
-section[class*=-section] h1:before, div[class*=-p] h1:before {
+  height: 60rem;
   content: "";
-  display: block;
-  height: 7rem;
-  top: 5rem;
-  background: #e9b921;
-  transform: translateY(0px) skewY(524deg);
-  position: relative;
-  z-index: -1;
-  width: 90%;
-  left: -10%;
 }
-section[class*=-section] h1:after, div[class*=-p] h1:after {
-  content: "";
-  display: block;
-  background: #71e2a6;
-  transform: translateY(90%) skewY(524deg);
-  position: relative;
-  height: 7rem;
-  bottom: 10rem;
-  z-index: -1;
-  width: 90%;
-  left: 20%;
+@media only screen and (max-width: 48rem) {
+  .prototype-device {
+    height: 40rem;
+  }
 }
 
-.projects-item__media .img-box {
-  width: 100%;
+.prototype-screen {
+  background-image: url("");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  content: "";
+  height: 45rem;
+  top: 7rem;
+  position: relative;
 }
-.media {
-  display: flex;
-  flex-direction: column;
-  width: 30rem;
+@media only screen and (max-width: 48rem) {
+  .prototype-screen {
+    height: 30.5rem;
+    top: 4.6rem;
+  }
 }
-.media img {
-  width: 100%;
-  max-width: 100%;
+
+.projects__item-figure {
+  overflow: hidden;
 }
-.projects-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.projects__item-figure--2 .prototype-screen {
+  top: 0;
 }
 
 /*
@@ -648,36 +580,23 @@ div[class*=case-p] .case-title h3:before {
 
 /*
   ===================================
-    Works Page
+    Projects Page
   ===================================
 */
-.works-p {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  align-items: center;
+.projects {
+  margin: 0 auto;
+  max-width: 130rem;
+  padding: 1rem;
 }
-@media only screen and (max-width: 48rem) {
-  .works-p .case-description {
-    display: inline-grid;
-  }
-  .works-p .case-description h2 {
-    font-size: 3rem !important;
-  }
-  .works-p .case-details {
-    text-align: justify;
-  }
+.projects__item {
+  padding: 1rem;
 }
-@media only screen and (min-width: 76.9rem) and (max-width: 180rem) {
-  .works-p {
-    padding: 0 10rem !important;
-  }
-  .works-p .cases:nth-child(odd) .case-description {
-    order: 3;
-  }
-  .works-p .cases:nth-child(odd) .case-details {
-    order: 1;
-  }
+.projects__item > :nth-child(n) {
+  padding: 1rem 0;
+}
+
+.projects-item__actions button {
+  margin: 0;
 }
 
 .home__section {
@@ -758,14 +677,10 @@ body a,
 body a:visited,
 body a:hover,
 body a:focus {
-  color: #ffffff;
   font-weight: 500;
   width: 100%;
-  text-decoration: none !important;
+  text-decoration: none;
   outline-color: transparent;
-}
-body button a {
-  color: #71e2a6;
 }
 body p {
   font-family: "proxima-nova", Corbel, Arial, sans-serif;

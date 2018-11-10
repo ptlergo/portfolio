@@ -1,66 +1,82 @@
-//   div[class*=cases-prototype-] {
-//       @include phone {
-//           width: 20rem;
-//           align-self: center;
-//       }
-//   }
+  div[class*=cases-prototype-] {
+      @include phone {
+          width: 20rem;
+          align-self: center;
+      }
+  }
 
-//   .prototype-device {
-//       @include prototype-iphone-img;
-//       background-size: contain;
-//       background-position: center;
-//       background-repeat: no-repeat;
-//       position: relative;
-//       height: 60rem;
-//       content: '';
-//       @include phone {
-//           height: 40rem;
-//       }
-//   }
+  .prototype-device {
+      @include prototype-iphone-img;
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      position: relative;
+      height: 60rem;
+      content: '';
 
-//   .prototype-screen {
-//       @include prototype-musicem-img;
-//       background-size: contain;
-//       background-position: center;
-//       background-repeat: no-repeat;
-//       content: '';
-//       height: 45rem;
-//       top: 7rem;
-//       position: relative;
-//       @include phone {
-//           height: 30.5rem;
-//           top: 4.6rem;
-//       }
-//   }
-.projects-item {
-    &__media {
-        .img-box {
-            width: 100%;
-        }
-        img {
-            // max-width: 100%;
-        }
-    }
-}
-.media {
-    display: flex;
-    flex-direction: column;
-    width: 30rem;
-    img {
-        width: 100%;
-        max-width: 100%;
-    }
-    &__screen-box {
-        // position: relative;
-        // bottom: -30rem;
-    }
-    &__device-box {
-        // position: relative;
-        // top: -30rem;
-    }
-}
-.projects-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+      @include phone {
+          height: 40rem;
+      }
+  }
+
+  .prototype-screen {
+      @include prototype-musicem-img;
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      content: '';
+      height: 45rem;
+      top: 7rem;
+      position: relative;
+
+      @include phone {
+          height: 30.5rem;
+          top: 4.6rem;
+      }
+  }
+
+  .projects {
+      &__item-figure {
+          overflow: hidden;
+          // lonertour figure
+          &--2 {
+              .prototype-screen {
+                  top: 0;
+              }
+          }
+      }
+  }
+
+  // .projects-item {
+  //     &__media {
+  //         .img-box {
+  //             width: 100%;
+  //         }
+  //         img {
+  //             // max-width: 100%;
+  //         }
+  //     }
+  // }
+  // .media {
+  //     display: flex;
+  //     flex-direction: column;
+  //     width: 30rem;
+  //     img {
+  //         width: 100%;
+  //         max-width: 100%;
+  //     }
+  //     &__screen-box {
+  //         position: relative;
+  //         background-image: url("..\img\iphone.png");
+  //         // bottom: -30rem;
+  //     }
+  //     &__device-box {
+  //         position: relative;
+  //         // top: -30rem;
+  //     }
+  // }
+  // .projects-item {
+  //     display: flex;
+  //     flex-direction: column;
+  //     align-items: center;
+  // }
