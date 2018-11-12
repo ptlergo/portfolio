@@ -38,6 +38,10 @@
     "url": "https://github.com/ptlergo/portfolio/issues"
   },
   "homepage": "https://github.com/ptlergo/portfolio#readme",
+  "prettier": {
+    "trailingComma": "es5",
+    "singleQuote": true
+  },
   "dependencies": {
     "angular-ui-router": "^0.4.2",
     "body-parser": "^1.16.0",
@@ -56,6 +60,7 @@
     "angular-mocks": "^1.6.1",
     "angular-ui-router": "^0.4.2",
     "babel-eslint": "^10.0.1",
+    "cors": "^2.8.5",
     "eslint": "^5.7.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-angular": "^1.6.1",
@@ -70,13 +75,7 @@
     "karma-chrome-launcher": "^2.0.0",
     "karma-jasmine": "^1.1.0",
     "karma-spec-reporter": "0.0.26",
-    "mongoose": "^5.3.9",
+    "mongoose": "^5.3.11",
     "prettier": "1.14.3"
-  },
-  "prettier": {
-    "trailingComma": "es5",
-    "tabWidth": 4,
-    "semi": false,
-    "singleQuote": true
   }
 }
