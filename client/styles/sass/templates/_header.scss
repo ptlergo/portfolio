@@ -1,0 +1,27 @@
+/*
+  ===================================
+    Global Page Header
+  ===================================
+*/
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @include container();
+
+  &__brand {
+    .img-box {
+      width: 7rem;
+      @include respond-above(sm) {
+        width: 10rem;
+      }
+    }
+  }
+
+  &__navbar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    @include menu();
+  }
+}

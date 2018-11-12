@@ -1,0 +1,33 @@
+/*
+  ===================================
+    All Pages
+  ===================================
+*/
+div[class*=-p] {
+    padding-left: 2.6rem;
+    padding-right: 2.6rem;
+    padding-bottom: 3rem;
+    .title-container {
+      padding-bottom: 3rem;
+    }
+    p {
+      opacity: 0.9;
+    }
+    p:hover {
+      opacity: 1;
+    }
+    @include desktop {
+      padding: 0 20rem;
+      padding-bottom: 12rem;
+    }
+    ul {
+      padding: 0;
+    }
+  }
+  
+  
+  .img-box {
+    img {
+      width: 100%;
+    }
+  }

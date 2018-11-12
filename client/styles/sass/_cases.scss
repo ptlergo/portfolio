@@ -1,0 +1,34 @@
+.cases {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 8rem 1rem;
+    @include phone {
+            padding: 4rem 1rem;
+
+        flex-direction: column;
+        div[class*="case-description"] {
+            margin: 0 auto;
+        }
+    }
+    @include desktop {
+        align-items: center;
+        div[class*="case-description"] {
+            align-self: flex-start;
+            order: 1;
+        }
+        div[class*="cases-prototype-"] {
+            order: 2;
+            flex: 2;
+        }
+        div[class*="case-details"] {
+            align-self: center;
+            order: 3;
+        }
+    }
+}
+
+.cases>div {
+    flex: 1;
+    padding: 1rem 0 0;
+}

@@ -1,0 +1,79 @@
+/*
+  ======================================================================
+    Buttons, Headers, links, carousel etc.
+  ======================================================================
+*/
+.title-link {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.carousel-indicators li {
+    visibility: hidden;
+}
+
+.tagline {
+    padding-top: 15%;
+}
+
+/*
+  ===================================
+    HomePage Triggers
+  ===================================
+*/
+img[src*=-logo] {
+    animation: slideUp 2.5s ease-in-out;
+}
+
+.home-text {
+    animation: slideLeft 3s ease-in-out;
+}
+
+.hamburger-container {
+    animation: fadeIn 5s ease-in;
+}
+
+/*
+  ===================================
+    H1 Tag Styles
+  ===================================
+*/
+
+section[class*=-section],div[class*=-p]{
+  h1{
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    width: 25rem;
+    margin: 0 auto;
+    color: #ffffff;
+  }
+  h1:before{
+    content: '';
+    display: block;
+    height: 7rem;
+    top: 5rem;
+    background: #e9b921;
+    transform: translateY(0px) skewY(524deg);
+    position: relative;
+    z-index: -1;
+    width: 90%;
+    left: -10%;
+  }
+
+  h1:after{
+    content: '';
+    display: block;
+    background: $brand-green;
+    transform: translateY(90%) skewY(524deg);
+    position: relative;
+    height: 7rem;
+    bottom: 10rem;
+    z-index: -1;
+    width: 90%;
+    left: 20%;
+  }
+
+}

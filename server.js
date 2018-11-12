@@ -18,7 +18,7 @@ app.use(cors());
 app.use(bodyParser.json());
 // fixes 404 error of frontend routing
 app.get('*', (req, res) => {
-  res.sendFile(`${FRONTEND_PATH}/index.html`);
+  res.sendFile(path.join(FRONTEND_PATH, '/index.html'));
 });
 // mongodb://<dbuser>:<dbpassword>@ds147073.mlab.com:47073/heroku_7qdrf3jt
 // connect to db instance and the 'issues' collection

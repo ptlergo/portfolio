@@ -20,8 +20,8 @@
       <!-- /item prototype -->
       <h2 class="projects-item__title">{{case.name}}</h2>
       <div class="projects-item__actions">
-        <button><a ng-href="/projects/{{case.path}}">view case study</a></button>
-        <button ng-click="checked = !checked" data-value="Toggle">show tech.</button>
+        <span class="button button--ghost"><a ng-href="/projects/{{case.path}}">view case study</a></span>
+        <span class="button button--ghost" ng-click="checked = !checked" data-value="Toggle">show tech.</span>
       </div>
       <div class="case-details projects-item__details">
         <p>{{case.details}}</p>
