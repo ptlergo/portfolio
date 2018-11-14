@@ -1,5 +1,5 @@
 angular.module('myApp', ['ngRoute', 'ngSanitize', 'ngAnimate', 'ui.bootstrap'])
-  .config(($routeProvider, $locationProvider, $compileProvider) => {
+  .config(($routeProvider, $locationProvider, $compileProvider, $provide) => {
     const homeRoute = {
       controller: 'HomeController',
       templateUrl: 'views/home.html',
@@ -37,10 +37,15 @@ angular.module('myApp', ['ngRoute', 'ngSanitize', 'ngAnimate', 'ui.bootstrap'])
     $routeProvider.when('/about', aboutRoute);
     $routeProvider.when('/publications', publicationsRoute);
     $routeProvider.when('/works', worksRoute);
-    $routeProvider.when('/musicem', musicemRoute);
-    $routeProvider.when('/lonertour', lonerTourRoute);
-    $routeProvider.when('/wintersoulstice', winterSoulsticeRoute);
+    $routeProvider.when('/works/musicem', musicemRoute);
+    $routeProvider.when('/works/lonertour', lonerTourRoute);
+    $routeProvider.when('/works/wintersoulstice', winterSoulsticeRoute);
     $routeProvider.otherwise({ redirectTo: '/' });
+
+    $provide.decorator('$sniffer', ($delegate) => {
+      $delegate.history = false;
+      return $delegate;
+    });
 
     $locationProvider.hashPrefix('');
     $locationProvider.html5Mode(true);
