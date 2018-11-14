@@ -1,7 +1,7 @@
 <div class="publications-section" ng-controller='PublicationsController as publicationsCtrl'>
   <section>
-    <h1>{{ publicationsCtrl.title }}</h1>
-    <span><p>{{ publicationsCtrl.Mainsummary }}</p></span>
-    <button><a href="publications">view more</a></button>
+    <h1 class="section__title">{{ publicationsCtrl.title }}</h1>
+    <div class="section__summary"><p>{{ publicationsCtrl.Mainsummary }}</p></div>
+    <span class="button button--ghost"><a ng-href="publications">view more</a></span>
   </section>
 </div>

@@ -1,8 +1,8 @@
 <div class="works-section" ng-controller='WorksController as worksCtrl'>
   <section>
-    <h1>{{ worksCtrl.title }}</h1>
-    <span><p>{{ worksCtrl.summary }}</p></span>
+    <h1 class="section__title">{{ worksCtrl.title }}</h1>
+    <div class="section__summary"><p>{{ worksCtrl.summary }}</p></div>
     <!-- <div carousel></div> -->
-    <button><a href="works">read more</a></button>
+    <span class="button button--ghost"><a ng-href="works">view more</a></span>
   </section>
 </div>
