@@ -67,38 +67,72 @@ img[src*=-logo] {
 */
 
 section[class*=-section],div[class*=-p]{
-  h1{
-    position: relative;
-    z-index: 1;
-    text-align: center;
-    width: 25rem;
-    margin: 0 auto;
-    color: #ffffff;
-  }
-  h1:before{
-    content: '';
-    display: block;
-    height: 7rem;
-    top: 5rem;
-    background: #e9b921;
-    transform: translateY(0px) skewY(524deg);
-    position: relative;
-    z-index: -1;
-    width: 90%;
-    left: -10%;
-  }
-
-  h1:after{
-    content: '';
-    display: block;
-    background: #71e2a6;
-    transform: translateY(90%) skewY(524deg);
-    position: relative;
-    height: 7rem;
-    bottom: 10rem;
-    z-index: -1;
-    width: 90%;
-    left: 20%;
-  }
+ 
 
 }
+
+.section__title{
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  width: 25rem;
+  margin: 0 auto;
+  color: #ffffff;
+}
+.section__title:before{
+  content: '';
+  display: block;
+  height: 7rem;
+  top: 5rem;
+  background: #e9b921;
+  transform: translateY(0px) skewY(524deg);
+  position: relative;
+  z-index: -1;
+  width: 90%;
+  left: -10%;
+}
+
+.section__title:after{
+  content: '';
+  display: block;
+  background: #71e2a6;
+  transform: translateY(90%) skewY(524deg);
+  position: relative;
+  height: 7rem;
+  bottom: 10rem;
+  z-index: -1;
+  width: 90%;
+  left: 20%;
+}
+
+.button{
+  padding: 0.5rem 1.5rem;
+    background: transparent;
+    text-align: center;
+    color: $brand-green;
+    font-weight: bold;
+    border: 1px solid $brand-green;
+    box-shadow: 0.4rem 0.4rem 0px 0px $brand-green;
+    text-transform: uppercase;
+    transition: all .2s ease-in-out;
+    a {
+        color: $brand-green;
+    }
+    a:visited {
+      color: inherit;
+    }
+}
+
+/*scale transform works better than zoom*/
+.button:hover{
+    cursor: pointer;
+    box-shadow: none;
+    -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+            transform: scale(1.05);
+}
+
+.button:focus{
+  outline: none;
+}
+

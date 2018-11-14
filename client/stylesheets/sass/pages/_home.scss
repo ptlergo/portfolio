@@ -36,7 +36,7 @@
         text-align: center;
       }
       
-     span{
+     .section__summary{
         width: 100%;
         height: 55vh;
         display: flex;
@@ -108,5 +108,15 @@
   }
   .works-section {
     background: #252525;
+  }
+}
+
+#home-page-container {
+.button {
+    margin: 0 auto;
+    max-width: 30rem;
+    padding: 1rem;
+    font-size: 2rem;
+    display: flex;
   }
 }
