@@ -4,8 +4,8 @@ const sass = require('gulp-sass');
 const imageMin = require('gulp-imagemin');
 
 // Sass files variables
-const sassSource = 'client/stylesheets/sass/**/*.scss';
-const sassDest = './client/stylesheets/css';
+const sassSource = 'client/styles/sass/**/*.scss';
+const sassDest = './client/styles/css';
 const images = ['client/img/*'];
 // Static Server run using browsersync
 gulp.task('run', () => {

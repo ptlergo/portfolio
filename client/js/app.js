@@ -1,6 +1,6 @@
 angular
   .module('myApp', ['ngRoute', 'ngSanitize', 'ngAnimate', 'ui.bootstrap'])
-  .config(($routeProvider, $locationProvider, $compileProvider) => {
+  .config(($routeProvider, $locationProvider, $provide) => {
     const homeRoute = {
       controller: 'HomeController',
       templateUrl: 'views/home.html',
@@ -33,11 +33,12 @@ angular
       controller: 'WorksController',
       templateUrl: 'views/projects/wintersoulstice.html',
     };
-    
+
     const quickSlingRoute = {
       controller: 'WorksController',
       templateUrl: 'views/projects/quicksling.html',
     };
+
 
     $routeProvider.when('/', homeRoute);
     $routeProvider.when('/about', aboutRoute);
@@ -50,8 +51,12 @@ angular
     $routeProvider.otherwise({
       redirectTo: '/',
     });
+    $provide.decorator('$sniffer', ($delegate) => {
+      $delegate.history = false;
+      return $delegate;
+    });
 
-    // $locationProvider.hashPrefix('');
+    $locationProvider.hashPrefix('');
     $locationProvider.html5Mode(true);
     // $compileProvider.debugInfoEnabled(false);
   });
