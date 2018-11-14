@@ -24,7 +24,7 @@
   "main": "server.js",
   "scripts": {
     "test": "",
-    "start": "pm2 start server.js",
+    "start": "node server.js",
     "run": "gulp run",
     "watch": "sass --watch ./client/stylesheets/sass/main.scss ./client/stylesheets/css/main.css",
     "dev": "npm run watch && npm run run"
