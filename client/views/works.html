@@ -11,7 +11,7 @@
     </div>
     <div class = "case-description">
       <h2>{{case.name}}</h2>
-      <span class="button button--ghost" ng-show = "case.category == 'web'"><a ng-href = "/works/{{case.path}}">view case study</a></span>
+      <span class="button button--ghost" ng-show = "case.category == 'web' || 'digital strategy & ecommerce'"><a ng-href = "/works/{{case.path}}">view case study</a></span>
       <span class="button button--ghost" ng-show = "case.category == 'app'"><a target="_blank" ng-href = "https://xd.adobe.com/view/008e124d-9485-4f79-5b53-d24af05f3d45-76bf/">interact with prototype</a></span>
       <button ng-click="checked = !checked" data-value="Toggle">show tech.</button>
       <ul ng-show = "checked">

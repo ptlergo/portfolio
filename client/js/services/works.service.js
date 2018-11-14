@@ -9,25 +9,7 @@
  */
 function worksService() {
   return {
-    caseStudies: [{
-        name: 'QuickSling iOS App',
-        path: 'quicksling',
-        details: 'An iOS App Developed with Swift Designed with Apple\'s\ Human Interface Guidelines In Adobe XD',
-        summary: `This was my first use of the codeIgniter framework, it was tricky practicing MVC with PHP.
-                       The bootstrap styling was simple until using the popup modal for each performer, I had to
-                       add a boolean case to get the modal to open upon screen click, but because my knowledge
-                       was limited at the time I did not properly develop the app. for desktops so the z-index I
-                       added for the JavaScript snow effect prevented the button listening event from happening. `,
-        image: '../img/winter.gif',
-        case_images: [
-          '../img/case-images/winter/winter-feature.gif',
-        ],
-        gif_src: '../img/case-images/quicksling/quicksling.png',
-        type: 'app',
-        tech: ['iOS', 'Swift', 'Objective C', 'Adobe XD'],
-        tags: 'design, objectivec, Swift, xd, iOS',
-        category: 'app',
-      },
+    caseStudies: [
       {
         name: 'music\'em: Content Aggregation App',
         path: 'musicem',
@@ -147,6 +129,25 @@ function worksService() {
         tech: ['codeIgniter', 'PHP', 'MongoDB', 'BootStrap3', 'JQuery', 'Heroku'],
         tags: 'codeigniter, php, bootstrap, jquery',
         category: 'web',
+      },
+      {
+        name: 'QuickSling iOS App',
+        path: 'quicksling',
+        details: 'An iOS App Developed with Swift Designed with Apple\'s\ Human Interface Guidelines In Adobe XD',
+        summary: `This was my first use of the codeIgniter framework, it was tricky practicing MVC with PHP.
+                       The bootstrap styling was simple until using the popup modal for each performer, I had to
+                       add a boolean case to get the modal to open upon screen click, but because my knowledge
+                       was limited at the time I did not properly develop the app. for desktops so the z-index I
+                       added for the JavaScript snow effect prevented the button listening event from happening. `,
+        image: '../img/winter.gif',
+        case_images: [
+          '../img/case-images/winter/winter-feature.gif',
+        ],
+        gif_src: '../img/case-images/quicksling/quicksling.png',
+        type: 'app',
+        tech: ['iOS', 'Swift', 'Objective C', 'Adobe XD'],
+        tags: 'design, objectivec, Swift, xd, iOS',
+        category: 'app',
       },
     ],
     designs: [],
