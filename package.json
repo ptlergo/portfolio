@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "version": "1.3.4",
+  "version": "1.3.5",
   "engines": {
     "node": "6.11.1",
     "npm": "3.10.10"
@@ -25,7 +25,9 @@
   "scripts": {
     "test": "",
     "start": "pm2 start server.js",
-    "run": "gulp run"
+    "run": "gulp run",
+    "watch": "sass --watch ./client/stylesheets/sass/main.scss ./client/stylesheets/css/main.css",
+    "dev": "npm run watch && npm run run"
   },
   "repository": {
     "type": "git",
