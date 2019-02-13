@@ -1,0 +1,122 @@
+/*
+  ===================================
+    Home Page
+  ===================================
+*/
+
+#home-page-container {
+  display: flex;
+  flex-flow: column;
+  >section:first-child {
+    max-width: $max-width;
+    width: 45ch;
+    padding: $edge-padding;
+    height: 25rem;
+    h1 {
+      font-size: 2rem;
+    }
+    h2 {
+      font-size: 1.5rem;
+    }
+  }
+  /*
+  ===================================
+    Home Page Sections Content
+  ===================================
+*/
+  div[class$="-section"] {
+    section {
+      max-width: $max-width;
+      width: 85%;
+      margin: 0 auto;
+      padding: 12rem 0;
+      height: 100%;
+
+      h1{
+        text-align: center;
+      }
+      
+     .section__summary{
+        width: 100%;
+        height: 55vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10rem auto;        
+        background: #fff;
+        transform: skewY(535deg);
+        transform-origin: 0 0;
+
+      }
+      p {
+        width: 80%;
+        transform: skewY(-535deg);
+      }
+    }
+  }
+  .about-section::before {
+    content: '';
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    background: #fff;
+    transform: skewY(535deg);
+    transform-origin: 0 0;
+  }
+
+
+  .works-section::before {
+    content: '';
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    background: #3263c9;
+    transform: skewY(535deg);
+    transform-origin: 0 100px;
+  }
+
+  .publications-section::before {
+    content: '';
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    background: #252525;
+    transform: skewY(535deg);
+    transform-origin: 0 100px;
+  
+  }
+
+  // .works-section::before {
+  //   content: "";
+  //   border-style: solid;
+  //   border-width: 17vh 0 0 99.225vw;
+  //   border-color: rgb(50, 99, 201) #252525 rgba(144, 34, 34, 0);
+  //   padding: 8rem 0 0 0;
+  //   position: relative;
+  // }
+  // .publications-section::before {
+  //   content: "";
+  //   border-style: solid;
+  //   border-width: 17vh 0 0 99.225vw;
+  //   border-color: rgb(50, 99, 201) #252525 rgba(144, 34, 34, 0);
+  //   padding: 8rem 0 0 0;
+  //   position: relative;
+  // }
+  .about-section,
+  .publications-section {
+    background: #3263C9;
+  }
+  .works-section {
+    background: #252525;
+  }
+}
+
+#home-page-container {
+.button {
+    margin: 0 auto;
+    max-width: 30rem;
+    padding: 1rem;
+    font-size: 2rem;
+    display: flex;
+  }
+}

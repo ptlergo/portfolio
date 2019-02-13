@@ -13,7 +13,6 @@ body {
     -ms-flex-direction: column;
     flex-direction: column;
     -webkit-font-smoothing: antialiased;
-    font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     color: #4c4e4d;
     iframe {
@@ -32,17 +31,15 @@ body {
         outline-color: transparent;
     }
     button a,
-    .home-text a {
+    {
         color: #71e2a6;
     }
     p {
         font-family: $font-fam-p;
         font-size: $font-mobile-p;
-        line-height: 2;
+        line-height: 2; 
+        padding: 0;
         margin: 0;
-        @include desktop {
-            font-size: $font-desktop-p;
-        }
     }
     ul {
         list-style: none;
@@ -50,28 +47,32 @@ body {
     h1 {
         font-size: 3.2rem;
         font-weight: 800;
+        padding: 0;
+        margin: 0;
     }
     h2 {
         font-size: 2.8rem;
         font-weight: 700;
+        padding: 0;
         margin: 0;
         text-transform: uppercase;
     }
-    h1:hover,
-    h2:hover,
-    h3:hover,
-    h4:hover,
+    h1,
+    h2,
+    h3,
+    h4,
     {
-        opacity: 0.8;
+        &:hover {
+            opacity: 0.8;
+        }
     }
 }
 
-#view-container,
-footer,
-header {
-    flex: 1;
-}
-
+// #view-container,
+// footer,
+// header {
+//     flex: 1;
+// }
 
 /*
   ===================================
@@ -79,65 +80,27 @@ header {
   ===================================
 */
 
-.section-animate-container-0 {
-    background: #ffffff;
-}
-
-.section-animate-container-1 {
-    background: #3263C9;
-}
-
-.section-animate-container-2 {
-    background: #252525;
-}
-
-.summary-box::before {
-    -webkit-clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
-    clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
-    display: block;
-    content: "";
-    width: $section-container-width;
-    height: $border-slant-height;
-    background: #ffffff;
-    outline: 1px solid #ffffff;
-    @include desktop {
-        width: $section-container-width-desktop;
+// div[class *=-section] {
+//     transform: skewY(524deg);
+//     height: 160vh;
+// }
+// show only if on home page
+// footer::before {
+//     content: '';
+//     height: 65vh;
+//     width: 100vw;
+//     background: #252525;
+//     position: absolute;
+//     bottom: -502vh;
+//     left: 0;
+//     right: 0;
+//     z-index: -1;
+// }
+// .section-container {
+//     transform: skewY(-524deg);
+// }
+@include desktop {
+    p {
+        font-size: $font-desktop-p;
     }
-}
-
-.summary-box::after {
-    -webkit-clip-path: polygon(0% 0%, 0% 100%, 100% 0%);
-    clip-path: polygon(0% 0%, 0% 100%, 100% 0%);
-    display: block;
-    content: "";
-    width: $section-container-width;
-    height: $border-slant-height;
-    background: #ffffff;
-    outline: 1px solid #ffffff;
-    @include desktop {
-        width: $section-container-width-desktop;
-    }
-}
-
-.section-animate-container-0::before,
-.section-animate-container-2::before {
-    display: block;
-    content: "";
-    height: $border-slant-height;
-    background: #3263C9;
-    -webkit-clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
-    clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
-    outline: 1px solid transparent;
-    @include desktop {}
-}
-
-.section-animate-container-1::before {
-    display: block;
-    content: "";
-    height: $border-slant-height;
-    background: #252525;
-    -webkit-clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
-    clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
-    outline: 1px solid transparent;
-    @include desktop {}
 }

@@ -50,7 +50,7 @@ function homeService() {
         'https://github.com/ptlergo',
       ],
       other: [
-        'me@patrickfunom.com',
+        'patrickfunom@live.com',
         '1-407-655-9901',
       ],
     },
