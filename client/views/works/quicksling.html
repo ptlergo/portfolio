@@ -1,0 +1,38 @@
+<div class ="case-p" ng-controller = 'WorksController as worksCtrl'>
+  <img ng-src = "{{worksCtrl.caseQuicksling.case_images[0]}}" alt = "feature-image">
+  <div class = "case-title">
+    <h2>{{worksCtrl.caseQuicksling.name}}</h2>
+    <h3>iOS Mobile App.</h3>
+  </div>
+  
+  <section>
+    <h4>Tools</h4>
+    <ul><li ng-repeat = "tech in worksCtrl.caseQuicksling.tech">{{tech}}</li></ul>
+    
+    <h5>Challenge Statement</h5>   
+    <p>{{worksCtrl.caseQuicksling.paragraphs[0]}}</p>
+    <p>needed an ios specific app. redesigned original</p>
+    <img ng-src = "{{worksCtrl.caseQuicksling.case_images[1]}}"  alt = "case-summary-image">
+    <h5>Understanding, and Guidelines</h5>
+    <p>I compiled a list of questions and then got response from client.
+      we realized a lot of the functionalty requested isnt needed.
+    </p>
+    <p>had to read apples guidelines and redesign from there. got approval from client</p>
+    <p>{{worksCtrl.caseQuicksling.paragraphs[1]}}</p>
+    <img ng-src = "{{worksCtrl.caseQuicksling.case_images[4]}}"  alt = "case-image">
+    <h5>Iteration</h5>
+    <p>tested it for feedback made adjustments. repeat</p>
+    <img ng-src = "{{worksCtrl.caseQuicksling.case_images[4]}}"  alt = "image of wireframes">
+    <img ng-src = "{{worksCtrl.caseQuicksling.case_images[4]}}"  alt = "image of xd board">
+
+    <h5>Result</h5>
+    <img ng-src = "{{worksCtrl.caseQuicksling.case_images[4]}}"  alt = "quicksling app store">
+    <p>turned out great. a lot of reviews, thousands of downloads happy client.</p>
+    <p>i worked in the buddy system and learned a lot</p>
+    <p>here's a version you can play with</p>
+    <img ng-src = "{{worksCtrl.caseQuicksling.case_images[4]}}"  alt = "prototype">
+    <button>download app</button>
+
+    <span class="button button--ghost"><a href = "works">more works</a></span>
+  </section>
+</div>
