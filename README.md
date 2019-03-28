@@ -1,4 +1,5 @@
 # portfolio
+[![Netlify Status](https://api.netlify.com/api/v1/badges/16360244-7092-43f7-ab4b-5584d7289d96/deploy-status)](https://app.netlify.com/sites/patrickfunom/deploys)
 [ ![Codeship Status for ptlergo/portfolio](https://app.codeship.com/projects/afa5ba70-58a4-0135-17fc-3234c345d80c/status?branch=master)](https://app.codeship.com/projects/236376)
 [View Portfolio Page]
 (https://patrickfunom-portfolio.herokuapp.com/#/) Heroku link For Portfolio Site Built With Angular & Node. or 
