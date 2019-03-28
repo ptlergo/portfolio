@@ -1,12 +1,12 @@
 /**
-  * @ngdoc method
-  * @name homeService
-  * @methodOf module.homeService
-  * @description
-  * Home Page service for section summaries
-  *
-  * @returns {}
-*/
+ * @ngdoc method
+ * @name homeService
+ * @methodOf module.homeService
+ * @description
+ * Home Page service for section summaries
+ *
+ * @returns {}
+ */
 function homeService() {
   return {
     Content: {
@@ -15,7 +15,7 @@ function homeService() {
         tagline: '',
         templateUrl: 'views/home/about-section.html',
         imgUrl: 'https://marypomerantzadvertising.com/wp-content/uploads/responsiveweb.gif',
-        summary: `Hello, I am Patrick, A Digital Designer & Front-End Web Developer with 3+ years
+        summary: `Hello, I am Patrick, A Digital Designer & Front-End Web Developer with 5+ years
                   of experience based in Orlando, Florida. I like to tell unique stories. Some stories are
                   coded narratives intended to engage users and others craft compelling messages that drive
                   sales of brands.`,
@@ -29,7 +29,7 @@ function homeService() {
                   Web Design & Development student, and for clients such as musicians, and agencies.
                   I've created websites, apps, web tools, logos, and graphics. Before beginning I always
                   ask 'how can I effectively embody the creative expression of my client's brand across
-                  devices using the latest most suitable tech. available?''`,
+                  devices using the latest most suitable tech. available.`,
       },
       publications: {
         title: 'My Publications',
