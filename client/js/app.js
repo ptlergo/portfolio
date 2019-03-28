@@ -32,6 +32,10 @@ angular.module('myApp', ['ngRoute', 'ngSanitize', 'ngAnimate', 'ui.bootstrap'])
       controller: 'WorksController',
       templateUrl: 'views/works/wintersoulstice.html',
     };
+    const quickSlingRoute = {
+      controller: 'WorksController',
+      templateUrl: 'views/works/quicksling.html',
+    };
 
     $routeProvider.when('/', homeRoute);
     $routeProvider.when('/about', aboutRoute);
@@ -40,6 +44,7 @@ angular.module('myApp', ['ngRoute', 'ngSanitize', 'ngAnimate', 'ui.bootstrap'])
     $routeProvider.when('/works/musicem', musicemRoute);
     $routeProvider.when('/works/lonertour', lonerTourRoute);
     $routeProvider.when('/works/wintersoulstice', winterSoulsticeRoute);
+    $routeProvider.when('/works/quicksling', quickSlingRoute);
     $routeProvider.otherwise({ redirectTo: '/' });
 
     $provide.decorator('$sniffer', ($delegate) => {
