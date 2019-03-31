@@ -15,7 +15,7 @@ function homeService() {
         tagline: '',
         templateUrl: 'views/home/about-section.html',
         imgUrl: 'https://marypomerantzadvertising.com/wp-content/uploads/responsiveweb.gif',
-        summary: `Hello, I am Patrick, A Digital Designer & Front-End Web Developer with 5+ years
+        summary: `Hello, I am Patrick, A Digital Designer & UI/UX Developer with 5+ years
                   of experience based in Orlando, Florida. I like to tell unique stories. Some stories are
                   coded narratives intended to engage users and others craft compelling messages that drive
                   sales of brands.`,

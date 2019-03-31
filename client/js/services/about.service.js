@@ -56,7 +56,7 @@ function aboutService() {
                   I use to execute Jasmine unit tests, and BrowserSync for a more efficient development enviroment.
                   For more details visit the public repository on my github account.`,
       tagline: `
-                Hello, I'm Patrick Funom Tunga-Lergo, A Digital Designer & Front-End Web Developer
+                Hello, I'm Patrick Funom Tunga-Lergo, A Digital Designer & UI/UX Developer
                 with 3+ years of experience based in Orlando, Florida. I tell unique stories using
                 digital languages. My coded narratives develop fully interactive and responsive
                 websites as well as apps that drive sales, boost profitability, and engage consumers.
