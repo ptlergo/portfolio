@@ -142,6 +142,16 @@ function worksService() {
         image: '../img/winter.gif',
         case_images: [
           '../img/case-images/winter/winter-feature.gif',
+          '../img/case-images/quicksling/quicksling.png',
+          '../img/case-images/quicksling/appstore.png',
+          '../img/case-images/quicksling/wireframe_v1_xd.png',
+          '../img/case-images/quicksling/wireframe_v2_xd.png',
+          '../img/case-images/quicksling/wireframe_xd.png',
+          '../img/case-images/quicksling/wireframe_sketch.png',
+          '../img/case-images/quicksling/whiteboard_frame.png',
+          '../img/case-images/quicksling/whiteboard_frame_2.png',
+          '../img/case-images/quicksling/whiteboard_frame_3.png',
+          
         ],
         gif_src: '../img/case-images/quicksling/quicksling.png',
         type: 'app',
