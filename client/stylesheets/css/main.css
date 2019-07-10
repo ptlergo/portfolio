@@ -267,6 +267,10 @@ body h4:hover {
     font-size: 2.2rem;
   }
 }
+footer a {
+  color: #fff;
+}
+
 a[data-value=download]::after {
   font-family: FontAwesome;
   content: "";
