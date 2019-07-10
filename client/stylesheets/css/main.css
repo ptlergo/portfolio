@@ -82,6 +82,10 @@ button {
   transition: all 0.2s ease-in-out;
 }
 
+button:visited {
+  color: #71e2a6;
+}
+
 /*scale transform works better than zoom*/
 button:hover {
   box-shadow: none;
@@ -171,6 +175,7 @@ img[src*=-logo] {
 
 /*scale transform works better than zoom*/
 .button:hover {
+  color: #71e2a6;
   cursor: pointer;
   box-shadow: none;
   -webkit-transform: scale(1.05);
@@ -180,6 +185,10 @@ img[src*=-logo] {
 
 .button:focus {
   outline: none;
+}
+
+a:hover {
+  color: #71e2a6;
 }
 
 /*
@@ -208,8 +217,9 @@ body a,
 body a:visited,
 body a:hover,
 body a:focus {
-  color: #ffffff;
-  font-weight: 500;
+  color: #71e2a6;
+  opacity: 0.8;
+  font-weight: 900;
   width: 100%;
   text-decoration: none !important;
   outline-color: transparent;

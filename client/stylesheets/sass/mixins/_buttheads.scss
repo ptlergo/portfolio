@@ -31,6 +31,10 @@ button{
 	transition: all .2s ease-in-out;
 }
 
+button:visited {
+  color: #71e2a6;
+}
+
 /*scale transform works better than zoom*/
 button:hover{
 	box-shadow: none;
@@ -125,6 +129,7 @@ section[class*=-section],div[class*=-p]{
 
 /*scale transform works better than zoom*/
 .button:hover{
+  color: #71e2a6;
     cursor: pointer;
     box-shadow: none;
     -webkit-transform: scale(1.05);
@@ -134,5 +139,8 @@ section[class*=-section],div[class*=-p]{
 
 .button:focus{
   outline: none;
+}
+a:hover {
+  color: #71e2a6;
 }
 
