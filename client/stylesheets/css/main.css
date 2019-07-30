@@ -694,7 +694,7 @@ div[class*=case-p] .case-title h3:before {
     padding: 0 12.2rem;
   }
   div[class*=case-p] section p {
-    padding: 0 20rem 6rem 20rem;
+    padding: 0 20rem 2rem 20rem;
   }
   div[class*=case-p] section h5 {
     padding: 6rem 20rem 0 20rem;
@@ -783,6 +783,13 @@ div[class*=case-p] .case-title h3:before {
   .works-p .cases:nth-child(odd) .case-details {
     order: 1;
   }
+}
+
+.quicksling .feature-img {
+  border: solid 0.2rem;
+}
+.quicksling .case-img {
+  box-shadow: 0rem 0.2rem 0.7rem #d2d2d2;
 }
 
 .cases {
