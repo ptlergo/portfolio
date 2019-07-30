@@ -1,69 +1,141 @@
-<div class ="case-p" ng-controller = 'WorksController as worksCtrl'>
-  <img ng-src = "{{worksCtrl.caseQuicksling.case_images[0]}}" alt = "feature-image">
-  <div class = "case-title">
-    <h2>{{worksCtrl.caseQuicksling.name}}</h2>
+<div class="case-p quicksling" ng-controller="WorksController as worksCtrl">
+  <img
+    class="feature-img"
+    ng-src="{{ worksCtrl.caseQuicksling.case_images[0] }}"
+    alt="feature-image"
+  />
+  <div class="case-title">
+    <h2>{{ worksCtrl.caseQuicksling.name }}</h2>
     <h3>iOS Mobile App.</h3>
   </div>
-  
+
   <section>
     <h4>Tools</h4>
-    <ul><li ng-repeat = "tech in worksCtrl.caseQuicksling.tech">{{tech}}</li></ul>
-    
-    <h5>Challenge Statement</h5>   
-    <p>
-      establish new brand guideline for client to adhere to a Apple specific devices.
-      Allow contractors to accurately quote their clients on site of work.
-    </p>
-    <img ng-src = "{{worksCtrl.caseQuicksling.case_images[1]}}"  alt = "case-summary-image">
-    <h5>Understanding, and Guidelines</h5>
-    <p>
-      I compiled a list of questions and then got response from client.
-      we realized a lot of the functionalty requested isnt needed.
-      I researched the company and their customers to get a sense of their
-      brand and their needs. I then compiled a list of questions related to the project scope
-      to hone in on key features.
-    </p>
-    <p>
-      Once I was confident with understanding the client's needs I established their principles which are 'quick', 'easy',
-      'intuitive', and 'efficient'.
-    </p>
-    <p>
-      I spent time researching Apple's human design guidelines, playing with ideas before making wireframes.
-    </p>
-    <img ng-src = "{{worksCtrl.caseQuicksling.case_images[2]}}"  alt = "case-image">
-   <h5>Wireframes and sketches</h5>
-    <h5>Iteration & Prototype - version 1</h5>
-    <p>I wanted to keep my designs focused on 'efficiency'. Placing myself in the 
-      user's shoes, as a contractor I quickly want to convey to the home owner, my client, what
-    products they need. The average age of contractors are above 30, and thus may not be familiar
-  with mobile interfaces. It was imperative that the app be intuitive, and familiar.
-   </p>
-   <p>
-     after the first iterations the client, and coworkers came back with feedback.
-   </p>
-   <p>
-     development challanges were getting familiar with Swift language, and utillizing the MVVM
-     architecture.
-   </p>
-   <p>
-     Once the app was built, the client was pleased with the outcome, their users were equally pleased.
-   </p>
-   <p>stakeholder feedback</p>
-   <h5>Iteration & Prototype - version 2</h5>
-    <img ng-src = "{{worksCtrl.caseQuicksling.case_images[3]}}"  alt = "image of wireframes">
-    <img ng-src = "{{worksCtrl.caseQuicksling.case_images[4]}}"  alt = "image of xd board">
-    <img ng-src = "{{worksCtrl.caseQuicksling.case_images[5]}}"  alt = "image of xd board">
-    <img ng-src = "{{worksCtrl.caseQuicksling.case_images[6]}}"  alt = "image of xd board">
-    <img ng-src = "{{worksCtrl.caseQuicksling.case_images[7]}}"  alt = "image of xd board">
+    <ul>
+      <li ng-repeat="tech in worksCtrl.caseQuicksling.tech">{{ tech }}</li>
+    </ul>
 
-    <h5>Result and Reflection</h5>
-    <img ng-src = "{{worksCtrl.caseQuicksling.case_images[8]}}"  alt = "quicksling app store">
-    <p>turned out great. a lot of reviews, thousands of downloads happy client.</p>
-    <p>i worked in the buddy system and learned a lot</p>
-    <p>here's a version you can play with</p>
-    <img ng-src = "{{worksCtrl.caseQuicksling.case_images[9]}}"  alt = "prototype">
+    <h5>Challenge Statement</h5>
+    <p>
+      My task was to establish a new style guide using Apple's human centered
+      design with client's brand, and to develop an ios app. for the client's
+      contractors to effectively make quotes while on site with a potential
+      customer.
+    </p>
+    <img
+      class="case-img"
+      ng-src="{{ worksCtrl.caseQuicksling.case_images[1] }}"
+      alt="case-summary-image"
+    />
+    <h5>Understanding</h5>
+    <p>
+      The journey begins by fully understanding the client's business and their
+      goals. I evaluated responses from the list of questions I asked the
+      client. I researched the company and their customers to get a sense of
+      their brand and their values.
+    </p>
+    <p>
+      The average age of contractors are above 30, and thus may not be familiar
+      with mobile interfaces. It was imperative that the app be intuitive, and
+      familiar. Incorporating familiar patterns with Apple's human design
+      guidelines helped to reach desired behaviors.
+    </p>
+    <h5>Creating Guiding Principles</h5>
+    <div>
+      <p>
+        After understanding the client's brand, the desired behaviors, and users
+        I began to establish key principles for the project which are:
+      </p>
+      <ul class="principles">
+        <li>quick</li>
+        <li>easy</li>
+        <li>intuitive</li>
+        <li>efficient</li>
+      </ul>
+      <p>
+        These principles will guide my design decisions through the project's
+        timeline. these are my 'north star' on the journey of building a useful
+        product.
+      </p>
+    </div>
+    <h5>Wireframes and sketches</h5>
+
+    <p>
+      I wanted to keep my designs focused on 'efficiency'. Placing myself in the
+      user's shoes, as a contractor I quickly want to convey to the home owner,
+      my client, what products they need.
+    </p>
+
+    <img
+      class="case-img"
+      ng-src="{{ worksCtrl.caseQuicksling.case_images[6] }}"
+      alt="image of xd board"
+    />
+    <img
+      class="case-img"
+      ng-src="{{ worksCtrl.caseQuicksling.case_images[7] }}"
+      alt="image of xd board"
+    />
+    <img
+      class="case-img"
+      ng-src="{{ worksCtrl.caseQuicksling.case_images[8] }}"
+      alt="quicksling app store"
+    />
+    <img
+      class="case-img"
+      ng-src="{{ worksCtrl.caseQuicksling.case_images[9] }}"
+      alt="prototype"
+    />
+    <h5>Iterations & Prototype</h5>
+
+    <p>
+      after the first iterations of prototypes I sought feedback from the stakeholders and made adjustments.
+    </p>
+    <img
+      class="case-img"
+      ng-src="{{ worksCtrl.caseQuicksling.case_images[3] }}"
+      alt="image of wireframes"
+    />
+    <img
+      class="case-img"
+      ng-src="{{ worksCtrl.caseQuicksling.case_images[4] }}"
+      alt="image of xd board"
+    />
+    <img
+      class="case-img"
+      ng-src="{{ worksCtrl.caseQuicksling.case_images[5] }}"
+      alt="image of xd board"
+    />
+
+    <h5>Results and Reflection</h5>
+    <p>
+      The key challenges were accomplished and I became more adverse with the
+      Swift, Objective-c languages, XCode, and the MVVM architecture. From a
+      design perspective being able to incorporate good practices and understand
+      a different design style with apple human centered design improved my
+      other works greatly.
+    </p>
+    <p>
+      Currently the app. has at least 4 stars in the app store, thousands of
+      downloads, and the client has expressed such gratitude of not only
+      accomplishing all features within the scope but going above and behind.
+      Their product has improved contractors workflow, provided customers an
+      easier path to purchasing, and will be a useful product for a lifetime.
+    </p>
+    <p>
+      you can download the app or interact with a prototype
+      <a
+        target="_blank"
+        ng-href="https://xd.adobe.com/view/008e124d-9485-4f79-5b53-d24af05f3d45-76bf/"
+        >here</a
+      >
+    </p>
+    <img
+      class="case-img"
+      ng-src="{{ worksCtrl.caseQuicksling.case_images[2] }}"
+      alt="case-image"
+    />
     <button>download app</button>
-
-    <span class="button button--ghost"><a href = "works">more works</a></span>
+    <span class="button button--ghost"><a href="works">more works</a></span>
   </section>
 </div>
