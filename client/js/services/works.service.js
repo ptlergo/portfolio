@@ -13,7 +13,7 @@ function worksService() {
       {
         name: 'music\'em: Content Aggregation App',
         path: 'musicem',
-        details: 'A MEAN Stack Progressive Web App. I developed in a 3 month Scrum sprint.',
+        details: 'A SaaS MEAN Stack Progressive Web App. I developed in a 3 month Scrum sprint.',
         summary: [
           `Music'em is a PWA built with the MEAN Stack. I implemented the User-Centered Design approach in a span of 3 months
           comprised of methods that will take my project through sprints focusing on: conception, usability testing, and deployment.`,
@@ -63,7 +63,7 @@ function worksService() {
         tech: ['AngularJS', 'API', 'NodeJS', 'firebase', 'css3', 'JavaScript',
           'material design', 'X-Ray', 'google app engine',
         ],
-        tags: 'PWA, angularjs, node, firebase, javascript',
+        tags: 'PWA, angularjs, node, firebase, javascript, SaaS',
         category: 'web',
       },
       {
