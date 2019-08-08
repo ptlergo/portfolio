@@ -29,7 +29,7 @@ function NavController(homeService) {
       url: 'publications',
     },
     {
-      name: 'Works',
+      name: 'Projects',
       url: 'works',
     },
   ];

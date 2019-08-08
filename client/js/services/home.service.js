@@ -21,7 +21,7 @@ function homeService() {
                   sales of brands.`,
       },
       works: {
-        title: 'My Works',
+        title: 'My Projects',
         tagline: 'Details of some projects i\'ve worked on',
         templateUrl: 'views/home/works-section.html',
         imgUrl: '',
