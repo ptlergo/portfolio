@@ -16,18 +16,26 @@ function publicationService() {
       imgUrl: 'https://marypomerantzadvertising.com/wp-content/uploads/responsiveweb.gif',
       summary: {
         writings: `I've written more than 300 articles on my music publication 8Pounds.com.
-                   Other writings include sales copy, and code tutorials on Medium.com.`,
+                   Other writings include sales copy, code tutorials on Medium.com, and for publications such as newline.co.`,
         talks: `My background as a math tutor helps me to communicate.
                   I recently had the opportunity to talk to a worldwide broadcasted
                   audience and a room full of students at Full Sail University about my
                   journey developing my latest web app. 'music'em'.`,
       },
-      links: [{
+      links: [
+        {
         title: 'Making music\'em: A Progressive Web App.',
         src: 'http://bit.ly/patrickfullsail',
         img_src: 'img/graphics/thumbnails/pub-talk-thumbnail.jpg',
         publication: 'Full Sail University',
         category: 'talks',
+      },
+      {
+        title: 'How To Protect Routes In Angular',
+        src: 'https://bit.ly/3Am9yuf',
+        img_src: '',
+        publication: 'newline',
+        category: 'writings',
       },
       {
         title: 'ReverbNation Redesign Proposal',
