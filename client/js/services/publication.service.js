@@ -31,13 +31,6 @@ function publicationService() {
         category: 'talks',
       },
       {
-        title: 'How To Protect Routes In Angular',
-        src: 'https://bit.ly/3Am9yuf',
-        img_src: '',
-        publication: 'newline',
-        category: 'writings',
-      },
-      {
         title: 'ReverbNation Redesign Proposal',
         src: 'http://bit.ly/2ppBTwW',
         img_src: 'reverbnation-thumbnail.png',
@@ -51,11 +44,18 @@ function publicationService() {
         publication: 'Medium',
         category: 'writings',
       },
+      // {
+      //   title: 'Metatags',
+      //   src: '',
+      //   img_src: '',
+      //   publication: 'Medium',
+      //   category: 'writings',
+      // },
       {
-        title: 'Metatags',
-        src: '',
+        title: 'How To Protect Routes In Angular',
+        src: 'https://bit.ly/3Am9yuf',
         img_src: '',
-        publication: 'Medium',
+        publication: 'newline',
         category: 'writings',
       },
       {
