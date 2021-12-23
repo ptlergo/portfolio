@@ -1,22 +1,28 @@
-<footer ng-controller = "HomeController as footerCtrl">
-  <img ng-src='{{footerCtrl.main_logo}}'>
+<footer ng-controller="HomeController as footerCtrl">
+  <img ng-src="{{footerCtrl.main_logo}}" />
   <h1>Get In Touch</h1>
-    <div class="contact-box">
-      <ul>
-        <li><a ng-href="mailto:{{footerCtrl.otherLinks[0]}}">patrickfunom@live.com</a></li>
-        <li><a ng-href="tel:{{footerCtrl.otherLinks[1]}}">(407)655-9901</a></li>
-      </ul>
-    </div>
+  <div class="contact-box">
+    <ul>
+      <li>
+        <a ng-href="mailto:{{footerCtrl.otherLinks[0]}}"
+          >patrickfunom@live.com</a
+        >
+      </li>
+      <li><a ng-href="tel:{{footerCtrl.otherLinks[1]}}">(407)655-9901</a></li>
+    </ul>
+  </div>
 
-    <div class="social-box">
-      <ul>
-        <li ng-repeat = "social in footerCtrl.socialLinks"><a ng-href = "{{social}}"></a></li>
-      </ul>
-    </div>
+  <div class="social-box">
+    <ul>
+      <li ng-repeat="social in footerCtrl.socialLinks">
+        <a ng-href="{{social}}"></a>
+      </li>
+    </ul>
+  </div>
 
-    <div class="f-copywirght">
-      <ul>
-        <li><i>&copy; 2019 Patrick Funom Tunga-Lergo</i></li>
-      </ul>
-    </div>
+  <div class="f-copywirght">
+    <ul>
+      <li><i>&copy; {{ footerCtrl.date }} Patrick Funom Tunga-Lergo</i></li>
+    </ul>
+  </div>
 </footer>
