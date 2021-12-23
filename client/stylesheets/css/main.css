@@ -229,8 +229,8 @@ body button a {
 }
 body p {
   font-family: "proxima-nova", Corbel, Arial, sans-serif;
-  font-size: 1.6rem;
-  line-height: 2;
+  font-size: 2.2rem;
+  line-height: 1.6;
   padding: 0;
   margin: 0;
 }
@@ -564,6 +564,7 @@ div[class*=-p] ul {
 }
 #home-page-container div[class$=-section] section h1 {
   text-align: center;
+  color: #fff;
 }
 #home-page-container div[class$=-section] section .section__summary {
   width: 100%;

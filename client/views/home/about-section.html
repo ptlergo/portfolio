@@ -1,6 +1,8 @@
-<div class="about-section" ng-controller='AboutController as aboutCtrl'>
+<div class="about-section" ng-controller="AboutController as aboutCtrl">
   <section>
-    <h1 class="section__title">{{ aboutCtrl.title }}</h1>
+    <a ng-href="about">
+      <h1 class="section__title">{{ aboutCtrl.title }}</h1>
+    </a>
     <div class="section__summary"><p>{{homeCtrl.summary}}</p></div>
     <span class="button button--ghost"><a ng-href="about">view more</a></span>
   </section>
