@@ -9,14 +9,15 @@
   flex-flow: column;
   >section:first-child {
     max-width: $max-width;
-    width: 45ch;
     padding: $edge-padding;
-    height: 25rem;
     h1 {
-      font-size: 2rem;
+      font-size: $font-mega;
+      padding-bottom: $edge-padding;
+
     }
     h2 {
-      font-size: 1.5rem;
+      font-size: $font-h2;
+      max-width: 20ch;
     }
   }
   /*
@@ -27,7 +28,6 @@
   div[class$="-section"] {
     section {
       max-width: $max-width;
-      width: 85%;
       margin: 0 auto;
       padding: 12rem 0;
       height: 100%;
