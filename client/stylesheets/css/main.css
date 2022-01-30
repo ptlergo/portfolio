@@ -229,10 +229,15 @@ body button a {
 }
 body p {
   font-family: "proxima-nova", Corbel, Arial, sans-serif;
-  font-size: 1.6rem;
+  font-size: 3rem;
   line-height: 1.6;
   padding: 0;
   margin: 0;
+}
+@media only screen and (max-width: 48rem) {
+  body p {
+    font-size: 2.2rem;
+  }
 }
 body ul {
   list-style: none;

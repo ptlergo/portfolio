@@ -37,7 +37,11 @@ body {
     }
     p {
         font-family: $font-fam-p;
-        font-size: $font-mobile-p;
+        font-size: $font-p;
+              @include phone {
+                font-size: $font-p-mobile;
+            }
+          
         line-height: 1.6; 
         padding: 0;
         margin: 0;
