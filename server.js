@@ -17,6 +17,10 @@ app.use((req, res, next) => {
   next();
 });
 
+app.get('/', (req, res) => {
+    res.send('Server is working!');
+});
+
 // Logger styling
 app.use(morgan('dev'));
 
