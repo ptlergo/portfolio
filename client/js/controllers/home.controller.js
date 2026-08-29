@@ -16,6 +16,7 @@ function HomeController(homeService) {
   vm.name = homeService.Content;
   vm.summary = homeService.Content.about.summary;
   vm.templates = [
+    homeService.Content.features.templateUrl,
     homeService.Content.about.templateUrl,
     homeService.Content.works.templateUrl,
     homeService.Content.publications.templateUrl,

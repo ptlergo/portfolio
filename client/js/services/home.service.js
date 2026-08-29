@@ -10,11 +10,18 @@
 function homeService() {
   return {
     Content: {
-      about: {
+      features: {
+        title: 'Features',
+        tagline: '',
+        templateUrl: 'views/home/features-section.html',
+        imgUrl: '',
+        summary: `features content`,
+      },
+            about: {
         title: 'About Me',
         tagline: '',
         templateUrl: 'views/home/about-section.html',
-        imgUrl: 'https://marypomerantzadvertising.com/wp-content/uploads/responsiveweb.gif',
+        imgUrl: '',
         summary: `Hello, I am Patrick, A Digital Designer & Front-End Web Developer with 3+ years
                   of experience based in Orlando, Florida. I like to tell unique stories. Some stories are
                   coded narratives intended to engage users and others craft compelling messages that drive
@@ -35,7 +42,7 @@ function homeService() {
         title: 'My Publications',
         tagline: '',
         templateUrl: 'views/home/publications-section.html',
-        imgUrl: 'https://marypomerantzadvertising.com/wp-content/uploads/responsiveweb.gif',
+        imgUrl: '',
         summary: `From writing code to writing literature, my passions are intertwined. Some
                   of my writings include brand identies such as taglines, artists bios,
                   and advertisement copy. I also write music centric articles on my own publication,
