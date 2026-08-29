@@ -721,4 +721,23 @@ div[class*=case-p] .case-title h3:before {
     padding: 5rem 0;
   }
 
+  .features__carousel {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 5rem 0;
+  }
+  .img-box {
+    width: 30%;
+  }
+
+  @media (max-width: 768px) {
+  .features__carousel {
+    flex-direction: column;
+  }
+  .features__item {
+    padding-bottom: 5rem;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
