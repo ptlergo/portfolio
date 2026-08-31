@@ -17,37 +17,35 @@ function homeService() {
         imgUrl: '',
         summary: `features content`,
       },
-            about: {
+      about: {
         title: 'About Me',
         tagline: '',
         templateUrl: 'views/home/about-section.html',
         imgUrl: '',
-        summary: `Hello, I am Patrick, A Digital Designer & Front-End Web Developer with 3+ years
-                  of experience based in Orlando, Florida. I like to tell unique stories. Some stories are
-                  coded narratives intended to engage users and others craft compelling messages that drive
-                  sales of brands.`,
+        summary: `Hello, I am Patrick Tunga-Lergo, 
+        a UI designer and developer with 10+ years of experience based in Orlando, Florida. 
+        I like to tell unique stories. Some stories are coded narratives that drive sales of brands, 
+        and others are compelling experiences that engage people.`,
       },
       works: {
         title: 'My Works',
         tagline: 'Details of some projects i\'ve worked on',
         templateUrl: 'views/home/works-section.html',
         imgUrl: '',
-        summary: `My years have been spent creating a variety of digital content as a Full Sail University
-                  Web Design & Development student, and for clients such as musicians, and agencies.
-                  I've created websites, apps, web tools, logos, and graphics. Before beginning I always
-                  ask 'how can I effectively embody the creative expression of my client's brand across
-                  devices using the latest most suitable tech. available?''`,
+        summary: `I graduated from Full Sail University with a BS in Web Design and Development in 2017. 
+        Since then, I’ve spent the past decade crafting web apps, tools, brand identities, digital strategies, 
+        and leading teams of designers and developers towards business goals. No matter the task, 
+        I always begin with the question “How might I effectively embody the creative expression of my client’s brand across 
+        all platforms using the latest, most suitable technology available?”`,
       },
       publications: {
         title: 'My Publications',
         tagline: '',
         templateUrl: 'views/home/publications-section.html',
         imgUrl: '',
-        summary: `From writing code to writing literature, my passions are intertwined. Some
-                  of my writings include brand identies such as taglines, artists bios,
-                  and advertisement copy. I also write music centric articles on my own publication,
-                  8Pounds.com. I recently had the oppurtunity to talk about developing my latest app.
-                  music'em to Full Sail University which was broadcasted worldwide.`,
+        summary: `From writing code to writing literature, my passions are intertwined. 
+        Some of my writings are used to market products. I also enjoy talking about tech, design systems, 
+        and music on the publication I built, 8pounds.com, and on other publications such as ZeroHeight and Medium.`,
       },
     },
     Contact: {

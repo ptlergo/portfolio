@@ -711,6 +711,11 @@ div[class*=case-p] .case-title h3:before {
   flex: 1;
   padding: 1rem 0 0;
 }
+
+/* 2026 overrides */
+#home-page-container {
+  text-align: center;
+}
  .hero-section {
     margin: 0 auto;
     max-width: 75vw;
@@ -730,6 +735,8 @@ div[class*=case-p] .case-title h3:before {
   .img-box {
     width: 30%;
   }
+
+  
 
   @media (max-width: 768px) {
   .features__carousel {
