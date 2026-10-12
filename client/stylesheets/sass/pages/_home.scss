@@ -8,7 +8,6 @@
   display: flex;
   flex-flow: column;
   >section:first-child {
-    max-width: $max-width;
     padding: $edge-padding;
     h1 {
       font-size: $font-mega;
@@ -119,6 +118,26 @@
     padding: 1rem;
     font-size: 2rem;
     display: flex;
+  }
+}
+
+.section-features {
+  padding-top: 10rem;
+}
+
+.section-features__items {
+  z-index: 1;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+
+  div {
+    width: 40rem;
+    height: 25rem;
+        padding: 0 0 5rem 0;
+     @include desktop {
+    padding: 0 5rem 0 0;
+  }
   }
 }
 

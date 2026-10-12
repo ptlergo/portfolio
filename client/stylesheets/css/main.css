@@ -552,7 +552,6 @@ div[class*=-p] ul {
   flex-flow: column;
 }
 #home-page-container > section:first-child {
-  max-width: 130rem;
   padding: 2.5rem;
 }
 #home-page-container > section:first-child h1 {
@@ -636,6 +635,27 @@ div[class*=-p] ul {
   padding: 1rem;
   font-size: 2rem;
   display: flex;
+}
+
+.section-features {
+  padding-top: 10rem;
+}
+
+.section-features__items {
+  z-index: 1;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+.section-features__items div {
+  width: 40rem;
+  height: 25rem;
+  padding: 0 0 5rem 0;
+}
+@media only screen and (min-width: 76.9rem) and (max-width: 180rem) {
+  .section-features__items div {
+    padding: 0 5rem 0 0;
+  }
 }
 
 /*
