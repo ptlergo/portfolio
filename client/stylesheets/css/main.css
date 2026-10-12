@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*
   ===================================
     Variables
@@ -230,14 +229,16 @@ body button a {
 body p {
   font-family: "proxima-nova", Corbel, Arial, sans-serif;
   font-size: 3rem;
-  line-height: 1.6;
-  padding: 0;
-  margin: 0;
 }
 @media only screen and (max-width: 48rem) {
   body p {
     font-size: 2.2rem;
   }
+}
+body p {
+  line-height: 1.6;
+  padding: 0;
+  margin: 0;
 }
 body ul {
   list-style: none;
@@ -281,48 +282,48 @@ footer a {
 
 a[data-value=download]::after {
   font-family: FontAwesome;
-  content: "";
+  content: "\f063";
 }
 
 a[ng-href*=twitter]::after {
   font-family: FontAwesome;
-  content: "";
+  content: "\f099";
 }
 
 a[ng-href*=github]::after {
   font-family: FontAwesome;
-  content: "";
+  content: "\f09b";
 }
 
 a[ng-href*=linkedin]::after {
   font-family: FontAwesome;
-  content: "";
+  content: "\f0e1";
 }
 
 a[ng-href*=dribble]::after {
   font-family: FontAwesome;
-  content: "";
+  content: "\f17d";
 }
 
 a[ng-href*=behance]::after {
   font-family: FontAwesome;
-  content: "";
+  content: "\f1b4";
 }
 
 a[ng-href*=medium]::after {
   font-family: FontAwesome;
-  content: "";
+  content: "\f23a";
 }
 
 a[href*=tel]::before {
   font-family: FontAwesome;
-  content: "";
+  content: "\f095";
   display: block;
 }
 
 a[href*=mailto]::before {
   font-family: FontAwesome;
-  content: "";
+  content: "\f003";
   display: block;
 }
 
@@ -549,11 +550,6 @@ div[class*=-p] ul {
 #home-page-container {
   display: flex;
   flex-flow: column;
-  /*
-    ===================================
-      Home Page Sections Content
-    ===================================
-  */
 }
 #home-page-container > section:first-child {
   max-width: 130rem;
@@ -566,6 +562,13 @@ div[class*=-p] ul {
 #home-page-container > section:first-child h2 {
   font-size: 2.4rem;
   max-width: 20ch;
+}
+#home-page-container {
+  /*
+    ===================================
+      Home Page Sections Content
+    ===================================
+  */
 }
 #home-page-container div[class$=-section] section {
   max-width: 130rem;
@@ -772,11 +775,11 @@ div[class*=case-p] .case-title h3:before {
   ===================================
 */
 @media only screen and (max-width: 48rem) {
-  .works-p .case-description {
-    display: inline-grid;
-  }
   .works-p .case-description h2 {
     font-size: 3rem !important;
+  }
+  .works-p .case-description {
+    display: inline-grid;
   }
   .works-p .case-details {
     text-align: justify;
