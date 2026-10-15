@@ -837,6 +837,8 @@ div[class*=case-p] .case-title h3:before {
   }
   .cases div[class*=case-description] {
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
   }
 }
 @media only screen and (min-width: 76.9rem) and (max-width: 180rem) {
@@ -845,6 +847,8 @@ div[class*=case-p] .case-title h3:before {
   }
   .cases div[class*=case-description] {
     align-self: flex-start;
+    display: flex;
+    flex-direction: column;
     order: 1;
   }
   .cases div[class*=cases-prototype-] {
