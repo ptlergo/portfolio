@@ -21,8 +21,8 @@ function homeService() {
                   sales of brands.`,
       },
       works: {
-        title: 'My Projects',
-        tagline: 'Details of some projects i\'ve worked on',
+        title: 'My Works',
+        tagline: 'Details of some works i\'ve worked on',
         templateUrl: 'views/home/works-section.html',
         imgUrl: '',
         summary: `My years have been spent creating a variety of digital content as a Full Sail University
