@@ -1,25 +1,47 @@
-
-<div class ="works-p" ng-controller = 'WorksController as worksCtrl'>
+<div class="works-p" ng-controller='WorksController as worksCtrl'>
   <h1 class="section__title">{{ worksCtrl.title }}</h1>
-  <div class = "cases" ng-repeat = "case in worksCtrl.cases track by $index">
-    <div class = "cases-prototype-{{$index}}">
-      <div class = "prototype-device" ng-show = "case.category == 'web' || case.category == 'app'">
-        <div class = "prototype-screen" style = "background-image: url({{case.gif_src}})">          
+  <div class="cases" ng-repeat="case in worksCtrl.cases track by $index">
+    <div class="cases-prototype-{{$index}}">
+      <div class="prototype-device" ng-show="case.category == 'web' || case.category == 'app'">
+        <div class="prototype-screen" style="background-image: url({{case.gif_src}})">
         </div>
       </div>
-      <div class = "prototype-screen" style = "background-image: url({{case.gif_src}})" ng-show = "case.category == 'digital strategy & ecommerce'"></div>
+      <div class="prototype-screen" style="background-image: url({{case.gif_src}})"
+        ng-show="case.category == 'digital strategy & ecommerce'"></div>
+
+      <div class="prototype-screen" style="background-image: url({{case.gif_src}})"
+        ng-show="case.category == 'design system'"></div>
+      <div class="prototype-screen" style="background-image: url({{case.gif_src}})" ng-show="case.category == 'iot'">
+      </div>
+      <div class="prototype-screen" ng-show="case.category == 'ui'">
+        <iframe height="300" style="margin: 0 auto; display: flex; height: 85%; width: 85%;" scrolling="no" title="Simple Flexbox Button" src="https://codepen.io/ptlergo/embed/XWrdbbP?default-tab=result&editable=true&theme-id=dark" frameborder="no" loading="lazy" allowtransparency="true">
+  See the Pen <a href="https://codepen.io/ptlergo/pen/XWrdbbP">
+  Simple Flexbox Button</a> by Patrick Funom Tunga-Lergo (<a href="https://codepen.io/ptlergo">@ptlergo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+      </div>
     </div>
-    <div class = "case-description">
+    <div class="case-description">
       <h2>{{case.name}}</h2>
-      <span class="button button--ghost" ><a ng-href = "/works/{{case.path}}">view case study</a></span>
-      <span class="button button--ghost" ng-show = "case.path == 'wintersoulstice'"><a target="_blank" ng-href = "https://winter-soulstice.herokuapp.com/">view app</a></span>
-      <span class="button button--ghost" ng-show = "case.category == 'app'"><a target="_blank" ng-href = "https://xd.adobe.com/view/008e124d-9485-4f79-5b53-d24af05f3d45-76bf/">interact with prototype</a></span>
-      <span class="button button--ghost" ng-show = "case.category == 'app'"><a target="_blank" ng-href = "https://itunes.apple.com/US/app/id1412062521?mt=8">view App</a></span>
+      <span class="button button--ghost" ng-show="case.path !== 'flexbox-button'"><a ng-href="/works/{{case.path}}">view
+          case study</a></span>
+      <span class="button button--ghost" ng-show="case.path == 'wintersoulstice'"><a target="_blank"
+          ng-href="https://winter-soulstice.herokuapp.com/">view app</a></span>
+      <span class="button button--ghost" ng-show="case.path == 'flexbox-button'"><a target="_blank"
+          ng-href="https://medium.com/@patrickfunom/flexbox-button-quickie-c26695e9323">view case study</a></span>
+      <span class="button button--ghost" ng-show="case.category == 'app'"><a target="_blank"
+          ng-href="https://xd.adobe.com/view/008e124d-9485-4f79-5b53-d24af05f3d45-76bf/">view prototype</a></span>
+      <span class="button button--ghost" ng-show="case.path == 'adventhealth'"><a target="_blank" ng-href="      https://www.figma.com/design/SF4UZhqFGbuwTSmK4mtPAv/AdventHealth-Design-System?node-id=131-1705&t=3brhhhkxobU9rryS-1
+">view design system</a></span>
+      <span class="button button--ghost" ng-show="case.category == 'app'"><a target="_blank"
+          ng-href="https://itunes.apple.com/US/app/id1412062521?mt=8">view App</a></span>
       <button ng-click="checked = !checked" data-value="Toggle">show tech.</button>
-      <ul ng-show = "checked">
-        <li ng-repeat = "tech in case.tech"><i>{{tech}}</i></li>
+      <ul ng-show="checked">
+        <li ng-repeat="tech in case.tech"><i>{{tech}}</i></li>
       </ul>
     </div>
-    <div class ="case-details"><p>{{case.details}}</p></div>
+    <div class="case-details">
+      <p>{{case.details}}</p>
+    </div>
   </div>
 </div>

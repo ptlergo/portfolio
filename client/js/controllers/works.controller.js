@@ -14,11 +14,17 @@ function WorksController(worksService, homeService) {
   vm.title = works.title;
   vm.summary = works.summary;
 
+
   vm.cases = worksService.caseStudies;
-  vm.caseMusicem = worksService.caseStudies[0];
-  vm.caseQuicksling = worksService.caseStudies[3];
-  vm.lonerTour = worksService.caseStudies[1];
-  vm.winterSoulstice = worksService.caseStudies[2];
+  vm.caseNebula = worksService.caseStudies[0];
+  vm.caseAdtplus = worksService.caseStudies[1];
+  vm.caseAdventhealth = worksService.caseStudies[2];
+  vm.caseMusicem = worksService.caseStudies[3];
+  vm.caseFlexButton = worksService.caseStudies[4];
+  vm.lonerTour = worksService.caseStudies[5];
+  vm.winterSoulstice = worksService.caseStudies[6];
+  vm.caseQuicksling = worksService.caseStudies[7];
+
   vm.device = worksService.Device.img;
 }
 WorksController.$inject = ['worksService', 'homeService'];

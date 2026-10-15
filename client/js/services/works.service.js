@@ -11,6 +11,117 @@ function worksService() {
   return {
     caseStudies: [
       {
+        name: 'Nebula Design System',
+        path: 'nebula',
+        details: 'Leading the design system of an IOT ecosystem that included a mobile, web, and tablet apps',
+        summary: `I managed and evolved the visual language and overall user experience of a suite of iOT apps for ADT.`,
+        image: '../img/winter.gif',
+        case_images: [
+          '../img/case-images/nebula/nebula-logo.gif',
+        ],
+        gif_src: '../img/case-images/nebula/nebulalogoblack.png',
+        type: 'design system',
+        tech: ['figma', 'ios', 'android', 'vuejs'],
+        tags: 'design system, adt+, ios, tablet,android, web, vuejs, figma',
+        category: 'design system',
+      },
+       {
+        name: 'Evolving a Home Security UI',
+        path: 'adtplus',
+        details: 'I spearheaded the evolution of a vital UI in ADT\'s Home Security App.',
+        summary: [
+          `The ADT+ app is a IOT app for ADT Security Services. I reinvented the arming button UI which was the primary action of the ADT+ app responbile for giving users a sense of safety.`,
+        ],
+        paragraphs: [
+          `"In 3 months take a User-Centered Design approach to create a Progressive Web App using the MEAN Stack to aggregate content 
+          from a curated list of music brands (RollingStone, HotNewHipHop, 8PoundsMusic, EDM, and etc.) to save users time from digging 
+          for great music ultimately simplifying their lives and making discovering great new music effortless.`,
+          `Month 1 focused on conception. I began with functional specs listing the desired features and revenue model of music'em.
+          A design audit was conducted from surveying friends, family, and peers before creating a sitemap and solidifying features.`,
+          `Researching brands to include in the app. The process weighed the brand's influence amongst demographics of male and females
+          between the ages of 16 and 34.`,
+          `Month 2 focused on usability tests. using SketchApp I developed a preliminary wireframe from my whiteboard sketches.
+          The details of the frames took into account the functional specs feedback.`,
+          `The next frames are of the signup section on mobile for users that are not logged in with the goal to inform users within 1min. 
+          on why they want music'em.`,
+          `Integrating Firebase for my database and OAuth 2.0 to make signup/signin simple and secure for users.
+          As a registered Facebook developer i'm given analytics of my user-base and in app advertisement capabilities.`,
+          `Music'em uses a JavaScript web bot I created to aggregate content from the curated list of websites. Each brand has their own bot
+          targeting specific data stored with Firebase.`,
+          `AngularJS was used to bind my information from my nodejs API to the client view. Google's material design allowed me
+          to have a consistent design that translated well across all devices, adjustments to my SASS files were to implement flexbox
+          changes for a more modern design feel for music'em.`,
+          `The 3 month development cycle gave me a more thorough understanding of ES6, design principles, Angular's MVVM architecture, and http requests.
+          Many mistakes were made but I turned them into learning experiences that would then translate into a better understanding of the product I
+          wanted to deliver and could be proud of presenting and further develop.`,
+          `The full project's codebase can be found on my github page here github.com/ptlergo/musicemapp.
+          To view the app itself follow the link to musicemapp.com here.`,
+        ],
+        image: 'http://marvelapp.com/1f3ia7a?emb=1',
+        case_images: [
+          '../img/case-images/musicem/musicem-case-image.png',
+          '../img/case-images/musicem/home-m.png',
+          '../img/case-images/musicem/Functional-Specs_Page_2.png',
+          '../img/case-images/musicem/Functional-Specs_Page_3.png',
+          '../img/case-images/musicem/musicem-sitemap.png',
+          '../img/case-images/musicem/xxl-influencers.png',
+          '../img/case-images/musicem/musicem-engagement.png',
+          '../img/case-images/musicem/musicem-desktop-wireframe-homepage.png',
+          '../img/case-images/musicem/musicem-welcome-frames.png',
+          '../img/case-images/musicem/mockup-musicem-facebook.png',
+        ],
+        gif_src: '../img/case-images/adtplus/adtplusdevices.png',
+        type: 'web app',
+        tech: ['ios', 'Android', 'VueJS', 'Figma',
+        ],
+        tags: 'Design System, Visual Design, Figma',
+        category: 'iot',
+      },
+       {
+        name: 'AdventHealth\'s first design system',
+        path: 'adventhealth',
+        details: `Developed an initial design system for AdventHealth's business solution center`,
+        summary: [
+          ` Partnering with Florida event company CreativesOnly, I was tasked with delivering a digital strategy
+            and a platform to help launch artist Sylvan LaCue's concert at Orlando, FL's BackBooth venue for his
+            nationwide tour 'The Loner Tour'.`,
+          `Through the campaign I utilized my 8Pounds Music platform (built on the PHP based CMS, WordPress) 
+            to operate as an Ecommerce and 'infotainment' hub.`,
+          `The concert was a huge success resulting in optimal sales and a boost to all parties' brand recognition 
+            and followings on Facebook, Instagram, Snapchat, and Twitter.`,
+        ],
+        paragraphs: [
+          `Taking advantage of the Ticket Tailor service I tracked meta data of ticket sales such as:
+             purchasing method, and most importantly referral method percentage difference (shown in the chart below). 
+             These information will later be of huge value in increasing future events' potential revenue.`,
+          `Each link to the ticket kiosk were embedded with a Facebook pixel for additional tracking to give in-depth analytics 
+            of customer demographics from the concert's Facebook event page and ad campaign I created. `,
+          'The Stripe API came in handy for making easy, and secure credit card transactions with an emailed receipt.',
+          `Influencer Marketing was used and platforms such as Orlando Weekly advertised the concert. Orlando Weekly
+            is distributed to more than 1,000 locations citywide including Full Sail University, UCF, and Valencia College.`,
+          `The campaign was a great learning experience in online marketing and collaborating with a talented team in an agile 
+            work environment. The head liner Sylvan LaCue, would later join Saba Pivot's nationwide tour, and the event 
+            company CreativesOnly, partnered with DJ Khaled's college festival in Miami, FL.`,
+          `A video recap of the event was co-directed by myself and videographer Pat Frazier. The recap was released on my 8Pounds Music
+            YouTube channel for fans to relive the amazing experience whenever, and as a testimony to what type of experience 
+            could be delivered for future projects to come.`,
+        ],
+        image: '',
+        gif_src: '../img/case-images/adventhealth/guiding-principles.jpg',
+        case_images: [
+          '../img/case-images/thelonertour/thelonertour-banner-clean-lrg.png',
+          '../img/case-images/thelonertour/mockups/mockup-thelonertour-8pounds.png',
+          '../img/case-images/thelonertour/mockups/mockup-thelonertour-editpage.png',
+          '../img/case-images/thelonertour/stripe-api.png',
+          '../img/case-images/thelonertour/mockups/mockup-thelonertour-fb-event.png',
+          '../img/case-images/thelonertour/mockups/mockup-orlando-weekly-sylvan-lacue.png',
+        ],
+        type: 'Design System',
+        tech: ['Figma', 'Axure', 'Adobe XD'],
+        tags: 'Figma, React, visual design, Axure, Adobe XD',
+        category: 'design system',
+      },
+      {
         name: 'music\'em: Content Aggregation App',
         path: 'musicem',
         details: 'A SaaS MEAN Stack Progressive Web App. I developed in a 3 month Scrum sprint.',
@@ -65,6 +176,21 @@ function worksService() {
         ],
         tags: 'PWA, angularjs, node, firebase, javascript, SaaS',
         category: 'web',
+      },
+        {
+        name: 'Flexbox Button UI',
+        path: 'flexbox-button',
+        details: 'A button based on flexbox css tech made in codepen.',
+        summary: `I made my own button testing out flexbox. I eventually used this button as the primary button in my portfolio site. `,
+        image: '../img/winter.gif',
+        case_images: [
+          '../img/case-images/winter/winter-feature.gif',
+        ],
+        gif_src: '../img/case-images/winter/winter-soulstice-rsvp-app.gif',
+        type: 'ui',
+        tech: ['css3', 'html5', 'javascript'],
+        tags: 'flexbox, javascript, css3, ui',
+        category: 'ui',
       },
       {
         name: 'Event Campaign of Sylvan LaCue\'s "The Loner Tour"',
